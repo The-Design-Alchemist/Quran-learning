@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Qur'an - Dynamic Surah Loader</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html" class="back-button">
+                ← Back to Home
+            </a>
+            <h1 class="surah-title" id="surah-title">Loading...</h1>
+            <div class="surah-info" id="surah-info">Loading Surah...</div>
+        </div>
+
+        <div class="loading" id="loading">
+            Loading Surah data and verses...
+        </div>
+
+        <div class="error" id="error" style="display: none;">
+            <h3>Error Loading Surah</h3>
+            <p id="error-message"></p>
+            <button onclick="window.location.href='index.html'" style="margin-top: 15px; padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 5px; cursor: pointer;">Back to Home</button>
+        </div>
+
+        <div class="audio-controls" id="audio-controls" style="display: none;">
+            <div class="control-row">
+                <button class="control-button" onclick="startRecitation()">▶️ Start Recitation</button>
+                <button class="control-button" onclick="stopRecitation()">⏹️ Stop</button>
+                <button class="control-button" onclick="pauseRecitation()">⏸️ Pause</button>
+            </div>
+            
+            <div class="repeat-controls">
+                <div class="repeat-option">
+                    <input type="radio" id="no-repeat" name="repeatMode" value="none" checked onchange="changeRepeatMode()">
+                    <label for="no-repeat">No Repeat</label>
+                </div>
+                
+                <div class="repeat-option">
+                    <input type="radio" id="repeat-verse" name="repeatMode" value="verse" onchange="changeRepeatMode()">
+                    <label for="repeat-verse">🔁 Repeat Current Verse</label>
+                </div>
+                
+                <div class="repeat-option">
+                    <input type="radio" id="repeat-surah" name="repeatMode" value="surah" onchange="changeRepeatMode()">
+                    <label for="repeat-surah">🔄 Repeat Entire Surah</label>
+                </div>
+                
+                <div class="repeat-count-container">
+                    <label for="repeat-count">Times:</label>
+                    <select id="repeat-count" onchange="changeRepeatCount()">
+                        <option value="2">2</option>
+                        <option value="3" selected>3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="10">10</option>
+                        <option value="infinite">∞</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="verse-status" id="status">Ready to recite</div>
+        </div>
+
+        <div class="verse-container" id="verse-container" style="display: none;">
+            <!-- Verses will be dynamically generated here -->
+        </div>
+
+        <div class="navigation-controls" id="navigation-controls" style="display: none;">
+            <button class="nav-button" id="prev-btn" onclick="previousVerse()">◀️ Previous</button>
+            <div class="verse-counter" id="verse-counter">Loading...</div>
+            <button class="nav-button" id="next-btn" onclick="nextVerse()">Next ▶️</button>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/data/surah-database.js"></script>
+    <script src="js/utils/url-utils.js"></script>
+    <script src="js/services/api-service.js"></script>
+    <script src="js/services/audio-service.js"></script>
+    <script src="js/services/media-session.js"></script>
+    <script src="js/components/verse-display.js"></script>
+    <script src="js/components/controls.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
