@@ -1,0 +1,33 @@
+{
+  "number": 97,
+  "name": "Al-Qadr",
+  "arabicName": "القدر",
+  "totalVerses": 5,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation": "In the name of Allah, the Most Gracious, the Most Merciful"
+    },
+    {
+      "number": 2,
+      "arabic": "﴿2﴾ آية رقم 2 من سورة القدر",
+      "translation": "Verse 2 of Surah Al-Qadr"
+    },
+    {
+      "number": 3,
+      "arabic": "﴿3﴾ آية رقم 3 من سورة القدر",
+      "translation": "Verse 3 of Surah Al-Qadr"
+    },
+    {
+      "number": 4,
+      "arabic": "﴿4﴾ آية رقم 4 من سورة القدر",
+      "translation": "Verse 4 of Surah Al-Qadr"
+    },
+    {
+      "number": 5,
+      "arabic": "﴿5﴾ آية رقم 5 من سورة القدر",
+      "translation": "Verse 5 of Surah Al-Qadr"
+    }
+  ]
+}

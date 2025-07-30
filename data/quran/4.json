@@ -1,0 +1,888 @@
+{
+  "number": 4,
+  "name": "An-Nisa",
+  "arabicName": "النساء",
+  "totalVerses": 176,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation": "In the name of Allah, the Most Gracious, the Most Merciful"
+    },
+    {
+      "number": 2,
+      "arabic": "﴿2﴾ آية رقم 2 من سورة النساء",
+      "translation": "Verse 2 of Surah An-Nisa"
+    },
+    {
+      "number": 3,
+      "arabic": "﴿3﴾ آية رقم 3 من سورة النساء",
+      "translation": "Verse 3 of Surah An-Nisa"
+    },
+    {
+      "number": 4,
+      "arabic": "﴿4﴾ آية رقم 4 من سورة النساء",
+      "translation": "Verse 4 of Surah An-Nisa"
+    },
+    {
+      "number": 5,
+      "arabic": "﴿5﴾ آية رقم 5 من سورة النساء",
+      "translation": "Verse 5 of Surah An-Nisa"
+    },
+    {
+      "number": 6,
+      "arabic": "﴿6﴾ آية رقم 6 من سورة النساء",
+      "translation": "Verse 6 of Surah An-Nisa"
+    },
+    {
+      "number": 7,
+      "arabic": "﴿7﴾ آية رقم 7 من سورة النساء",
+      "translation": "Verse 7 of Surah An-Nisa"
+    },
+    {
+      "number": 8,
+      "arabic": "﴿8﴾ آية رقم 8 من سورة النساء",
+      "translation": "Verse 8 of Surah An-Nisa"
+    },
+    {
+      "number": 9,
+      "arabic": "﴿9﴾ آية رقم 9 من سورة النساء",
+      "translation": "Verse 9 of Surah An-Nisa"
+    },
+    {
+      "number": 10,
+      "arabic": "﴿10﴾ آية رقم 10 من سورة النساء",
+      "translation": "Verse 10 of Surah An-Nisa"
+    },
+    {
+      "number": 11,
+      "arabic": "﴿11﴾ آية رقم 11 من سورة النساء",
+      "translation": "Verse 11 of Surah An-Nisa"
+    },
+    {
+      "number": 12,
+      "arabic": "﴿12﴾ آية رقم 12 من سورة النساء",
+      "translation": "Verse 12 of Surah An-Nisa"
+    },
+    {
+      "number": 13,
+      "arabic": "﴿13﴾ آية رقم 13 من سورة النساء",
+      "translation": "Verse 13 of Surah An-Nisa"
+    },
+    {
+      "number": 14,
+      "arabic": "﴿14﴾ آية رقم 14 من سورة النساء",
+      "translation": "Verse 14 of Surah An-Nisa"
+    },
+    {
+      "number": 15,
+      "arabic": "﴿15﴾ آية رقم 15 من سورة النساء",
+      "translation": "Verse 15 of Surah An-Nisa"
+    },
+    {
+      "number": 16,
+      "arabic": "﴿16﴾ آية رقم 16 من سورة النساء",
+      "translation": "Verse 16 of Surah An-Nisa"
+    },
+    {
+      "number": 17,
+      "arabic": "﴿17﴾ آية رقم 17 من سورة النساء",
+      "translation": "Verse 17 of Surah An-Nisa"
+    },
+    {
+      "number": 18,
+      "arabic": "﴿18﴾ آية رقم 18 من سورة النساء",
+      "translation": "Verse 18 of Surah An-Nisa"
+    },
+    {
+      "number": 19,
+      "arabic": "﴿19﴾ آية رقم 19 من سورة النساء",
+      "translation": "Verse 19 of Surah An-Nisa"
+    },
+    {
+      "number": 20,
+      "arabic": "﴿20﴾ آية رقم 20 من سورة النساء",
+      "translation": "Verse 20 of Surah An-Nisa"
+    },
+    {
+      "number": 21,
+      "arabic": "﴿21﴾ آية رقم 21 من سورة النساء",
+      "translation": "Verse 21 of Surah An-Nisa"
+    },
+    {
+      "number": 22,
+      "arabic": "﴿22﴾ آية رقم 22 من سورة النساء",
+      "translation": "Verse 22 of Surah An-Nisa"
+    },
+    {
+      "number": 23,
+      "arabic": "﴿23﴾ آية رقم 23 من سورة النساء",
+      "translation": "Verse 23 of Surah An-Nisa"
+    },
+    {
+      "number": 24,
+      "arabic": "﴿24﴾ آية رقم 24 من سورة النساء",
+      "translation": "Verse 24 of Surah An-Nisa"
+    },
+    {
+      "number": 25,
+      "arabic": "﴿25﴾ آية رقم 25 من سورة النساء",
+      "translation": "Verse 25 of Surah An-Nisa"
+    },
+    {
+      "number": 26,
+      "arabic": "﴿26﴾ آية رقم 26 من سورة النساء",
+      "translation": "Verse 26 of Surah An-Nisa"
+    },
+    {
+      "number": 27,
+      "arabic": "﴿27﴾ آية رقم 27 من سورة النساء",
+      "translation": "Verse 27 of Surah An-Nisa"
+    },
+    {
+      "number": 28,
+      "arabic": "﴿28﴾ آية رقم 28 من سورة النساء",
+      "translation": "Verse 28 of Surah An-Nisa"
+    },
+    {
+      "number": 29,
+      "arabic": "﴿29﴾ آية رقم 29 من سورة النساء",
+      "translation": "Verse 29 of Surah An-Nisa"
+    },
+    {
+      "number": 30,
+      "arabic": "﴿30﴾ آية رقم 30 من سورة النساء",
+      "translation": "Verse 30 of Surah An-Nisa"
+    },
+    {
+      "number": 31,
+      "arabic": "﴿31﴾ آية رقم 31 من سورة النساء",
+      "translation": "Verse 31 of Surah An-Nisa"
+    },
+    {
+      "number": 32,
+      "arabic": "﴿32﴾ آية رقم 32 من سورة النساء",
+      "translation": "Verse 32 of Surah An-Nisa"
+    },
+    {
+      "number": 33,
+      "arabic": "﴿33﴾ آية رقم 33 من سورة النساء",
+      "translation": "Verse 33 of Surah An-Nisa"
+    },
+    {
+      "number": 34,
+      "arabic": "﴿34﴾ آية رقم 34 من سورة النساء",
+      "translation": "Verse 34 of Surah An-Nisa"
+    },
+    {
+      "number": 35,
+      "arabic": "﴿35﴾ آية رقم 35 من سورة النساء",
+      "translation": "Verse 35 of Surah An-Nisa"
+    },
+    {
+      "number": 36,
+      "arabic": "﴿36﴾ آية رقم 36 من سورة النساء",
+      "translation": "Verse 36 of Surah An-Nisa"
+    },
+    {
+      "number": 37,
+      "arabic": "﴿37﴾ آية رقم 37 من سورة النساء",
+      "translation": "Verse 37 of Surah An-Nisa"
+    },
+    {
+      "number": 38,
+      "arabic": "﴿38﴾ آية رقم 38 من سورة النساء",
+      "translation": "Verse 38 of Surah An-Nisa"
+    },
+    {
+      "number": 39,
+      "arabic": "﴿39﴾ آية رقم 39 من سورة النساء",
+      "translation": "Verse 39 of Surah An-Nisa"
+    },
+    {
+      "number": 40,
+      "arabic": "﴿40﴾ آية رقم 40 من سورة النساء",
+      "translation": "Verse 40 of Surah An-Nisa"
+    },
+    {
+      "number": 41,
+      "arabic": "﴿41﴾ آية رقم 41 من سورة النساء",
+      "translation": "Verse 41 of Surah An-Nisa"
+    },
+    {
+      "number": 42,
+      "arabic": "﴿42﴾ آية رقم 42 من سورة النساء",
+      "translation": "Verse 42 of Surah An-Nisa"
+    },
+    {
+      "number": 43,
+      "arabic": "﴿43﴾ آية رقم 43 من سورة النساء",
+      "translation": "Verse 43 of Surah An-Nisa"
+    },
+    {
+      "number": 44,
+      "arabic": "﴿44﴾ آية رقم 44 من سورة النساء",
+      "translation": "Verse 44 of Surah An-Nisa"
+    },
+    {
+      "number": 45,
+      "arabic": "﴿45﴾ آية رقم 45 من سورة النساء",
+      "translation": "Verse 45 of Surah An-Nisa"
+    },
+    {
+      "number": 46,
+      "arabic": "﴿46﴾ آية رقم 46 من سورة النساء",
+      "translation": "Verse 46 of Surah An-Nisa"
+    },
+    {
+      "number": 47,
+      "arabic": "﴿47﴾ آية رقم 47 من سورة النساء",
+      "translation": "Verse 47 of Surah An-Nisa"
+    },
+    {
+      "number": 48,
+      "arabic": "﴿48﴾ آية رقم 48 من سورة النساء",
+      "translation": "Verse 48 of Surah An-Nisa"
+    },
+    {
+      "number": 49,
+      "arabic": "﴿49﴾ آية رقم 49 من سورة النساء",
+      "translation": "Verse 49 of Surah An-Nisa"
+    },
+    {
+      "number": 50,
+      "arabic": "﴿50﴾ آية رقم 50 من سورة النساء",
+      "translation": "Verse 50 of Surah An-Nisa"
+    },
+    {
+      "number": 51,
+      "arabic": "﴿51﴾ آية رقم 51 من سورة النساء",
+      "translation": "Verse 51 of Surah An-Nisa"
+    },
+    {
+      "number": 52,
+      "arabic": "﴿52﴾ آية رقم 52 من سورة النساء",
+      "translation": "Verse 52 of Surah An-Nisa"
+    },
+    {
+      "number": 53,
+      "arabic": "﴿53﴾ آية رقم 53 من سورة النساء",
+      "translation": "Verse 53 of Surah An-Nisa"
+    },
+    {
+      "number": 54,
+      "arabic": "﴿54﴾ آية رقم 54 من سورة النساء",
+      "translation": "Verse 54 of Surah An-Nisa"
+    },
+    {
+      "number": 55,
+      "arabic": "﴿55﴾ آية رقم 55 من سورة النساء",
+      "translation": "Verse 55 of Surah An-Nisa"
+    },
+    {
+      "number": 56,
+      "arabic": "﴿56﴾ آية رقم 56 من سورة النساء",
+      "translation": "Verse 56 of Surah An-Nisa"
+    },
+    {
+      "number": 57,
+      "arabic": "﴿57﴾ آية رقم 57 من سورة النساء",
+      "translation": "Verse 57 of Surah An-Nisa"
+    },
+    {
+      "number": 58,
+      "arabic": "﴿58﴾ آية رقم 58 من سورة النساء",
+      "translation": "Verse 58 of Surah An-Nisa"
+    },
+    {
+      "number": 59,
+      "arabic": "﴿59﴾ آية رقم 59 من سورة النساء",
+      "translation": "Verse 59 of Surah An-Nisa"
+    },
+    {
+      "number": 60,
+      "arabic": "﴿60﴾ آية رقم 60 من سورة النساء",
+      "translation": "Verse 60 of Surah An-Nisa"
+    },
+    {
+      "number": 61,
+      "arabic": "﴿61﴾ آية رقم 61 من سورة النساء",
+      "translation": "Verse 61 of Surah An-Nisa"
+    },
+    {
+      "number": 62,
+      "arabic": "﴿62﴾ آية رقم 62 من سورة النساء",
+      "translation": "Verse 62 of Surah An-Nisa"
+    },
+    {
+      "number": 63,
+      "arabic": "﴿63﴾ آية رقم 63 من سورة النساء",
+      "translation": "Verse 63 of Surah An-Nisa"
+    },
+    {
+      "number": 64,
+      "arabic": "﴿64﴾ آية رقم 64 من سورة النساء",
+      "translation": "Verse 64 of Surah An-Nisa"
+    },
+    {
+      "number": 65,
+      "arabic": "﴿65﴾ آية رقم 65 من سورة النساء",
+      "translation": "Verse 65 of Surah An-Nisa"
+    },
+    {
+      "number": 66,
+      "arabic": "﴿66﴾ آية رقم 66 من سورة النساء",
+      "translation": "Verse 66 of Surah An-Nisa"
+    },
+    {
+      "number": 67,
+      "arabic": "﴿67﴾ آية رقم 67 من سورة النساء",
+      "translation": "Verse 67 of Surah An-Nisa"
+    },
+    {
+      "number": 68,
+      "arabic": "﴿68﴾ آية رقم 68 من سورة النساء",
+      "translation": "Verse 68 of Surah An-Nisa"
+    },
+    {
+      "number": 69,
+      "arabic": "﴿69﴾ آية رقم 69 من سورة النساء",
+      "translation": "Verse 69 of Surah An-Nisa"
+    },
+    {
+      "number": 70,
+      "arabic": "﴿70﴾ آية رقم 70 من سورة النساء",
+      "translation": "Verse 70 of Surah An-Nisa"
+    },
+    {
+      "number": 71,
+      "arabic": "﴿71﴾ آية رقم 71 من سورة النساء",
+      "translation": "Verse 71 of Surah An-Nisa"
+    },
+    {
+      "number": 72,
+      "arabic": "﴿72﴾ آية رقم 72 من سورة النساء",
+      "translation": "Verse 72 of Surah An-Nisa"
+    },
+    {
+      "number": 73,
+      "arabic": "﴿73﴾ آية رقم 73 من سورة النساء",
+      "translation": "Verse 73 of Surah An-Nisa"
+    },
+    {
+      "number": 74,
+      "arabic": "﴿74﴾ آية رقم 74 من سورة النساء",
+      "translation": "Verse 74 of Surah An-Nisa"
+    },
+    {
+      "number": 75,
+      "arabic": "﴿75﴾ آية رقم 75 من سورة النساء",
+      "translation": "Verse 75 of Surah An-Nisa"
+    },
+    {
+      "number": 76,
+      "arabic": "﴿76﴾ آية رقم 76 من سورة النساء",
+      "translation": "Verse 76 of Surah An-Nisa"
+    },
+    {
+      "number": 77,
+      "arabic": "﴿77﴾ آية رقم 77 من سورة النساء",
+      "translation": "Verse 77 of Surah An-Nisa"
+    },
+    {
+      "number": 78,
+      "arabic": "﴿78﴾ آية رقم 78 من سورة النساء",
+      "translation": "Verse 78 of Surah An-Nisa"
+    },
+    {
+      "number": 79,
+      "arabic": "﴿79﴾ آية رقم 79 من سورة النساء",
+      "translation": "Verse 79 of Surah An-Nisa"
+    },
+    {
+      "number": 80,
+      "arabic": "﴿80﴾ آية رقم 80 من سورة النساء",
+      "translation": "Verse 80 of Surah An-Nisa"
+    },
+    {
+      "number": 81,
+      "arabic": "﴿81﴾ آية رقم 81 من سورة النساء",
+      "translation": "Verse 81 of Surah An-Nisa"
+    },
+    {
+      "number": 82,
+      "arabic": "﴿82﴾ آية رقم 82 من سورة النساء",
+      "translation": "Verse 82 of Surah An-Nisa"
+    },
+    {
+      "number": 83,
+      "arabic": "﴿83﴾ آية رقم 83 من سورة النساء",
+      "translation": "Verse 83 of Surah An-Nisa"
+    },
+    {
+      "number": 84,
+      "arabic": "﴿84﴾ آية رقم 84 من سورة النساء",
+      "translation": "Verse 84 of Surah An-Nisa"
+    },
+    {
+      "number": 85,
+      "arabic": "﴿85﴾ آية رقم 85 من سورة النساء",
+      "translation": "Verse 85 of Surah An-Nisa"
+    },
+    {
+      "number": 86,
+      "arabic": "﴿86﴾ آية رقم 86 من سورة النساء",
+      "translation": "Verse 86 of Surah An-Nisa"
+    },
+    {
+      "number": 87,
+      "arabic": "﴿87﴾ آية رقم 87 من سورة النساء",
+      "translation": "Verse 87 of Surah An-Nisa"
+    },
+    {
+      "number": 88,
+      "arabic": "﴿88﴾ آية رقم 88 من سورة النساء",
+      "translation": "Verse 88 of Surah An-Nisa"
+    },
+    {
+      "number": 89,
+      "arabic": "﴿89﴾ آية رقم 89 من سورة النساء",
+      "translation": "Verse 89 of Surah An-Nisa"
+    },
+    {
+      "number": 90,
+      "arabic": "﴿90﴾ آية رقم 90 من سورة النساء",
+      "translation": "Verse 90 of Surah An-Nisa"
+    },
+    {
+      "number": 91,
+      "arabic": "﴿91﴾ آية رقم 91 من سورة النساء",
+      "translation": "Verse 91 of Surah An-Nisa"
+    },
+    {
+      "number": 92,
+      "arabic": "﴿92﴾ آية رقم 92 من سورة النساء",
+      "translation": "Verse 92 of Surah An-Nisa"
+    },
+    {
+      "number": 93,
+      "arabic": "﴿93﴾ آية رقم 93 من سورة النساء",
+      "translation": "Verse 93 of Surah An-Nisa"
+    },
+    {
+      "number": 94,
+      "arabic": "﴿94﴾ آية رقم 94 من سورة النساء",
+      "translation": "Verse 94 of Surah An-Nisa"
+    },
+    {
+      "number": 95,
+      "arabic": "﴿95﴾ آية رقم 95 من سورة النساء",
+      "translation": "Verse 95 of Surah An-Nisa"
+    },
+    {
+      "number": 96,
+      "arabic": "﴿96﴾ آية رقم 96 من سورة النساء",
+      "translation": "Verse 96 of Surah An-Nisa"
+    },
+    {
+      "number": 97,
+      "arabic": "﴿97﴾ آية رقم 97 من سورة النساء",
+      "translation": "Verse 97 of Surah An-Nisa"
+    },
+    {
+      "number": 98,
+      "arabic": "﴿98﴾ آية رقم 98 من سورة النساء",
+      "translation": "Verse 98 of Surah An-Nisa"
+    },
+    {
+      "number": 99,
+      "arabic": "﴿99﴾ آية رقم 99 من سورة النساء",
+      "translation": "Verse 99 of Surah An-Nisa"
+    },
+    {
+      "number": 100,
+      "arabic": "﴿100﴾ آية رقم 100 من سورة النساء",
+      "translation": "Verse 100 of Surah An-Nisa"
+    },
+    {
+      "number": 101,
+      "arabic": "﴿101﴾ آية رقم 101 من سورة النساء",
+      "translation": "Verse 101 of Surah An-Nisa"
+    },
+    {
+      "number": 102,
+      "arabic": "﴿102﴾ آية رقم 102 من سورة النساء",
+      "translation": "Verse 102 of Surah An-Nisa"
+    },
+    {
+      "number": 103,
+      "arabic": "﴿103﴾ آية رقم 103 من سورة النساء",
+      "translation": "Verse 103 of Surah An-Nisa"
+    },
+    {
+      "number": 104,
+      "arabic": "﴿104﴾ آية رقم 104 من سورة النساء",
+      "translation": "Verse 104 of Surah An-Nisa"
+    },
+    {
+      "number": 105,
+      "arabic": "﴿105﴾ آية رقم 105 من سورة النساء",
+      "translation": "Verse 105 of Surah An-Nisa"
+    },
+    {
+      "number": 106,
+      "arabic": "﴿106﴾ آية رقم 106 من سورة النساء",
+      "translation": "Verse 106 of Surah An-Nisa"
+    },
+    {
+      "number": 107,
+      "arabic": "﴿107﴾ آية رقم 107 من سورة النساء",
+      "translation": "Verse 107 of Surah An-Nisa"
+    },
+    {
+      "number": 108,
+      "arabic": "﴿108﴾ آية رقم 108 من سورة النساء",
+      "translation": "Verse 108 of Surah An-Nisa"
+    },
+    {
+      "number": 109,
+      "arabic": "﴿109﴾ آية رقم 109 من سورة النساء",
+      "translation": "Verse 109 of Surah An-Nisa"
+    },
+    {
+      "number": 110,
+      "arabic": "﴿110﴾ آية رقم 110 من سورة النساء",
+      "translation": "Verse 110 of Surah An-Nisa"
+    },
+    {
+      "number": 111,
+      "arabic": "﴿111﴾ آية رقم 111 من سورة النساء",
+      "translation": "Verse 111 of Surah An-Nisa"
+    },
+    {
+      "number": 112,
+      "arabic": "﴿112﴾ آية رقم 112 من سورة النساء",
+      "translation": "Verse 112 of Surah An-Nisa"
+    },
+    {
+      "number": 113,
+      "arabic": "﴿113﴾ آية رقم 113 من سورة النساء",
+      "translation": "Verse 113 of Surah An-Nisa"
+    },
+    {
+      "number": 114,
+      "arabic": "﴿114﴾ آية رقم 114 من سورة النساء",
+      "translation": "Verse 114 of Surah An-Nisa"
+    },
+    {
+      "number": 115,
+      "arabic": "﴿115﴾ آية رقم 115 من سورة النساء",
+      "translation": "Verse 115 of Surah An-Nisa"
+    },
+    {
+      "number": 116,
+      "arabic": "﴿116﴾ آية رقم 116 من سورة النساء",
+      "translation": "Verse 116 of Surah An-Nisa"
+    },
+    {
+      "number": 117,
+      "arabic": "﴿117﴾ آية رقم 117 من سورة النساء",
+      "translation": "Verse 117 of Surah An-Nisa"
+    },
+    {
+      "number": 118,
+      "arabic": "﴿118﴾ آية رقم 118 من سورة النساء",
+      "translation": "Verse 118 of Surah An-Nisa"
+    },
+    {
+      "number": 119,
+      "arabic": "﴿119﴾ آية رقم 119 من سورة النساء",
+      "translation": "Verse 119 of Surah An-Nisa"
+    },
+    {
+      "number": 120,
+      "arabic": "﴿120﴾ آية رقم 120 من سورة النساء",
+      "translation": "Verse 120 of Surah An-Nisa"
+    },
+    {
+      "number": 121,
+      "arabic": "﴿121﴾ آية رقم 121 من سورة النساء",
+      "translation": "Verse 121 of Surah An-Nisa"
+    },
+    {
+      "number": 122,
+      "arabic": "﴿122﴾ آية رقم 122 من سورة النساء",
+      "translation": "Verse 122 of Surah An-Nisa"
+    },
+    {
+      "number": 123,
+      "arabic": "﴿123﴾ آية رقم 123 من سورة النساء",
+      "translation": "Verse 123 of Surah An-Nisa"
+    },
+    {
+      "number": 124,
+      "arabic": "﴿124﴾ آية رقم 124 من سورة النساء",
+      "translation": "Verse 124 of Surah An-Nisa"
+    },
+    {
+      "number": 125,
+      "arabic": "﴿125﴾ آية رقم 125 من سورة النساء",
+      "translation": "Verse 125 of Surah An-Nisa"
+    },
+    {
+      "number": 126,
+      "arabic": "﴿126﴾ آية رقم 126 من سورة النساء",
+      "translation": "Verse 126 of Surah An-Nisa"
+    },
+    {
+      "number": 127,
+      "arabic": "﴿127﴾ آية رقم 127 من سورة النساء",
+      "translation": "Verse 127 of Surah An-Nisa"
+    },
+    {
+      "number": 128,
+      "arabic": "﴿128﴾ آية رقم 128 من سورة النساء",
+      "translation": "Verse 128 of Surah An-Nisa"
+    },
+    {
+      "number": 129,
+      "arabic": "﴿129﴾ آية رقم 129 من سورة النساء",
+      "translation": "Verse 129 of Surah An-Nisa"
+    },
+    {
+      "number": 130,
+      "arabic": "﴿130﴾ آية رقم 130 من سورة النساء",
+      "translation": "Verse 130 of Surah An-Nisa"
+    },
+    {
+      "number": 131,
+      "arabic": "﴿131﴾ آية رقم 131 من سورة النساء",
+      "translation": "Verse 131 of Surah An-Nisa"
+    },
+    {
+      "number": 132,
+      "arabic": "﴿132﴾ آية رقم 132 من سورة النساء",
+      "translation": "Verse 132 of Surah An-Nisa"
+    },
+    {
+      "number": 133,
+      "arabic": "﴿133﴾ آية رقم 133 من سورة النساء",
+      "translation": "Verse 133 of Surah An-Nisa"
+    },
+    {
+      "number": 134,
+      "arabic": "﴿134﴾ آية رقم 134 من سورة النساء",
+      "translation": "Verse 134 of Surah An-Nisa"
+    },
+    {
+      "number": 135,
+      "arabic": "﴿135﴾ آية رقم 135 من سورة النساء",
+      "translation": "Verse 135 of Surah An-Nisa"
+    },
+    {
+      "number": 136,
+      "arabic": "﴿136﴾ آية رقم 136 من سورة النساء",
+      "translation": "Verse 136 of Surah An-Nisa"
+    },
+    {
+      "number": 137,
+      "arabic": "﴿137﴾ آية رقم 137 من سورة النساء",
+      "translation": "Verse 137 of Surah An-Nisa"
+    },
+    {
+      "number": 138,
+      "arabic": "﴿138﴾ آية رقم 138 من سورة النساء",
+      "translation": "Verse 138 of Surah An-Nisa"
+    },
+    {
+      "number": 139,
+      "arabic": "﴿139﴾ آية رقم 139 من سورة النساء",
+      "translation": "Verse 139 of Surah An-Nisa"
+    },
+    {
+      "number": 140,
+      "arabic": "﴿140﴾ آية رقم 140 من سورة النساء",
+      "translation": "Verse 140 of Surah An-Nisa"
+    },
+    {
+      "number": 141,
+      "arabic": "﴿141﴾ آية رقم 141 من سورة النساء",
+      "translation": "Verse 141 of Surah An-Nisa"
+    },
+    {
+      "number": 142,
+      "arabic": "﴿142﴾ آية رقم 142 من سورة النساء",
+      "translation": "Verse 142 of Surah An-Nisa"
+    },
+    {
+      "number": 143,
+      "arabic": "﴿143﴾ آية رقم 143 من سورة النساء",
+      "translation": "Verse 143 of Surah An-Nisa"
+    },
+    {
+      "number": 144,
+      "arabic": "﴿144﴾ آية رقم 144 من سورة النساء",
+      "translation": "Verse 144 of Surah An-Nisa"
+    },
+    {
+      "number": 145,
+      "arabic": "﴿145﴾ آية رقم 145 من سورة النساء",
+      "translation": "Verse 145 of Surah An-Nisa"
+    },
+    {
+      "number": 146,
+      "arabic": "﴿146﴾ آية رقم 146 من سورة النساء",
+      "translation": "Verse 146 of Surah An-Nisa"
+    },
+    {
+      "number": 147,
+      "arabic": "﴿147﴾ آية رقم 147 من سورة النساء",
+      "translation": "Verse 147 of Surah An-Nisa"
+    },
+    {
+      "number": 148,
+      "arabic": "﴿148﴾ آية رقم 148 من سورة النساء",
+      "translation": "Verse 148 of Surah An-Nisa"
+    },
+    {
+      "number": 149,
+      "arabic": "﴿149﴾ آية رقم 149 من سورة النساء",
+      "translation": "Verse 149 of Surah An-Nisa"
+    },
+    {
+      "number": 150,
+      "arabic": "﴿150﴾ آية رقم 150 من سورة النساء",
+      "translation": "Verse 150 of Surah An-Nisa"
+    },
+    {
+      "number": 151,
+      "arabic": "﴿151﴾ آية رقم 151 من سورة النساء",
+      "translation": "Verse 151 of Surah An-Nisa"
+    },
+    {
+      "number": 152,
+      "arabic": "﴿152﴾ آية رقم 152 من سورة النساء",
+      "translation": "Verse 152 of Surah An-Nisa"
+    },
+    {
+      "number": 153,
+      "arabic": "﴿153﴾ آية رقم 153 من سورة النساء",
+      "translation": "Verse 153 of Surah An-Nisa"
+    },
+    {
+      "number": 154,
+      "arabic": "﴿154﴾ آية رقم 154 من سورة النساء",
+      "translation": "Verse 154 of Surah An-Nisa"
+    },
+    {
+      "number": 155,
+      "arabic": "﴿155﴾ آية رقم 155 من سورة النساء",
+      "translation": "Verse 155 of Surah An-Nisa"
+    },
+    {
+      "number": 156,
+      "arabic": "﴿156﴾ آية رقم 156 من سورة النساء",
+      "translation": "Verse 156 of Surah An-Nisa"
+    },
+    {
+      "number": 157,
+      "arabic": "﴿157﴾ آية رقم 157 من سورة النساء",
+      "translation": "Verse 157 of Surah An-Nisa"
+    },
+    {
+      "number": 158,
+      "arabic": "﴿158﴾ آية رقم 158 من سورة النساء",
+      "translation": "Verse 158 of Surah An-Nisa"
+    },
+    {
+      "number": 159,
+      "arabic": "﴿159﴾ آية رقم 159 من سورة النساء",
+      "translation": "Verse 159 of Surah An-Nisa"
+    },
+    {
+      "number": 160,
+      "arabic": "﴿160﴾ آية رقم 160 من سورة النساء",
+      "translation": "Verse 160 of Surah An-Nisa"
+    },
+    {
+      "number": 161,
+      "arabic": "﴿161﴾ آية رقم 161 من سورة النساء",
+      "translation": "Verse 161 of Surah An-Nisa"
+    },
+    {
+      "number": 162,
+      "arabic": "﴿162﴾ آية رقم 162 من سورة النساء",
+      "translation": "Verse 162 of Surah An-Nisa"
+    },
+    {
+      "number": 163,
+      "arabic": "﴿163﴾ آية رقم 163 من سورة النساء",
+      "translation": "Verse 163 of Surah An-Nisa"
+    },
+    {
+      "number": 164,
+      "arabic": "﴿164﴾ آية رقم 164 من سورة النساء",
+      "translation": "Verse 164 of Surah An-Nisa"
+    },
+    {
+      "number": 165,
+      "arabic": "﴿165﴾ آية رقم 165 من سورة النساء",
+      "translation": "Verse 165 of Surah An-Nisa"
+    },
+    {
+      "number": 166,
+      "arabic": "﴿166﴾ آية رقم 166 من سورة النساء",
+      "translation": "Verse 166 of Surah An-Nisa"
+    },
+    {
+      "number": 167,
+      "arabic": "﴿167﴾ آية رقم 167 من سورة النساء",
+      "translation": "Verse 167 of Surah An-Nisa"
+    },
+    {
+      "number": 168,
+      "arabic": "﴿168﴾ آية رقم 168 من سورة النساء",
+      "translation": "Verse 168 of Surah An-Nisa"
+    },
+    {
+      "number": 169,
+      "arabic": "﴿169﴾ آية رقم 169 من سورة النساء",
+      "translation": "Verse 169 of Surah An-Nisa"
+    },
+    {
+      "number": 170,
+      "arabic": "﴿170﴾ آية رقم 170 من سورة النساء",
+      "translation": "Verse 170 of Surah An-Nisa"
+    },
+    {
+      "number": 171,
+      "arabic": "﴿171﴾ آية رقم 171 من سورة النساء",
+      "translation": "Verse 171 of Surah An-Nisa"
+    },
+    {
+      "number": 172,
+      "arabic": "﴿172﴾ آية رقم 172 من سورة النساء",
+      "translation": "Verse 172 of Surah An-Nisa"
+    },
+    {
+      "number": 173,
+      "arabic": "﴿173﴾ آية رقم 173 من سورة النساء",
+      "translation": "Verse 173 of Surah An-Nisa"
+    },
+    {
+      "number": 174,
+      "arabic": "﴿174﴾ آية رقم 174 من سورة النساء",
+      "translation": "Verse 174 of Surah An-Nisa"
+    },
+    {
+      "number": 175,
+      "arabic": "﴿175﴾ آية رقم 175 من سورة النساء",
+      "translation": "Verse 175 of Surah An-Nisa"
+    },
+    {
+      "number": 176,
+      "arabic": "﴿176﴾ آية رقم 176 من سورة النساء",
+      "translation": "Verse 176 of Surah An-Nisa"
+    }
+  ]
+}

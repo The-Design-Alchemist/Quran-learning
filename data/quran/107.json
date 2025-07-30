@@ -1,0 +1,43 @@
+{
+  "number": 107,
+  "name": "Al-Ma'un",
+  "arabicName": "الماعون",
+  "totalVerses": 7,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation": "In the name of Allah, the Most Gracious, the Most Merciful"
+    },
+    {
+      "number": 2,
+      "arabic": "﴿2﴾ آية رقم 2 من سورة الماعون",
+      "translation": "Verse 2 of Surah Al-Ma'un"
+    },
+    {
+      "number": 3,
+      "arabic": "﴿3﴾ آية رقم 3 من سورة الماعون",
+      "translation": "Verse 3 of Surah Al-Ma'un"
+    },
+    {
+      "number": 4,
+      "arabic": "﴿4﴾ آية رقم 4 من سورة الماعون",
+      "translation": "Verse 4 of Surah Al-Ma'un"
+    },
+    {
+      "number": 5,
+      "arabic": "﴿5﴾ آية رقم 5 من سورة الماعون",
+      "translation": "Verse 5 of Surah Al-Ma'un"
+    },
+    {
+      "number": 6,
+      "arabic": "﴿6﴾ آية رقم 6 من سورة الماعون",
+      "translation": "Verse 6 of Surah Al-Ma'un"
+    },
+    {
+      "number": 7,
+      "arabic": "﴿7﴾ آية رقم 7 من سورة الماعون",
+      "translation": "Verse 7 of Surah Al-Ma'un"
+    }
+  ]
+}
