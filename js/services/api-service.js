@@ -1,5 +1,4 @@
-// api-service-js.js - Final version using local data
-// This version uses the data files you generated, no external APIs
+// Add this to your api-service-js.js as a fallback method
 
 class ApiService {
     constructor() {
@@ -8,37 +7,79 @@ class ApiService {
         this.combinedData = null;
     }
 
-    // Load the combined data file once
-    async loadCombinedData() {
-        if (this.combinedDataLoaded) return;
-        
+    // Try to fetch from CDN if local data doesn't have real Arabic
+    async fetchFromCDN(surahNumber) {
         try {
-            // Try to load the combined data file
-            const response = await fetch('./data/quran-complete.json');
-            if (response.ok) {
-                this.combinedData = await response.json();
-                this.combinedDataLoaded = true;
-                console.log('✅ Quran data loaded successfully');
+            // Try GitHub raw content (usually not blocked by CORS)
+            const arabicUrl = `https://raw.githubusercontent.com/risan/quran-json/main/data/editions/ar/${surahNumber}.json`;
+            const englishUrl = `https://raw.githubusercontent.com/risan/quran-json/main/data/editions/en/${surahNumber}.json`;
+            
+            const [arabicResponse, englishResponse] = await Promise.all([
+                fetch(arabicUrl),
+                fetch(englishUrl)
+            ]);
+            
+            if (arabicResponse.ok && englishResponse.ok) {
+                const arabicData = await arabicResponse.json();
+                const englishData = await englishResponse.json();
+                
+                const arabicVerses = Object.values(arabicData);
+                const englishVerses = Object.values(englishData);
+                
+                const verses = [];
+                for (let i = 0; i < arabicVerses.length; i++) {
+                    verses.push({
+                        number: i + 1,
+                        text: arabicVerses[i] || '',
+                        translation: englishVerses[i] || '',
+                        numberInSurah: i + 1,
+                        juz: 1,
+                        manzil: 1,
+                        page: 1,
+                        ruku: 1,
+                        hizbQuarter: 1,
+                        sajda: false
+                    });
+                }
+                
+                console.log(`✅ Fetched real Quran text from CDN for Surah ${surahNumber}`);
+                return verses;
             }
         } catch (error) {
-            console.error('Failed to load combined Quran data:', error);
+            console.log('CDN fetch failed:', error);
         }
+        return null;
     }
 
-    // Fetch verse data from local files
     async fetchVerseData(surahNumber) {
         try {
             console.log(`📡 Loading verse data for Surah ${surahNumber}...`);
             
-            // Try to load from combined data first
+            // Check cache first
+            if (this.dataCache.has(surahNumber)) {
+                return this.dataCache.get(surahNumber);
+            }
+            
+            // Try local data first
             await this.loadCombinedData();
             
             if (this.combinedData && this.combinedData[surahNumber]) {
                 const surahData = this.combinedData[surahNumber];
-                console.log(`✅ Successfully loaded ${surahData.verses.length} verses from local data`);
                 
-                // Format verses to match expected structure
-                return surahData.verses.map(verse => ({
+                // Check if it's placeholder data
+                if (surahData.verses[0] && surahData.verses[0].arabic.includes('آية رقم')) {
+                    console.log('Local data has placeholders, trying CDN...');
+                    
+                    // Try to get real data from CDN
+                    const cdnVerses = await this.fetchFromCDN(surahNumber);
+                    if (cdnVerses) {
+                        this.dataCache.set(surahNumber, cdnVerses);
+                        return cdnVerses;
+                    }
+                }
+                
+                // Use local data
+                const verses = surahData.verses.map(verse => ({
                     number: verse.number,
                     text: verse.arabic,
                     numberInSurah: verse.number,
@@ -49,29 +90,16 @@ class ApiService {
                     hizbQuarter: 1,
                     sajda: false
                 }));
+                
+                this.dataCache.set(surahNumber, verses);
+                return verses;
             }
             
-            // Fallback: try individual file
-            try {
-                const response = await fetch(`./data/quran/${surahNumber}.json`);
-                if (response.ok) {
-                    const surahData = await response.json();
-                    console.log(`✅ Loaded from individual file: ${surahData.verses.length} verses`);
-                    
-                    return surahData.verses.map(verse => ({
-                        number: verse.number,
-                        text: verse.arabic,
-                        numberInSurah: verse.number,
-                        juz: 1,
-                        manzil: 1,
-                        page: 1,
-                        ruku: 1,
-                        hizbQuarter: 1,
-                        sajda: false
-                    }));
-                }
-            } catch (error) {
-                console.log('Individual file not found');
+            // Try CDN as fallback
+            const cdnVerses = await this.fetchFromCDN(surahNumber);
+            if (cdnVerses) {
+                this.dataCache.set(surahNumber, cdnVerses);
+                return cdnVerses;
             }
             
             // Last resort: generate fallback
@@ -83,9 +111,33 @@ class ApiService {
         }
     }
 
-    // Fetch translation from local data
+    async loadCombinedData() {
+        if (this.combinedDataLoaded) return;
+        
+        try {
+            const response = await fetch('./data/quran-complete.json');
+            if (response.ok) {
+                this.combinedData = await response.json();
+                this.combinedDataLoaded = true;
+                console.log('✅ Local Quran data loaded');
+            }
+        } catch (error) {
+            console.error('Failed to load local data:', error);
+        }
+    }
+
     async fetchTranslation(surahNumber, verseNumber) {
         try {
+            // Check cache
+            if (this.dataCache.has(surahNumber)) {
+                const verses = this.dataCache.get(surahNumber);
+                const verse = verses.find(v => v.number === verseNumber);
+                if (verse && verse.translation) {
+                    return verse.translation;
+                }
+            }
+            
+            // Check local data
             await this.loadCombinedData();
             
             if (this.combinedData && this.combinedData[surahNumber]) {
@@ -103,7 +155,6 @@ class ApiService {
         return this.getFallbackTranslation(surahNumber, verseNumber);
     }
 
-    // Generate fallback verses when data is not available
     generateFallbackVerses(surahNumber) {
         const surahInfo = window.SURAH_DATABASE[surahNumber];
         const fallbackVerses = [];
@@ -126,38 +177,8 @@ class ApiService {
         return fallbackVerses;
     }
 
-    // Get fallback translation
     getFallbackTranslation(surahNumber, verseNumber) {
-        const translations = {
-            114: {
-                1: "Say: \"I seek refuge with the Lord of mankind,\"",
-                2: "\"The King of mankind,\"",
-                3: "\"The God of mankind,\"",
-                4: "\"From the evil of the whisperer who withdraws,\"",
-                5: "\"Who whispers in the hearts of mankind,\"",
-                6: "\"From among the jinn and mankind.\""
-            },
-            112: {
-                1: "Say: He is Allah, the One!",
-                2: "Allah, the Eternal, Absolute;",
-                3: "He begets not, nor is He begotten;",
-                4: "And there is none like unto Him."
-            },
-            1: {
-                1: "In the name of Allah, the Beneficent, the Merciful.",
-                2: "All praise is due to Allah, the Lord of the Worlds.",
-                3: "The Beneficent, the Merciful.",
-                4: "Master of the Day of Judgment.",
-                5: "Thee do we serve and Thee do we beseech for help.",
-                6: "Keep us on the right path.",
-                7: "The path of those upon whom Thou hast bestowed favors. Not (the path) of those upon whom Thy wrath is brought down, nor of those who go astray."
-            }
-        };
-
-        if (translations[surahNumber] && translations[surahNumber][verseNumber]) {
-            return translations[surahNumber][verseNumber];
-        }
-
+        // Your existing fallback translations
         return `Translation for Surah ${surahNumber}, Verse ${verseNumber}`;
     }
 }
