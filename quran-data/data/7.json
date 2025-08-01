@@ -1,0 +1,1243 @@
+{
+  "number": 7,
+  "name": "Al-A'raf",
+  "totalVerses": 206,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤصۤ\n",
+      "translation": "Alif, Lam, Meem, Sad.",
+      "audioFile": "audio/007/007001.mp3"
+    },
+    {
+      "number": 2,
+      "arabic": "كِتَـٰبٌ أُنزِلَ إِلَیۡكَ فَلَا یَكُن فِی صَدۡرِكَ حَرَجࣱ مِّنۡهُ لِتُنذِرَ بِهِۦ وَذِكۡرَىٰ لِلۡمُؤۡمِنِینَ\n",
+      "translation": "[This is] a Book revealed to you, [O Muhammad] - so let there not be in your breast distress therefrom - that you may warn thereby and as a reminder to the believers.",
+      "audioFile": "audio/007/007002.mp3"
+    },
+    {
+      "number": 3,
+      "arabic": "ٱتَّبِعُوا۟ مَاۤ أُنزِلَ إِلَیۡكُم مِّن رَّبِّكُمۡ وَلَا تَتَّبِعُوا۟ مِن دُونِهِۦۤ أَوۡلِیَاۤءَۗ قَلِیلࣰا مَّا تَذَكَّرُونَ\n",
+      "translation": "Follow, [O mankind], what has been revealed to you from your Lord and do not follow other than Him any allies. Little do you remember.",
+      "audioFile": "audio/007/007003.mp3"
+    },
+    {
+      "number": 4,
+      "arabic": "وَكَم مِّن قَرۡیَةٍ أَهۡلَكۡنَـٰهَا فَجَاۤءَهَا بَأۡسُنَا بَیَـٰتًا أَوۡ هُمۡ قَاۤىِٕلُونَ\n",
+      "translation": "And how many cities have We destroyed, and Our punishment came to them at night or while they were sleeping at noon.",
+      "audioFile": "audio/007/007004.mp3"
+    },
+    {
+      "number": 5,
+      "arabic": "فَمَا كَانَ دَعۡوَىٰهُمۡ إِذۡ جَاۤءَهُم بَأۡسُنَاۤ إِلَّاۤ أَن قَالُوۤا۟ إِنَّا كُنَّا ظَـٰلِمِینَ\n",
+      "translation": "And their declaration when Our punishment came to them was only that they said, \"Indeed, we were wrongdoers!\"",
+      "audioFile": "audio/007/007005.mp3"
+    },
+    {
+      "number": 6,
+      "arabic": "فَلَنَسۡـَٔلَنَّ ٱلَّذِینَ أُرۡسِلَ إِلَیۡهِمۡ وَلَنَسۡـَٔلَنَّ ٱلۡمُرۡسَلِینَ\n",
+      "translation": "Then We will surely question those to whom [a message] was sent, and We will surely question the messengers.",
+      "audioFile": "audio/007/007006.mp3"
+    },
+    {
+      "number": 7,
+      "arabic": "فَلَنَقُصَّنَّ عَلَیۡهِم بِعِلۡمࣲۖ وَمَا كُنَّا غَاۤىِٕبِینَ\n",
+      "translation": "Then We will surely relate [their deeds] to them with knowledge, and We were not [at all] absent.",
+      "audioFile": "audio/007/007007.mp3"
+    },
+    {
+      "number": 8,
+      "arabic": "وَٱلۡوَزۡنُ یَوۡمَىِٕذٍ ٱلۡحَقُّۚ فَمَن ثَقُلَتۡ مَوَ ٰ⁠زِینُهُۥ فَأُو۟لَـٰۤىِٕكَ هُمُ ٱلۡمُفۡلِحُونَ\n",
+      "translation": "And the weighing [of deeds] that Day will be the truth. So those whose scales are heavy - it is they who will be the successful.",
+      "audioFile": "audio/007/007008.mp3"
+    },
+    {
+      "number": 9,
+      "arabic": "وَمَنۡ خَفَّتۡ مَوَ ٰ⁠زِینُهُۥ فَأُو۟لَـٰۤىِٕكَ ٱلَّذِینَ خَسِرُوۤا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔایَـٰتِنَا یَظۡلِمُونَ\n",
+      "translation": "And those whose scales are light - they are the ones who will lose themselves for what injustice they were doing toward Our verses.",
+      "audioFile": "audio/007/007009.mp3"
+    },
+    {
+      "number": 10,
+      "arabic": "وَلَقَدۡ مَكَّنَّـٰكُمۡ فِی ٱلۡأَرۡضِ وَجَعَلۡنَا لَكُمۡ فِیهَا مَعَـٰیِشَۗ قَلِیلࣰا مَّا تَشۡكُرُونَ\n",
+      "translation": "And We have certainly established you upon the earth and made for you therein ways of livelihood. Little are you grateful.",
+      "audioFile": "audio/007/007010.mp3"
+    },
+    {
+      "number": 11,
+      "arabic": "وَلَقَدۡ خَلَقۡنَـٰكُمۡ ثُمَّ صَوَّرۡنَـٰكُمۡ ثُمَّ قُلۡنَا لِلۡمَلَـٰۤىِٕكَةِ ٱسۡجُدُوا۟ لِـَٔادَمَ فَسَجَدُوۤا۟ إِلَّاۤ إِبۡلِیسَ لَمۡ یَكُن مِّنَ ٱلسَّـٰجِدِینَ\n",
+      "translation": "And We have certainly created you, [O Mankind], and given you [human] form. Then We said to the angels, \"Prostrate to Adam\"; so they prostrated, except for Iblees. He was not of those who prostrated.",
+      "audioFile": "audio/007/007011.mp3"
+    },
+    {
+      "number": 12,
+      "arabic": "قَالَ مَا مَنَعَكَ أَلَّا تَسۡجُدَ إِذۡ أَمَرۡتُكَۖ قَالَ أَنَا۠ خَیۡرࣱ مِّنۡهُ خَلَقۡتَنِی مِن نَّارࣲ وَخَلَقۡتَهُۥ مِن طِینࣲ\n",
+      "translation": "[Allah] said, \"What prevented you from prostrating when I commanded you?\" [Satan] said, \"I am better than him. You created me from fire and created him from clay.\"",
+      "audioFile": "audio/007/007012.mp3"
+    },
+    {
+      "number": 13,
+      "arabic": "قَالَ فَٱهۡبِطۡ مِنۡهَا فَمَا یَكُونُ لَكَ أَن تَتَكَبَّرَ فِیهَا فَٱخۡرُجۡ إِنَّكَ مِنَ ٱلصَّـٰغِرِینَ\n",
+      "translation": "[Allah] said, \"Descend from Paradise, for it is not for you to be arrogant therein. So get out; indeed, you are of the debased.",
+      "audioFile": "audio/007/007013.mp3"
+    },
+    {
+      "number": 14,
+      "arabic": "قَالَ أَنظِرۡنِیۤ إِلَىٰ یَوۡمِ یُبۡعَثُونَ\n",
+      "translation": "[Satan] said, \"Reprieve me until the Day they are resurrected.\"",
+      "audioFile": "audio/007/007014.mp3"
+    },
+    {
+      "number": 15,
+      "arabic": "قَالَ إِنَّكَ مِنَ ٱلۡمُنظَرِینَ\n",
+      "translation": "[Allah] said, \"Indeed, you are of those reprieved.\"",
+      "audioFile": "audio/007/007015.mp3"
+    },
+    {
+      "number": 16,
+      "arabic": "قَالَ فَبِمَاۤ أَغۡوَیۡتَنِی لَأَقۡعُدَنَّ لَهُمۡ صِرَ ٰ⁠طَكَ ٱلۡمُسۡتَقِیمَ\n",
+      "translation": "[Satan] said, \"Because You have put me in error, I will surely sit in wait for them on Your straight path.",
+      "audioFile": "audio/007/007016.mp3"
+    },
+    {
+      "number": 17,
+      "arabic": "ثُمَّ لَـَٔاتِیَنَّهُم مِّنۢ بَیۡنِ أَیۡدِیهِمۡ وَمِنۡ خَلۡفِهِمۡ وَعَنۡ أَیۡمَـٰنِهِمۡ وَعَن شَمَاۤىِٕلِهِمۡۖ وَلَا تَجِدُ أَكۡثَرَهُمۡ شَـٰكِرِینَ\n",
+      "translation": "Then I will come to them from before them and from behind them and on their right and on their left, and You will not find most of them grateful [to You].\"",
+      "audioFile": "audio/007/007017.mp3"
+    },
+    {
+      "number": 18,
+      "arabic": "قَالَ ٱخۡرُجۡ مِنۡهَا مَذۡءُومࣰا مَّدۡحُورࣰاۖ لَّمَن تَبِعَكَ مِنۡهُمۡ لَأَمۡلَأَنَّ جَهَنَّمَ مِنكُمۡ أَجۡمَعِینَ\n",
+      "translation": "[Allah] said, \"Get out of Paradise, reproached and expelled. Whoever follows you among them - I will surely fill Hell with you, all together.\"",
+      "audioFile": "audio/007/007018.mp3"
+    },
+    {
+      "number": 19,
+      "arabic": "وَیَـٰۤـَٔادَمُ ٱسۡكُنۡ أَنتَ وَزَوۡجُكَ ٱلۡجَنَّةَ فَكُلَا مِنۡ حَیۡثُ شِئۡتُمَا وَلَا تَقۡرَبَا هَـٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّـٰلِمِینَ\n",
+      "translation": "And \"O Adam, dwell, you and your wife, in Paradise and eat from wherever you will but do not approach this tree, lest you be among the wrongdoers.\"",
+      "audioFile": "audio/007/007019.mp3"
+    },
+    {
+      "number": 20,
+      "arabic": "فَوَسۡوَسَ لَهُمَا ٱلشَّیۡطَـٰنُ لِیُبۡدِیَ لَهُمَا مَا وُۥرِیَ عَنۡهُمَا مِن سَوۡءَ ٰ⁠ تِهِمَا وَقَالَ مَا نَهَىٰكُمَا رَبُّكُمَا عَنۡ هَـٰذِهِ ٱلشَّجَرَةِ إِلَّاۤ أَن تَكُونَا مَلَكَیۡنِ أَوۡ تَكُونَا مِنَ ٱلۡخَـٰلِدِینَ\n",
+      "translation": "But Satan whispered to them to make apparent to them that which was concealed from them of their private parts. He said, \"Your Lord did not forbid you this tree except that you become angels or become of the immortal.\"",
+      "audioFile": "audio/007/007020.mp3"
+    },
+    {
+      "number": 21,
+      "arabic": "وَقَاسَمَهُمَاۤ إِنِّی لَكُمَا لَمِنَ ٱلنَّـٰصِحِینَ\n",
+      "translation": "And he swore [by Allah] to them, \"Indeed, I am to you from among the sincere advisors.\"",
+      "audioFile": "audio/007/007021.mp3"
+    },
+    {
+      "number": 22,
+      "arabic": "فَدَلَّىٰهُمَا بِغُرُورࣲۚ فَلَمَّا ذَاقَا ٱلشَّجَرَةَ بَدَتۡ لَهُمَا سَوۡءَ ٰ⁠ تُهُمَا وَطَفِقَا یَخۡصِفَانِ عَلَیۡهِمَا مِن وَرَقِ ٱلۡجَنَّةِۖ وَنَادَىٰهُمَا رَبُّهُمَاۤ أَلَمۡ أَنۡهَكُمَا عَن تِلۡكُمَا ٱلشَّجَرَةِ وَأَقُل لَّكُمَاۤ إِنَّ ٱلشَّیۡطَـٰنَ لَكُمَا عَدُوࣱّ مُّبِینࣱ\n",
+      "translation": "So he made them fall, through deception. And when they tasted of the tree, their private parts became apparent to them, and they began to fasten together over themselves from the leaves of Paradise. And their Lord called to them, \"Did I not forbid you from that tree and tell you that Satan is to you a clear enemy?\"",
+      "audioFile": "audio/007/007022.mp3"
+    },
+    {
+      "number": 23,
+      "arabic": "قَالَا رَبَّنَا ظَلَمۡنَاۤ أَنفُسَنَا وَإِن لَّمۡ تَغۡفِرۡ لَنَا وَتَرۡحَمۡنَا لَنَكُونَنَّ مِنَ ٱلۡخَـٰسِرِینَ\n",
+      "translation": "They said, \"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.\"",
+      "audioFile": "audio/007/007023.mp3"
+    },
+    {
+      "number": 24,
+      "arabic": "قَالَ ٱهۡبِطُوا۟ بَعۡضُكُمۡ لِبَعۡضٍ عَدُوࣱّۖ وَلَكُمۡ فِی ٱلۡأَرۡضِ مُسۡتَقَرࣱّ وَمَتَـٰعٌ إِلَىٰ حِینࣲ\n",
+      "translation": "[Allah] said, \"Descend, being to one another enemies. And for you on the earth is a place of settlement and enjoyment for a time.\"",
+      "audioFile": "audio/007/007024.mp3"
+    },
+    {
+      "number": 25,
+      "arabic": "قَالَ فِیهَا تَحۡیَوۡنَ وَفِیهَا تَمُوتُونَ وَمِنۡهَا تُخۡرَجُونَ\n",
+      "translation": "He said, \"Therein you will live, and therein you will die, and from it you will be brought forth.\"",
+      "audioFile": "audio/007/007025.mp3"
+    },
+    {
+      "number": 26,
+      "arabic": "یَـٰبَنِیۤ ءَادَمَ قَدۡ أَنزَلۡنَا عَلَیۡكُمۡ لِبَاسࣰا یُوَ ٰ⁠رِی سَوۡءَ ٰ⁠ تِكُمۡ وَرِیشࣰاۖ وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰ⁠لِكَ خَیۡرࣱۚ ذَ ٰ⁠لِكَ مِنۡ ءَایَـٰتِ ٱللَّهِ لَعَلَّهُمۡ یَذَّكَّرُونَ\n",
+      "translation": "O children of Adam, We have bestowed upon you clothing to conceal your private parts and as adornment. But the clothing of righteousness - that is best. That is from the signs of Allah that perhaps they will remember.",
+      "audioFile": "audio/007/007026.mp3"
+    },
+    {
+      "number": 27,
+      "arabic": "یَـٰبَنِیۤ ءَادَمَ لَا یَفۡتِنَنَّكُمُ ٱلشَّیۡطَـٰنُ كَمَاۤ أَخۡرَجَ أَبَوَیۡكُم مِّنَ ٱلۡجَنَّةِ یَنزِعُ عَنۡهُمَا لِبَاسَهُمَا لِیُرِیَهُمَا سَوۡءَ ٰ⁠ تِهِمَاۤۚ إِنَّهُۥ یَرَىٰكُمۡ هُوَ وَقَبِیلُهُۥ مِنۡ حَیۡثُ لَا تَرَوۡنَهُمۡۗ إِنَّا جَعَلۡنَا ٱلشَّیَـٰطِینَ أَوۡلِیَاۤءَ لِلَّذِینَ لَا یُؤۡمِنُونَ\n",
+      "translation": "O children of Adam, let not Satan tempt you as he removed your parents from Paradise, stripping them of their clothing to show them their private parts. Indeed, he sees you, he and his tribe, from where you do not see them. Indeed, We have made the devils allies to those who do not believe.",
+      "audioFile": "audio/007/007027.mp3"
+    },
+    {
+      "number": 28,
+      "arabic": "وَإِذَا فَعَلُوا۟ فَـٰحِشَةࣰ قَالُوا۟ وَجَدۡنَا عَلَیۡهَاۤ ءَابَاۤءَنَا وَٱللَّهُ أَمَرَنَا بِهَاۗ قُلۡ إِنَّ ٱللَّهَ لَا یَأۡمُرُ بِٱلۡفَحۡشَاۤءِۖ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ\n",
+      "translation": "And when they commit an immorality, they say, \"We found our fathers doing it, and Allah has ordered us to do it.\" Say, \"Indeed, Allah does not order immorality. Do you say about Allah that which you do not know?\"",
+      "audioFile": "audio/007/007028.mp3"
+    },
+    {
+      "number": 29,
+      "arabic": "قُلۡ أَمَرَ رَبِّی بِٱلۡقِسۡطِۖ وَأَقِیمُوا۟ وُجُوهَكُمۡ عِندَ كُلِّ مَسۡجِدࣲ وَٱدۡعُوهُ مُخۡلِصِینَ لَهُ ٱلدِّینَۚ كَمَا بَدَأَكُمۡ تَعُودُونَ\n",
+      "translation": "Say, [O Muhammad], \"My Lord has ordered justice and that you maintain yourselves [in worship of Him] at every place [or time] of prostration, and invoke Him, sincere to Him in religion.\" Just as He originated you, you will return [to life] -",
+      "audioFile": "audio/007/007029.mp3"
+    },
+    {
+      "number": 30,
+      "arabic": "فَرِیقًا هَدَىٰ وَفَرِیقًا حَقَّ عَلَیۡهِمُ ٱلضَّلَـٰلَةُۚ إِنَّهُمُ ٱتَّخَذُوا۟ ٱلشَّیَـٰطِینَ أَوۡلِیَاۤءَ مِن دُونِ ٱللَّهِ وَیَحۡسَبُونَ أَنَّهُم مُّهۡتَدُونَ\n",
+      "translation": "A group [of you] He guided, and a group deserved [to be in] error. Indeed, they had taken the devils as allies instead of Allah while they thought that they were guided.",
+      "audioFile": "audio/007/007030.mp3"
+    },
+    {
+      "number": 31,
+      "arabic": "۞ یَـٰبَنِیۤ ءَادَمَ خُذُوا۟ زِینَتَكُمۡ عِندَ كُلِّ مَسۡجِدࣲ وَكُلُوا۟ وَٱشۡرَبُوا۟ وَلَا تُسۡرِفُوۤا۟ۚ إِنَّهُۥ لَا یُحِبُّ ٱلۡمُسۡرِفِینَ\n",
+      "translation": "O children of Adam, take your adornment at every masjid, and eat and drink, but be not excessive. Indeed, He likes not those who commit excess.",
+      "audioFile": "audio/007/007031.mp3"
+    },
+    {
+      "number": 32,
+      "arabic": "قُلۡ مَنۡ حَرَّمَ زِینَةَ ٱللَّهِ ٱلَّتِیۤ أَخۡرَجَ لِعِبَادِهِۦ وَٱلطَّیِّبَـٰتِ مِنَ ٱلرِّزۡقِۚ قُلۡ هِیَ لِلَّذِینَ ءَامَنُوا۟ فِی ٱلۡحَیَوٰةِ ٱلدُّنۡیَا خَالِصَةࣰ یَوۡمَ ٱلۡقِیَـٰمَةِۗ كَذَ ٰ⁠لِكَ نُفَصِّلُ ٱلۡـَٔایَـٰتِ لِقَوۡمࣲ یَعۡلَمُونَ\n",
+      "translation": "Say, \"Who has forbidden the adornment of Allah which He has produced for His servants and the good [lawful] things of provision?\" Say, \"They are for those who believe during the worldly life [but] exclusively for them on the Day of Resurrection.\" Thus do We detail the verses for a people who know.",
+      "audioFile": "audio/007/007032.mp3"
+    },
+    {
+      "number": 33,
+      "arabic": "قُلۡ إِنَّمَا حَرَّمَ رَبِّیَ ٱلۡفَوَ ٰ⁠حِشَ مَا ظَهَرَ مِنۡهَا وَمَا بَطَنَ وَٱلۡإِثۡمَ وَٱلۡبَغۡیَ بِغَیۡرِ ٱلۡحَقِّ وَأَن تُشۡرِكُوا۟ بِٱللَّهِ مَا لَمۡ یُنَزِّلۡ بِهِۦ سُلۡطَـٰنࣰا وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ\n",
+      "translation": "Say, \"My Lord has only forbidden immoralities - what is apparent of them and what is concealed - and sin, and oppression without right, and that you associate with Allah that for which He has not sent down authority, and that you say about Allah that which you do not know.\"",
+      "audioFile": "audio/007/007033.mp3"
+    },
+    {
+      "number": 34,
+      "arabic": "وَلِكُلِّ أُمَّةٍ أَجَلࣱۖ فَإِذَا جَاۤءَ أَجَلُهُمۡ لَا یَسۡتَأۡخِرُونَ سَاعَةࣰ وَلَا یَسۡتَقۡدِمُونَ\n",
+      "translation": "And for every nation is a [specified] term. So when their time has come, they will not remain behind an hour, nor will they precede [it].",
+      "audioFile": "audio/007/007034.mp3"
+    },
+    {
+      "number": 35,
+      "arabic": "یَـٰبَنِیۤ ءَادَمَ إِمَّا یَأۡتِیَنَّكُمۡ رُسُلࣱ مِّنكُمۡ یَقُصُّونَ عَلَیۡكُمۡ ءَایَـٰتِی فَمَنِ ٱتَّقَىٰ وَأَصۡلَحَ فَلَا خَوۡفٌ عَلَیۡهِمۡ وَلَا هُمۡ یَحۡزَنُونَ\n",
+      "translation": "O children of Adam, if there come to you messengers from among you relating to you My verses, then whoever fears Allah and reforms - there will be no fear concerning them, nor will they grieve.",
+      "audioFile": "audio/007/007035.mp3"
+    },
+    {
+      "number": 36,
+      "arabic": "وَٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَا وَٱسۡتَكۡبَرُوا۟ عَنۡهَاۤ أُو۟لَـٰۤىِٕكَ أَصۡحَـٰبُ ٱلنَّارِۖ هُمۡ فِیهَا خَـٰلِدُونَ\n",
+      "translation": "But the ones who deny Our verses and are arrogant toward them - those are the companions of the Fire; they will abide therein eternally.",
+      "audioFile": "audio/007/007036.mp3"
+    },
+    {
+      "number": 37,
+      "arabic": "فَمَنۡ أَظۡلَمُ مِمَّنِ ٱفۡتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوۡ كَذَّبَ بِـَٔایَـٰتِهِۦۤۚ أُو۟لَـٰۤىِٕكَ یَنَالُهُمۡ نَصِیبُهُم مِّنَ ٱلۡكِتَـٰبِۖ حَتَّىٰۤ إِذَا جَاۤءَتۡهُمۡ رُسُلُنَا یَتَوَفَّوۡنَهُمۡ قَالُوۤا۟ أَیۡنَ مَا كُنتُمۡ تَدۡعُونَ مِن دُونِ ٱللَّهِۖ قَالُوا۟ ضَلُّوا۟ عَنَّا وَشَهِدُوا۟ عَلَىٰۤ أَنفُسِهِمۡ أَنَّهُمۡ كَانُوا۟ كَـٰفِرِینَ\n",
+      "translation": "And who is more unjust than one who invents about Allah a lie or denies His verses? Those will attain their portion of the decree until when Our messengers come to them to take them in death, they will say, \"Where are those you used to invoke besides Allah?\" They will say, \"They have departed from us,\" and will bear witness against themselves that they were disbelievers.",
+      "audioFile": "audio/007/007037.mp3"
+    },
+    {
+      "number": 38,
+      "arabic": "قَالَ ٱدۡخُلُوا۟ فِیۤ أُمَمࣲ قَدۡ خَلَتۡ مِن قَبۡلِكُم مِّنَ ٱلۡجِنِّ وَٱلۡإِنسِ فِی ٱلنَّارِۖ كُلَّمَا دَخَلَتۡ أُمَّةࣱ لَّعَنَتۡ أُخۡتَهَاۖ حَتَّىٰۤ إِذَا ٱدَّارَكُوا۟ فِیهَا جَمِیعࣰا قَالَتۡ أُخۡرَىٰهُمۡ لِأُولَىٰهُمۡ رَبَّنَا هَـٰۤؤُلَاۤءِ أَضَلُّونَا فَـَٔاتِهِمۡ عَذَابࣰا ضِعۡفࣰا مِّنَ ٱلنَّارِۖ قَالَ لِكُلࣲّ ضِعۡفࣱ وَلَـٰكِن لَّا تَعۡلَمُونَ\n",
+      "translation": "[Allah] will say, \"Enter among nations which had passed on before you of jinn and mankind into the Fire.\" Every time a nation enters, it will curse its sister until, when they have all overtaken one another therein, the last of them will say about the first of them \"Our Lord, these had misled us, so give them a double punishment of the Fire. He will say, \"For each is double, but you do not know.\"",
+      "audioFile": "audio/007/007038.mp3"
+    },
+    {
+      "number": 39,
+      "arabic": "وَقَالَتۡ أُولَىٰهُمۡ لِأُخۡرَىٰهُمۡ فَمَا كَانَ لَكُمۡ عَلَیۡنَا مِن فَضۡلࣲ فَذُوقُوا۟ ٱلۡعَذَابَ بِمَا كُنتُمۡ تَكۡسِبُونَ\n",
+      "translation": "And the first of them will say to the last of them, \"Then you had not any favor over us, so taste the punishment for what you used to earn.\"",
+      "audioFile": "audio/007/007039.mp3"
+    },
+    {
+      "number": 40,
+      "arabic": "إِنَّ ٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَا وَٱسۡتَكۡبَرُوا۟ عَنۡهَا لَا تُفَتَّحُ لَهُمۡ أَبۡوَ ٰ⁠بُ ٱلسَّمَاۤءِ وَلَا یَدۡخُلُونَ ٱلۡجَنَّةَ حَتَّىٰ یَلِجَ ٱلۡجَمَلُ فِی سَمِّ ٱلۡخِیَاطِۚ وَكَذَ ٰ⁠لِكَ نَجۡزِی ٱلۡمُجۡرِمِینَ\n",
+      "translation": "Indeed, those who deny Our verses and are arrogant toward them - the gates of Heaven will not be opened for them, nor will they enter Paradise until a camel enters into the eye of a needle. And thus do We recompense the criminals.",
+      "audioFile": "audio/007/007040.mp3"
+    },
+    {
+      "number": 41,
+      "arabic": "لَهُم مِّن جَهَنَّمَ مِهَادࣱ وَمِن فَوۡقِهِمۡ غَوَاشࣲۚ وَكَذَ ٰ⁠لِكَ نَجۡزِی ٱلظَّـٰلِمِینَ\n",
+      "translation": "They will have from Hell a bed and over them coverings [of fire]. And thus do We recompense the wrongdoers.",
+      "audioFile": "audio/007/007041.mp3"
+    },
+    {
+      "number": 42,
+      "arabic": "وَٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَا نُكَلِّفُ نَفۡسًا إِلَّا وُسۡعَهَاۤ أُو۟لَـٰۤىِٕكَ أَصۡحَـٰبُ ٱلۡجَنَّةِۖ هُمۡ فِیهَا خَـٰلِدُونَ\n",
+      "translation": "But those who believed and did righteous deeds - We charge no soul except [within] its capacity. Those are the companions of Paradise; they will abide therein eternally.",
+      "audioFile": "audio/007/007042.mp3"
+    },
+    {
+      "number": 43,
+      "arabic": "وَنَزَعۡنَا مَا فِی صُدُورِهِم مِّنۡ غِلࣲّ تَجۡرِی مِن تَحۡتِهِمُ ٱلۡأَنۡهَـٰرُۖ وَقَالُوا۟ ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِی هَدَىٰنَا لِهَـٰذَا وَمَا كُنَّا لِنَهۡتَدِیَ لَوۡلَاۤ أَنۡ هَدَىٰنَا ٱللَّهُۖ لَقَدۡ جَاۤءَتۡ رُسُلُ رَبِّنَا بِٱلۡحَقِّۖ وَنُودُوۤا۟ أَن تِلۡكُمُ ٱلۡجَنَّةُ أُورِثۡتُمُوهَا بِمَا كُنتُمۡ تَعۡمَلُونَ\n",
+      "translation": "And We will have removed whatever is within their breasts of resentment, [while] flowing beneath them are rivers. And they will say, \"Praise to Allah, who has guided us to this; and we would never have been guided if Allah had not guided us. Certainly the messengers of our Lord had come with the truth.\" And they will be called, \"This is Paradise, which you have been made to inherit for what you used to do.\"",
+      "audioFile": "audio/007/007043.mp3"
+    },
+    {
+      "number": 44,
+      "arabic": "وَنَادَىٰۤ أَصۡحَـٰبُ ٱلۡجَنَّةِ أَصۡحَـٰبَ ٱلنَّارِ أَن قَدۡ وَجَدۡنَا مَا وَعَدَنَا رَبُّنَا حَقࣰّا فَهَلۡ وَجَدتُّم مَّا وَعَدَ رَبُّكُمۡ حَقࣰّاۖ قَالُوا۟ نَعَمۡۚ فَأَذَّنَ مُؤَذِّنُۢ بَیۡنَهُمۡ أَن لَّعۡنَةُ ٱللَّهِ عَلَى ٱلظَّـٰلِمِینَ\n",
+      "translation": "And the companions of Paradise will call out to the companions of the Fire, \"We have already found what our Lord promised us to be true. Have you found what your Lord promised to be true?\" They will say, \"Yes.\" Then an announcer will announce among them, \"The curse of Allah shall be upon the wrongdoers.\"",
+      "audioFile": "audio/007/007044.mp3"
+    },
+    {
+      "number": 45,
+      "arabic": "ٱلَّذِینَ یَصُدُّونَ عَن سَبِیلِ ٱللَّهِ وَیَبۡغُونَهَا عِوَجࣰا وَهُم بِٱلۡـَٔاخِرَةِ كَـٰفِرُونَ\n",
+      "translation": "Who averted [people] from the way of Allah and sought to make it [seem] deviant while they were, concerning the Hereafter, disbelievers.",
+      "audioFile": "audio/007/007045.mp3"
+    },
+    {
+      "number": 46,
+      "arabic": "وَبَیۡنَهُمَا حِجَابࣱۚ وَعَلَى ٱلۡأَعۡرَافِ رِجَالࣱ یَعۡرِفُونَ كُلَّۢا بِسِیمَىٰهُمۡۚ وَنَادَوۡا۟ أَصۡحَـٰبَ ٱلۡجَنَّةِ أَن سَلَـٰمٌ عَلَیۡكُمۡۚ لَمۡ یَدۡخُلُوهَا وَهُمۡ یَطۡمَعُونَ\n",
+      "translation": "And between them will be a partition, and on [its] elevations are men who recognize all by their mark. And they call out to the companions of Paradise, \"Peace be upon you.\" They have not [yet] entered it, but they long intensely.",
+      "audioFile": "audio/007/007046.mp3"
+    },
+    {
+      "number": 47,
+      "arabic": "۞ وَإِذَا صُرِفَتۡ أَبۡصَـٰرُهُمۡ تِلۡقَاۤءَ أَصۡحَـٰبِ ٱلنَّارِ قَالُوا۟ رَبَّنَا لَا تَجۡعَلۡنَا مَعَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِینَ\n",
+      "translation": "And when their eyes are turned toward the companions of the Fire, they say, \"Our Lord, do not place us with the wrongdoing people.\"",
+      "audioFile": "audio/007/007047.mp3"
+    },
+    {
+      "number": 48,
+      "arabic": "وَنَادَىٰۤ أَصۡحَـٰبُ ٱلۡأَعۡرَافِ رِجَالࣰا یَعۡرِفُونَهُم بِسِیمَىٰهُمۡ قَالُوا۟ مَاۤ أَغۡنَىٰ عَنكُمۡ جَمۡعُكُمۡ وَمَا كُنتُمۡ تَسۡتَكۡبِرُونَ\n",
+      "translation": "And the companions of the Elevations will call to men [within Hell] whom they recognize by their mark, saying, \"Of no avail to you was your gathering and [the fact] that you were arrogant.\"",
+      "audioFile": "audio/007/007048.mp3"
+    },
+    {
+      "number": 49,
+      "arabic": "أَهَـٰۤؤُلَاۤءِ ٱلَّذِینَ أَقۡسَمۡتُمۡ لَا یَنَالُهُمُ ٱللَّهُ بِرَحۡمَةٍۚ ٱدۡخُلُوا۟ ٱلۡجَنَّةَ لَا خَوۡفٌ عَلَیۡكُمۡ وَلَاۤ أَنتُمۡ تَحۡزَنُونَ\n",
+      "translation": "[Allah will say], \"Are these the ones whom you [inhabitants of Hell] swore that Allah would never offer them mercy? Enter Paradise, [O People of the Elevations]. No fear will there be concerning you, nor will you grieve.\"",
+      "audioFile": "audio/007/007049.mp3"
+    },
+    {
+      "number": 50,
+      "arabic": "وَنَادَىٰۤ أَصۡحَـٰبُ ٱلنَّارِ أَصۡحَـٰبَ ٱلۡجَنَّةِ أَنۡ أَفِیضُوا۟ عَلَیۡنَا مِنَ ٱلۡمَاۤءِ أَوۡ مِمَّا رَزَقَكُمُ ٱللَّهُۚ قَالُوۤا۟ إِنَّ ٱللَّهَ حَرَّمَهُمَا عَلَى ٱلۡكَـٰفِرِینَ\n",
+      "translation": "And the companions of the Fire will call to the companions of Paradise, \"Pour upon us some water or from whatever Allah has provided you.\" They will say, \"Indeed, Allah has forbidden them both to the disbelievers.\"",
+      "audioFile": "audio/007/007050.mp3"
+    },
+    {
+      "number": 51,
+      "arabic": "ٱلَّذِینَ ٱتَّخَذُوا۟ دِینَهُمۡ لَهۡوࣰا وَلَعِبࣰا وَغَرَّتۡهُمُ ٱلۡحَیَوٰةُ ٱلدُّنۡیَاۚ فَٱلۡیَوۡمَ نَنسَىٰهُمۡ كَمَا نَسُوا۟ لِقَاۤءَ یَوۡمِهِمۡ هَـٰذَا وَمَا كَانُوا۟ بِـَٔایَـٰتِنَا یَجۡحَدُونَ\n",
+      "translation": "Who took their religion as distraction and amusement and whom the worldly life deluded.\" So today We will forget them just as they forgot the meeting of this Day of theirs and for having rejected Our verses.",
+      "audioFile": "audio/007/007051.mp3"
+    },
+    {
+      "number": 52,
+      "arabic": "وَلَقَدۡ جِئۡنَـٰهُم بِكِتَـٰبࣲ فَصَّلۡنَـٰهُ عَلَىٰ عِلۡمٍ هُدࣰى وَرَحۡمَةࣰ لِّقَوۡمࣲ یُؤۡمِنُونَ\n",
+      "translation": "And We had certainly brought them a Book which We detailed by knowledge - as guidance and mercy to a people who believe.",
+      "audioFile": "audio/007/007052.mp3"
+    },
+    {
+      "number": 53,
+      "arabic": "هَلۡ یَنظُرُونَ إِلَّا تَأۡوِیلَهُۥۚ یَوۡمَ یَأۡتِی تَأۡوِیلُهُۥ یَقُولُ ٱلَّذِینَ نَسُوهُ مِن قَبۡلُ قَدۡ جَاۤءَتۡ رُسُلُ رَبِّنَا بِٱلۡحَقِّ فَهَل لَّنَا مِن شُفَعَاۤءَ فَیَشۡفَعُوا۟ لَنَاۤ أَوۡ نُرَدُّ فَنَعۡمَلَ غَیۡرَ ٱلَّذِی كُنَّا نَعۡمَلُۚ قَدۡ خَسِرُوۤا۟ أَنفُسَهُمۡ وَضَلَّ عَنۡهُم مَّا كَانُوا۟ یَفۡتَرُونَ\n",
+      "translation": "Do they await except its result? The Day its result comes those who had ignored it before will say, \"The messengers of our Lord had come with the truth, so are there [now] any intercessors to intercede for us or could we be sent back to do other than we used to do?\" They will have lost themselves, and lost from them is what they used to invent.",
+      "audioFile": "audio/007/007053.mp3"
+    },
+    {
+      "number": 54,
+      "arabic": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِی خَلَقَ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضَ فِی سِتَّةِ أَیَّامࣲ ثُمَّ ٱسۡتَوَىٰ عَلَى ٱلۡعَرۡشِۖ یُغۡشِی ٱلَّیۡلَ ٱلنَّهَارَ یَطۡلُبُهُۥ حَثِیثࣰا وَٱلشَّمۡسَ وَٱلۡقَمَرَ وَٱلنُّجُومَ مُسَخَّرَ ٰ⁠تِۭ بِأَمۡرِهِۦۤۗ أَلَا لَهُ ٱلۡخَلۡقُ وَٱلۡأَمۡرُۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلۡعَـٰلَمِینَ\n",
+      "translation": "Indeed, your Lord is Allah, who created the heavens and earth in six days and then established Himself above the Throne. He covers the night with the day, [another night] chasing it rapidly; and [He created] the sun, the moon, and the stars, subjected by His command. Unquestionably, His is the creation and the command; blessed is Allah, Lord of the worlds.",
+      "audioFile": "audio/007/007054.mp3"
+    },
+    {
+      "number": 55,
+      "arabic": "ٱدۡعُوا۟ رَبَّكُمۡ تَضَرُّعࣰا وَخُفۡیَةًۚ إِنَّهُۥ لَا یُحِبُّ ٱلۡمُعۡتَدِینَ\n",
+      "translation": "Call upon your Lord in humility and privately; indeed, He does not like transgressors.",
+      "audioFile": "audio/007/007055.mp3"
+    },
+    {
+      "number": 56,
+      "arabic": "وَلَا تُفۡسِدُوا۟ فِی ٱلۡأَرۡضِ بَعۡدَ إِصۡلَـٰحِهَا وَٱدۡعُوهُ خَوۡفࣰا وَطَمَعًاۚ إِنَّ رَحۡمَتَ ٱللَّهِ قَرِیبࣱ مِّنَ ٱلۡمُحۡسِنِینَ\n",
+      "translation": "And cause not corruption upon the earth after its reformation. And invoke Him in fear and aspiration. Indeed, the mercy of Allah is near to the doers of good.",
+      "audioFile": "audio/007/007056.mp3"
+    },
+    {
+      "number": 57,
+      "arabic": "وَهُوَ ٱلَّذِی یُرۡسِلُ ٱلرِّیَـٰحَ بُشۡرَۢا بَیۡنَ یَدَیۡ رَحۡمَتِهِۦۖ حَتَّىٰۤ إِذَاۤ أَقَلَّتۡ سَحَابࣰا ثِقَالࣰا سُقۡنَـٰهُ لِبَلَدࣲ مَّیِّتࣲ فَأَنزَلۡنَا بِهِ ٱلۡمَاۤءَ فَأَخۡرَجۡنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَ ٰ⁠تِۚ كَذَ ٰ⁠لِكَ نُخۡرِجُ ٱلۡمَوۡتَىٰ لَعَلَّكُمۡ تَذَكَّرُونَ\n",
+      "translation": "And it is He who sends the winds as good tidings before His mercy until, when they have carried heavy rainclouds, We drive them to a dead land and We send down rain therein and bring forth thereby [some] of all the fruits. Thus will We bring forth the dead; perhaps you may be reminded.",
+      "audioFile": "audio/007/007057.mp3"
+    },
+    {
+      "number": 58,
+      "arabic": "وَٱلۡبَلَدُ ٱلطَّیِّبُ یَخۡرُجُ نَبَاتُهُۥ بِإِذۡنِ رَبِّهِۦۖ وَٱلَّذِی خَبُثَ لَا یَخۡرُجُ إِلَّا نَكِدࣰاۚ كَذَ ٰ⁠لِكَ نُصَرِّفُ ٱلۡـَٔایَـٰتِ لِقَوۡمࣲ یَشۡكُرُونَ\n",
+      "translation": "And the good land - its vegetation emerges by permission of its Lord; but that which is bad - nothing emerges except sparsely, with difficulty. Thus do We diversify the signs for a people who are grateful.",
+      "audioFile": "audio/007/007058.mp3"
+    },
+    {
+      "number": 59,
+      "arabic": "لَقَدۡ أَرۡسَلۡنَا نُوحًا إِلَىٰ قَوۡمِهِۦ فَقَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۤ إِنِّیۤ أَخَافُ عَلَیۡكُمۡ عَذَابَ یَوۡمٍ عَظِیمࣲ\n",
+      "translation": "We had certainly sent Noah to his people, and he said, \"O my people, worship Allah; you have no deity other than Him. Indeed, I fear for you the punishment of a tremendous Day.",
+      "audioFile": "audio/007/007059.mp3"
+    },
+    {
+      "number": 60,
+      "arabic": "قَالَ ٱلۡمَلَأُ مِن قَوۡمِهِۦۤ إِنَّا لَنَرَىٰكَ فِی ضَلَـٰلࣲ مُّبِینࣲ\n",
+      "translation": "Said the eminent among his people, \"Indeed, we see you in clear error.\"",
+      "audioFile": "audio/007/007060.mp3"
+    },
+    {
+      "number": 61,
+      "arabic": "قَالَ یَـٰقَوۡمِ لَیۡسَ بِی ضَلَـٰلَةࣱ وَلَـٰكِنِّی رَسُولࣱ مِّن رَّبِّ ٱلۡعَـٰلَمِینَ\n",
+      "translation": "[Noah] said, \"O my people, there is not error in me, but I am a messenger from the Lord of the worlds.\"",
+      "audioFile": "audio/007/007061.mp3"
+    },
+    {
+      "number": 62,
+      "arabic": "أُبَلِّغُكُمۡ رِسَـٰلَـٰتِ رَبِّی وَأَنصَحُ لَكُمۡ وَأَعۡلَمُ مِنَ ٱللَّهِ مَا لَا تَعۡلَمُونَ\n",
+      "translation": "I convey to you the messages of my Lord and advise you; and I know from Allah what you do not know.",
+      "audioFile": "audio/007/007062.mp3"
+    },
+    {
+      "number": 63,
+      "arabic": "أَوَعَجِبۡتُمۡ أَن جَاۤءَكُمۡ ذِكۡرࣱ مِّن رَّبِّكُمۡ عَلَىٰ رَجُلࣲ مِّنكُمۡ لِیُنذِرَكُمۡ وَلِتَتَّقُوا۟ وَلَعَلَّكُمۡ تُرۡحَمُونَ\n",
+      "translation": "Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you and that you may fear Allah so you might receive mercy.\"",
+      "audioFile": "audio/007/007063.mp3"
+    },
+    {
+      "number": 64,
+      "arabic": "فَكَذَّبُوهُ فَأَنجَیۡنَـٰهُ وَٱلَّذِینَ مَعَهُۥ فِی ٱلۡفُلۡكِ وَأَغۡرَقۡنَا ٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَاۤۚ إِنَّهُمۡ كَانُوا۟ قَوۡمًا عَمِینَ\n",
+      "translation": "But they denied him, so We saved him and those who were with him in the ship. And We drowned those who denied Our signs. Indeed, they were a blind people.",
+      "audioFile": "audio/007/007064.mp3"
+    },
+    {
+      "number": 65,
+      "arabic": "۞ وَإِلَىٰ عَادٍ أَخَاهُمۡ هُودࣰاۚ قَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۤۚ أَفَلَا تَتَّقُونَ\n",
+      "translation": "And to the 'Aad [We sent] their brother Hud. He said, \"O my people, worship Allah; you have no deity other than Him. Then will you not fear Him?\"",
+      "audioFile": "audio/007/007065.mp3"
+    },
+    {
+      "number": 66,
+      "arabic": "قَالَ ٱلۡمَلَأُ ٱلَّذِینَ كَفَرُوا۟ مِن قَوۡمِهِۦۤ إِنَّا لَنَرَىٰكَ فِی سَفَاهَةࣲ وَإِنَّا لَنَظُنُّكَ مِنَ ٱلۡكَـٰذِبِینَ\n",
+      "translation": "Said the eminent ones who disbelieved among his people, \"Indeed, we see you in foolishness, and indeed, we think you are of the liars.\"",
+      "audioFile": "audio/007/007066.mp3"
+    },
+    {
+      "number": 67,
+      "arabic": "قَالَ یَـٰقَوۡمِ لَیۡسَ بِی سَفَاهَةࣱ وَلَـٰكِنِّی رَسُولࣱ مِّن رَّبِّ ٱلۡعَـٰلَمِینَ\n",
+      "translation": "[Hud] said, \"O my people, there is not foolishness in me, but I am a messenger from the Lord of the worlds.\"",
+      "audioFile": "audio/007/007067.mp3"
+    },
+    {
+      "number": 68,
+      "arabic": "أُبَلِّغُكُمۡ رِسَـٰلَـٰتِ رَبِّی وَأَنَا۠ لَكُمۡ نَاصِحٌ أَمِینٌ\n",
+      "translation": "I convey to you the messages of my Lord, and I am to you a trustworthy adviser.",
+      "audioFile": "audio/007/007068.mp3"
+    },
+    {
+      "number": 69,
+      "arabic": "أَوَعَجِبۡتُمۡ أَن جَاۤءَكُمۡ ذِكۡرࣱ مِّن رَّبِّكُمۡ عَلَىٰ رَجُلࣲ مِّنكُمۡ لِیُنذِرَكُمۡۚ وَٱذۡكُرُوۤا۟ إِذۡ جَعَلَكُمۡ خُلَفَاۤءَ مِنۢ بَعۡدِ قَوۡمِ نُوحࣲ وَزَادَكُمۡ فِی ٱلۡخَلۡقِ بَصۜۡطَةࣰۖ فَٱذۡكُرُوۤا۟ ءَالَاۤءَ ٱللَّهِ لَعَلَّكُمۡ تُفۡلِحُونَ\n",
+      "translation": "Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you? And remember when He made you successors after the people of Noah and increased you in stature extensively. So remember the favors of Allah that you might succeed.",
+      "audioFile": "audio/007/007069.mp3"
+    },
+    {
+      "number": 70,
+      "arabic": "قَالُوۤا۟ أَجِئۡتَنَا لِنَعۡبُدَ ٱللَّهَ وَحۡدَهُۥ وَنَذَرَ مَا كَانَ یَعۡبُدُ ءَابَاۤؤُنَا فَأۡتِنَا بِمَا تَعِدُنَاۤ إِن كُنتَ مِنَ ٱلصَّـٰدِقِینَ\n",
+      "translation": "They said, \"Have you come to us that we should worship Allah alone and leave what our fathers have worshipped? Then bring us what you promise us, if you should be of the truthful.\"",
+      "audioFile": "audio/007/007070.mp3"
+    },
+    {
+      "number": 71,
+      "arabic": "قَالَ قَدۡ وَقَعَ عَلَیۡكُم مِّن رَّبِّكُمۡ رِجۡسࣱ وَغَضَبٌۖ أَتُجَـٰدِلُونَنِی فِیۤ أَسۡمَاۤءࣲ سَمَّیۡتُمُوهَاۤ أَنتُمۡ وَءَابَاۤؤُكُم مَّا نَزَّلَ ٱللَّهُ بِهَا مِن سُلۡطَـٰنࣲۚ فَٱنتَظِرُوۤا۟ إِنِّی مَعَكُم مِّنَ ٱلۡمُنتَظِرِینَ\n",
+      "translation": "[Hud] said, \"Already have defilement and anger fallen upon you from your Lord. Do you dispute with me concerning [mere] names you have named them, you and your fathers, for which Allah has not sent down any authority? Then wait; indeed, I am with you among those who wait.\"",
+      "audioFile": "audio/007/007071.mp3"
+    },
+    {
+      "number": 72,
+      "arabic": "فَأَنجَیۡنَـٰهُ وَٱلَّذِینَ مَعَهُۥ بِرَحۡمَةࣲ مِّنَّا وَقَطَعۡنَا دَابِرَ ٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَاۖ وَمَا كَانُوا۟ مُؤۡمِنِینَ\n",
+      "translation": "So We saved him and those with him by mercy from Us. And We eliminated those who denied Our signs, and they were not [at all] believers.",
+      "audioFile": "audio/007/007072.mp3"
+    },
+    {
+      "number": 73,
+      "arabic": "وَإِلَىٰ ثَمُودَ أَخَاهُمۡ صَـٰلِحࣰاۚ قَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۖ قَدۡ جَاۤءَتۡكُم بَیِّنَةࣱ مِّن رَّبِّكُمۡۖ هَـٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمۡ ءَایَةࣰۖ فَذَرُوهَا تَأۡكُلۡ فِیۤ أَرۡضِ ٱللَّهِۖ وَلَا تَمَسُّوهَا بِسُوۤءࣲ فَیَأۡخُذَكُمۡ عَذَابٌ أَلِیمࣱ\n",
+      "translation": "And to the Thamud [We sent] their brother Salih. He said, \"O my people, worship Allah; you have no deity other than Him. There has come to you clear evidence from your Lord. This is the she-camel of Allah [sent] to you as a sign. So leave her to eat within Allah 's land and do not touch her with harm, lest there seize you a painful punishment.",
+      "audioFile": "audio/007/007073.mp3"
+    },
+    {
+      "number": 74,
+      "arabic": "وَٱذۡكُرُوۤا۟ إِذۡ جَعَلَكُمۡ خُلَفَاۤءَ مِنۢ بَعۡدِ عَادࣲ وَبَوَّأَكُمۡ فِی ٱلۡأَرۡضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورࣰا وَتَنۡحِتُونَ ٱلۡجِبَالَ بُیُوتࣰاۖ فَٱذۡكُرُوۤا۟ ءَالَاۤءَ ٱللَّهِ وَلَا تَعۡثَوۡا۟ فِی ٱلۡأَرۡضِ مُفۡسِدِینَ\n",
+      "translation": "And remember when He made you successors after the 'Aad and settled you in the land, [and] you take for yourselves palaces from its plains and carve from the mountains, homes. Then remember the favors of Allah and do not commit abuse on the earth, spreading corruption.\"",
+      "audioFile": "audio/007/007074.mp3"
+    },
+    {
+      "number": 75,
+      "arabic": "قَالَ ٱلۡمَلَأُ ٱلَّذِینَ ٱسۡتَكۡبَرُوا۟ مِن قَوۡمِهِۦ لِلَّذِینَ ٱسۡتُضۡعِفُوا۟ لِمَنۡ ءَامَنَ مِنۡهُمۡ أَتَعۡلَمُونَ أَنَّ صَـٰلِحࣰا مُّرۡسَلࣱ مِّن رَّبِّهِۦۚ قَالُوۤا۟ إِنَّا بِمَاۤ أُرۡسِلَ بِهِۦ مُؤۡمِنُونَ\n",
+      "translation": "Said the eminent ones who were arrogant among his people to those who were oppressed - to those who believed among them, \"Do you [actually] know that Salih is sent from his Lord?\" They said, \"Indeed we, in that with which he was sent, are believers.\"",
+      "audioFile": "audio/007/007075.mp3"
+    },
+    {
+      "number": 76,
+      "arabic": "قَالَ ٱلَّذِینَ ٱسۡتَكۡبَرُوۤا۟ إِنَّا بِٱلَّذِیۤ ءَامَنتُم بِهِۦ كَـٰفِرُونَ\n",
+      "translation": "Said those who were arrogant, \"Indeed we, in that which you have believed, are disbelievers.\"",
+      "audioFile": "audio/007/007076.mp3"
+    },
+    {
+      "number": 77,
+      "arabic": "فَعَقَرُوا۟ ٱلنَّاقَةَ وَعَتَوۡا۟ عَنۡ أَمۡرِ رَبِّهِمۡ وَقَالُوا۟ یَـٰصَـٰلِحُ ٱئۡتِنَا بِمَا تَعِدُنَاۤ إِن كُنتَ مِنَ ٱلۡمُرۡسَلِینَ\n",
+      "translation": "So they hamstrung the she-camel and were insolent toward the command of their Lord and said, \"O Salih, bring us what you promise us, if you should be of the messengers.\"",
+      "audioFile": "audio/007/007077.mp3"
+    },
+    {
+      "number": 78,
+      "arabic": "فَأَخَذَتۡهُمُ ٱلرَّجۡفَةُ فَأَصۡبَحُوا۟ فِی دَارِهِمۡ جَـٰثِمِینَ\n",
+      "translation": "So the earthquake seized them, and they became within their home [corpses] fallen prone.",
+      "audioFile": "audio/007/007078.mp3"
+    },
+    {
+      "number": 79,
+      "arabic": "فَتَوَلَّىٰ عَنۡهُمۡ وَقَالَ یَـٰقَوۡمِ لَقَدۡ أَبۡلَغۡتُكُمۡ رِسَالَةَ رَبِّی وَنَصَحۡتُ لَكُمۡ وَلَـٰكِن لَّا تُحِبُّونَ ٱلنَّـٰصِحِینَ\n",
+      "translation": "And he turned away from them and said, \"O my people, I had certainly conveyed to you the message of my Lord and advised you, but you do not like advisors.\"",
+      "audioFile": "audio/007/007079.mp3"
+    },
+    {
+      "number": 80,
+      "arabic": "وَلُوطًا إِذۡ قَالَ لِقَوۡمِهِۦۤ أَتَأۡتُونَ ٱلۡفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنۡ أَحَدࣲ مِّنَ ٱلۡعَـٰلَمِینَ\n",
+      "translation": "And [We had sent] Lot when he said to his people, \"Do you commit such immorality as no one has preceded you with from among the worlds?",
+      "audioFile": "audio/007/007080.mp3"
+    },
+    {
+      "number": 81,
+      "arabic": "إِنَّكُمۡ لَتَأۡتُونَ ٱلرِّجَالَ شَهۡوَةࣰ مِّن دُونِ ٱلنِّسَاۤءِۚ بَلۡ أَنتُمۡ قَوۡمࣱ مُّسۡرِفُونَ\n",
+      "translation": "Indeed, you approach men with desire, instead of women. Rather, you are a transgressing people.\"",
+      "audioFile": "audio/007/007081.mp3"
+    },
+    {
+      "number": 82,
+      "arabic": "وَمَا كَانَ جَوَابَ قَوۡمِهِۦۤ إِلَّاۤ أَن قَالُوۤا۟ أَخۡرِجُوهُم مِّن قَرۡیَتِكُمۡۖ إِنَّهُمۡ أُنَاسࣱ یَتَطَهَّرُونَ\n",
+      "translation": "But the answer of his people was only that they said, \"Evict them from your city! Indeed, they are men who keep themselves pure.\"",
+      "audioFile": "audio/007/007082.mp3"
+    },
+    {
+      "number": 83,
+      "arabic": "فَأَنجَیۡنَـٰهُ وَأَهۡلَهُۥۤ إِلَّا ٱمۡرَأَتَهُۥ كَانَتۡ مِنَ ٱلۡغَـٰبِرِینَ\n",
+      "translation": "So We saved him and his family, except for his wife; she was of those who remained [with the evildoers].",
+      "audioFile": "audio/007/007083.mp3"
+    },
+    {
+      "number": 84,
+      "arabic": "وَأَمۡطَرۡنَا عَلَیۡهِم مَّطَرࣰاۖ فَٱنظُرۡ كَیۡفَ كَانَ عَـٰقِبَةُ ٱلۡمُجۡرِمِینَ\n",
+      "translation": "And We rained upon them a rain [of stones]. Then see how was the end of the criminals.",
+      "audioFile": "audio/007/007084.mp3"
+    },
+    {
+      "number": 85,
+      "arabic": "وَإِلَىٰ مَدۡیَنَ أَخَاهُمۡ شُعَیۡبࣰاۚ قَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۖ قَدۡ جَاۤءَتۡكُم بَیِّنَةࣱ مِّن رَّبِّكُمۡۖ فَأَوۡفُوا۟ ٱلۡكَیۡلَ وَٱلۡمِیزَانَ وَلَا تَبۡخَسُوا۟ ٱلنَّاسَ أَشۡیَاۤءَهُمۡ وَلَا تُفۡسِدُوا۟ فِی ٱلۡأَرۡضِ بَعۡدَ إِصۡلَـٰحِهَاۚ ذَ ٰ⁠لِكُمۡ خَیۡرࣱ لَّكُمۡ إِن كُنتُم مُّؤۡمِنِینَ\n",
+      "translation": "And to [the people of] Madyan [We sent] their brother Shu'ayb. He said, \"O my people, worship Allah; you have no deity other than Him. There has come to you clear evidence from your Lord. So fulfill the measure and weight and do not deprive people of their due and cause not corruption upon the earth after its reformation. That is better for you, if you should be believers.",
+      "audioFile": "audio/007/007085.mp3"
+    },
+    {
+      "number": 86,
+      "arabic": "وَلَا تَقۡعُدُوا۟ بِكُلِّ صِرَ ٰ⁠طࣲ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِیلِ ٱللَّهِ مَنۡ ءَامَنَ بِهِۦ وَتَبۡغُونَهَا عِوَجࣰاۚ وَٱذۡكُرُوۤا۟ إِذۡ كُنتُمۡ قَلِیلࣰا فَكَثَّرَكُمۡۖ وَٱنظُرُوا۟ كَیۡفَ كَانَ عَـٰقِبَةُ ٱلۡمُفۡسِدِینَ\n",
+      "translation": "And do not sit on every path, threatening and averting from the way of Allah those who believe in Him, seeking to make it [seem] deviant. And remember when you were few and He increased you. And see how was the end of the corrupters.",
+      "audioFile": "audio/007/007086.mp3"
+    },
+    {
+      "number": 87,
+      "arabic": "وَإِن كَانَ طَاۤىِٕفَةࣱ مِّنكُمۡ ءَامَنُوا۟ بِٱلَّذِیۤ أُرۡسِلۡتُ بِهِۦ وَطَاۤىِٕفَةࣱ لَّمۡ یُؤۡمِنُوا۟ فَٱصۡبِرُوا۟ حَتَّىٰ یَحۡكُمَ ٱللَّهُ بَیۡنَنَاۚ وَهُوَ خَیۡرُ ٱلۡحَـٰكِمِینَ\n",
+      "translation": "And if there should be a group among you who has believed in that with which I have been sent and a group that has not believed, then be patient until Allah judges between us. And He is the best of judges.\"",
+      "audioFile": "audio/007/007087.mp3"
+    },
+    {
+      "number": 88,
+      "arabic": "۞ قَالَ ٱلۡمَلَأُ ٱلَّذِینَ ٱسۡتَكۡبَرُوا۟ مِن قَوۡمِهِۦ لَنُخۡرِجَنَّكَ یَـٰشُعَیۡبُ وَٱلَّذِینَ ءَامَنُوا۟ مَعَكَ مِن قَرۡیَتِنَاۤ أَوۡ لَتَعُودُنَّ فِی مِلَّتِنَاۚ قَالَ أَوَلَوۡ كُنَّا كَـٰرِهِینَ\n",
+      "translation": "Said the eminent ones who were arrogant among his people, \"We will surely evict you, O Shu'ayb, and those who have believed with you from our city, or you must return to our religion.\" He said, \"Even if we were unwilling?\"",
+      "audioFile": "audio/007/007088.mp3"
+    },
+    {
+      "number": 89,
+      "arabic": "قَدِ ٱفۡتَرَیۡنَا عَلَى ٱللَّهِ كَذِبًا إِنۡ عُدۡنَا فِی مِلَّتِكُم بَعۡدَ إِذۡ نَجَّىٰنَا ٱللَّهُ مِنۡهَاۚ وَمَا یَكُونُ لَنَاۤ أَن نَّعُودَ فِیهَاۤ إِلَّاۤ أَن یَشَاۤءَ ٱللَّهُ رَبُّنَاۚ وَسِعَ رَبُّنَا كُلَّ شَیۡءٍ عِلۡمًاۚ عَلَى ٱللَّهِ تَوَكَّلۡنَاۚ رَبَّنَا ٱفۡتَحۡ بَیۡنَنَا وَبَیۡنَ قَوۡمِنَا بِٱلۡحَقِّ وَأَنتَ خَیۡرُ ٱلۡفَـٰتِحِینَ\n",
+      "translation": "We would have invented against Allah a lie if we returned to your religion after Allah had saved us from it. And it is not for us to return to it except that Allah, our Lord, should will. Our Lord has encompassed all things in knowledge. Upon Allah we have relied. Our Lord, decide between us and our people in truth, and You are the best of those who give decision.\"",
+      "audioFile": "audio/007/007089.mp3"
+    },
+    {
+      "number": 90,
+      "arabic": "وَقَالَ ٱلۡمَلَأُ ٱلَّذِینَ كَفَرُوا۟ مِن قَوۡمِهِۦ لَىِٕنِ ٱتَّبَعۡتُمۡ شُعَیۡبًا إِنَّكُمۡ إِذࣰا لَّخَـٰسِرُونَ\n",
+      "translation": "Said the eminent ones who disbelieved among his people, \"If you should follow Shu'ayb, indeed, you would then be losers.\"",
+      "audioFile": "audio/007/007090.mp3"
+    },
+    {
+      "number": 91,
+      "arabic": "فَأَخَذَتۡهُمُ ٱلرَّجۡفَةُ فَأَصۡبَحُوا۟ فِی دَارِهِمۡ جَـٰثِمِینَ\n",
+      "translation": "So the earthquake seized them, and they became within their home [corpses] fallen prone.",
+      "audioFile": "audio/007/007091.mp3"
+    },
+    {
+      "number": 92,
+      "arabic": "ٱلَّذِینَ كَذَّبُوا۟ شُعَیۡبࣰا كَأَن لَّمۡ یَغۡنَوۡا۟ فِیهَاۚ ٱلَّذِینَ كَذَّبُوا۟ شُعَیۡبࣰا كَانُوا۟ هُمُ ٱلۡخَـٰسِرِینَ\n",
+      "translation": "Those who denied Shu'ayb - it was as though they had never resided there. Those who denied Shu'ayb - it was they who were the losers.",
+      "audioFile": "audio/007/007092.mp3"
+    },
+    {
+      "number": 93,
+      "arabic": "فَتَوَلَّىٰ عَنۡهُمۡ وَقَالَ یَـٰقَوۡمِ لَقَدۡ أَبۡلَغۡتُكُمۡ رِسَـٰلَـٰتِ رَبِّی وَنَصَحۡتُ لَكُمۡۖ فَكَیۡفَ ءَاسَىٰ عَلَىٰ قَوۡمࣲ كَـٰفِرِینَ\n",
+      "translation": "And he turned away from them and said, \"O my people, I had certainly conveyed to you the messages of my Lord and advised you, so how could I grieve for a disbelieving people?\"",
+      "audioFile": "audio/007/007093.mp3"
+    },
+    {
+      "number": 94,
+      "arabic": "وَمَاۤ أَرۡسَلۡنَا فِی قَرۡیَةࣲ مِّن نَّبِیٍّ إِلَّاۤ أَخَذۡنَاۤ أَهۡلَهَا بِٱلۡبَأۡسَاۤءِ وَٱلضَّرَّاۤءِ لَعَلَّهُمۡ یَضَّرَّعُونَ\n",
+      "translation": "And We sent to no city a prophet [who was denied] except that We seized its people with poverty and hardship that they might humble themselves [to Allah].",
+      "audioFile": "audio/007/007094.mp3"
+    },
+    {
+      "number": 95,
+      "arabic": "ثُمَّ بَدَّلۡنَا مَكَانَ ٱلسَّیِّئَةِ ٱلۡحَسَنَةَ حَتَّىٰ عَفَوا۟ وَّقَالُوا۟ قَدۡ مَسَّ ءَابَاۤءَنَا ٱلضَّرَّاۤءُ وَٱلسَّرَّاۤءُ فَأَخَذۡنَـٰهُم بَغۡتَةࣰ وَهُمۡ لَا یَشۡعُرُونَ\n",
+      "translation": "Then We exchanged in place of the bad [condition], good, until they increased [and prospered] and said, \"Our fathers [also] were touched with hardship and ease.\" So We seized them suddenly while they did not perceive.",
+      "audioFile": "audio/007/007095.mp3"
+    },
+    {
+      "number": 96,
+      "arabic": "وَلَوۡ أَنَّ أَهۡلَ ٱلۡقُرَىٰۤ ءَامَنُوا۟ وَٱتَّقَوۡا۟ لَفَتَحۡنَا عَلَیۡهِم بَرَكَـٰتࣲ مِّنَ ٱلسَّمَاۤءِ وَٱلۡأَرۡضِ وَلَـٰكِن كَذَّبُوا۟ فَأَخَذۡنَـٰهُم بِمَا كَانُوا۟ یَكۡسِبُونَ\n",
+      "translation": "And if only the people of the cities had believed and feared Allah, We would have opened upon them blessings from the heaven and the earth; but they denied [the messengers], so We seized them for what they were earning.\"",
+      "audioFile": "audio/007/007096.mp3"
+    },
+    {
+      "number": 97,
+      "arabic": "أَفَأَمِنَ أَهۡلُ ٱلۡقُرَىٰۤ أَن یَأۡتِیَهُم بَأۡسُنَا بَیَـٰتࣰا وَهُمۡ نَاۤىِٕمُونَ\n",
+      "translation": "Then, did the people of the cities feel secure from Our punishment coming to them at night while they were asleep?",
+      "audioFile": "audio/007/007097.mp3"
+    },
+    {
+      "number": 98,
+      "arabic": "أَوَأَمِنَ أَهۡلُ ٱلۡقُرَىٰۤ أَن یَأۡتِیَهُم بَأۡسُنَا ضُحࣰى وَهُمۡ یَلۡعَبُونَ\n",
+      "translation": "Or did the people of the cities feel secure from Our punishment coming to them in the morning while they were at play?",
+      "audioFile": "audio/007/007098.mp3"
+    },
+    {
+      "number": 99,
+      "arabic": "أَفَأَمِنُوا۟ مَكۡرَ ٱللَّهِۚ فَلَا یَأۡمَنُ مَكۡرَ ٱللَّهِ إِلَّا ٱلۡقَوۡمُ ٱلۡخَـٰسِرُونَ\n",
+      "translation": "Then did they feel secure from the plan of Allah? But no one feels secure from the plan of Allah except the losing people.",
+      "audioFile": "audio/007/007099.mp3"
+    },
+    {
+      "number": 100,
+      "arabic": "أَوَلَمۡ یَهۡدِ لِلَّذِینَ یَرِثُونَ ٱلۡأَرۡضَ مِنۢ بَعۡدِ أَهۡلِهَاۤ أَن لَّوۡ نَشَاۤءُ أَصَبۡنَـٰهُم بِذُنُوبِهِمۡۚ وَنَطۡبَعُ عَلَىٰ قُلُوبِهِمۡ فَهُمۡ لَا یَسۡمَعُونَ\n",
+      "translation": "Has it not become clear to those who inherited the earth after its [previous] people that if We willed, We could afflict them for their sins? But We seal over their hearts so they do not hear.",
+      "audioFile": "audio/007/007100.mp3"
+    },
+    {
+      "number": 101,
+      "arabic": "تِلۡكَ ٱلۡقُرَىٰ نَقُصُّ عَلَیۡكَ مِنۡ أَنۢبَاۤىِٕهَاۚ وَلَقَدۡ جَاۤءَتۡهُمۡ رُسُلُهُم بِٱلۡبَیِّنَـٰتِ فَمَا كَانُوا۟ لِیُؤۡمِنُوا۟ بِمَا كَذَّبُوا۟ مِن قَبۡلُۚ كَذَ ٰ⁠لِكَ یَطۡبَعُ ٱللَّهُ عَلَىٰ قُلُوبِ ٱلۡكَـٰفِرِینَ\n",
+      "translation": "Those cities - We relate to you, [O Muhammad], some of their news. And certainly did their messengers come to them with clear proofs, but they were not to believe in that which they had denied before. Thus does Allah seal over the hearts of the disbelievers.",
+      "audioFile": "audio/007/007101.mp3"
+    },
+    {
+      "number": 102,
+      "arabic": "وَمَا وَجَدۡنَا لِأَكۡثَرِهِم مِّنۡ عَهۡدࣲۖ وَإِن وَجَدۡنَاۤ أَكۡثَرَهُمۡ لَفَـٰسِقِینَ\n",
+      "translation": "And We did not find for most of them any covenant; but indeed, We found most of them defiantly disobedient.",
+      "audioFile": "audio/007/007102.mp3"
+    },
+    {
+      "number": 103,
+      "arabic": "ثُمَّ بَعَثۡنَا مِنۢ بَعۡدِهِم مُّوسَىٰ بِـَٔایَـٰتِنَاۤ إِلَىٰ فِرۡعَوۡنَ وَمَلَإِی۟هِۦ فَظَلَمُوا۟ بِهَاۖ فَٱنظُرۡ كَیۡفَ كَانَ عَـٰقِبَةُ ٱلۡمُفۡسِدِینَ\n",
+      "translation": "Then We sent after them Moses with Our signs to Pharaoh and his establishment, but they were unjust toward them. So see how was the end of the corrupters.",
+      "audioFile": "audio/007/007103.mp3"
+    },
+    {
+      "number": 104,
+      "arabic": "وَقَالَ مُوسَىٰ یَـٰفِرۡعَوۡنُ إِنِّی رَسُولࣱ مِّن رَّبِّ ٱلۡعَـٰلَمِینَ\n",
+      "translation": "And Moses said, \"O Pharaoh, I am a messenger from the Lord of the worlds",
+      "audioFile": "audio/007/007104.mp3"
+    },
+    {
+      "number": 105,
+      "arabic": "حَقِیقٌ عَلَىٰۤ أَن لَّاۤ أَقُولَ عَلَى ٱللَّهِ إِلَّا ٱلۡحَقَّۚ قَدۡ جِئۡتُكُم بِبَیِّنَةࣲ مِّن رَّبِّكُمۡ فَأَرۡسِلۡ مَعِیَ بَنِیۤ إِسۡرَ ٰ⁠ۤءِیلَ\n",
+      "translation": "[Who is] obligated not to say about Allah except the truth. I have come to you with clear evidence from your Lord, so send with me the Children of Israel.\"",
+      "audioFile": "audio/007/007105.mp3"
+    },
+    {
+      "number": 106,
+      "arabic": "قَالَ إِن كُنتَ جِئۡتَ بِـَٔایَةࣲ فَأۡتِ بِهَاۤ إِن كُنتَ مِنَ ٱلصَّـٰدِقِینَ\n",
+      "translation": "[Pharaoh] said, \"If you have come with a sign, then bring it forth, if you should be of the truthful.\"",
+      "audioFile": "audio/007/007106.mp3"
+    },
+    {
+      "number": 107,
+      "arabic": "فَأَلۡقَىٰ عَصَاهُ فَإِذَا هِیَ ثُعۡبَانࣱ مُّبِینࣱ\n",
+      "translation": "So Moses threw his staff, and suddenly it was a serpent, manifest.",
+      "audioFile": "audio/007/007107.mp3"
+    },
+    {
+      "number": 108,
+      "arabic": "وَنَزَعَ یَدَهُۥ فَإِذَا هِیَ بَیۡضَاۤءُ لِلنَّـٰظِرِینَ\n",
+      "translation": "And he drew out his hand; thereupon it was white [with radiance] for the observers.",
+      "audioFile": "audio/007/007108.mp3"
+    },
+    {
+      "number": 109,
+      "arabic": "قَالَ ٱلۡمَلَأُ مِن قَوۡمِ فِرۡعَوۡنَ إِنَّ هَـٰذَا لَسَـٰحِرٌ عَلِیمࣱ\n",
+      "translation": "Said the eminent among the people of Pharaoh, \"Indeed, this is a learned magician",
+      "audioFile": "audio/007/007109.mp3"
+    },
+    {
+      "number": 110,
+      "arabic": "یُرِیدُ أَن یُخۡرِجَكُم مِّنۡ أَرۡضِكُمۡۖ فَمَاذَا تَأۡمُرُونَ\n",
+      "translation": "Who wants to expel you from your land [through magic], so what do you instruct?\"",
+      "audioFile": "audio/007/007110.mp3"
+    },
+    {
+      "number": 111,
+      "arabic": "قَالُوۤا۟ أَرۡجِهۡ وَأَخَاهُ وَأَرۡسِلۡ فِی ٱلۡمَدَاۤىِٕنِ حَـٰشِرِینَ\n",
+      "translation": "They said, \"Postpone [the matter of] him and his brother and send among the cities gatherers",
+      "audioFile": "audio/007/007111.mp3"
+    },
+    {
+      "number": 112,
+      "arabic": "یَأۡتُوكَ بِكُلِّ سَـٰحِرٍ عَلِیمࣲ\n",
+      "translation": "Who will bring you every learned magician.\"",
+      "audioFile": "audio/007/007112.mp3"
+    },
+    {
+      "number": 113,
+      "arabic": "وَجَاۤءَ ٱلسَّحَرَةُ فِرۡعَوۡنَ قَالُوۤا۟ إِنَّ لَنَا لَأَجۡرًا إِن كُنَّا نَحۡنُ ٱلۡغَـٰلِبِینَ\n",
+      "translation": "And the magicians came to Pharaoh. They said, \"Indeed for us is a reward if we are the predominant.\"",
+      "audioFile": "audio/007/007113.mp3"
+    },
+    {
+      "number": 114,
+      "arabic": "قَالَ نَعَمۡ وَإِنَّكُمۡ لَمِنَ ٱلۡمُقَرَّبِینَ\n",
+      "translation": "He said, \"Yes, and, [moreover], you will be among those made near [to me].\"",
+      "audioFile": "audio/007/007114.mp3"
+    },
+    {
+      "number": 115,
+      "arabic": "قَالُوا۟ یَـٰمُوسَىٰۤ إِمَّاۤ أَن تُلۡقِیَ وَإِمَّاۤ أَن نَّكُونَ نَحۡنُ ٱلۡمُلۡقِینَ\n",
+      "translation": "They said, \"O Moses, either you throw [your staff], or we will be the ones to throw [first].\"",
+      "audioFile": "audio/007/007115.mp3"
+    },
+    {
+      "number": 116,
+      "arabic": "قَالَ أَلۡقُوا۟ۖ فَلَمَّاۤ أَلۡقَوۡا۟ سَحَرُوۤا۟ أَعۡیُنَ ٱلنَّاسِ وَٱسۡتَرۡهَبُوهُمۡ وَجَاۤءُو بِسِحۡرٍ عَظِیمࣲ\n",
+      "translation": "He said, \"Throw,\" and when they threw, they bewitched the eyes of the people and struck terror into them, and they presented a great [feat of] magic.",
+      "audioFile": "audio/007/007116.mp3"
+    },
+    {
+      "number": 117,
+      "arabic": "۞ وَأَوۡحَیۡنَاۤ إِلَىٰ مُوسَىٰۤ أَنۡ أَلۡقِ عَصَاكَۖ فَإِذَا هِیَ تَلۡقَفُ مَا یَأۡفِكُونَ\n",
+      "translation": "And We inspired to Moses, \"Throw your staff,\" and at once it devoured what they were falsifying.",
+      "audioFile": "audio/007/007117.mp3"
+    },
+    {
+      "number": 118,
+      "arabic": "فَوَقَعَ ٱلۡحَقُّ وَبَطَلَ مَا كَانُوا۟ یَعۡمَلُونَ\n",
+      "translation": "So the truth was established, and abolished was what they were doing.",
+      "audioFile": "audio/007/007118.mp3"
+    },
+    {
+      "number": 119,
+      "arabic": "فَغُلِبُوا۟ هُنَالِكَ وَٱنقَلَبُوا۟ صَـٰغِرِینَ\n",
+      "translation": "And Pharaoh and his people were overcome right there and became debased.",
+      "audioFile": "audio/007/007119.mp3"
+    },
+    {
+      "number": 120,
+      "arabic": "وَأُلۡقِیَ ٱلسَّحَرَةُ سَـٰجِدِینَ\n",
+      "translation": "And the magicians fell down in prostration [to Allah].",
+      "audioFile": "audio/007/007120.mp3"
+    },
+    {
+      "number": 121,
+      "arabic": "قَالُوۤا۟ ءَامَنَّا بِرَبِّ ٱلۡعَـٰلَمِینَ\n",
+      "translation": "They said, \"We have believed in the Lord of the worlds,",
+      "audioFile": "audio/007/007121.mp3"
+    },
+    {
+      "number": 122,
+      "arabic": "رَبِّ مُوسَىٰ وَهَـٰرُونَ\n",
+      "translation": "The Lord of Moses and Aaron.\"",
+      "audioFile": "audio/007/007122.mp3"
+    },
+    {
+      "number": 123,
+      "arabic": "قَالَ فِرۡعَوۡنُ ءَامَنتُم بِهِۦ قَبۡلَ أَنۡ ءَاذَنَ لَكُمۡۖ إِنَّ هَـٰذَا لَمَكۡرࣱ مَّكَرۡتُمُوهُ فِی ٱلۡمَدِینَةِ لِتُخۡرِجُوا۟ مِنۡهَاۤ أَهۡلَهَاۖ فَسَوۡفَ تَعۡلَمُونَ\n",
+      "translation": "Said Pharaoh, \"You believed in him before I gave you permission. Indeed, this is a conspiracy which you conspired in the city to expel therefrom its people. But you are going to know.",
+      "audioFile": "audio/007/007123.mp3"
+    },
+    {
+      "number": 124,
+      "arabic": "لَأُقَطِّعَنَّ أَیۡدِیَكُمۡ وَأَرۡجُلَكُم مِّنۡ خِلَـٰفࣲ ثُمَّ لَأُصَلِّبَنَّكُمۡ أَجۡمَعِینَ\n",
+      "translation": "I will surely cut off your hands and your feet on opposite sides; then I will surely crucify you all.\"",
+      "audioFile": "audio/007/007124.mp3"
+    },
+    {
+      "number": 125,
+      "arabic": "قَالُوۤا۟ إِنَّاۤ إِلَىٰ رَبِّنَا مُنقَلِبُونَ\n",
+      "translation": "They said, \"Indeed, to our Lord we will return.",
+      "audioFile": "audio/007/007125.mp3"
+    },
+    {
+      "number": 126,
+      "arabic": "وَمَا تَنقِمُ مِنَّاۤ إِلَّاۤ أَنۡ ءَامَنَّا بِـَٔایَـٰتِ رَبِّنَا لَمَّا جَاۤءَتۡنَاۚ رَبَّنَاۤ أَفۡرِغۡ عَلَیۡنَا صَبۡرࣰا وَتَوَفَّنَا مُسۡلِمِینَ\n",
+      "translation": "And you do not resent us except because we believed in the signs of our Lord when they came to us. Our Lord, pour upon us patience and let us die as Muslims [in submission to You].\"",
+      "audioFile": "audio/007/007126.mp3"
+    },
+    {
+      "number": 127,
+      "arabic": "وَقَالَ ٱلۡمَلَأُ مِن قَوۡمِ فِرۡعَوۡنَ أَتَذَرُ مُوسَىٰ وَقَوۡمَهُۥ لِیُفۡسِدُوا۟ فِی ٱلۡأَرۡضِ وَیَذَرَكَ وَءَالِهَتَكَۚ قَالَ سَنُقَتِّلُ أَبۡنَاۤءَهُمۡ وَنَسۡتَحۡیِۦ نِسَاۤءَهُمۡ وَإِنَّا فَوۡقَهُمۡ قَـٰهِرُونَ\n",
+      "translation": "And the eminent among the people of Pharaoh said,\" Will you leave Moses and his people to cause corruption in the land and abandon you and your gods?\" [Pharaoh] said, \"We will kill their sons and keep their women alive; and indeed, we are subjugators over them.\"",
+      "audioFile": "audio/007/007127.mp3"
+    },
+    {
+      "number": 128,
+      "arabic": "قَالَ مُوسَىٰ لِقَوۡمِهِ ٱسۡتَعِینُوا۟ بِٱللَّهِ وَٱصۡبِرُوۤا۟ۖ إِنَّ ٱلۡأَرۡضَ لِلَّهِ یُورِثُهَا مَن یَشَاۤءُ مِنۡ عِبَادِهِۦۖ وَٱلۡعَـٰقِبَةُ لِلۡمُتَّقِینَ\n",
+      "translation": "Said Moses to his people, \"Seek help through Allah and be patient. Indeed, the earth belongs to Allah. He causes to inherit it whom He wills of His servants. And the [best] outcome is for the righteous.\"",
+      "audioFile": "audio/007/007128.mp3"
+    },
+    {
+      "number": 129,
+      "arabic": "قَالُوۤا۟ أُوذِینَا مِن قَبۡلِ أَن تَأۡتِیَنَا وَمِنۢ بَعۡدِ مَا جِئۡتَنَاۚ قَالَ عَسَىٰ رَبُّكُمۡ أَن یُهۡلِكَ عَدُوَّكُمۡ وَیَسۡتَخۡلِفَكُمۡ فِی ٱلۡأَرۡضِ فَیَنظُرَ كَیۡفَ تَعۡمَلُونَ\n",
+      "translation": "They said, \"We have been harmed before you came to us and after you have come to us.\" He said, \"Perhaps your Lord will destroy your enemy and grant you succession in the land and see how you will do.\"",
+      "audioFile": "audio/007/007129.mp3"
+    },
+    {
+      "number": 130,
+      "arabic": "وَلَقَدۡ أَخَذۡنَاۤ ءَالَ فِرۡعَوۡنَ بِٱلسِّنِینَ وَنَقۡصࣲ مِّنَ ٱلثَّمَرَ ٰ⁠تِ لَعَلَّهُمۡ یَذَّكَّرُونَ\n",
+      "translation": "And We certainly seized the people of Pharaoh with years of famine and a deficiency in fruits that perhaps they would be reminded.",
+      "audioFile": "audio/007/007130.mp3"
+    },
+    {
+      "number": 131,
+      "arabic": "فَإِذَا جَاۤءَتۡهُمُ ٱلۡحَسَنَةُ قَالُوا۟ لَنَا هَـٰذِهِۦۖ وَإِن تُصِبۡهُمۡ سَیِّئَةࣱ یَطَّیَّرُوا۟ بِمُوسَىٰ وَمَن مَّعَهُۥۤۗ أَلَاۤ إِنَّمَا طَـٰۤىِٕرُهُمۡ عِندَ ٱللَّهِ وَلَـٰكِنَّ أَكۡثَرَهُمۡ لَا یَعۡلَمُونَ\n",
+      "translation": "But when good came to them, they said, \"This is ours [by right].\" And if a bad [condition] struck them, they saw an evil omen in Moses and those with him. Unquestionably, their fortune is with Allah, but most of them do not know.",
+      "audioFile": "audio/007/007131.mp3"
+    },
+    {
+      "number": 132,
+      "arabic": "وَقَالُوا۟ مَهۡمَا تَأۡتِنَا بِهِۦ مِنۡ ءَایَةࣲ لِّتَسۡحَرَنَا بِهَا فَمَا نَحۡنُ لَكَ بِمُؤۡمِنِینَ\n",
+      "translation": "And they said, \"No matter what sign you bring us with which to bewitch us, we will not be believers in you.\"",
+      "audioFile": "audio/007/007132.mp3"
+    },
+    {
+      "number": 133,
+      "arabic": "فَأَرۡسَلۡنَا عَلَیۡهِمُ ٱلطُّوفَانَ وَٱلۡجَرَادَ وَٱلۡقُمَّلَ وَٱلضَّفَادِعَ وَٱلدَّمَ ءَایَـٰتࣲ مُّفَصَّلَـٰتࣲ فَٱسۡتَكۡبَرُوا۟ وَكَانُوا۟ قَوۡمࣰا مُّجۡرِمِینَ\n",
+      "translation": "So We sent upon them the flood and locusts and lice and frogs and blood as distinct signs, but they were arrogant and were a criminal people.",
+      "audioFile": "audio/007/007133.mp3"
+    },
+    {
+      "number": 134,
+      "arabic": "وَلَمَّا وَقَعَ عَلَیۡهِمُ ٱلرِّجۡزُ قَالُوا۟ یَـٰمُوسَى ٱدۡعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَۖ لَىِٕن كَشَفۡتَ عَنَّا ٱلرِّجۡزَ لَنُؤۡمِنَنَّ لَكَ وَلَنُرۡسِلَنَّ مَعَكَ بَنِیۤ إِسۡرَ ٰ⁠ۤءِیلَ\n",
+      "translation": "And when the punishment descended upon them, they said, \"O Moses, invoke for us your Lord by what He has promised you. If you [can] remove the punishment from us, we will surely believe you, and we will send with you the Children of Israel.\"",
+      "audioFile": "audio/007/007134.mp3"
+    },
+    {
+      "number": 135,
+      "arabic": "فَلَمَّا كَشَفۡنَا عَنۡهُمُ ٱلرِّجۡزَ إِلَىٰۤ أَجَلٍ هُم بَـٰلِغُوهُ إِذَا هُمۡ یَنكُثُونَ\n",
+      "translation": "But when We removed the punishment from them until a term which they were to reach, then at once they broke their word.",
+      "audioFile": "audio/007/007135.mp3"
+    },
+    {
+      "number": 136,
+      "arabic": "فَٱنتَقَمۡنَا مِنۡهُمۡ فَأَغۡرَقۡنَـٰهُمۡ فِی ٱلۡیَمِّ بِأَنَّهُمۡ كَذَّبُوا۟ بِـَٔایَـٰتِنَا وَكَانُوا۟ عَنۡهَا غَـٰفِلِینَ\n",
+      "translation": "So We took retribution from them, and We drowned them in the sea because they denied Our signs and were heedless of them.",
+      "audioFile": "audio/007/007136.mp3"
+    },
+    {
+      "number": 137,
+      "arabic": "وَأَوۡرَثۡنَا ٱلۡقَوۡمَ ٱلَّذِینَ كَانُوا۟ یُسۡتَضۡعَفُونَ مَشَـٰرِقَ ٱلۡأَرۡضِ وَمَغَـٰرِبَهَا ٱلَّتِی بَـٰرَكۡنَا فِیهَاۖ وَتَمَّتۡ كَلِمَتُ رَبِّكَ ٱلۡحُسۡنَىٰ عَلَىٰ بَنِیۤ إِسۡرَ ٰ⁠ۤءِیلَ بِمَا صَبَرُوا۟ۖ وَدَمَّرۡنَا مَا كَانَ یَصۡنَعُ فِرۡعَوۡنُ وَقَوۡمُهُۥ وَمَا كَانُوا۟ یَعۡرِشُونَ\n",
+      "translation": "And We caused the people who had been oppressed to inherit the eastern regions of the land and the western ones, which We had blessed. And the good word of your Lord was fulfilled for the Children of Israel because of what they had patiently endured. And We destroyed [all] that Pharaoh and his people were producing and what they had been building.",
+      "audioFile": "audio/007/007137.mp3"
+    },
+    {
+      "number": 138,
+      "arabic": "وَجَـٰوَزۡنَا بِبَنِیۤ إِسۡرَ ٰ⁠ۤءِیلَ ٱلۡبَحۡرَ فَأَتَوۡا۟ عَلَىٰ قَوۡمࣲ یَعۡكُفُونَ عَلَىٰۤ أَصۡنَامࣲ لَّهُمۡۚ قَالُوا۟ یَـٰمُوسَى ٱجۡعَل لَّنَاۤ إِلَـٰهࣰا كَمَا لَهُمۡ ءَالِهَةࣱۚ قَالَ إِنَّكُمۡ قَوۡمࣱ تَجۡهَلُونَ\n",
+      "translation": "And We took the Children of Israel across the sea; then they came upon a people intent in devotion to [some] idols of theirs. They said, \"O Moses, make for us a god just as they have gods.\" He said, \"Indeed, you are a people behaving ignorantly.",
+      "audioFile": "audio/007/007138.mp3"
+    },
+    {
+      "number": 139,
+      "arabic": "إِنَّ هَـٰۤؤُلَاۤءِ مُتَبَّرࣱ مَّا هُمۡ فِیهِ وَبَـٰطِلࣱ مَّا كَانُوا۟ یَعۡمَلُونَ\n",
+      "translation": "Indeed, those [worshippers] - destroyed is that in which they are [engaged], and worthless is whatever they were doing.\"",
+      "audioFile": "audio/007/007139.mp3"
+    },
+    {
+      "number": 140,
+      "arabic": "قَالَ أَغَیۡرَ ٱللَّهِ أَبۡغِیكُمۡ إِلَـٰهࣰا وَهُوَ فَضَّلَكُمۡ عَلَى ٱلۡعَـٰلَمِینَ\n",
+      "translation": "He said, \"Is it other than Allah I should desire for you as a god while He has preferred you over the worlds?\"",
+      "audioFile": "audio/007/007140.mp3"
+    },
+    {
+      "number": 141,
+      "arabic": "وَإِذۡ أَنجَیۡنَـٰكُم مِّنۡ ءَالِ فِرۡعَوۡنَ یَسُومُونَكُمۡ سُوۤءَ ٱلۡعَذَابِ یُقَتِّلُونَ أَبۡنَاۤءَكُمۡ وَیَسۡتَحۡیُونَ نِسَاۤءَكُمۡۚ وَفِی ذَ ٰ⁠لِكُم بَلَاۤءࣱ مِّن رَّبِّكُمۡ عَظِیمࣱ\n",
+      "translation": "And [recall, O Children of Israel], when We saved you from the people of Pharaoh, [who were] afflicting you with the worst torment - killing your sons and keeping your women alive. And in that was a great trial from your Lord.",
+      "audioFile": "audio/007/007141.mp3"
+    },
+    {
+      "number": 142,
+      "arabic": "۞ وَوَ ٰ⁠عَدۡنَا مُوسَىٰ ثَلَـٰثِینَ لَیۡلَةࣰ وَأَتۡمَمۡنَـٰهَا بِعَشۡرࣲ فَتَمَّ مِیقَـٰتُ رَبِّهِۦۤ أَرۡبَعِینَ لَیۡلَةࣰۚ وَقَالَ مُوسَىٰ لِأَخِیهِ هَـٰرُونَ ٱخۡلُفۡنِی فِی قَوۡمِی وَأَصۡلِحۡ وَلَا تَتَّبِعۡ سَبِیلَ ٱلۡمُفۡسِدِینَ\n",
+      "translation": "And We made an appointment with Moses for thirty nights and perfected them by [the addition of] ten; so the term of his Lord was completed as forty nights. And Moses said to his brother Aaron, \"Take my place among my people, do right [by them], and do not follow the way of the corrupters.\"",
+      "audioFile": "audio/007/007142.mp3"
+    },
+    {
+      "number": 143,
+      "arabic": "وَلَمَّا جَاۤءَ مُوسَىٰ لِمِیقَـٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِیۤ أَنظُرۡ إِلَیۡكَۚ قَالَ لَن تَرَىٰنِی وَلَـٰكِنِ ٱنظُرۡ إِلَى ٱلۡجَبَلِ فَإِنِ ٱسۡتَقَرَّ مَكَانَهُۥ فَسَوۡفَ تَرَىٰنِیۚ فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلۡجَبَلِ جَعَلَهُۥ دَكࣰّا وَخَرَّ مُوسَىٰ صَعِقࣰاۚ فَلَمَّاۤ أَفَاقَ قَالَ سُبۡحَـٰنَكَ تُبۡتُ إِلَیۡكَ وَأَنَا۠ أَوَّلُ ٱلۡمُؤۡمِنِینَ\n",
+      "translation": "And when Moses arrived at Our appointed time and his Lord spoke to him, he said, \"My Lord, show me [Yourself] that I may look at You.\" [Allah] said, \"You will not see Me, but look at the mountain; if it should remain in place, then you will see Me.\" But when his Lord appeared to the mountain, He rendered it level, and Moses fell unconscious. And when he awoke, he said, \"Exalted are You! I have repented to You, and I am the first of the believers.\"",
+      "audioFile": "audio/007/007143.mp3"
+    },
+    {
+      "number": 144,
+      "arabic": "قَالَ یَـٰمُوسَىٰۤ إِنِّی ٱصۡطَفَیۡتُكَ عَلَى ٱلنَّاسِ بِرِسَـٰلَـٰتِی وَبِكَلَـٰمِی فَخُذۡ مَاۤ ءَاتَیۡتُكَ وَكُن مِّنَ ٱلشَّـٰكِرِینَ\n",
+      "translation": "[Allah] said, \"O Moses, I have chosen you over the people with My messages and My words [to you]. So take what I have given you and be among the grateful.\"",
+      "audioFile": "audio/007/007144.mp3"
+    },
+    {
+      "number": 145,
+      "arabic": "وَكَتَبۡنَا لَهُۥ فِی ٱلۡأَلۡوَاحِ مِن كُلِّ شَیۡءࣲ مَّوۡعِظَةࣰ وَتَفۡصِیلࣰا لِّكُلِّ شَیۡءࣲ فَخُذۡهَا بِقُوَّةࣲ وَأۡمُرۡ قَوۡمَكَ یَأۡخُذُوا۟ بِأَحۡسَنِهَاۚ سَأُو۟رِیكُمۡ دَارَ ٱلۡفَـٰسِقِینَ\n",
+      "translation": "And We wrote for him on the tablets [something] of all things - instruction and explanation for all things, [saying], \"Take them with determination and order your people to take the best of it. I will show you the home of the defiantly disobedient.\"",
+      "audioFile": "audio/007/007145.mp3"
+    },
+    {
+      "number": 146,
+      "arabic": "سَأَصۡرِفُ عَنۡ ءَایَـٰتِیَ ٱلَّذِینَ یَتَكَبَّرُونَ فِی ٱلۡأَرۡضِ بِغَیۡرِ ٱلۡحَقِّ وَإِن یَرَوۡا۟ كُلَّ ءَایَةࣲ لَّا یُؤۡمِنُوا۟ بِهَا وَإِن یَرَوۡا۟ سَبِیلَ ٱلرُّشۡدِ لَا یَتَّخِذُوهُ سَبِیلࣰا وَإِن یَرَوۡا۟ سَبِیلَ ٱلۡغَیِّ یَتَّخِذُوهُ سَبِیلࣰاۚ ذَ ٰ⁠لِكَ بِأَنَّهُمۡ كَذَّبُوا۟ بِـَٔایَـٰتِنَا وَكَانُوا۟ عَنۡهَا غَـٰفِلِینَ\n",
+      "translation": "I will turn away from My signs those who are arrogant upon the earth without right; and if they should see every sign, they will not believe in it. And if they see the way of consciousness, they will not adopt it as a way; but if they see the way of error, they will adopt it as a way. That is because they have denied Our signs and they were heedless of them.",
+      "audioFile": "audio/007/007146.mp3"
+    },
+    {
+      "number": 147,
+      "arabic": "وَٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَا وَلِقَاۤءِ ٱلۡـَٔاخِرَةِ حَبِطَتۡ أَعۡمَـٰلُهُمۡۚ هَلۡ یُجۡزَوۡنَ إِلَّا مَا كَانُوا۟ یَعۡمَلُونَ\n",
+      "translation": "Those who denied Our signs and the meeting of the Hereafter - their deeds have become worthless. Are they recompensed except for what they used to do?",
+      "audioFile": "audio/007/007147.mp3"
+    },
+    {
+      "number": 148,
+      "arabic": "وَٱتَّخَذَ قَوۡمُ مُوسَىٰ مِنۢ بَعۡدِهِۦ مِنۡ حُلِیِّهِمۡ عِجۡلࣰا جَسَدࣰا لَّهُۥ خُوَارٌۚ أَلَمۡ یَرَوۡا۟ أَنَّهُۥ لَا یُكَلِّمُهُمۡ وَلَا یَهۡدِیهِمۡ سَبِیلًاۘ ٱتَّخَذُوهُ وَكَانُوا۟ ظَـٰلِمِینَ\n",
+      "translation": "And the people of Moses made, after [his departure], from their ornaments a calf - an image having a lowing sound. Did they not see that it could neither speak to them nor guide them to a way? They took it [for worship], and they were wrongdoers.",
+      "audioFile": "audio/007/007148.mp3"
+    },
+    {
+      "number": 149,
+      "arabic": "وَلَمَّا سُقِطَ فِیۤ أَیۡدِیهِمۡ وَرَأَوۡا۟ أَنَّهُمۡ قَدۡ ضَلُّوا۟ قَالُوا۟ لَىِٕن لَّمۡ یَرۡحَمۡنَا رَبُّنَا وَیَغۡفِرۡ لَنَا لَنَكُونَنَّ مِنَ ٱلۡخَـٰسِرِینَ\n",
+      "translation": "And when regret overcame them and they saw that they had gone astray, they said, \"If our Lord does not have mercy upon us and forgive us, we will surely be among the losers.\"",
+      "audioFile": "audio/007/007149.mp3"
+    },
+    {
+      "number": 150,
+      "arabic": "وَلَمَّا رَجَعَ مُوسَىٰۤ إِلَىٰ قَوۡمِهِۦ غَضۡبَـٰنَ أَسِفࣰا قَالَ بِئۡسَمَا خَلَفۡتُمُونِی مِنۢ بَعۡدِیۤۖ أَعَجِلۡتُمۡ أَمۡرَ رَبِّكُمۡۖ وَأَلۡقَى ٱلۡأَلۡوَاحَ وَأَخَذَ بِرَأۡسِ أَخِیهِ یَجُرُّهُۥۤ إِلَیۡهِۚ قَالَ ٱبۡنَ أُمَّ إِنَّ ٱلۡقَوۡمَ ٱسۡتَضۡعَفُونِی وَكَادُوا۟ یَقۡتُلُونَنِی فَلَا تُشۡمِتۡ بِیَ ٱلۡأَعۡدَاۤءَ وَلَا تَجۡعَلۡنِی مَعَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِینَ\n",
+      "translation": "And when Moses returned to his people, angry and grieved, he said, \"How wretched is that by which you have replaced me after [my departure]. Were you impatient over the matter of your Lord?\" And he threw down the tablets and seized his brother by [the hair of] his head, pulling him toward him. [Aaron] said, \"O son of my mother, indeed the people oppressed me and were about to kill me, so let not the enemies rejoice over me and do not place me among the wrongdoing people.\"",
+      "audioFile": "audio/007/007150.mp3"
+    },
+    {
+      "number": 151,
+      "arabic": "قَالَ رَبِّ ٱغۡفِرۡ لِی وَلِأَخِی وَأَدۡخِلۡنَا فِی رَحۡمَتِكَۖ وَأَنتَ أَرۡحَمُ ٱلرَّ ٰ⁠حِمِینَ\n",
+      "translation": "[Moses] said, \"My Lord, forgive me and my brother and admit us into Your mercy, for You are the most merciful of the merciful.\"",
+      "audioFile": "audio/007/007151.mp3"
+    },
+    {
+      "number": 152,
+      "arabic": "إِنَّ ٱلَّذِینَ ٱتَّخَذُوا۟ ٱلۡعِجۡلَ سَیَنَالُهُمۡ غَضَبࣱ مِّن رَّبِّهِمۡ وَذِلَّةࣱ فِی ٱلۡحَیَوٰةِ ٱلدُّنۡیَاۚ وَكَذَ ٰ⁠لِكَ نَجۡزِی ٱلۡمُفۡتَرِینَ\n",
+      "translation": "Indeed, those who took the calf [for worship] will obtain anger from their Lord and humiliation in the life of this world, and thus do We recompense the inventors [of falsehood].",
+      "audioFile": "audio/007/007152.mp3"
+    },
+    {
+      "number": 153,
+      "arabic": "وَٱلَّذِینَ عَمِلُوا۟ ٱلسَّیِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعۡدِهَا وَءَامَنُوۤا۟ إِنَّ رَبَّكَ مِنۢ بَعۡدِهَا لَغَفُورࣱ رَّحِیمࣱ\n",
+      "translation": "But those who committed misdeeds and then repented after them and believed - indeed your Lord, thereafter, is Forgiving and Merciful.",
+      "audioFile": "audio/007/007153.mp3"
+    },
+    {
+      "number": 154,
+      "arabic": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلۡغَضَبُ أَخَذَ ٱلۡأَلۡوَاحَۖ وَفِی نُسۡخَتِهَا هُدࣰى وَرَحۡمَةࣱ لِّلَّذِینَ هُمۡ لِرَبِّهِمۡ یَرۡهَبُونَ\n",
+      "translation": "And when the anger subsided in Moses, he took up the tablets; and in their inscription was guidance and mercy for those who are fearful of their Lord.",
+      "audioFile": "audio/007/007154.mp3"
+    },
+    {
+      "number": 155,
+      "arabic": "وَٱخۡتَارَ مُوسَىٰ قَوۡمَهُۥ سَبۡعِینَ رَجُلࣰا لِّمِیقَـٰتِنَاۖ فَلَمَّاۤ أَخَذَتۡهُمُ ٱلرَّجۡفَةُ قَالَ رَبِّ لَوۡ شِئۡتَ أَهۡلَكۡتَهُم مِّن قَبۡلُ وَإِیَّـٰیَۖ أَتُهۡلِكُنَا بِمَا فَعَلَ ٱلسُّفَهَاۤءُ مِنَّاۤۖ إِنۡ هِیَ إِلَّا فِتۡنَتُكَ تُضِلُّ بِهَا مَن تَشَاۤءُ وَتَهۡدِی مَن تَشَاۤءُۖ أَنتَ وَلِیُّنَا فَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَاۖ وَأَنتَ خَیۡرُ ٱلۡغَـٰفِرِینَ\n",
+      "translation": "And Moses chose from his people seventy men for Our appointment. And when the earthquake seized them, he said, \"My Lord, if You had willed, You could have destroyed them before and me [as well]. Would You destroy us for what the foolish among us have done? This is not but Your trial by which You send astray whom You will and guide whom You will. You are our Protector, so forgive us and have mercy upon us; and You are the best of forgivers.",
+      "audioFile": "audio/007/007155.mp3"
+    },
+    {
+      "number": 156,
+      "arabic": "۞ وَٱكۡتُبۡ لَنَا فِی هَـٰذِهِ ٱلدُّنۡیَا حَسَنَةࣰ وَفِی ٱلۡـَٔاخِرَةِ إِنَّا هُدۡنَاۤ إِلَیۡكَۚ قَالَ عَذَابِیۤ أُصِیبُ بِهِۦ مَنۡ أَشَاۤءُۖ وَرَحۡمَتِی وَسِعَتۡ كُلَّ شَیۡءࣲۚ فَسَأَكۡتُبُهَا لِلَّذِینَ یَتَّقُونَ وَیُؤۡتُونَ ٱلزَّكَوٰةَ وَٱلَّذِینَ هُم بِـَٔایَـٰتِنَا یُؤۡمِنُونَ\n",
+      "translation": "And decree for us in this world [that which is] good and [also] in the Hereafter; indeed, we have turned back to You.\" [Allah] said, \"My punishment - I afflict with it whom I will, but My mercy encompasses all things.\" So I will decree it [especially] for those who fear Me and give zakah and those who believe in Our verses -",
+      "audioFile": "audio/007/007156.mp3"
+    },
+    {
+      "number": 157,
+      "arabic": "ٱلَّذِینَ یَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِیَّ ٱلۡأُمِّیَّ ٱلَّذِی یَجِدُونَهُۥ مَكۡتُوبًا عِندَهُمۡ فِی ٱلتَّوۡرَىٰةِ وَٱلۡإِنجِیلِ یَأۡمُرُهُم بِٱلۡمَعۡرُوفِ وَیَنۡهَىٰهُمۡ عَنِ ٱلۡمُنكَرِ وَیُحِلُّ لَهُمُ ٱلطَّیِّبَـٰتِ وَیُحَرِّمُ عَلَیۡهِمُ ٱلۡخَبَـٰۤىِٕثَ وَیَضَعُ عَنۡهُمۡ إِصۡرَهُمۡ وَٱلۡأَغۡلَـٰلَ ٱلَّتِی كَانَتۡ عَلَیۡهِمۡۚ فَٱلَّذِینَ ءَامَنُوا۟ بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِیۤ أُنزِلَ مَعَهُۥۤ أُو۟لَـٰۤىِٕكَ هُمُ ٱلۡمُفۡلِحُونَ\n",
+      "translation": "Those who follow the Messenger, the unlettered prophet, whom they find written in what they have of the Torah and the Gospel, who enjoins upon them what is right and forbids them what is wrong and makes lawful for them the good things and prohibits for them the evil and relieves them of their burden and the shackles which were upon them. So they who have believed in him, honored him, supported him and followed the light which was sent down with him - it is those who will be the successful.",
+      "audioFile": "audio/007/007157.mp3"
+    },
+    {
+      "number": 158,
+      "arabic": "قُلۡ یَـٰۤأَیُّهَا ٱلنَّاسُ إِنِّی رَسُولُ ٱللَّهِ إِلَیۡكُمۡ جَمِیعًا ٱلَّذِی لَهُۥ مُلۡكُ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِۖ لَاۤ إِلَـٰهَ إِلَّا هُوَ یُحۡیِۦ وَیُمِیتُۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرَسُولِهِ ٱلنَّبِیِّ ٱلۡأُمِّیِّ ٱلَّذِی یُؤۡمِنُ بِٱللَّهِ وَكَلِمَـٰتِهِۦ وَٱتَّبِعُوهُ لَعَلَّكُمۡ تَهۡتَدُونَ\n",
+      "translation": "Say, [O Muhammad], \"O mankind, indeed I am the Messenger of Allah to you all, [from Him] to whom belongs the dominion of the heavens and the earth. There is no deity except Him; He gives life and causes death.\" So believe in Allah and His Messenger, the unlettered prophet, who believes in Allah and His words, and follow him that you may be guided.",
+      "audioFile": "audio/007/007158.mp3"
+    },
+    {
+      "number": 159,
+      "arabic": "وَمِن قَوۡمِ مُوسَىٰۤ أُمَّةࣱ یَهۡدُونَ بِٱلۡحَقِّ وَبِهِۦ یَعۡدِلُونَ\n",
+      "translation": "And among the people of Moses is a community which guides by truth and by it establishes justice.",
+      "audioFile": "audio/007/007159.mp3"
+    },
+    {
+      "number": 160,
+      "arabic": "وَقَطَّعۡنَـٰهُمُ ٱثۡنَتَیۡ عَشۡرَةَ أَسۡبَاطًا أُمَمࣰاۚ وَأَوۡحَیۡنَاۤ إِلَىٰ مُوسَىٰۤ إِذِ ٱسۡتَسۡقَىٰهُ قَوۡمُهُۥۤ أَنِ ٱضۡرِب بِّعَصَاكَ ٱلۡحَجَرَۖ فَٱنۢبَجَسَتۡ مِنۡهُ ٱثۡنَتَا عَشۡرَةَ عَیۡنࣰاۖ قَدۡ عَلِمَ كُلُّ أُنَاسࣲ مَّشۡرَبَهُمۡۚ وَظَلَّلۡنَا عَلَیۡهِمُ ٱلۡغَمَـٰمَ وَأَنزَلۡنَا عَلَیۡهِمُ ٱلۡمَنَّ وَٱلسَّلۡوَىٰۖ كُلُوا۟ مِن طَیِّبَـٰتِ مَا رَزَقۡنَـٰكُمۡۚ وَمَا ظَلَمُونَا وَلَـٰكِن كَانُوۤا۟ أَنفُسَهُمۡ یَظۡلِمُونَ\n",
+      "translation": "And We divided them into twelve descendant tribes [as distinct] nations. And We inspired to Moses when his people implored him for water, \"Strike with your staff the stone,\" and there gushed forth from it twelve springs. Every people knew its watering place. And We shaded them with clouds and sent down upon them manna and quails, [saying], \"Eat from the good things with which We have provided you.\" And they wronged Us not, but they were [only] wronging themselves.",
+      "audioFile": "audio/007/007160.mp3"
+    },
+    {
+      "number": 161,
+      "arabic": "وَإِذۡ قِیلَ لَهُمُ ٱسۡكُنُوا۟ هَـٰذِهِ ٱلۡقَرۡیَةَ وَكُلُوا۟ مِنۡهَا حَیۡثُ شِئۡتُمۡ وَقُولُوا۟ حِطَّةࣱ وَٱدۡخُلُوا۟ ٱلۡبَابَ سُجَّدࣰا نَّغۡفِرۡ لَكُمۡ خَطِیۤـَٔـٰتِكُمۡۚ سَنَزِیدُ ٱلۡمُحۡسِنِینَ\n",
+      "translation": "And [mention, O Muhammad], when it was said to them, \"Dwell in this city and eat from it wherever you will and say, 'Relieve us of our burdens,' and enter the gate bowing humbly; We will [then] forgive you your sins. We will increase the doers of good [in goodness and reward].\"",
+      "audioFile": "audio/007/007161.mp3"
+    },
+    {
+      "number": 162,
+      "arabic": "فَبَدَّلَ ٱلَّذِینَ ظَلَمُوا۟ مِنۡهُمۡ قَوۡلًا غَیۡرَ ٱلَّذِی قِیلَ لَهُمۡ فَأَرۡسَلۡنَا عَلَیۡهِمۡ رِجۡزࣰا مِّنَ ٱلسَّمَاۤءِ بِمَا كَانُوا۟ یَظۡلِمُونَ\n",
+      "translation": "But those who wronged among them changed [the words] to a statement other than that which had been said to them. So We sent upon them a punishment from the sky for the wrong that they were doing.",
+      "audioFile": "audio/007/007162.mp3"
+    },
+    {
+      "number": 163,
+      "arabic": "وَسۡـَٔلۡهُمۡ عَنِ ٱلۡقَرۡیَةِ ٱلَّتِی كَانَتۡ حَاضِرَةَ ٱلۡبَحۡرِ إِذۡ یَعۡدُونَ فِی ٱلسَّبۡتِ إِذۡ تَأۡتِیهِمۡ حِیتَانُهُمۡ یَوۡمَ سَبۡتِهِمۡ شُرَّعࣰا وَیَوۡمَ لَا یَسۡبِتُونَ لَا تَأۡتِیهِمۡۚ كَذَ ٰ⁠لِكَ نَبۡلُوهُم بِمَا كَانُوا۟ یَفۡسُقُونَ\n",
+      "translation": "And ask them about the town that was by the sea - when they transgressed in [the matter of] the sabbath - when their fish came to them openly on their sabbath day, and the day they had no sabbath they did not come to them. Thus did We give them trial because they were defiantly disobedient.",
+      "audioFile": "audio/007/007163.mp3"
+    },
+    {
+      "number": 164,
+      "arabic": "وَإِذۡ قَالَتۡ أُمَّةࣱ مِّنۡهُمۡ لِمَ تَعِظُونَ قَوۡمًا ٱللَّهُ مُهۡلِكُهُمۡ أَوۡ مُعَذِّبُهُمۡ عَذَابࣰا شَدِیدࣰاۖ قَالُوا۟ مَعۡذِرَةً إِلَىٰ رَبِّكُمۡ وَلَعَلَّهُمۡ یَتَّقُونَ\n",
+      "translation": "And when a community among them said, \"Why do you advise [or warn] a people whom Allah is [about] to destroy or to punish with a severe punishment?\" they [the advisors] said, \"To be absolved before your Lord and perhaps they may fear Him.\"",
+      "audioFile": "audio/007/007164.mp3"
+    },
+    {
+      "number": 165,
+      "arabic": "فَلَمَّا نَسُوا۟ مَا ذُكِّرُوا۟ بِهِۦۤ أَنجَیۡنَا ٱلَّذِینَ یَنۡهَوۡنَ عَنِ ٱلسُّوۤءِ وَأَخَذۡنَا ٱلَّذِینَ ظَلَمُوا۟ بِعَذَابِۭ بَـِٔیسِۭ بِمَا كَانُوا۟ یَفۡسُقُونَ\n",
+      "translation": "And when they forgot that by which they had been reminded, We saved those who had forbidden evil and seized those who wronged, with a wretched punishment, because they were defiantly disobeying.",
+      "audioFile": "audio/007/007165.mp3"
+    },
+    {
+      "number": 166,
+      "arabic": "فَلَمَّا عَتَوۡا۟ عَن مَّا نُهُوا۟ عَنۡهُ قُلۡنَا لَهُمۡ كُونُوا۟ قِرَدَةً خَـٰسِـِٔینَ\n",
+      "translation": "So when they were insolent about that which they had been forbidden, We said to them, \"Be apes, despised.\"",
+      "audioFile": "audio/007/007166.mp3"
+    },
+    {
+      "number": 167,
+      "arabic": "وَإِذۡ تَأَذَّنَ رَبُّكَ لَیَبۡعَثَنَّ عَلَیۡهِمۡ إِلَىٰ یَوۡمِ ٱلۡقِیَـٰمَةِ مَن یَسُومُهُمۡ سُوۤءَ ٱلۡعَذَابِۗ إِنَّ رَبَّكَ لَسَرِیعُ ٱلۡعِقَابِ وَإِنَّهُۥ لَغَفُورࣱ رَّحِیمࣱ\n",
+      "translation": "And [mention] when your Lord declared that He would surely [continue to] send upon them until the Day of Resurrection those who would afflict them with the worst torment. Indeed, your Lord is swift in penalty; but indeed, He is Forgiving and Merciful.",
+      "audioFile": "audio/007/007167.mp3"
+    },
+    {
+      "number": 168,
+      "arabic": "وَقَطَّعۡنَـٰهُمۡ فِی ٱلۡأَرۡضِ أُمَمࣰاۖ مِّنۡهُمُ ٱلصَّـٰلِحُونَ وَمِنۡهُمۡ دُونَ ذَ ٰ⁠لِكَۖ وَبَلَوۡنَـٰهُم بِٱلۡحَسَنَـٰتِ وَٱلسَّیِّـَٔاتِ لَعَلَّهُمۡ یَرۡجِعُونَ\n",
+      "translation": "And We divided them throughout the earth into nations. Of them some were righteous, and of them some were otherwise. And We tested them with good [times] and bad that perhaps they would return [to obedience].",
+      "audioFile": "audio/007/007168.mp3"
+    },
+    {
+      "number": 169,
+      "arabic": "فَخَلَفَ مِنۢ بَعۡدِهِمۡ خَلۡفࣱ وَرِثُوا۟ ٱلۡكِتَـٰبَ یَأۡخُذُونَ عَرَضَ هَـٰذَا ٱلۡأَدۡنَىٰ وَیَقُولُونَ سَیُغۡفَرُ لَنَا وَإِن یَأۡتِهِمۡ عَرَضࣱ مِّثۡلُهُۥ یَأۡخُذُوهُۚ أَلَمۡ یُؤۡخَذۡ عَلَیۡهِم مِّیثَـٰقُ ٱلۡكِتَـٰبِ أَن لَّا یَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلۡحَقَّ وَدَرَسُوا۟ مَا فِیهِۗ وَٱلدَّارُ ٱلۡـَٔاخِرَةُ خَیۡرࣱ لِّلَّذِینَ یَتَّقُونَۚ أَفَلَا تَعۡقِلُونَ\n",
+      "translation": "And there followed them successors who inherited the Scripture [while] taking the commodities of this lower life and saying, \"It will be forgiven for us.\" And if an offer like it comes to them, they will [again] take it. Was not the covenant of the Scripture taken from them that they would not say about Allah except the truth, and they studied what was in it? And the home of the Hereafter is better for those who fear Allah, so will you not use reason?",
+      "audioFile": "audio/007/007169.mp3"
+    },
+    {
+      "number": 170,
+      "arabic": "وَٱلَّذِینَ یُمَسِّكُونَ بِٱلۡكِتَـٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ إِنَّا لَا نُضِیعُ أَجۡرَ ٱلۡمُصۡلِحِینَ\n",
+      "translation": "But those who hold fast to the Book and establish prayer - indeed, We will not allow to be lost the reward of the reformers.",
+      "audioFile": "audio/007/007170.mp3"
+    },
+    {
+      "number": 171,
+      "arabic": "۞ وَإِذۡ نَتَقۡنَا ٱلۡجَبَلَ فَوۡقَهُمۡ كَأَنَّهُۥ ظُلَّةࣱ وَظَنُّوۤا۟ أَنَّهُۥ وَاقِعُۢ بِهِمۡ خُذُوا۟ مَاۤ ءَاتَیۡنَـٰكُم بِقُوَّةࣲ وَٱذۡكُرُوا۟ مَا فِیهِ لَعَلَّكُمۡ تَتَّقُونَ\n",
+      "translation": "And [mention] when We raised the mountain above them as if it was a dark cloud and they were certain that it would fall upon them, [and Allah said], \"Take what We have given you with determination and remember what is in it that you might fear Allah.\"",
+      "audioFile": "audio/007/007171.mp3"
+    },
+    {
+      "number": 172,
+      "arabic": "وَإِذۡ أَخَذَ رَبُّكَ مِنۢ بَنِیۤ ءَادَمَ مِن ظُهُورِهِمۡ ذُرِّیَّتَهُمۡ وَأَشۡهَدَهُمۡ عَلَىٰۤ أَنفُسِهِمۡ أَلَسۡتُ بِرَبِّكُمۡۖ قَالُوا۟ بَلَىٰ شَهِدۡنَاۤۚ أَن تَقُولُوا۟ یَوۡمَ ٱلۡقِیَـٰمَةِ إِنَّا كُنَّا عَنۡ هَـٰذَا غَـٰفِلِینَ\n",
+      "translation": "And [mention] when your Lord took from the children of Adam - from their loins - their descendants and made them testify of themselves, [saying to them], \"Am I not your Lord?\" They said, \"Yes, we have testified.\" [This] - lest you should say on the day of Resurrection, \"Indeed, we were of this unaware.\"",
+      "audioFile": "audio/007/007172.mp3"
+    },
+    {
+      "number": 173,
+      "arabic": "أَوۡ تَقُولُوۤا۟ إِنَّمَاۤ أَشۡرَكَ ءَابَاۤؤُنَا مِن قَبۡلُ وَكُنَّا ذُرِّیَّةࣰ مِّنۢ بَعۡدِهِمۡۖ أَفَتُهۡلِكُنَا بِمَا فَعَلَ ٱلۡمُبۡطِلُونَ\n",
+      "translation": "Or [lest] you say, \"It was only that our fathers associated [others in worship] with Allah before, and we were but descendants after them. Then would You destroy us for what the falsifiers have done?\"",
+      "audioFile": "audio/007/007173.mp3"
+    },
+    {
+      "number": 174,
+      "arabic": "وَكَذَ ٰ⁠لِكَ نُفَصِّلُ ٱلۡـَٔایَـٰتِ وَلَعَلَّهُمۡ یَرۡجِعُونَ\n",
+      "translation": "And thus do We [explain in] detail the verses, and perhaps they will return.",
+      "audioFile": "audio/007/007174.mp3"
+    },
+    {
+      "number": 175,
+      "arabic": "وَٱتۡلُ عَلَیۡهِمۡ نَبَأَ ٱلَّذِیۤ ءَاتَیۡنَـٰهُ ءَایَـٰتِنَا فَٱنسَلَخَ مِنۡهَا فَأَتۡبَعَهُ ٱلشَّیۡطَـٰنُ فَكَانَ مِنَ ٱلۡغَاوِینَ\n",
+      "translation": "And recite to them, [O Muhammad], the news of him to whom we gave [knowledge of] Our signs, but he detached himself from them; so Satan pursued him, and he became of the deviators.",
+      "audioFile": "audio/007/007175.mp3"
+    },
+    {
+      "number": 176,
+      "arabic": "وَلَوۡ شِئۡنَا لَرَفَعۡنَـٰهُ بِهَا وَلَـٰكِنَّهُۥۤ أَخۡلَدَ إِلَى ٱلۡأَرۡضِ وَٱتَّبَعَ هَوَىٰهُۚ فَمَثَلُهُۥ كَمَثَلِ ٱلۡكَلۡبِ إِن تَحۡمِلۡ عَلَیۡهِ یَلۡهَثۡ أَوۡ تَتۡرُكۡهُ یَلۡهَثۚ ذَّ ٰ⁠لِكَ مَثَلُ ٱلۡقَوۡمِ ٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَاۚ فَٱقۡصُصِ ٱلۡقَصَصَ لَعَلَّهُمۡ یَتَفَكَّرُونَ\n",
+      "translation": "And if We had willed, we could have elevated him thereby, but he adhered [instead] to the earth and followed his own desire. So his example is like that of the dog: if you chase him, he pants, or if you leave him, he [still] pants. That is the example of the people who denied Our signs. So relate the stories that perhaps they will give thought.",
+      "audioFile": "audio/007/007176.mp3"
+    },
+    {
+      "number": 177,
+      "arabic": "سَاۤءَ مَثَلًا ٱلۡقَوۡمُ ٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَا وَأَنفُسَهُمۡ كَانُوا۟ یَظۡلِمُونَ\n",
+      "translation": "How evil an example [is that of] the people who denied Our signs and used to wrong themselves.",
+      "audioFile": "audio/007/007177.mp3"
+    },
+    {
+      "number": 178,
+      "arabic": "مَن یَهۡدِ ٱللَّهُ فَهُوَ ٱلۡمُهۡتَدِیۖ وَمَن یُضۡلِلۡ فَأُو۟لَـٰۤىِٕكَ هُمُ ٱلۡخَـٰسِرُونَ\n",
+      "translation": "Whoever Allah guides - he is the [rightly] guided; and whoever He sends astray - it is those who are the losers.",
+      "audioFile": "audio/007/007178.mp3"
+    },
+    {
+      "number": 179,
+      "arabic": "وَلَقَدۡ ذَرَأۡنَا لِجَهَنَّمَ كَثِیرࣰا مِّنَ ٱلۡجِنِّ وَٱلۡإِنسِۖ لَهُمۡ قُلُوبࣱ لَّا یَفۡقَهُونَ بِهَا وَلَهُمۡ أَعۡیُنࣱ لَّا یُبۡصِرُونَ بِهَا وَلَهُمۡ ءَاذَانࣱ لَّا یَسۡمَعُونَ بِهَاۤۚ أُو۟لَـٰۤىِٕكَ كَٱلۡأَنۡعَـٰمِ بَلۡ هُمۡ أَضَلُّۚ أُو۟لَـٰۤىِٕكَ هُمُ ٱلۡغَـٰفِلُونَ\n",
+      "translation": "And We have certainly created for Hell many of the jinn and mankind. They have hearts with which they do not understand, they have eyes with which they do not see, and they have ears with which they do not hear. Those are like livestock; rather, they are more astray. It is they who are the heedless.",
+      "audioFile": "audio/007/007179.mp3"
+    },
+    {
+      "number": 180,
+      "arabic": "وَلِلَّهِ ٱلۡأَسۡمَاۤءُ ٱلۡحُسۡنَىٰ فَٱدۡعُوهُ بِهَاۖ وَذَرُوا۟ ٱلَّذِینَ یُلۡحِدُونَ فِیۤ أَسۡمَـٰۤىِٕهِۦۚ سَیُجۡزَوۡنَ مَا كَانُوا۟ یَعۡمَلُونَ\n",
+      "translation": "And to Allah belong the best names, so invoke Him by them. And leave [the company of] those who practice deviation concerning His names. They will be recompensed for what they have been doing.",
+      "audioFile": "audio/007/007180.mp3"
+    },
+    {
+      "number": 181,
+      "arabic": "وَمِمَّنۡ خَلَقۡنَاۤ أُمَّةࣱ یَهۡدُونَ بِٱلۡحَقِّ وَبِهِۦ یَعۡدِلُونَ\n",
+      "translation": "And among those We created is a community which guides by truth and thereby establishes justice.",
+      "audioFile": "audio/007/007181.mp3"
+    },
+    {
+      "number": 182,
+      "arabic": "وَٱلَّذِینَ كَذَّبُوا۟ بِـَٔایَـٰتِنَا سَنَسۡتَدۡرِجُهُم مِّنۡ حَیۡثُ لَا یَعۡلَمُونَ\n",
+      "translation": "But those who deny Our signs - We will progressively lead them [to destruction] from where they do not know.",
+      "audioFile": "audio/007/007182.mp3"
+    },
+    {
+      "number": 183,
+      "arabic": "وَأُمۡلِی لَهُمۡۚ إِنَّ كَیۡدِی مَتِینٌ\n",
+      "translation": "And I will give them time. Indeed, my plan is firm.",
+      "audioFile": "audio/007/007183.mp3"
+    },
+    {
+      "number": 184,
+      "arabic": "أَوَلَمۡ یَتَفَكَّرُوا۟ۗ مَا بِصَاحِبِهِم مِّن جِنَّةٍۚ إِنۡ هُوَ إِلَّا نَذِیرࣱ مُّبِینٌ\n",
+      "translation": "Then do they not give thought? There is in their companion [Muhammad] no madness. He is not but a clear warner.",
+      "audioFile": "audio/007/007184.mp3"
+    },
+    {
+      "number": 185,
+      "arabic": "أَوَلَمۡ یَنظُرُوا۟ فِی مَلَكُوتِ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ وَمَا خَلَقَ ٱللَّهُ مِن شَیۡءࣲ وَأَنۡ عَسَىٰۤ أَن یَكُونَ قَدِ ٱقۡتَرَبَ أَجَلُهُمۡۖ فَبِأَیِّ حَدِیثِۭ بَعۡدَهُۥ یُؤۡمِنُونَ\n",
+      "translation": "Do they not look into the realm of the heavens and the earth and everything that Allah has created and [think] that perhaps their appointed time has come near? So in what statement hereafter will they believe?",
+      "audioFile": "audio/007/007185.mp3"
+    },
+    {
+      "number": 186,
+      "arabic": "مَن یُضۡلِلِ ٱللَّهُ فَلَا هَادِیَ لَهُۥۚ وَیَذَرُهُمۡ فِی طُغۡیَـٰنِهِمۡ یَعۡمَهُونَ\n",
+      "translation": "Whoever Allah sends astray - there is no guide for him. And He leaves them in their transgression, wandering blindly.",
+      "audioFile": "audio/007/007186.mp3"
+    },
+    {
+      "number": 187,
+      "arabic": "یَسۡـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَیَّانَ مُرۡسَىٰهَاۖ قُلۡ إِنَّمَا عِلۡمُهَا عِندَ رَبِّیۖ لَا یُجَلِّیهَا لِوَقۡتِهَاۤ إِلَّا هُوَۚ ثَقُلَتۡ فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِۚ لَا تَأۡتِیكُمۡ إِلَّا بَغۡتَةࣰۗ یَسۡـَٔلُونَكَ كَأَنَّكَ حَفِیٌّ عَنۡهَاۖ قُلۡ إِنَّمَا عِلۡمُهَا عِندَ ٱللَّهِ وَلَـٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا یَعۡلَمُونَ\n",
+      "translation": "They ask you, [O Muhammad], about the Hour: when is its arrival? Say, \"Its knowledge is only with my Lord. None will reveal its time except Him. It lays heavily upon the heavens and the earth. It will not come upon you except unexpectedly.\" They ask you as if you are familiar with it. Say, \"Its knowledge is only with Allah, but most of the people do not know.\"",
+      "audioFile": "audio/007/007187.mp3"
+    },
+    {
+      "number": 188,
+      "arabic": "قُل لَّاۤ أَمۡلِكُ لِنَفۡسِی نَفۡعࣰا وَلَا ضَرًّا إِلَّا مَا شَاۤءَ ٱللَّهُۚ وَلَوۡ كُنتُ أَعۡلَمُ ٱلۡغَیۡبَ لَٱسۡتَكۡثَرۡتُ مِنَ ٱلۡخَیۡرِ وَمَا مَسَّنِیَ ٱلسُّوۤءُۚ إِنۡ أَنَا۠ إِلَّا نَذِیرࣱ وَبَشِیرࣱ لِّقَوۡمࣲ یُؤۡمِنُونَ\n",
+      "translation": "Say, \"I hold not for myself [the power of] benefit or harm, except what Allah has willed. And if I knew the unseen, I could have acquired much wealth, and no harm would have touched me. I am not except a warner and a bringer of good tidings to a people who believe.\"",
+      "audioFile": "audio/007/007188.mp3"
+    },
+    {
+      "number": 189,
+      "arabic": "۞ هُوَ ٱلَّذِی خَلَقَكُم مِّن نَّفۡسࣲ وَ ٰ⁠حِدَةࣲ وَجَعَلَ مِنۡهَا زَوۡجَهَا لِیَسۡكُنَ إِلَیۡهَاۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتۡ حَمۡلًا خَفِیفࣰا فَمَرَّتۡ بِهِۦۖ فَلَمَّاۤ أَثۡقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَىِٕنۡ ءَاتَیۡتَنَا صَـٰلِحࣰا لَّنَكُونَنَّ مِنَ ٱلشَّـٰكِرِینَ\n",
+      "translation": "It is He who created you from one soul and created from it its mate that he might dwell in security with her. And when he covers her, she carries a light burden and continues therein. And when it becomes heavy, they both invoke Allah, their Lord, \"If You should give us a good [child], we will surely be among the grateful.\"",
+      "audioFile": "audio/007/007189.mp3"
+    },
+    {
+      "number": 190,
+      "arabic": "فَلَمَّاۤ ءَاتَىٰهُمَا صَـٰلِحࣰا جَعَلَا لَهُۥ شُرَكَاۤءَ فِیمَاۤ ءَاتَىٰهُمَاۚ فَتَعَـٰلَى ٱللَّهُ عَمَّا یُشۡرِكُونَ\n",
+      "translation": "But when He gives them a good [child], they ascribe partners to Him concerning that which He has given them. Exalted is Allah above what they associate with Him.",
+      "audioFile": "audio/007/007190.mp3"
+    },
+    {
+      "number": 191,
+      "arabic": "أَیُشۡرِكُونَ مَا لَا یَخۡلُقُ شَیۡـࣰٔا وَهُمۡ یُخۡلَقُونَ\n",
+      "translation": "Do they associate with Him those who create nothing and they are [themselves] created?",
+      "audioFile": "audio/007/007191.mp3"
+    },
+    {
+      "number": 192,
+      "arabic": "وَلَا یَسۡتَطِیعُونَ لَهُمۡ نَصۡرࣰا وَلَاۤ أَنفُسَهُمۡ یَنصُرُونَ\n",
+      "translation": "And the false deities are unable to [give] them help, nor can they help themselves.",
+      "audioFile": "audio/007/007192.mp3"
+    },
+    {
+      "number": 193,
+      "arabic": "وَإِن تَدۡعُوهُمۡ إِلَى ٱلۡهُدَىٰ لَا یَتَّبِعُوكُمۡۚ سَوَاۤءٌ عَلَیۡكُمۡ أَدَعَوۡتُمُوهُمۡ أَمۡ أَنتُمۡ صَـٰمِتُونَ\n",
+      "translation": "And if you [believers] invite them to guidance, they will not follow you. It is all the same for you whether you invite them or you are silent.",
+      "audioFile": "audio/007/007193.mp3"
+    },
+    {
+      "number": 194,
+      "arabic": "إِنَّ ٱلَّذِینَ تَدۡعُونَ مِن دُونِ ٱللَّهِ عِبَادٌ أَمۡثَالُكُمۡۖ فَٱدۡعُوهُمۡ فَلۡیَسۡتَجِیبُوا۟ لَكُمۡ إِن كُنتُمۡ صَـٰدِقِینَ\n",
+      "translation": "Indeed, those you [polytheists] call upon besides Allah are servants like you. So call upon them and let them respond to you, if you should be truthful.",
+      "audioFile": "audio/007/007194.mp3"
+    },
+    {
+      "number": 195,
+      "arabic": "أَلَهُمۡ أَرۡجُلࣱ یَمۡشُونَ بِهَاۤۖ أَمۡ لَهُمۡ أَیۡدࣲ یَبۡطِشُونَ بِهَاۤۖ أَمۡ لَهُمۡ أَعۡیُنࣱ یُبۡصِرُونَ بِهَاۤۖ أَمۡ لَهُمۡ ءَاذَانࣱ یَسۡمَعُونَ بِهَاۗ قُلِ ٱدۡعُوا۟ شُرَكَاۤءَكُمۡ ثُمَّ كِیدُونِ فَلَا تُنظِرُونِ\n",
+      "translation": "Do they have feet by which they walk? Or do they have hands by which they strike? Or do they have eyes by which they see? Or do they have ears by which they hear? Say, [O Muhammad], \"Call your 'partners' and then conspire against me and give me no respite.",
+      "audioFile": "audio/007/007195.mp3"
+    },
+    {
+      "number": 196,
+      "arabic": "إِنَّ وَلِـِّۧیَ ٱللَّهُ ٱلَّذِی نَزَّلَ ٱلۡكِتَـٰبَۖ وَهُوَ یَتَوَلَّى ٱلصَّـٰلِحِینَ\n",
+      "translation": "Indeed, my protector is Allah, who has sent down the Book; and He is an ally to the righteous.",
+      "audioFile": "audio/007/007196.mp3"
+    },
+    {
+      "number": 197,
+      "arabic": "وَٱلَّذِینَ تَدۡعُونَ مِن دُونِهِۦ لَا یَسۡتَطِیعُونَ نَصۡرَكُمۡ وَلَاۤ أَنفُسَهُمۡ یَنصُرُونَ\n",
+      "translation": "And those you call upon besides Him are unable to help you, nor can they help themselves.\"",
+      "audioFile": "audio/007/007197.mp3"
+    },
+    {
+      "number": 198,
+      "arabic": "وَإِن تَدۡعُوهُمۡ إِلَى ٱلۡهُدَىٰ لَا یَسۡمَعُوا۟ۖ وَتَرَىٰهُمۡ یَنظُرُونَ إِلَیۡكَ وَهُمۡ لَا یُبۡصِرُونَ\n",
+      "translation": "And if you invite them to guidance, they do not hear; and you see them looking at you while they do not see.",
+      "audioFile": "audio/007/007198.mp3"
+    },
+    {
+      "number": 199,
+      "arabic": "خُذِ ٱلۡعَفۡوَ وَأۡمُرۡ بِٱلۡعُرۡفِ وَأَعۡرِضۡ عَنِ ٱلۡجَـٰهِلِینَ\n",
+      "translation": "Take what is given freely, enjoin what is good, and turn away from the ignorant.",
+      "audioFile": "audio/007/007199.mp3"
+    },
+    {
+      "number": 200,
+      "arabic": "وَإِمَّا یَنزَغَنَّكَ مِنَ ٱلشَّیۡطَـٰنِ نَزۡغࣱ فَٱسۡتَعِذۡ بِٱللَّهِۚ إِنَّهُۥ سَمِیعٌ عَلِیمٌ\n",
+      "translation": "And if an evil suggestion comes to you from Satan, then seek refuge in Allah. Indeed, He is Hearing and Knowing.",
+      "audioFile": "audio/007/007200.mp3"
+    },
+    {
+      "number": 201,
+      "arabic": "إِنَّ ٱلَّذِینَ ٱتَّقَوۡا۟ إِذَا مَسَّهُمۡ طَـٰۤىِٕفࣱ مِّنَ ٱلشَّیۡطَـٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبۡصِرُونَ\n",
+      "translation": "Indeed, those who fear Allah - when an impulse touches them from Satan, they remember [Him] and at once they have insight.",
+      "audioFile": "audio/007/007201.mp3"
+    },
+    {
+      "number": 202,
+      "arabic": "وَإِخۡوَ ٰ⁠نُهُمۡ یَمُدُّونَهُمۡ فِی ٱلۡغَیِّ ثُمَّ لَا یُقۡصِرُونَ\n",
+      "translation": "But their brothers - the devils increase them in error; then they do not stop short.",
+      "audioFile": "audio/007/007202.mp3"
+    },
+    {
+      "number": 203,
+      "arabic": "وَإِذَا لَمۡ تَأۡتِهِم بِـَٔایَةࣲ قَالُوا۟ لَوۡلَا ٱجۡتَبَیۡتَهَاۚ قُلۡ إِنَّمَاۤ أَتَّبِعُ مَا یُوحَىٰۤ إِلَیَّ مِن رَّبِّیۚ هَـٰذَا بَصَاۤىِٕرُ مِن رَّبِّكُمۡ وَهُدࣰى وَرَحۡمَةࣱ لِّقَوۡمࣲ یُؤۡمِنُونَ\n",
+      "translation": "And when you, [O Muhammad], do not bring them a sign, they say, \"Why have you not contrived it?\" Say, \"I only follow what is revealed to me from my Lord. This [Qur'an] is enlightenment from your Lord and guidance and mercy for a people who believe.\"",
+      "audioFile": "audio/007/007203.mp3"
+    },
+    {
+      "number": 204,
+      "arabic": "وَإِذَا قُرِئَ ٱلۡقُرۡءَانُ فَٱسۡتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمۡ تُرۡحَمُونَ\n",
+      "translation": "So when the Qur'an is recited, then listen to it and pay attention that you may receive mercy.",
+      "audioFile": "audio/007/007204.mp3"
+    },
+    {
+      "number": 205,
+      "arabic": "وَٱذۡكُر رَّبَّكَ فِی نَفۡسِكَ تَضَرُّعࣰا وَخِیفَةࣰ وَدُونَ ٱلۡجَهۡرِ مِنَ ٱلۡقَوۡلِ بِٱلۡغُدُوِّ وَٱلۡـَٔاصَالِ وَلَا تَكُن مِّنَ ٱلۡغَـٰفِلِینَ\n",
+      "translation": "And remember your Lord within yourself in humility and in fear without being apparent in speech - in the mornings and the evenings. And do not be among the heedless.",
+      "audioFile": "audio/007/007205.mp3"
+    },
+    {
+      "number": 206,
+      "arabic": "إِنَّ ٱلَّذِینَ عِندَ رَبِّكَ لَا یَسۡتَكۡبِرُونَ عَنۡ عِبَادَتِهِۦ وَیُسَبِّحُونَهُۥ وَلَهُۥ یَسۡجُدُونَ ۩\n",
+      "translation": "Indeed, those who are near your Lord are not prevented by arrogance from His worship, and they exalt Him, and to Him they prostrate.",
+      "audioFile": "audio/007/007206.mp3"
+    }
+  ]
+}

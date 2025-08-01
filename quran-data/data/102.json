@@ -1,0 +1,55 @@
+{
+  "number": 102,
+  "name": "At-Takathur",
+  "totalVerses": 8,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ\n",
+      "translation": "Competition in [worldly] increase diverts you",
+      "audioFile": "audio/102/102001.mp3"
+    },
+    {
+      "number": 2,
+      "arabic": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ\n",
+      "translation": "Until you visit the graveyards.",
+      "audioFile": "audio/102/102002.mp3"
+    },
+    {
+      "number": 3,
+      "arabic": "كَلَّا سَوۡفَ تَعۡلَمُونَ\n",
+      "translation": "No! You are going to know.",
+      "audioFile": "audio/102/102003.mp3"
+    },
+    {
+      "number": 4,
+      "arabic": "ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ\n",
+      "translation": "Then no! You are going to know.",
+      "audioFile": "audio/102/102004.mp3"
+    },
+    {
+      "number": 5,
+      "arabic": "كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡیَقِینِ\n",
+      "translation": "No! If you only knew with knowledge of certainty...",
+      "audioFile": "audio/102/102005.mp3"
+    },
+    {
+      "number": 6,
+      "arabic": "لَتَرَوُنَّ ٱلۡجَحِیمَ\n",
+      "translation": "You will surely see the Hellfire.",
+      "audioFile": "audio/102/102006.mp3"
+    },
+    {
+      "number": 7,
+      "arabic": "ثُمَّ لَتَرَوُنَّهَا عَیۡنَ ٱلۡیَقِینِ\n",
+      "translation": "Then you will surely see it with the eye of certainty.",
+      "audioFile": "audio/102/102007.mp3"
+    },
+    {
+      "number": 8,
+      "arabic": "ثُمَّ لَتُسۡـَٔلُنَّ یَوۡمَىِٕذٍ عَنِ ٱلنَّعِیمِ\n",
+      "translation": "Then you will surely be asked that Day about pleasure.",
+      "audioFile": "audio/102/102008.mp3"
+    }
+  ]
+}

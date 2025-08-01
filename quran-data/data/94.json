@@ -1,0 +1,55 @@
+{
+  "number": 94,
+  "name": "Ash-Sharh",
+  "totalVerses": 8,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ\n",
+      "translation": "Did We not expand for you, [O Muhammad], your breast?",
+      "audioFile": "audio/094/094001.mp3"
+    },
+    {
+      "number": 2,
+      "arabic": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ\n",
+      "translation": "And We removed from you your burden",
+      "audioFile": "audio/094/094002.mp3"
+    },
+    {
+      "number": 3,
+      "arabic": "ٱلَّذِیۤ أَنقَضَ ظَهۡرَكَ\n",
+      "translation": "Which had weighed upon your back",
+      "audioFile": "audio/094/094003.mp3"
+    },
+    {
+      "number": 4,
+      "arabic": "وَرَفَعۡنَا لَكَ ذِكۡرَكَ\n",
+      "translation": "And raised high for you your repute.",
+      "audioFile": "audio/094/094004.mp3"
+    },
+    {
+      "number": 5,
+      "arabic": "فَإِنَّ مَعَ ٱلۡعُسۡرِ یُسۡرًا\n",
+      "translation": "For indeed, with hardship [will be] ease.",
+      "audioFile": "audio/094/094005.mp3"
+    },
+    {
+      "number": 6,
+      "arabic": "إِنَّ مَعَ ٱلۡعُسۡرِ یُسۡرࣰا\n",
+      "translation": "Indeed, with hardship [will be] ease.",
+      "audioFile": "audio/094/094006.mp3"
+    },
+    {
+      "number": 7,
+      "arabic": "فَإِذَا فَرَغۡتَ فَٱنصَبۡ\n",
+      "translation": "So when you have finished [your duties], then stand up [for worship].",
+      "audioFile": "audio/094/094007.mp3"
+    },
+    {
+      "number": 8,
+      "arabic": "وَإِلَىٰ رَبِّكَ فَٱرۡغَب\n",
+      "translation": "And to your Lord direct [your] longing.",
+      "audioFile": "audio/094/094008.mp3"
+    }
+  ]
+}

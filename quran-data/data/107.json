@@ -1,0 +1,49 @@
+{
+  "number": 107,
+  "name": "Al-Ma'un",
+  "totalVerses": 7,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَرَءَیۡتَ ٱلَّذِی یُكَذِّبُ بِٱلدِّینِ\n",
+      "translation": "Have you seen the one who denies the Recompense?",
+      "audioFile": "audio/107/107001.mp3"
+    },
+    {
+      "number": 2,
+      "arabic": "فَذَ ٰ⁠لِكَ ٱلَّذِی یَدُعُّ ٱلۡیَتِیمَ\n",
+      "translation": "For that is the one who drives away the orphan",
+      "audioFile": "audio/107/107002.mp3"
+    },
+    {
+      "number": 3,
+      "arabic": "وَلَا یَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِینِ\n",
+      "translation": "And does not encourage the feeding of the poor.",
+      "audioFile": "audio/107/107003.mp3"
+    },
+    {
+      "number": 4,
+      "arabic": "فَوَیۡلࣱ لِّلۡمُصَلِّینَ\n",
+      "translation": "So woe to those who pray",
+      "audioFile": "audio/107/107004.mp3"
+    },
+    {
+      "number": 5,
+      "arabic": "ٱلَّذِینَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ\n",
+      "translation": "[But] who are heedless of their prayer -",
+      "audioFile": "audio/107/107005.mp3"
+    },
+    {
+      "number": 6,
+      "arabic": "ٱلَّذِینَ هُمۡ یُرَاۤءُونَ\n",
+      "translation": "Those who make show [of their deeds]",
+      "audioFile": "audio/107/107006.mp3"
+    },
+    {
+      "number": 7,
+      "arabic": "وَیَمۡنَعُونَ ٱلۡمَاعُونَ\n",
+      "translation": "And withhold [simple] assistance.",
+      "audioFile": "audio/107/107007.mp3"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "number": 104,
+  "name": "Al-Humazah",
+  "totalVerses": 9,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَیۡلࣱ لِّكُلِّ هُمَزَةࣲ لُّمَزَةٍ\n",
+      "translation": "Woe to every scorner and mocker",
+      "audioFile": "audio/104/104001.mp3"
+    },
+    {
+      "number": 2,
+      "arabic": "ٱلَّذِی جَمَعَ مَالࣰا وَعَدَّدَهُۥ\n",
+      "translation": "Who collects wealth and [continuously] counts it.",
+      "audioFile": "audio/104/104002.mp3"
+    },
+    {
+      "number": 3,
+      "arabic": "یَحۡسَبُ أَنَّ مَالَهُۥۤ أَخۡلَدَهُۥ\n",
+      "translation": "He thinks that his wealth will make him immortal.",
+      "audioFile": "audio/104/104003.mp3"
+    },
+    {
+      "number": 4,
+      "arabic": "كَلَّاۖ لَیُنۢبَذَنَّ فِی ٱلۡحُطَمَةِ\n",
+      "translation": "No! He will surely be thrown into the Crusher.",
+      "audioFile": "audio/104/104004.mp3"
+    },
+    {
+      "number": 5,
+      "arabic": "وَمَاۤ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ\n",
+      "translation": "And what can make you know what is the Crusher?",
+      "audioFile": "audio/104/104005.mp3"
+    },
+    {
+      "number": 6,
+      "arabic": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ\n",
+      "translation": "It is the fire of Allah, [eternally] fueled,",
+      "audioFile": "audio/104/104006.mp3"
+    },
+    {
+      "number": 7,
+      "arabic": "ٱلَّتِی تَطَّلِعُ عَلَى ٱلۡأَفۡـِٔدَةِ\n",
+      "translation": "Which mounts directed at the hearts.",
+      "audioFile": "audio/104/104007.mp3"
+    },
+    {
+      "number": 8,
+      "arabic": "إِنَّهَا عَلَیۡهِم مُّؤۡصَدَةࣱ\n",
+      "translation": "Indeed, Hellfire will be closed down upon them",
+      "audioFile": "audio/104/104008.mp3"
+    },
+    {
+      "number": 9,
+      "arabic": "فِی عَمَدࣲ مُّمَدَّدَةِۭ\n",
+      "translation": "In extended columns.",
+      "audioFile": "audio/104/104009.mp3"
+    }
+  ]
+}

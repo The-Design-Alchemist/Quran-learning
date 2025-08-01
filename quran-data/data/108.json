@@ -1,0 +1,25 @@
+{
+  "number": 108,
+  "name": "Al-Kawthar",
+  "totalVerses": 3,
+  "verses": [
+    {
+      "number": 1,
+      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِنَّاۤ أَعۡطَیۡنَـٰكَ ٱلۡكَوۡثَرَ\n",
+      "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar.",
+      "audioFile": "audio/108/108001.mp3"
+    },
+    {
+      "number": 2,
+      "arabic": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ\n",
+      "translation": "So pray to your Lord and sacrifice [to Him alone].",
+      "audioFile": "audio/108/108002.mp3"
+    },
+    {
+      "number": 3,
+      "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ\n",
+      "translation": "Indeed, your enemy is the one cut off.",
+      "audioFile": "audio/108/108003.mp3"
+    }
+  ]
+}
