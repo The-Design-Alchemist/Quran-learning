@@ -1,17 +1,21 @@
 // Main application logic
 
-// Global variables
+// Application state - centralized state management
+window.appState = {
+    currentVerseIndex: 0,
+    isReciting: false,
+    isPaused: false,
+    autoAdvance: true,
+    repeatMode: 'none',
+    repeatCount: 3,
+    currentRepeatCount: 0,
+    surahRepeatCount: 0,
+    currentSurah: null,
+    verses: []
+};
+
+// Keep only essential globals
 window.currentAudio = null;
-window.currentVerseIndex = 0;
-window.isReciting = false;
-window.isPaused = false;
-window.autoAdvance = true;
-window.repeatMode = 'none';
-window.repeatCount = 3;
-window.currentRepeatCount = 0;
-window.surahRepeatCount = 0;
-window.currentSurah = null;
-window.verses = [];
 
 // Application class to manage everything
 class QuranLearningApp {
@@ -46,8 +50,8 @@ class QuranLearningApp {
             this.showLoading();
             
             // Validate and get Surah info
-            window.currentSurah = SURAH_DATABASE[surahNumber];
-            if (!window.currentSurah) {
+            window.appState.currentSurah = SURAH_DATABASE[surahNumber];
+            if (!window.appState.currentSurah) {
                 throw new Error(`Surah ${surahNumber} not found`);
             }
 
@@ -56,17 +60,20 @@ class QuranLearningApp {
 
             // Fetch verse data
             const verseData = await apiService.fetchVerseData(surahNumber);
-            
+            if (!verseData || verseData.length === 0) {
+                throw new Error(`No verse data found for Surah ${surahNumber}`);
+            }
+
             // Build verses array
             await this.buildVersesArray(surahNumber, verseData);
 
-            console.log(`📖 Loaded ${window.verses.length} verses for Surah ${surahNumber}`);
+            console.log(`📖 Loaded ${window.appState.verses.length} verses for Surah ${surahNumber}`);
 
             // Generate verse HTML
             window.verseDisplay.generateHTML();
 
             // Initialize display
-            window.currentVerseIndex = 0;
+            window.appState.currentVerseIndex = 0;
             window.verseDisplay.show(0);
             
             // Show content
@@ -108,18 +115,18 @@ class QuranLearningApp {
 
     // Update header with Surah info
     updateHeader(surahNumber) {
-        document.getElementById('surah-title').textContent = window.currentSurah.arabic;
+        document.getElementById('surah-title').textContent = window.appState.currentSurah.arabic;
         document.getElementById('surah-info').textContent = 
-            `${window.currentSurah.english} • Chapter ${surahNumber} • ${window.currentSurah.verses} Verses • ${window.currentSurah.revelation}`;
+            `${window.appState.currentSurah.english} • Chapter ${surahNumber} • ${window.appState.currentSurah.verses} Verses • ${window.appState.currentSurah.revelation}`;
     }
 
     // Build verses array from API data
     async buildVersesArray(surahNumber, verseData) {
-        window.verses = [];
+        window.appState.verses = [];
         
         // Add Bismillah for all surahs except At-Tawbah (9)
         if (surahNumber !== 9) {
-            window.verses.push({
+            window.appState.verses.push({
                 number: 'Bismillah',
                 text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
                 english: "In the name of Allah, the Most Gracious, the Most Merciful",
@@ -133,15 +140,10 @@ class QuranLearningApp {
             const verse = verseData[i];
             const verseNumber = verse.numberInSurah || verse.number || (i + 1);
             
-            // Get English translation
-            let englishTranslation;
-            try {
-                englishTranslation = await apiService.fetchTranslation(surahNumber, verseNumber);
-            } catch (error) {
-                englishTranslation = `Translation for Surah ${surahNumber}, Verse ${verseNumber}`;
-            }
+            // Use translation from local JSON data
+            const englishTranslation = verse.translation || `Translation for Surah ${surahNumber}, Verse ${verseNumber}`;
             
-            window.verses.push({
+            window.appState.verses.push({
                 number: verseNumber,
                 text: verse.text || `Verse ${verseNumber}`,
                 english: englishTranslation,
@@ -160,16 +162,10 @@ class QuranLearningApp {
         mediaSessionService.initialize();
         
         // Update status
-        window.playbackControls.updateStatus(`Ready to recite ${window.currentSurah.english} with Mishary Alafasy`);
+        window.playbackControls.updateStatus(`Ready to recite ${window.appState.currentSurah.english} with Mishary Alafasy`);
     }
 }
 
-// Global status update function for backward compatibility
-window.updateStatus = function(message) {
-    if (window.playbackControls) {
-        window.playbackControls.updateStatus(message);
-    }
-};
 
 // Initialize application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {

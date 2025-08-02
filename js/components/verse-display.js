@@ -12,7 +12,7 @@ class VerseDisplay {
     generateHTML() {
         this.container.innerHTML = '';
 
-        window.verses.forEach((verse, index) => {
+        window.appState.verses.forEach((verse, index) => {
             const verseDiv = document.createElement('div');
             verseDiv.className = `verse-display${index === 0 ? ' active' : ''}`;
             verseDiv.id = verse.id;
@@ -54,13 +54,13 @@ class VerseDisplay {
                 verse.classList.remove('exit-left', 'exit-right');
             });
             
-            if (window.verses[index]) {
-                const currentVerse = document.getElementById(window.verses[index].id);
+            if (window.appState.verses[index]) {
+                const currentVerse = document.getElementById(window.appState.verses[index].id);
                 if (currentVerse) {
                     currentVerse.classList.add('active');
                     
                     // Add highlight if currently reciting
-                    if (window.isReciting && window.currentVerseIndex === index) {
+                    if (window.appState.isReciting && window.appState.currentVerseIndex === index) {
                         currentVerse.classList.add('current-verse-highlight');
                     } else {
                         currentVerse.classList.remove('current-verse-highlight');
@@ -80,39 +80,44 @@ class VerseDisplay {
 
     // Navigate to next verse
     next() {
-        if (window.currentVerseIndex < window.verses.length - 1) {
-            window.currentVerseIndex++;
-            this.show(window.currentVerseIndex, 'right');
+        if (window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+            window.appState.currentVerseIndex++;
+            this.show(window.appState.currentVerseIndex, 'right');
             
-            if (window.isReciting) {
-                window.autoAdvance = true;
+            if (window.appState.isReciting) {
+                window.appState.autoAdvance = true;
             }
         }
     }
 
     // Navigate to previous verse
     previous() {
-        if (window.currentVerseIndex > 0) {
-            window.currentVerseIndex--;
-            this.show(window.currentVerseIndex, 'left');
-            window.autoAdvance = false;
+        if (window.appState.currentVerseIndex > 0) {
+            window.appState.currentVerseIndex--;
+            this.show(window.appState.currentVerseIndex, 'left');
+            window.appState.autoAdvance = false;
         }
     }
 
     // Update verse counter display
-    updateCounter() {
-        const current = window.verses[window.currentVerseIndex];
-        if (current) {
-            this.counter.textContent = current.number === 'Bismillah' ? 
-                'Bismillah' : 
-                `Verse ${current.number} of ${window.currentSurah.verses}`;
+updateCounter() {
+    const current = window.appState.verses[window.appState.currentVerseIndex];
+    if (current) {
+        if (current.number === 'Bismillah') {
+            this.counter.textContent = 'Bismillah';
+        } else {
+            // Show actual position in array, not verse number
+            const totalVerses = window.appState.currentSurah.verses;
+            const currentPosition = window.appState.currentVerseIndex; // includes Bismillah
+            this.counter.textContent = `Verse ${current.number} of ${totalVerses}`;
         }
     }
+}
 
     // Update navigation button states
     updateNavigationButtons() {
-        this.prevBtn.disabled = window.currentVerseIndex === 0;
-        this.nextBtn.disabled = window.currentVerseIndex === window.verses.length - 1;
+        this.prevBtn.disabled = window.appState.currentVerseIndex === 0;
+        this.nextBtn.disabled = window.appState.currentVerseIndex === window.appState.verses.length - 1;
     }
 
     // Add highlight to current verse
@@ -140,8 +145,8 @@ class VerseDisplay {
 
     // Get current verse element
     getCurrentVerseElement() {
-        if (window.verses[window.currentVerseIndex]) {
-            return document.getElementById(window.verses[window.currentVerseIndex].id);
+        if (window.appState.verses[window.appState.currentVerseIndex]) {
+            return document.getElementById(window.appState.verses[window.appState.currentVerseIndex].id);
         }
         return null;
     }

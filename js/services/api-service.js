@@ -44,24 +44,30 @@ class ApiService {
         }
     }
 
+    /*
     async fetchTranslation(surahNumber, verseNumber) {
-        try {
-            // Check if we have the data cached
-            if (this.dataCache.has(surahNumber)) {
-                const response = await fetch(`./quran-data/data/${surahNumber}.json`);
-                const data = await response.json();
-                const verse = data.verses.find(v => v.number === verseNumber);
-                
-                if (verse && verse.translation) {
-                    return verse.translation;
-                }
-            }
-        } catch (error) {
-            console.log('Translation fetch failed:', error);
+    try {
+        // Use cached data if available
+        let data = this.dataCache.get(surahNumber);
+        
+        // If not cached, fetch it
+        if (!data) {
+            const response = await fetch(`./quran-data/data/${surahNumber}.json`);
+            if (!response.ok) throw new Error('File not found');
+            data = await response.json();
+            this.dataCache.set(surahNumber, data);
         }
-
-        return `Translation for verse ${verseNumber}`;
+        
+        const verse = data.verses.find(v => v.number === verseNumber);
+        if (verse && verse.translation) {
+            return verse.translation;
+        }
+    } catch (error) {
+        console.log('Translation fetch failed:', error);
     }
+
+    return `Translation for verse ${verseNumber}`;
+} */
 
     generateFallbackVerses(surahNumber) {
         const surahInfo = window.SURAH_DATABASE[surahNumber];

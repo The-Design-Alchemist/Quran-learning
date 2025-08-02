@@ -11,19 +11,18 @@ class AudioService {
         
         console.log(`🎵 Loading local audio: ${audioPath}`);
         
-        // Check if file exists
-        try {
-            const response = await fetch(audioPath, { method: 'HEAD' });
-            if (response.ok) {
-                console.log('✅ Local audio file found');
-                return audioPath;
-            }
-        } catch (error) {
-            console.log('❌ Local audio file not found');
-            throw new Error('Audio file not found');
-        }
-        
-        return audioPath;
+        // Check if file exists and is playable
+try {
+    const response = await fetch(audioPath, { method: 'HEAD' });
+    if (!response.ok) {
+        throw new Error('Audio file not found');
+    }
+    console.log('✅ Local audio file found');
+    return audioPath;
+} catch (error) {
+    console.log('❌ Local audio file not found');
+    throw new Error('Audio file not found');
+}
     }
 
     async createAudioElement(audioUrl) {
@@ -54,12 +53,21 @@ class AudioService {
     }
 
     cleanup() {
-        if (this.currentAudio) {
-            this.currentAudio.pause();
-            this.currentAudio.currentTime = 0;
-            this.currentAudio = null;
+    if (this.currentAudio) {
+        this.currentAudio.pause();
+        this.currentAudio.currentTime = 0;
+        
+        // Clean up event handlers to prevent memory leaks
+        if (this.currentAudio._endedHandler) {
+            this.currentAudio.removeEventListener('ended', this.currentAudio._endedHandler);
         }
+        if (this.currentAudio._errorHandler) {
+            this.currentAudio.removeEventListener('error', this.currentAudio._errorHandler);
+        }
+        
+        this.currentAudio = null;
     }
+}
 
     getCurrentAudio() {
         return this.currentAudio;

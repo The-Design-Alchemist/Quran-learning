@@ -44,23 +44,23 @@ class MediaSessionService {
 
     // Update media session metadata
     updateMetadata() {
-        if (!this.isSupported || !window.currentSurah || !window.verses) return;
+        if (!this.isSupported || !window.appState.currentSurah || !window.appState.verses) return;
 
-        const currentVerse = window.verses[window.currentVerseIndex];
+        const currentVerse = window.appState.verses[window.appState.currentVerseIndex];
         if (!currentVerse) return;
 
         let title = currentVerse.number === 'Bismillah' ? 
             'Bismillah' : 
-            `Verse ${currentVerse.number} of ${window.currentSurah.verses}`;
+            `Verse ${currentVerse.number} of ${window.appState.currentSurah.verses}`;
         
         // Add repeat mode info
-        if (window.repeatMode === 'verse' && window.currentRepeatCount > 0) {
-            title += ` (🔁 ${window.currentRepeatCount}/${window.repeatCount === 'infinite' ? '∞' : window.repeatCount})`;
-        } else if (window.repeatMode === 'surah' && window.surahRepeatCount > 0) {
-            title += ` (🔄 ${window.surahRepeatCount}/${window.repeatCount === 'infinite' ? '∞' : window.repeatCount})`;
-        } else if (window.repeatMode === 'verse') {
+        if (window.appState.repeatMode === 'verse' && window.appState.currentRepeatCount > 0) {
+            title += ` (🔁 ${window.appState.currentRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`;
+        } else if (window.appState.repeatMode === 'surah' && window.appState.surahRepeatCount > 0) {
+            title += ` (🔄 ${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`;
+        } else if (window.appState.repeatMode === 'verse') {
             title += ' (🔁 Repeat Verse)';
-        } else if (window.repeatMode === 'surah') {
+        } else if (window.appState.repeatMode === 'surah') {
             title += ' (🔄 Repeat Surah)';
         }
         
@@ -69,7 +69,7 @@ class MediaSessionService {
         navigator.mediaSession.metadata = new MediaMetadata({
             title: title,
             artist: 'Mishary Rashid Alafasy',
-            album: `${window.currentSurah.english} - Chapter ${getSurahFromURL()}`,
+            album: `${window.appState.currentSurah.english} - Chapter ${getSurahFromURL()}`,
             artwork: [{ src: artwork, sizes: '512x512', type: 'image/svg+xml' }]
         });
     }
@@ -77,8 +77,8 @@ class MediaSessionService {
     // Generate dynamic artwork for media session
     generateArtwork(currentVerse, title) {
         const verseDisplay = currentVerse.number === 'Bismillah' ? 'بِسْمِ اللَّهِ' : currentVerse.number;
-        const repeatIcon = window.repeatMode !== 'none' ? 
-            (window.repeatMode === 'verse' ? '🔁 Repeat Verse' : '🔄 Repeat Surah') : '';
+        const repeatIcon = window.appState.repeatMode !== 'none' ? 
+            (window.appState.repeatMode === 'verse' ? '🔁 Repeat Verse' : '🔄 Repeat Surah') : '';
         
         return `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <defs>
@@ -89,7 +89,7 @@ class MediaSessionService {
             </defs>
             <rect width="512" height="512" fill="url(%23grad1)"/>
             <text x="256" y="120" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="white">القرآن</text>
-            <text x="256" y="180" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="white" opacity="0.9">${window.currentSurah.english.split(' ')[0]}</text>
+            <text x="256" y="180" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="white" opacity="0.9">${window.appState.currentSurah.english.split(' ')[0]}</text>
             <text x="256" y="240" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">${verseDisplay}</text>
             <text x="256" y="300" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" opacity="0.8">${title.split(' (')[0]}</text>
             <text x="256" y="340" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="white" opacity="0.7">Mishary Alafasy</text>
@@ -102,10 +102,10 @@ class MediaSessionService {
         if (!this.isSupported) return;
 
         try {
-            if (window.isReciting && !window.isPaused) {
+            if (window.appState.isReciting && !window.appState.isPaused) {
                 navigator.mediaSession.playbackState = 'playing';
                 this.startIOSKeepAlive();
-            } else if (window.isPaused) {
+            } else if (window.appState.isPaused) {
                 navigator.mediaSession.playbackState = 'paused';
                 this.stopIOSKeepAlive();
             } else {
@@ -119,7 +119,7 @@ class MediaSessionService {
 
     // Handle previous track from media controls
     handlePrevious() {
-        if (window.currentVerseIndex > 0) {
+        if (window.appState.currentVerseIndex > 0) {
             if (audioService.getCurrentAudio()) {
                 audioService.getCurrentAudio().pause();
                 audioService.getCurrentAudio().currentTime = 0;
@@ -127,19 +127,19 @@ class MediaSessionService {
             
             window.verseDisplay.previous();
             
-            if (window.isReciting && !window.isPaused) {
+            if (window.appState.isReciting && !window.appState.isPaused) {
                 setTimeout(() => {
                     window.playbackControls.playCurrentVerse();
                 }, 300);
             }
             
-            window.updateStatus(`Previous verse - ${window.verses[window.currentVerseIndex].number === 'Bismillah' ? 'Bismillah' : `Verse ${window.verses[window.currentVerseIndex].number}`}`);
+            window.updateStatus(`Previous verse - ${window.appState.verses[window.appState.currentVerseIndex].number === 'Bismillah' ? 'Bismillah' : `Verse ${window.appState.verses[window.appState.currentVerseIndex].number}`}`);
         }
     }
 
     // Handle next track from media controls
     handleNext() {
-        if (window.currentVerseIndex < window.verses.length - 1) {
+        if (window.appState.currentVerseIndex < window.appState.verses.length - 1) {
             if (audioService.getCurrentAudio()) {
                 audioService.getCurrentAudio().pause();
                 audioService.getCurrentAudio().currentTime = 0;
@@ -147,45 +147,47 @@ class MediaSessionService {
             
             window.verseDisplay.next();
             
-            if (window.isReciting && !window.isPaused) {
+            if (window.appState.isReciting && !window.appState.isPaused) {
                 setTimeout(() => {
                     window.playbackControls.playCurrentVerse();
                 }, 300);
             }
             
-            window.updateStatus(`Next verse - ${window.verses[window.currentVerseIndex].number === 'Bismillah' ? 'Bismillah' : `Verse ${window.verses[window.currentVerseIndex].number}`}`);
+            window.updateStatus(`Next verse - ${window.appState.verses[window.appState.currentVerseIndex].number === 'Bismillah' ? 'Bismillah' : `Verse ${window.appState.verses[window.appState.currentVerseIndex].number}`}`);
         } else {
             // Handle surah repeat
-            if (window.repeatMode === 'surah') {
-                window.surahRepeatCount++;
-                if (window.repeatCount === 'infinite' || window.surahRepeatCount < window.repeatCount) {
-                    window.currentVerseIndex = 0;
+            if (window.appState.repeatMode === 'surah') {
+                window.appState.surahRepeatCount++;
+                if (window.appState.repeatCount === 'infinite' || window.appState.surahRepeatCount < window.appState.repeatCount) {
+                    window.appState.currentVerseIndex = 0;
                     window.verseDisplay.show(0, 'right');
-                    if (window.isReciting && !window.isPaused) {
+                    if (window.appState.isReciting && !window.appState.isPaused) {
                         setTimeout(() => {
                             window.playbackControls.playCurrentVerse();
                         }, 300);
                     }
-                    window.updateStatus(`Repeating Surah - ${window.surahRepeatCount}/${window.repeatCount === 'infinite' ? '∞' : window.repeatCount}`);
+                    window.updateStatus(`Repeating Surah - ${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount}`);
                 }
             }
         }
     }
 
     // iOS-specific: Keep media session alive
-    startIOSKeepAlive() {
-        if (!audioService.isIOS()) return;
-        
-        if (!this.iosInterval) {
-            this.iosInterval = setInterval(() => {
-                if (window.isReciting && !window.isPaused && navigator.mediaSession) {
+startIOSKeepAlive() {
+    if (!audioService.isIOS()) return;
+    
+    if (!this.iosInterval) {
+        this.iosInterval = setInterval(() => {
+            if (window.appState.isReciting && !window.appState.isPaused) {
+                if ('mediaSession' in navigator) {
                     navigator.mediaSession.playbackState = 'playing';
-                } else {
-                    this.stopIOSKeepAlive();
                 }
-            }, 2000);
-        }
+            } else {
+                this.stopIOSKeepAlive();
+            }
+        }, 5000); // Reduced frequency from 2000ms to 5000ms
     }
+}
 
     // Stop iOS keep alive interval
     stopIOSKeepAlive() {
