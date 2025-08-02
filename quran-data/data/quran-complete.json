@@ -6,7 +6,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ\n",
+        "arabic": " \n",
         "translation": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
         "audioFile": "audio/001/001001.mp3"
       },
@@ -55,7 +55,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤ\n",
+        "arabic": "  الۤمۤ\n",
         "translation": "Alif, Lam, Meem.",
         "audioFile": "audio/002/002001.mp3"
       },
@@ -1778,7 +1778,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤ\n",
+        "arabic": "  الۤمۤ\n",
         "translation": "Alif, Lam, Meem.",
         "audioFile": "audio/003/003001.mp3"
       },
@@ -2985,7 +2985,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِی خَلَقَكُم مِّن نَّفۡسࣲ وَ ٰ⁠حِدَةࣲ وَخَلَقَ مِنۡهَا زَوۡجَهَا وَبَثَّ مِنۡهُمَا رِجَالࣰا كَثِیرࣰا وَنِسَاۤءࣰۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِی تَسَاۤءَلُونَ بِهِۦ وَٱلۡأَرۡحَامَۚ إِنَّ ٱللَّهَ كَانَ عَلَیۡكُمۡ رَقِیبࣰا\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِی خَلَقَكُم مِّن نَّفۡسࣲ وَ ٰ⁠حِدَةࣲ وَخَلَقَ مِنۡهَا زَوۡجَهَا وَبَثَّ مِنۡهُمَا رِجَالࣰا كَثِیرࣰا وَنِسَاۤءࣰۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِی تَسَاۤءَلُونَ بِهِۦ وَٱلۡأَرۡحَامَۚ إِنَّ ٱللَّهَ كَانَ عَلَیۡكُمۡ رَقِیبࣰا\n",
         "translation": "O mankind, fear your Lord, who created you from one soul and created from it its mate and dispersed from both of them many men and women. And fear Allah, through whom you ask one another, and the wombs. Indeed Allah is ever, over you, an Observer.",
         "audioFile": "audio/004/004001.mp3"
       },
@@ -4048,7 +4048,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ أَوۡفُوا۟ بِٱلۡعُقُودِۚ أُحِلَّتۡ لَكُم بَهِیمَةُ ٱلۡأَنۡعَـٰمِ إِلَّا مَا یُتۡلَىٰ عَلَیۡكُمۡ غَیۡرَ مُحِلِّی ٱلصَّیۡدِ وَأَنتُمۡ حُرُمٌۗ إِنَّ ٱللَّهَ یَحۡكُمُ مَا یُرِیدُ\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ أَوۡفُوا۟ بِٱلۡعُقُودِۚ أُحِلَّتۡ لَكُم بَهِیمَةُ ٱلۡأَنۡعَـٰمِ إِلَّا مَا یُتۡلَىٰ عَلَیۡكُمۡ غَیۡرَ مُحِلِّی ٱلصَّیۡدِ وَأَنتُمۡ حُرُمٌۗ إِنَّ ٱللَّهَ یَحۡكُمُ مَا یُرِیدُ\n",
         "translation": "O you who have believed, fulfill [all] contracts. Lawful for you are the animals of grazing livestock except for that which is recited to you [in this Qur'an] - hunting not being permitted while you are in the state of ihram. Indeed, Allah ordains what He intends.",
         "audioFile": "audio/005/005001.mp3"
       },
@@ -4775,7 +4775,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِی خَلَقَ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضَ وَجَعَلَ ٱلظُّلُمَـٰتِ وَٱلنُّورَۖ ثُمَّ ٱلَّذِینَ كَفَرُوا۟ بِرَبِّهِمۡ یَعۡدِلُونَ\n",
+        "arabic": "  ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِی خَلَقَ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضَ وَجَعَلَ ٱلظُّلُمَـٰتِ وَٱلنُّورَۖ ثُمَّ ٱلَّذِینَ كَفَرُوا۟ بِرَبِّهِمۡ یَعۡدِلُونَ\n",
         "translation": "[All] praise is [due] to Allah, who created the heavens and the earth and made the darkness and the light. Then those who disbelieve equate [others] with their Lord.",
         "audioFile": "audio/006/006001.mp3"
       },
@@ -5772,7 +5772,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤصۤ\n",
+        "arabic": "  الۤمۤصۤ\n",
         "translation": "Alif, Lam, Meem, Sad.",
         "audioFile": "audio/007/007001.mp3"
       },
@@ -7015,7 +7015,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَسۡـَٔلُونَكَ عَنِ ٱلۡأَنفَالِۖ قُلِ ٱلۡأَنفَالُ لِلَّهِ وَٱلرَّسُولِۖ فَٱتَّقُوا۟ ٱللَّهَ وَأَصۡلِحُوا۟ ذَاتَ بَیۡنِكُمۡۖ وَأَطِیعُوا۟ ٱللَّهَ وَرَسُولَهُۥۤ إِن كُنتُم مُّؤۡمِنِینَ\n",
+        "arabic": "  یَسۡـَٔلُونَكَ عَنِ ٱلۡأَنفَالِۖ قُلِ ٱلۡأَنفَالُ لِلَّهِ وَٱلرَّسُولِۖ فَٱتَّقُوا۟ ٱللَّهَ وَأَصۡلِحُوا۟ ذَاتَ بَیۡنِكُمۡۖ وَأَطِیعُوا۟ ٱللَّهَ وَرَسُولَهُۥۤ إِن كُنتُم مُّؤۡمِنِینَ\n",
         "translation": "They ask you, [O Muhammad], about the bounties [of war]. Say, \"The [decision concerning] bounties is for Allah and the Messenger.\" So fear Allah and amend that which is between you and obey Allah and His Messenger, if you should be believers.",
         "audioFile": "audio/008/008001.mp3"
       },
@@ -8253,7 +8253,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِ ٱلۡحَكِیمِ\n",
+        "arabic": "  الۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِ ٱلۡحَكِیمِ\n",
         "translation": "Alif, Lam, Ra. These are the verses of the wise Book",
         "audioFile": "audio/010/010001.mp3"
       },
@@ -8914,7 +8914,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤرۚ كِتَـٰبٌ أُحۡكِمَتۡ ءَایَـٰتُهُۥ ثُمَّ فُصِّلَتۡ مِن لَّدُنۡ حَكِیمٍ خَبِیرٍ\n",
+        "arabic": "  الۤرۚ كِتَـٰبٌ أُحۡكِمَتۡ ءَایَـٰتُهُۥ ثُمَّ فُصِّلَتۡ مِن لَّدُنۡ حَكِیمٍ خَبِیرٍ\n",
         "translation": "Alif, Lam, Ra. [This is] a Book whose verses are perfected and then presented in detail from [one who is] Wise and Acquainted.",
         "audioFile": "audio/011/011001.mp3"
       },
@@ -9659,7 +9659,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِ ٱلۡمُبِینِ\n",
+        "arabic": "  الۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِ ٱلۡمُبِینِ\n",
         "translation": "Alif, Lam, Ra. These are the verses of the clear Book.",
         "audioFile": "audio/012/012001.mp3"
       },
@@ -10332,7 +10332,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِۗ وَٱلَّذِیۤ أُنزِلَ إِلَیۡكَ مِن رَّبِّكَ ٱلۡحَقُّ وَلَـٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا یُؤۡمِنُونَ\n",
+        "arabic": "  الۤمۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِۗ وَٱلَّذِیۤ أُنزِلَ إِلَیۡكَ مِن رَّبِّكَ ٱلۡحَقُّ وَلَـٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا یُؤۡمِنُونَ\n",
         "translation": "Alif, Lam, Meem, Ra. These are the verses of the Book; and what has been revealed to you from your Lord is the truth, but most of the people do not believe.",
         "audioFile": "audio/013/013001.mp3"
       },
@@ -10597,7 +10597,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤرۚ كِتَـٰبٌ أَنزَلۡنَـٰهُ إِلَیۡكَ لِتُخۡرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ بِإِذۡنِ رَبِّهِمۡ إِلَىٰ صِرَ ٰ⁠طِ ٱلۡعَزِیزِ ٱلۡحَمِیدِ\n",
+        "arabic": "  الۤرۚ كِتَـٰبٌ أَنزَلۡنَـٰهُ إِلَیۡكَ لِتُخۡرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ بِإِذۡنِ رَبِّهِمۡ إِلَىٰ صِرَ ٰ⁠طِ ٱلۡعَزِیزِ ٱلۡحَمِیدِ\n",
         "translation": "Alif, Lam, Ra. [This is] a Book which We have revealed to you, [O Muhammad], that you might bring mankind out of darknesses into the light by permission of their Lord - to the path of the Exalted in Might, the Praiseworthy -",
         "audioFile": "audio/014/014001.mp3"
       },
@@ -10916,7 +10916,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِ وَقُرۡءَانࣲ مُّبِینࣲ\n",
+        "arabic": "  الۤرۚ تِلۡكَ ءَایَـٰتُ ٱلۡكِتَـٰبِ وَقُرۡءَانࣲ مُّبِینࣲ\n",
         "translation": "Alif, Lam, Ra. These are the verses of the Book and a clear Qur'an.",
         "audioFile": "audio/015/015001.mp3"
       },
@@ -11517,7 +11517,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَتَىٰۤ أَمۡرُ ٱللَّهِ فَلَا تَسۡتَعۡجِلُوهُۚ سُبۡحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا یُشۡرِكُونَ\n",
+        "arabic": "  أَتَىٰۤ أَمۡرُ ٱللَّهِ فَلَا تَسۡتَعۡجِلُوهُۚ سُبۡحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا یُشۡرِكُونَ\n",
         "translation": "The command of Allah is coming, so be not impatient for it. Exalted is He and high above what they associate with Him.",
         "audioFile": "audio/016/016001.mp3"
       },
@@ -12292,7 +12292,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ سُبۡحَـٰنَ ٱلَّذِیۤ أَسۡرَىٰ بِعَبۡدِهِۦ لَیۡلࣰا مِّنَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ إِلَى ٱلۡمَسۡجِدِ ٱلۡأَقۡصَا ٱلَّذِی بَـٰرَكۡنَا حَوۡلَهُۥ لِنُرِیَهُۥ مِنۡ ءَایَـٰتِنَاۤۚ إِنَّهُۥ هُوَ ٱلسَّمِیعُ ٱلۡبَصِیرُ\n",
+        "arabic": "  سُبۡحَـٰنَ ٱلَّذِیۤ أَسۡرَىٰ بِعَبۡدِهِۦ لَیۡلࣰا مِّنَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ إِلَى ٱلۡمَسۡجِدِ ٱلۡأَقۡصَا ٱلَّذِی بَـٰرَكۡنَا حَوۡلَهُۥ لِنُرِیَهُۥ مِنۡ ءَایَـٰتِنَاۤۚ إِنَّهُۥ هُوَ ٱلسَّمِیعُ ٱلۡبَصِیرُ\n",
         "translation": "Exalted is He who took His Servant by night from al-Masjid al-Haram to al-Masjid al-Aqsa, whose surroundings We have blessed, to show him of Our signs. Indeed, He is the Hearing, the Seeing.",
         "audioFile": "audio/017/017001.mp3"
       },
@@ -12965,7 +12965,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِیۤ أَنزَلَ عَلَىٰ عَبۡدِهِ ٱلۡكِتَـٰبَ وَلَمۡ یَجۡعَل لَّهُۥ عِوَجَاۜ\n",
+        "arabic": "  ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِیۤ أَنزَلَ عَلَىٰ عَبۡدِهِ ٱلۡكِتَـٰبَ وَلَمۡ یَجۡعَل لَّهُۥ عِوَجَاۜ\n",
         "translation": "[All] praise is [due] to Allah, who has sent down upon His Servant the Book and has not made therein any deviance.",
         "audioFile": "audio/018/018001.mp3"
       },
@@ -13632,7 +13632,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ كۤهیعۤصۤ\n",
+        "arabic": "  كۤهیعۤصۤ\n",
         "translation": "Kaf, Ha, Ya, 'Ayn, Sad.",
         "audioFile": "audio/019/019001.mp3"
       },
@@ -14227,7 +14227,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ طه\n",
+        "arabic": "  طه\n",
         "translation": "Ta, Ha.",
         "audioFile": "audio/020/020001.mp3"
       },
@@ -15044,7 +15044,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱقۡتَرَبَ لِلنَّاسِ حِسَابُهُمۡ وَهُمۡ فِی غَفۡلَةࣲ مُّعۡرِضُونَ\n",
+        "arabic": "  ٱقۡتَرَبَ لِلنَّاسِ حِسَابُهُمۡ وَهُمۡ فِی غَفۡلَةࣲ مُّعۡرِضُونَ\n",
         "translation": "[The time of] their account has approached for the people, while they are in heedlessness turning away.",
         "audioFile": "audio/021/021001.mp3"
       },
@@ -15723,7 +15723,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمۡۚ إِنَّ زَلۡزَلَةَ ٱلسَّاعَةِ شَیۡءٌ عَظِیمࣱ\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمۡۚ إِنَّ زَلۡزَلَةَ ٱلسَّاعَةِ شَیۡءٌ عَظِیمࣱ\n",
         "translation": "O mankind, fear your Lord. Indeed, the convulsion of the [final] Hour is a terrible thing.",
         "audioFile": "audio/022/022001.mp3"
       },
@@ -16198,7 +16198,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قَدۡ أَفۡلَحَ ٱلۡمُؤۡمِنُونَ\n",
+        "arabic": "  قَدۡ أَفۡلَحَ ٱلۡمُؤۡمِنُونَ\n",
         "translation": "Certainly will the believers have succeeded:",
         "audioFile": "audio/023/023001.mp3"
       },
@@ -16913,7 +16913,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ سُورَةٌ أَنزَلۡنَـٰهَا وَفَرَضۡنَـٰهَا وَأَنزَلۡنَا فِیهَاۤ ءَایَـٰتِۭ بَیِّنَـٰتࣲ لَّعَلَّكُمۡ تَذَكَّرُونَ\n",
+        "arabic": "  سُورَةٌ أَنزَلۡنَـٰهَا وَفَرَضۡنَـٰهَا وَأَنزَلۡنَا فِیهَاۤ ءَایَـٰتِۭ بَیِّنَـٰتࣲ لَّعَلَّكُمۡ تَذَكَّرُونَ\n",
         "translation": "[This is] a surah which We have sent down and made [that within it] obligatory and revealed therein verses of clear evidence that you might remember.",
         "audioFile": "audio/024/024001.mp3"
       },
@@ -17304,7 +17304,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ تَبَارَكَ ٱلَّذِی نَزَّلَ ٱلۡفُرۡقَانَ عَلَىٰ عَبۡدِهِۦ لِیَكُونَ لِلۡعَـٰلَمِینَ نَذِیرًا\n",
+        "arabic": "  تَبَارَكَ ٱلَّذِی نَزَّلَ ٱلۡفُرۡقَانَ عَلَىٰ عَبۡدِهِۦ لِیَكُونَ لِلۡعَـٰلَمِینَ نَذِیرًا\n",
         "translation": "Blessed is He who sent down the Criterion upon His Servant that he may be to the worlds a warner -",
         "audioFile": "audio/025/025001.mp3"
       },
@@ -17773,7 +17773,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ طسۤمۤ\n",
+        "arabic": "  طسۤمۤ\n",
         "translation": "Ta, Seen, Meem.",
         "audioFile": "audio/026/026001.mp3"
       },
@@ -19142,7 +19142,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ طسۤۚ تِلۡكَ ءَایَـٰتُ ٱلۡقُرۡءَانِ وَكِتَابࣲ مُّبِینٍ\n",
+        "arabic": "  طسۤۚ تِلۡكَ ءَایَـٰتُ ٱلۡقُرۡءَانِ وَكِتَابࣲ مُّبِینٍ\n",
         "translation": "Ta, Seen. These are the verses of the Qur'an and a clear Book",
         "audioFile": "audio/027/027001.mp3"
       },
@@ -19316,7 +19316,7 @@
       },
       {
         "number": 30,
-        "arabic": "إِنَّهُۥ مِن سُلَیۡمَـٰنَ وَإِنَّهُۥ بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ\n",
+        "arabic": "إِنَّهُۥ مِن سُلَیۡمَـٰنَ وَإِنَّهُۥ  \n",
         "translation": "Indeed, it is from Solomon, and indeed, it reads: 'In the name of Allah, the Entirely Merciful, the Especially Merciful,",
         "audioFile": "audio/027/027030.mp3"
       },
@@ -19707,7 +19707,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ طسۤمۤ\n",
+        "arabic": "  طسۤمۤ\n",
         "translation": "Ta, Seen, Meem.",
         "audioFile": "audio/028/028001.mp3"
       },
@@ -20242,7 +20242,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤ\n",
+        "arabic": "  الۤمۤ\n",
         "translation": "Alif, Lam, Meem",
         "audioFile": "audio/029/029001.mp3"
       },
@@ -20663,7 +20663,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤ\n",
+        "arabic": "  الۤمۤ\n",
         "translation": "Alif, Lam, Meem.",
         "audioFile": "audio/030/030001.mp3"
       },
@@ -21030,7 +21030,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤ\n",
+        "arabic": "  الۤمۤ\n",
         "translation": "Alif, Lam, Meem.",
         "audioFile": "audio/031/031001.mp3"
       },
@@ -21241,7 +21241,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ الۤمۤ\n",
+        "arabic": "  الۤمۤ\n",
         "translation": "Alif, Lam, Meem.",
         "audioFile": "audio/032/032001.mp3"
       },
@@ -21428,7 +21428,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلنَّبِیُّ ٱتَّقِ ٱللَّهۚ وَلَا تُطِعِ ٱلۡكَـٰفِرِینَ وَٱلۡمُنَـٰفِقِینَۗ إِنَّ ٱللَّهَ كَانَ عَلِیمًا حَكِیمࣰا\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلنَّبِیُّ ٱتَّقِ ٱللَّهۚ وَلَا تُطِعِ ٱلۡكَـٰفِرِینَ وَٱلۡمُنَـٰفِقِینَۗ إِنَّ ٱللَّهَ كَانَ عَلِیمًا حَكِیمࣰا\n",
         "translation": "O Prophet, fear Allah and do not obey the disbelievers and the hypocrites. Indeed, Allah is ever Knowing and Wise.",
         "audioFile": "audio/033/033001.mp3"
       },
@@ -21873,7 +21873,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِی لَهُۥ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِ وَلَهُ ٱلۡحَمۡدُ فِی ٱلۡـَٔاخِرَةِۚ وَهُوَ ٱلۡحَكِیمُ ٱلۡخَبِیرُ\n",
+        "arabic": "  ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِی لَهُۥ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِ وَلَهُ ٱلۡحَمۡدُ فِی ٱلۡـَٔاخِرَةِۚ وَهُوَ ٱلۡحَكِیمُ ٱلۡخَبِیرُ\n",
         "translation": "[All] praise is [due] to Allah, to whom belongs whatever is in the heavens and whatever is in the earth, and to Him belongs [all] praise in the Hereafter. And He is the Wise, the Acquainted.",
         "audioFile": "audio/034/034001.mp3"
       },
@@ -22204,7 +22204,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلۡحَمۡدُ لِلَّهِ فَاطِرِ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ جَاعِلِ ٱلۡمَلَـٰۤىِٕكَةِ رُسُلًا أُو۟لِیۤ أَجۡنِحَةࣲ مَّثۡنَىٰ وَثُلَـٰثَ وَرُبَـٰعَۚ یَزِیدُ فِی ٱلۡخَلۡقِ مَا یَشَاۤءُۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣱ\n",
+        "arabic": "  ٱلۡحَمۡدُ لِلَّهِ فَاطِرِ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ جَاعِلِ ٱلۡمَلَـٰۤىِٕكَةِ رُسُلًا أُو۟لِیۤ أَجۡنِحَةࣲ مَّثۡنَىٰ وَثُلَـٰثَ وَرُبَـٰعَۚ یَزِیدُ فِی ٱلۡخَلۡقِ مَا یَشَاۤءُۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣱ\n",
         "translation": "[All] praise is [due] to Allah, Creator of the heavens and the earth, [who] made the angels messengers having wings, two or three or four. He increases in creation what He wills. Indeed, Allah is over all things competent.",
         "audioFile": "audio/035/035001.mp3"
       },
@@ -22481,7 +22481,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یسۤ\n",
+        "arabic": "  یسۤ\n",
         "translation": "Ya, Seen.",
         "audioFile": "audio/036/036001.mp3"
       },
@@ -22986,7 +22986,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلصَّـٰۤفَّـٰتِ صَفࣰّا\n",
+        "arabic": "  وَٱلصَّـٰۤفَّـٰتِ صَفࣰّا\n",
         "translation": "By those [angels] lined up in rows",
         "audioFile": "audio/037/037001.mp3"
       },
@@ -24085,7 +24085,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ صۤۚ وَٱلۡقُرۡءَانِ ذِی ٱلذِّكۡرِ\n",
+        "arabic": "  صۤۚ وَٱلۡقُرۡءَانِ ذِی ٱلذِّكۡرِ\n",
         "translation": "Sad. By the Qur'an containing reminder...",
         "audioFile": "audio/038/038001.mp3"
       },
@@ -24620,7 +24620,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ تَنزِیلُ ٱلۡكِتَـٰبِ مِنَ ٱللَّهِ ٱلۡعَزِیزِ ٱلۡحَكِیمِ\n",
+        "arabic": "  تَنزِیلُ ٱلۡكِتَـٰبِ مِنَ ٱللَّهِ ٱلۡعَزِیزِ ٱلۡحَكِیمِ\n",
         "translation": "The revelation of the Qur'an is from Allah, the Exalted in Might, the Wise.",
         "audioFile": "audio/039/039001.mp3"
       },
@@ -25077,7 +25077,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ حمۤ\n",
+        "arabic": "  حمۤ\n",
         "translation": "Ha, Meem.",
         "audioFile": "audio/040/040001.mp3"
       },
@@ -25594,7 +25594,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ حمۤ\n",
+        "arabic": "  حمۤ\n",
         "translation": "Ha, Meem.",
         "audioFile": "audio/041/041001.mp3"
       },
@@ -25925,7 +25925,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ حمۤ\n",
+        "arabic": "  حمۤ\n",
         "translation": "Ha, Meem.",
         "audioFile": "audio/042/042001.mp3"
       },
@@ -26250,7 +26250,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ حمۤ\n",
+        "arabic": "  حمۤ\n",
         "translation": "Ha, Meem.",
         "audioFile": "audio/043/043001.mp3"
       },
@@ -26791,7 +26791,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ حمۤ\n",
+        "arabic": "  حمۤ\n",
         "translation": "Ha, Meem.",
         "audioFile": "audio/044/044001.mp3"
       },
@@ -27152,7 +27152,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ حمۤ\n",
+        "arabic": "  حمۤ\n",
         "translation": "Ha, Meem.",
         "audioFile": "audio/045/045001.mp3"
       },
@@ -27381,7 +27381,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ حمۤ\n",
+        "arabic": "  حمۤ\n",
         "translation": "Ha, Meem.",
         "audioFile": "audio/046/046001.mp3"
       },
@@ -27598,7 +27598,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلَّذِینَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِیلِ ٱللَّهِ أَضَلَّ أَعۡمَـٰلَهُمۡ\n",
+        "arabic": "  ٱلَّذِینَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِیلِ ٱللَّهِ أَضَلَّ أَعۡمَـٰلَهُمۡ\n",
         "translation": "Those who disbelieve and avert [people] from the way of Allah - He will waste their deeds.",
         "audioFile": "audio/047/047001.mp3"
       },
@@ -27833,7 +27833,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِنَّا فَتَحۡنَا لَكَ فَتۡحࣰا مُّبِینࣰا\n",
+        "arabic": "  إِنَّا فَتَحۡنَا لَكَ فَتۡحࣰا مُّبِینࣰا\n",
         "translation": "Indeed, We have given you, [O Muhammad], a clear conquest",
         "audioFile": "audio/048/048001.mp3"
       },
@@ -28014,7 +28014,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تُقَدِّمُوا۟ بَیۡنَ یَدَیِ ٱللَّهِ وَرَسُولِهِۦۖ وَٱتَّقُوا۟ ٱللَّهَۚ إِنَّ ٱللَّهَ سَمِیعٌ عَلِیمࣱ\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تُقَدِّمُوا۟ بَیۡنَ یَدَیِ ٱللَّهِ وَرَسُولِهِۦۖ وَٱتَّقُوا۟ ٱللَّهَۚ إِنَّ ٱللَّهَ سَمِیعٌ عَلِیمࣱ\n",
         "translation": "O you who have believed, do not put [yourselves] before Allah and His Messenger but fear Allah. Indeed, Allah is Hearing and Knowing.",
         "audioFile": "audio/049/049001.mp3"
       },
@@ -28129,7 +28129,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قۤۚ وَٱلۡقُرۡءَانِ ٱلۡمَجِیدِ\n",
+        "arabic": "  قۤۚ وَٱلۡقُرۡءَانِ ٱلۡمَجِیدِ\n",
         "translation": "Qaf. By the honored Qur'an...",
         "audioFile": "audio/050/050001.mp3"
       },
@@ -28406,7 +28406,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلذَّ ٰ⁠رِیَـٰتِ ذَرۡوࣰا\n",
+        "arabic": "  وَٱلذَّ ٰ⁠رِیَـٰتِ ذَرۡوࣰا\n",
         "translation": "By those [winds] scattering [dust] dispersing",
         "audioFile": "audio/051/051001.mp3"
       },
@@ -28773,7 +28773,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلطُّورِ\n",
+        "arabic": "  وَٱلطُّورِ\n",
         "translation": "By the mount",
         "audioFile": "audio/052/052001.mp3"
       },
@@ -29074,7 +29074,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلنَّجۡمِ إِذَا هَوَىٰ\n",
+        "arabic": "  وَٱلنَّجۡمِ إِذَا هَوَىٰ\n",
         "translation": "By the star when it descends,",
         "audioFile": "audio/053/053001.mp3"
       },
@@ -29453,7 +29453,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱقۡتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلۡقَمَرُ\n",
+        "arabic": "  ٱقۡتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلۡقَمَرُ\n",
         "translation": "The Hour has come near, and the moon has split [in two].",
         "audioFile": "audio/054/054001.mp3"
       },
@@ -29790,7 +29790,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلرَّحۡمَـٰنُ\n",
+        "arabic": "  ٱلرَّحۡمَـٰنُ\n",
         "translation": "The Most Merciful",
         "audioFile": "audio/055/055001.mp3"
       },
@@ -30265,7 +30265,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِذَا وَقَعَتِ ٱلۡوَاقِعَةُ\n",
+        "arabic": "  إِذَا وَقَعَتِ ٱلۡوَاقِعَةُ\n",
         "translation": "When the Occurrence occurs,",
         "audioFile": "audio/056/056001.mp3"
       },
@@ -30848,7 +30848,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
+        "arabic": "  سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
         "translation": "Whatever is in the heavens and earth exalts Allah, and He is the Exalted in Might, the Wise.",
         "audioFile": "audio/057/057001.mp3"
       },
@@ -31029,7 +31029,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قَدۡ سَمِعَ ٱللَّهُ قَوۡلَ ٱلَّتِی تُجَـٰدِلُكَ فِی زَوۡجِهَا وَتَشۡتَكِیۤ إِلَى ٱللَّهِ وَٱللَّهُ یَسۡمَعُ تَحَاوُرَكُمَاۤۚ إِنَّ ٱللَّهَ سَمِیعُۢ بَصِیرٌ\n",
+        "arabic": "  قَدۡ سَمِعَ ٱللَّهُ قَوۡلَ ٱلَّتِی تُجَـٰدِلُكَ فِی زَوۡجِهَا وَتَشۡتَكِیۤ إِلَى ٱللَّهِ وَٱللَّهُ یَسۡمَعُ تَحَاوُرَكُمَاۤۚ إِنَّ ٱللَّهَ سَمِیعُۢ بَصِیرٌ\n",
         "translation": "Certainly has Allah heard the speech of the one who argues with you, [O Muhammad], concerning her husband and directs her complaint to Allah. And Allah hears your dialogue; indeed, Allah is Hearing and Seeing.",
         "audioFile": "audio/058/058001.mp3"
       },
@@ -31168,7 +31168,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
+        "arabic": "  سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
         "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise.",
         "audioFile": "audio/059/059001.mp3"
       },
@@ -31319,7 +31319,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ عَدُوِّی وَعَدُوَّكُمۡ أَوۡلِیَاۤءَ تُلۡقُونَ إِلَیۡهِم بِٱلۡمَوَدَّةِ وَقَدۡ كَفَرُوا۟ بِمَا جَاۤءَكُم مِّنَ ٱلۡحَقِّ یُخۡرِجُونَ ٱلرَّسُولَ وَإِیَّاكُمۡ أَن تُؤۡمِنُوا۟ بِٱللَّهِ رَبِّكُمۡ إِن كُنتُمۡ خَرَجۡتُمۡ جِهَـٰدࣰا فِی سَبِیلِی وَٱبۡتِغَاۤءَ مَرۡضَاتِیۚ تُسِرُّونَ إِلَیۡهِم بِٱلۡمَوَدَّةِ وَأَنَا۠ أَعۡلَمُ بِمَاۤ أَخۡفَیۡتُمۡ وَمَاۤ أَعۡلَنتُمۡۚ وَمَن یَفۡعَلۡهُ مِنكُمۡ فَقَدۡ ضَلَّ سَوَاۤءَ ٱلسَّبِیلِ\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ عَدُوِّی وَعَدُوَّكُمۡ أَوۡلِیَاۤءَ تُلۡقُونَ إِلَیۡهِم بِٱلۡمَوَدَّةِ وَقَدۡ كَفَرُوا۟ بِمَا جَاۤءَكُم مِّنَ ٱلۡحَقِّ یُخۡرِجُونَ ٱلرَّسُولَ وَإِیَّاكُمۡ أَن تُؤۡمِنُوا۟ بِٱللَّهِ رَبِّكُمۡ إِن كُنتُمۡ خَرَجۡتُمۡ جِهَـٰدࣰا فِی سَبِیلِی وَٱبۡتِغَاۤءَ مَرۡضَاتِیۚ تُسِرُّونَ إِلَیۡهِم بِٱلۡمَوَدَّةِ وَأَنَا۠ أَعۡلَمُ بِمَاۤ أَخۡفَیۡتُمۡ وَمَاۤ أَعۡلَنتُمۡۚ وَمَن یَفۡعَلۡهُ مِنكُمۡ فَقَدۡ ضَلَّ سَوَاۤءَ ٱلسَّبِیلِ\n",
         "translation": "O you who have believed, do not take My enemies and your enemies as allies, extending to them affection while they have disbelieved in what came to you of the truth, having driven out the Prophet and yourselves [only] because you believe in Allah, your Lord. If you have come out for jihad in My cause and seeking means to My approval, [take them not as friends]. You confide to them affection, but I am most knowing of what you have concealed and what you have declared. And whoever does it among you has certainly strayed from the soundness of the way.",
         "audioFile": "audio/060/060001.mp3"
       },
@@ -31404,7 +31404,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
+        "arabic": "  سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
         "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise.",
         "audioFile": "audio/061/061001.mp3"
       },
@@ -31495,7 +31495,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یُسَبِّحُ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِ ٱلۡمَلِكِ ٱلۡقُدُّوسِ ٱلۡعَزِیزِ ٱلۡحَكِیمِ\n",
+        "arabic": "  یُسَبِّحُ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِ ٱلۡمَلِكِ ٱلۡقُدُّوسِ ٱلۡعَزِیزِ ٱلۡحَكِیمِ\n",
         "translation": "Whatever is in the heavens and whatever is on the earth is exalting Allah, the Sovereign, the Pure, the Exalted in Might, the Wise.",
         "audioFile": "audio/062/062001.mp3"
       },
@@ -31568,7 +31568,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِذَا جَاۤءَكَ ٱلۡمُنَـٰفِقُونَ قَالُوا۟ نَشۡهَدُ إِنَّكَ لَرَسُولُ ٱللَّهِۗ وَٱللَّهُ یَعۡلَمُ إِنَّكَ لَرَسُولُهُۥ وَٱللَّهُ یَشۡهَدُ إِنَّ ٱلۡمُنَـٰفِقِینَ لَكَـٰذِبُونَ\n",
+        "arabic": "  إِذَا جَاۤءَكَ ٱلۡمُنَـٰفِقُونَ قَالُوا۟ نَشۡهَدُ إِنَّكَ لَرَسُولُ ٱللَّهِۗ وَٱللَّهُ یَعۡلَمُ إِنَّكَ لَرَسُولُهُۥ وَٱللَّهُ یَشۡهَدُ إِنَّ ٱلۡمُنَـٰفِقِینَ لَكَـٰذِبُونَ\n",
         "translation": "When the hypocrites come to you, [O Muhammad], they say, \"We testify that you are the Messenger of Allah.\" And Allah knows that you are His Messenger, and Allah testifies that the hypocrites are liars.",
         "audioFile": "audio/063/063001.mp3"
       },
@@ -31641,7 +31641,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یُسَبِّحُ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ لَهُ ٱلۡمُلۡكُ وَلَهُ ٱلۡحَمۡدُۖ وَهُوَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرٌ\n",
+        "arabic": "  یُسَبِّحُ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ لَهُ ٱلۡمُلۡكُ وَلَهُ ٱلۡحَمۡدُۖ وَهُوَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرٌ\n",
         "translation": "Whatever is in the heavens and whatever is on the earth is exalting Allah. To Him belongs dominion, and to Him belongs [all] praise, and He is over all things competent.",
         "audioFile": "audio/064/064001.mp3"
       },
@@ -31756,7 +31756,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلنَّبِیُّ إِذَا طَلَّقۡتُمُ ٱلنِّسَاۤءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحۡصُوا۟ ٱلۡعِدَّةَۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمۡۖ لَا تُخۡرِجُوهُنَّ مِنۢ بُیُوتِهِنَّ وَلَا یَخۡرُجۡنَ إِلَّاۤ أَن یَأۡتِینَ بِفَـٰحِشَةࣲ مُّبَیِّنَةࣲۚ وَتِلۡكَ حُدُودُ ٱللَّهِۚ وَمَن یَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدۡ ظَلَمَ نَفۡسَهُۥۚ لَا تَدۡرِی لَعَلَّ ٱللَّهَ یُحۡدِثُ بَعۡدَ ذَ ٰ⁠لِكَ أَمۡرࣰا\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلنَّبِیُّ إِذَا طَلَّقۡتُمُ ٱلنِّسَاۤءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحۡصُوا۟ ٱلۡعِدَّةَۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمۡۖ لَا تُخۡرِجُوهُنَّ مِنۢ بُیُوتِهِنَّ وَلَا یَخۡرُجۡنَ إِلَّاۤ أَن یَأۡتِینَ بِفَـٰحِشَةࣲ مُّبَیِّنَةࣲۚ وَتِلۡكَ حُدُودُ ٱللَّهِۚ وَمَن یَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدۡ ظَلَمَ نَفۡسَهُۥۚ لَا تَدۡرِی لَعَلَّ ٱللَّهَ یُحۡدِثُ بَعۡدَ ذَ ٰ⁠لِكَ أَمۡرࣰا\n",
         "translation": "O Prophet, when you [Muslims] divorce women, divorce them for [the commencement of] their waiting period and keep count of the waiting period, and fear Allah, your Lord. Do not turn them out of their [husbands'] houses, nor should they [themselves] leave [during that period] unless they are committing a clear immorality. And those are the limits [set by] Allah. And whoever transgresses the limits of Allah has certainly wronged himself. You know not; perhaps Allah will bring about after that a [different] matter.",
         "audioFile": "audio/065/065001.mp3"
       },
@@ -31835,7 +31835,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلنَّبِیُّ لِمَ تُحَرِّمُ مَاۤ أَحَلَّ ٱللَّهُ لَكَۖ تَبۡتَغِی مَرۡضَاتَ أَزۡوَ ٰ⁠جِكَۚ وَٱللَّهُ غَفُورࣱ رَّحِیمࣱ\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلنَّبِیُّ لِمَ تُحَرِّمُ مَاۤ أَحَلَّ ٱللَّهُ لَكَۖ تَبۡتَغِی مَرۡضَاتَ أَزۡوَ ٰ⁠جِكَۚ وَٱللَّهُ غَفُورࣱ رَّحِیمࣱ\n",
         "translation": "O Prophet, why do you prohibit [yourself from] what Allah has made lawful for you, seeking the approval of your wives? And Allah is Forgiving and Merciful.",
         "audioFile": "audio/066/066001.mp3"
       },
@@ -31914,7 +31914,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ تَبَـٰرَكَ ٱلَّذِی بِیَدِهِ ٱلۡمُلۡكُ وَهُوَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرٌ\n",
+        "arabic": "  تَبَـٰرَكَ ٱلَّذِی بِیَدِهِ ٱلۡمُلۡكُ وَهُوَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرٌ\n",
         "translation": "Blessed is He in whose hand is dominion, and He is over all things competent -",
         "audioFile": "audio/067/067001.mp3"
       },
@@ -32101,7 +32101,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ نۤۚ وَٱلۡقَلَمِ وَمَا یَسۡطُرُونَ\n",
+        "arabic": "  نۤۚ وَٱلۡقَلَمِ وَمَا یَسۡطُرُونَ\n",
         "translation": "Nun. By the pen and what they inscribe,",
         "audioFile": "audio/068/068001.mp3"
       },
@@ -32420,7 +32420,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلۡحَاۤقَّةُ\n",
+        "arabic": "  ٱلۡحَاۤقَّةُ\n",
         "translation": "The Inevitable Reality -",
         "audioFile": "audio/069/069001.mp3"
       },
@@ -32739,7 +32739,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ سَأَلَ سَاۤىِٕلُۢ بِعَذَابࣲ وَاقِعࣲ\n",
+        "arabic": "  سَأَلَ سَاۤىِٕلُۢ بِعَذَابࣲ وَاقِعࣲ\n",
         "translation": "A supplicant asked for a punishment bound to happen",
         "audioFile": "audio/070/070001.mp3"
       },
@@ -33010,7 +33010,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِنَّاۤ أَرۡسَلۡنَا نُوحًا إِلَىٰ قَوۡمِهِۦۤ أَنۡ أَنذِرۡ قَوۡمَكَ مِن قَبۡلِ أَن یَأۡتِیَهُمۡ عَذَابٌ أَلِیمࣱ\n",
+        "arabic": "  إِنَّاۤ أَرۡسَلۡنَا نُوحًا إِلَىٰ قَوۡمِهِۦۤ أَنۡ أَنذِرۡ قَوۡمَكَ مِن قَبۡلِ أَن یَأۡتِیَهُمۡ عَذَابٌ أَلِیمࣱ\n",
         "translation": "Indeed, We sent Noah to his people, [saying], \"Warn your people before there comes to them a painful punishment.\"",
         "audioFile": "audio/071/071001.mp3"
       },
@@ -33185,7 +33185,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قُلۡ أُوحِیَ إِلَیَّ أَنَّهُ ٱسۡتَمَعَ نَفَرࣱ مِّنَ ٱلۡجِنِّ فَقَالُوۤا۟ إِنَّا سَمِعۡنَا قُرۡءَانًا عَجَبࣰا\n",
+        "arabic": "  قُلۡ أُوحِیَ إِلَیَّ أَنَّهُ ٱسۡتَمَعَ نَفَرࣱ مِّنَ ٱلۡجِنِّ فَقَالُوۤا۟ إِنَّا سَمِعۡنَا قُرۡءَانًا عَجَبࣰا\n",
         "translation": "Say, [O Muhammad], \"It has been revealed to me that a group of the jinn listened and said, 'Indeed, we have heard an amazing Qur'an.",
         "audioFile": "audio/072/072001.mp3"
       },
@@ -33360,7 +33360,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلۡمُزَّمِّلُ\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلۡمُزَّمِّلُ\n",
         "translation": "O you who wraps himself [in clothing],",
         "audioFile": "audio/073/073001.mp3"
       },
@@ -33487,7 +33487,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ یَـٰۤأَیُّهَا ٱلۡمُدَّثِّرُ\n",
+        "arabic": "  یَـٰۤأَیُّهَا ٱلۡمُدَّثِّرُ\n",
         "translation": "O you who covers himself [with a garment],",
         "audioFile": "audio/074/074001.mp3"
       },
@@ -33830,7 +33830,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ لَاۤ أُقۡسِمُ بِیَوۡمِ ٱلۡقِیَـٰمَةِ\n",
+        "arabic": "  لَاۤ أُقۡسِمُ بِیَوۡمِ ٱلۡقِیَـٰمَةِ\n",
         "translation": "I swear by the Day of Resurrection",
         "audioFile": "audio/075/075001.mp3"
       },
@@ -34077,7 +34077,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ هَلۡ أَتَىٰ عَلَى ٱلۡإِنسَـٰنِ حِینࣱ مِّنَ ٱلدَّهۡرِ لَمۡ یَكُن شَیۡـࣰٔا مَّذۡكُورًا\n",
+        "arabic": "  هَلۡ أَتَىٰ عَلَى ٱلۡإِنسَـٰنِ حِینࣱ مِّنَ ٱلدَّهۡرِ لَمۡ یَكُن شَیۡـࣰٔا مَّذۡكُورًا\n",
         "translation": "Has there [not] come upon man a period of time when he was not a thing [even] mentioned?",
         "audioFile": "audio/076/076001.mp3"
       },
@@ -34270,7 +34270,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلۡمُرۡسَلَـٰتِ عُرۡفࣰا\n",
+        "arabic": "  وَٱلۡمُرۡسَلَـٰتِ عُرۡفࣰا\n",
         "translation": "By those [winds] sent forth in gusts",
         "audioFile": "audio/077/077001.mp3"
       },
@@ -34577,7 +34577,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ عَمَّ یَتَسَاۤءَلُونَ\n",
+        "arabic": "  عَمَّ یَتَسَاۤءَلُونَ\n",
         "translation": "About what are they asking one another?",
         "audioFile": "audio/078/078001.mp3"
       },
@@ -34824,7 +34824,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلنَّـٰزِعَـٰتِ غَرۡقࣰا\n",
+        "arabic": "  وَٱلنَّـٰزِعَـٰتِ غَرۡقࣰا\n",
         "translation": "By those [angels] who extract with violence",
         "audioFile": "audio/079/079001.mp3"
       },
@@ -35107,7 +35107,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ عَبَسَ وَتَوَلَّىٰۤ\n",
+        "arabic": "  عَبَسَ وَتَوَلَّىٰۤ\n",
         "translation": "The Prophet frowned and turned away",
         "audioFile": "audio/080/080001.mp3"
       },
@@ -35366,7 +35366,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِذَا ٱلشَّمۡسُ كُوِّرَتۡ\n",
+        "arabic": "  إِذَا ٱلشَّمۡسُ كُوِّرَتۡ\n",
         "translation": "When the sun is wrapped up [in darkness]",
         "audioFile": "audio/081/081001.mp3"
       },
@@ -35547,7 +35547,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِذَا ٱلسَّمَاۤءُ ٱنفَطَرَتۡ\n",
+        "arabic": "  إِذَا ٱلسَّمَاۤءُ ٱنفَطَرَتۡ\n",
         "translation": "When the sky breaks apart",
         "audioFile": "audio/082/082001.mp3"
       },
@@ -35668,7 +35668,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَیۡلࣱ لِّلۡمُطَفِّفِینَ\n",
+        "arabic": "  وَیۡلࣱ لِّلۡمُطَفِّفِینَ\n",
         "translation": "Woe to those who give less [than due],",
         "audioFile": "audio/083/083001.mp3"
       },
@@ -35891,7 +35891,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِذَا ٱلسَّمَاۤءُ ٱنشَقَّتۡ\n",
+        "arabic": "  إِذَا ٱلسَّمَاۤءُ ٱنشَقَّتۡ\n",
         "translation": "When the sky has split [open]",
         "audioFile": "audio/084/084001.mp3"
       },
@@ -36048,7 +36048,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلسَّمَاۤءِ ذَاتِ ٱلۡبُرُوجِ\n",
+        "arabic": "  وَٱلسَّمَاۤءِ ذَاتِ ٱلۡبُرُوجِ\n",
         "translation": "By the sky containing great stars",
         "audioFile": "audio/085/085001.mp3"
       },
@@ -36187,7 +36187,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلسَّمَاۤءِ وَٱلطَّارِقِ\n",
+        "arabic": "  وَٱلسَّمَاۤءِ وَٱلطَّارِقِ\n",
         "translation": "By the sky and the night comer -",
         "audioFile": "audio/086/086001.mp3"
       },
@@ -36296,7 +36296,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ سَبِّحِ ٱسۡمَ رَبِّكَ ٱلۡأَعۡلَى\n",
+        "arabic": "  سَبِّحِ ٱسۡمَ رَبِّكَ ٱلۡأَعۡلَى\n",
         "translation": "Exalt the name of your Lord, the Most High,",
         "audioFile": "audio/087/087001.mp3"
       },
@@ -36417,7 +36417,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ هَلۡ أَتَىٰكَ حَدِیثُ ٱلۡغَـٰشِیَةِ\n",
+        "arabic": "  هَلۡ أَتَىٰكَ حَدِیثُ ٱلۡغَـٰشِیَةِ\n",
         "translation": "Has there reached you the report of the Overwhelming [event]?",
         "audioFile": "audio/088/088001.mp3"
       },
@@ -36580,7 +36580,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلۡفَجۡرِ\n",
+        "arabic": "  وَٱلۡفَجۡرِ\n",
         "translation": "By the dawn",
         "audioFile": "audio/089/089001.mp3"
       },
@@ -36767,7 +36767,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ لَاۤ أُقۡسِمُ بِهَـٰذَا ٱلۡبَلَدِ\n",
+        "arabic": "  لَاۤ أُقۡسِمُ بِهَـٰذَا ٱلۡبَلَدِ\n",
         "translation": "I swear by this city, Makkah -",
         "audioFile": "audio/090/090001.mp3"
       },
@@ -36894,7 +36894,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلشَّمۡسِ وَضُحَىٰهَا\n",
+        "arabic": "  وَٱلشَّمۡسِ وَضُحَىٰهَا\n",
         "translation": "By the sun and its brightness",
         "audioFile": "audio/091/091001.mp3"
       },
@@ -36991,7 +36991,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلَّیۡلِ إِذَا یَغۡشَىٰ\n",
+        "arabic": "  وَٱلَّیۡلِ إِذَا یَغۡشَىٰ\n",
         "translation": "By the night when it covers",
         "audioFile": "audio/092/092001.mp3"
       },
@@ -37124,7 +37124,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلضُّحَىٰ\n",
+        "arabic": "  وَٱلضُّحَىٰ\n",
         "translation": "By the morning brightness",
         "audioFile": "audio/093/093001.mp3"
       },
@@ -37197,7 +37197,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ\n",
+        "arabic": "  أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ\n",
         "translation": "Did We not expand for you, [O Muhammad], your breast?",
         "audioFile": "audio/094/094001.mp3"
       },
@@ -37307,7 +37307,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِی خَلَقَ\n",
+        "arabic": "  ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِی خَلَقَ\n",
         "translation": "Recite in the name of your Lord who created -",
         "audioFile": "audio/096/096001.mp3"
       },
@@ -37465,7 +37465,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ لَمۡ یَكُنِ ٱلَّذِینَ كَفَرُوا۟ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ وَٱلۡمُشۡرِكِینَ مُنفَكِّینَ حَتَّىٰ تَأۡتِیَهُمُ ٱلۡبَیِّنَةُ\n",
+        "arabic": "  لَمۡ یَكُنِ ٱلَّذِینَ كَفَرُوا۟ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ وَٱلۡمُشۡرِكِینَ مُنفَكِّینَ حَتَّىٰ تَأۡتِیَهُمُ ٱلۡبَیِّنَةُ\n",
         "translation": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence -",
         "audioFile": "audio/098/098001.mp3"
       },
@@ -37520,7 +37520,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا\n",
+        "arabic": "  إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا\n",
         "translation": "When the earth is shaken with its [final] earthquake",
         "audioFile": "audio/099/099001.mp3"
       },
@@ -37575,7 +37575,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلۡعَـٰدِیَـٰتِ ضَبۡحࣰا\n",
+        "arabic": "  وَٱلۡعَـٰدِیَـٰتِ ضَبۡحࣰا\n",
         "translation": "By the racers, panting,",
         "audioFile": "audio/100/100001.mp3"
       },
@@ -37648,7 +37648,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ ٱلۡقَارِعَةُ\n",
+        "arabic": "  ٱلۡقَارِعَةُ\n",
         "translation": "The Striking Calamity -",
         "audioFile": "audio/101/101001.mp3"
       },
@@ -37721,7 +37721,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ\n",
+        "arabic": "  أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ\n",
         "translation": "Competition in [worldly] increase diverts you",
         "audioFile": "audio/102/102001.mp3"
       },
@@ -37776,7 +37776,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلۡعَصۡرِ\n",
+        "arabic": "  وَٱلۡعَصۡرِ\n",
         "translation": "By time,",
         "audioFile": "audio/103/103001.mp3"
       },
@@ -37801,7 +37801,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَیۡلࣱ لِّكُلِّ هُمَزَةࣲ لُّمَزَةٍ\n",
+        "arabic": "  وَیۡلࣱ لِّكُلِّ هُمَزَةࣲ لُّمَزَةٍ\n",
         "translation": "Woe to every scorner and mocker",
         "audioFile": "audio/104/104001.mp3"
       },
@@ -37862,7 +37862,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَلَمۡ تَرَ كَیۡفَ فَعَلَ رَبُّكَ بِأَصۡحَـٰبِ ٱلۡفِیلِ\n",
+        "arabic": "  أَلَمۡ تَرَ كَیۡفَ فَعَلَ رَبُّكَ بِأَصۡحَـٰبِ ٱلۡفِیلِ\n",
         "translation": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?",
         "audioFile": "audio/105/105001.mp3"
       },
@@ -37899,7 +37899,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ لِإِیلَـٰفِ قُرَیۡشٍ\n",
+        "arabic": "  لِإِیلَـٰفِ قُرَیۡشٍ\n",
         "translation": "For the accustomed security of the Quraysh -",
         "audioFile": "audio/106/106001.mp3"
       },
@@ -37930,7 +37930,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ أَرَءَیۡتَ ٱلَّذِی یُكَذِّبُ بِٱلدِّینِ\n",
+        "arabic": "  أَرَءَیۡتَ ٱلَّذِی یُكَذِّبُ بِٱلدِّینِ\n",
         "translation": "Have you seen the one who denies the Recompense?",
         "audioFile": "audio/107/107001.mp3"
       },
@@ -37979,7 +37979,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِنَّاۤ أَعۡطَیۡنَـٰكَ ٱلۡكَوۡثَرَ\n",
+        "arabic": "  إِنَّاۤ أَعۡطَیۡنَـٰكَ ٱلۡكَوۡثَرَ\n",
         "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar.",
         "audioFile": "audio/108/108001.mp3"
       },
@@ -38004,7 +38004,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قُلۡ یَـٰۤأَیُّهَا ٱلۡكَـٰفِرُونَ\n",
+        "arabic": "  قُلۡ یَـٰۤأَیُّهَا ٱلۡكَـٰفِرُونَ\n",
         "translation": "Say, \"O disbelievers,",
         "audioFile": "audio/109/109001.mp3"
       },
@@ -38047,7 +38047,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ إِذَا جَاۤءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ\n",
+        "arabic": "  إِذَا جَاۤءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ\n",
         "translation": "When the victory of Allah has come and the conquest,",
         "audioFile": "audio/110/110001.mp3"
       },
@@ -38072,7 +38072,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ تَبَّتۡ یَدَاۤ أَبِی لَهَبࣲ وَتَبَّ\n",
+        "arabic": "  تَبَّتۡ یَدَاۤ أَبِی لَهَبࣲ وَتَبَّ\n",
         "translation": "May the hands of Abu Lahab be ruined, and ruined is he.",
         "audioFile": "audio/111/111001.mp3"
       },
@@ -38109,7 +38109,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ\n",
+        "arabic": "  قُلۡ هُوَ ٱللَّهُ أَحَدٌ\n",
         "translation": "Say, \"He is Allah, [who is] One,",
         "audioFile": "audio/112/112001.mp3"
       },
@@ -38140,7 +38140,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ\n",
+        "arabic": "  قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ\n",
         "translation": "Say, \"I seek refuge in the Lord of daybreak",
         "audioFile": "audio/113/113001.mp3"
       },
@@ -38177,7 +38177,7 @@
     "verses": [
       {
         "number": 1,
-        "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ\n",
+        "arabic": "  قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ\n",
         "translation": "Say, \"I seek refuge in the Lord of mankind,",
         "audioFile": "audio/114/114001.mp3"
       },

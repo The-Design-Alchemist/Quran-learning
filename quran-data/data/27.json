@@ -5,7 +5,7 @@
   "verses": [
     {
       "number": 1,
-      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ طسۤۚ تِلۡكَ ءَایَـٰتُ ٱلۡقُرۡءَانِ وَكِتَابࣲ مُّبِینٍ\n",
+      "arabic": "  طسۤۚ تِلۡكَ ءَایَـٰتُ ٱلۡقُرۡءَانِ وَكِتَابࣲ مُّبِینٍ\n",
       "translation": "Ta, Seen. These are the verses of the Qur'an and a clear Book",
       "audioFile": "audio/027/027001.mp3"
     },
@@ -179,7 +179,7 @@
     },
     {
       "number": 30,
-      "arabic": "إِنَّهُۥ مِن سُلَیۡمَـٰنَ وَإِنَّهُۥ بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ\n",
+      "arabic": "إِنَّهُۥ مِن سُلَیۡمَـٰنَ وَإِنَّهُۥ  \n",
       "translation": "Indeed, it is from Solomon, and indeed, it reads: 'In the name of Allah, the Entirely Merciful, the Especially Merciful,",
       "audioFile": "audio/027/027030.mp3"
     },

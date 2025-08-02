@@ -3,6 +3,7 @@
 class PlaybackControls {
     constructor() {
         this.statusElement = document.getElementById('status');
+        this.isLoading = false; // Add this line
         this.setupEventListeners();
     }
 
@@ -84,51 +85,58 @@ class PlaybackControls {
     }
 
     // Stop recitation
-stop() {
-    console.log('Stopping recitation...');
-    
-    window.appState.isReciting = false;
-    window.appState.isPaused = false;
-    window.appState.autoAdvance = true;
-    window.appState.currentRepeatCount = 0;
-    window.appState.surahRepeatCount = 0;
-    
-    // Stop current audio immediately
-    const currentAudio = audioService.getCurrentAudio();
-    if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0;
+    stop() {
+        console.log('Stopping recitation...');
+        
+        window.appState.isReciting = false;
+        window.appState.isPaused = false;
+        window.appState.autoAdvance = true;
+        window.appState.currentRepeatCount = 0;
+        window.appState.surahRepeatCount = 0;
+        
+        // Stop current audio immediately
+        const currentAudio = audioService.getCurrentAudio();
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+        
+        audioService.cleanup();
+        window.verseDisplay.removeAllHighlights();
+        
+        const startButton = document.querySelector('.control-button');
+        if (startButton) startButton.disabled = false;
+        
+        if (window.mediaSessionService) {
+            window.mediaSessionService.updatePlaybackState();
+        }
+        
+        this.updateStatus('Recitation stopped');
     }
-    
-    audioService.cleanup();
-    window.verseDisplay.removeAllHighlights();
-    
-    const startButton = document.querySelector('.control-button');
-    if (startButton) startButton.disabled = false;
-    
-    if (window.mediaSessionService) {
-        window.mediaSessionService.updatePlaybackState();
-    }
-    
-    this.updateStatus('Recitation stopped');
-}
 
     // Play current verse
     async playCurrentVerse() {
+        // Add this check at the very beginning
+    if (this.isLoading) {
+        console.log('Already loading audio, ignoring request');
+        return;
+    }
+        
         const verse = window.appState.verses[window.appState.currentVerseIndex];
         
         // Skip Bismillah (has no audio)
-if (!verse.hasAudio) {
-    this.updateStatus('Displaying Bismillah...');
-    if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
-        setTimeout(() => {
-            window.appState.currentVerseIndex++;
-            window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
-            this.playCurrentVerse();
-        }, 1500);
-    }
-    return;
-}
+        if (!verse.hasAudio) {
+            this.updateStatus('Displaying Bismillah...');
+            if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+                setTimeout(() => {
+                    window.appState.currentVerseIndex++;
+                    window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
+                    this.playCurrentVerse();
+                }, 1500);
+            }
+            return;
+        }
+
         this.updateStatus(`Loading verse ${verse.number} audio...`);
         console.log(`🎵 Starting to load verse ${verse.number}`);
 
@@ -170,176 +178,164 @@ if (!verse.hasAudio) {
                 setTimeout(() => {
                     console.log(`⏭️ Skipping verse ${verse.number} due to complete failure`);
                     this.handleVerseCompletion();
-                    }, 1500);
+                }, 1500);
             }
         }
     }
 
-   // Setup event handlers for audio element
-setupAudioEventHandlers(audio, verse) {
-    const endedHandler = () => {
-        console.log(`📝 Verse ${verse.number} playback ended`);
-        window.verseDisplay.removeHighlight(verse.id);
-        
-        // Maintain playing state for iOS
-        if (window.mediaSessionService && 'mediaSession' in navigator) {
-            navigator.mediaSession.playbackState = 'playing';
-        }
-        
-        setTimeout(() => {
-            if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
-                console.log(`➡️ Moving to handle verse completion`);
-                this.handleVerseCompletion();
-            }
-        }, 300);
-    };
-
-    const errorHandler = (event) => {
-        console.error(`❌ Audio playback error for verse ${verse.number}:`, event);
-        window.verseDisplay.removeHighlight(verse.id);
-        this.updateStatus(`Audio error for verse ${verse.number}, trying next...`);
-        
-        if (window.appState.autoAdvance && window.appState.isReciting && !window.appState.isPaused) {
-            setTimeout(() => {
-            console.log(`⏭️ Skipping verse ${verse.number} due to complete failure`);
+    // Setup event handlers for audio element
+    setupAudioEventHandlers(audio, verse) {
+        const endedHandler = () => {
+            console.log(`📝 Verse ${verse.number} playback ended`);
+    window.verseDisplay.removeHighlight(verse.id);
+    
+    // Maintain playing state for iOS
+    if (window.mediaSessionService && 'mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'playing';
+    }
+    
+    setTimeout(() => {
+        // CHECK: Only auto-advance if still enabled and reciting
+        if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
+            console.log(`➡️ Auto-advancing from verse ${verse.number}`);
             this.handleVerseCompletion();
-            }, 1500);
+        } else {
+            console.log(`⏸️ Not auto-advancing: reciting=${window.appState.isReciting}, paused=${window.appState.isPaused}, autoAdvance=${window.appState.autoAdvance}`);
+        }
+    }, 300);
+    
+        };
+
+        const errorHandler = (event) => {
+            console.error(`❌ Audio playback error for verse ${verse.number}:`, event);
+            window.verseDisplay.removeHighlight(verse.id);
+            this.updateStatus(`Audio error for verse ${verse.number}, trying next...`);
+            
+            if (window.appState.autoAdvance && window.appState.isReciting && !window.appState.isPaused) {
+                setTimeout(() => {
+                    console.log(`⏭️ Skipping verse ${verse.number} due to complete failure`);
+                    this.handleVerseCompletion();
+                }, 1500);
+            }
+        };
+
+        // Store handlers for cleanup
+        audio._endedHandler = endedHandler;
+        audio._errorHandler = errorHandler;
+
+        audio.addEventListener('ended', endedHandler);
+        audio.addEventListener('error', errorHandler);
     }
-    };
-
-    // Store handlers for cleanup
-    audio._endedHandler = endedHandler;
-    audio._errorHandler = errorHandler;
-
-    audio.addEventListener('ended', endedHandler);
-    audio.addEventListener('error', errorHandler);
-}
 
     // Handle verse completion and repeat logic
-    handleVerseCompletion() {
-        console.log('Handling verse completion...');
+handleVerseCompletion() {
+    console.log('Handling verse completion...');
+    
+    // CRITICAL: Check if we're still on the same verse that just ended
+    // This prevents race conditions with manual navigation
+    const currentAudio = audioService.getCurrentAudio();
+    if (!currentAudio || !window.appState.isReciting || window.appState.isPaused) {
+        console.log('Audio stopped or paused, not advancing');
+        return;
+    }
+    
+    // Maintain playing state
+    if (window.mediaSessionService && 'mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'playing';
+    }
+    
+    // Handle verse repeat mode
+    if (window.appState.repeatMode === 'verse') {
+        window.appState.currentRepeatCount++;
+        console.log(`Verse repeat: ${window.appState.currentRepeatCount}/${window.appState.repeatCount}`);
         
-        // Maintain playing state
-        if (window.mediaSessionService && 'mediaSession' in navigator) {
-            navigator.mediaSession.playbackState = 'playing';
-        }
-        
-        // Handle verse repeat mode
-        if (window.appState.repeatMode === 'verse') {
-            window.appState.currentRepeatCount++;
-            console.log(`Verse repeat: ${window.appState.currentRepeatCount}/${window.appState.repeatCount}`);
+        if (window.appState.repeatCount === 'infinite' || window.appState.currentRepeatCount < window.appState.repeatCount) {
+            this.updateStatus(`Repeating verse ${window.appState.verses[window.appState.currentVerseIndex].number} (${window.appState.currentRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
             
-            if (window.appState.repeatCount === 'infinite' || window.appState.currentRepeatCount < window.appState.repeatCount) {
-                this.updateStatus(`Repeating verse ${window.appState.verses[window.appState.currentVerseIndex].number} (${window.appState.currentRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
-                
-                const currentAudio = audioService.getCurrentAudio();
-                if (currentAudio && currentAudio.src) {
-                    setTimeout(() => {
-                        if (window.appState.isReciting && !window.appState.isPaused) {
-                            if (window.mediaSessionService && 'mediaSession' in navigator) {
-                                navigator.mediaSession.playbackState = 'playing';
-                            }
-                            currentAudio.currentTime = 0;
-                            currentAudio.play().catch(error => {
-                                console.error('Repeat play error:', error);
-                                this.playCurrentVerse();
-                            });
-                        }
-                    }, 500);
-                } else {
-                    setTimeout(() => {
-                        if (window.appState.isReciting && !window.appState.isPaused) {
-                            this.playCurrentVerse();
-                        }
-                    }, 500);
-                }
-                return;
-            } else {
-                window.appState.currentRepeatCount = 0;
-            }
-        }
-        
-        // Move to next verse
-        if (window.appState.currentVerseIndex < window.appState.verses.length - 1) {
             setTimeout(() => {
-                if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
-                    window.appState.currentVerseIndex++;
+                if (window.appState.isReciting && !window.appState.isPaused) {
+                    this.playCurrentVerse();
+                }
+            }, 500);
+            return;
+        } else {
+            window.appState.currentRepeatCount = 0;
+        }
+    }
+    
+    // Move to next verse ONLY if auto-advance is still enabled
+    if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+        setTimeout(() => {
+            // Double-check auto-advance is still enabled before proceeding
+            if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
+                window.appState.currentVerseIndex++;
+                window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
+                
+                setTimeout(() => {
+                    if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
+                        this.playCurrentVerse();
+                    }
+                }, 200);
+            }
+        }, 500);
+    } else if (window.appState.repeatMode === 'surah') {
+        // Handle surah repeat mode
+        window.appState.surahRepeatCount++;
+        console.log(`Surah repeat: ${window.appState.surahRepeatCount}/${window.appState.repeatCount}`);
+        
+        if (window.appState.repeatCount === 'infinite' || window.appState.surahRepeatCount < window.appState.repeatCount) {
+            this.updateStatus(`Repeating Surah (${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
+            setTimeout(() => {
+                if (window.appState.isReciting && !window.appState.isPaused) {
+                    window.appState.currentVerseIndex = 0;
                     window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
-                    
                     setTimeout(() => {
                         if (window.appState.isReciting && !window.appState.isPaused) {
-                            if (window.mediaSessionService && 'mediaSession' in navigator) {
-                                navigator.mediaSession.playbackState = 'playing';
-                            }
                             this.playCurrentVerse();
                         }
                     }, 200);
                 }
-            }, 500);
-        } else {
-            // Handle surah repeat mode
-            if (window.appState.repeatMode === 'surah') {
-                window.appState.surahRepeatCount++;
-                console.log(`Surah repeat: ${window.appState.surahRepeatCount}/${window.appState.repeatCount}`);
-                
-                if (window.appState.repeatCount === 'infinite' || window.appState.surahRepeatCount < window.appState.repeatCount) {
-                    this.updateStatus(`Repeating Surah (${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
-                    setTimeout(() => {
-                        if (window.appState.isReciting && !window.appState.isPaused) {
-                            if (window.mediaSessionService && 'mediaSession' in navigator) {
-                                navigator.mediaSession.playbackState = 'playing';
-                            }
-                            window.appState.currentVerseIndex = 0;
-                            window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
-                            setTimeout(() => {
-                                if (window.appState.isReciting && !window.appState.isPaused) {
-                                    this.playCurrentVerse();
-                                }
-                            }, 200);
-                        }
-                    }, 1000);
-                    return;
-                }
-            }
-            
-            // Recitation complete
-            console.log('Recitation completed');
-            this.stop();
+            }, 1000);
+            return;
         }
+    } else {
+        // Recitation complete
+        console.log('Recitation completed');
+        this.stop();
     }
-
+}
     // Update status display
-updateStatus(message) {
-    this.statusElement.textContent = message;
-}
-
-// Helper method for repeat info
-getRepeatInfo() {
-    if (window.appState.repeatMode === 'verse' && window.appState.currentRepeatCount > 0) {
-        return ` (🔁 ${window.appState.currentRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`;
-    } else if (window.appState.repeatMode === 'surah' && window.appState.surahRepeatCount > 0) {
-        return ` (🔄 ${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`;
+    updateStatus(message) {
+        this.statusElement.textContent = message;
     }
-    return '';
-}
+
+    // Helper method for repeat info
+    getRepeatInfo() {
+        if (window.appState.repeatMode === 'verse' && window.appState.currentRepeatCount > 0) {
+            return ` (🔁 ${window.appState.currentRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`;
+        } else if (window.appState.repeatMode === 'surah' && window.appState.surahRepeatCount > 0) {
+            return ` (🔄 ${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`;
+        }
+        return '';
+    }
 
     // Change repeat mode
-changeRepeatMode() {
-    const selectedMode = document.querySelector('input[name="repeatMode"]:checked').value;
-    window.appState.repeatMode = selectedMode;
-    window.appState.currentRepeatCount = 0;
-    window.appState.surahRepeatCount = 0;
-    
-    console.log(`Repeat mode changed to: ${selectedMode}`);
-}
+    changeRepeatMode() {
+        const selectedMode = document.querySelector('input[name="repeatMode"]:checked').value;
+        window.appState.repeatMode = selectedMode;
+        window.appState.currentRepeatCount = 0;
+        window.appState.surahRepeatCount = 0;
+        
+        console.log(`Repeat mode changed to: ${selectedMode}`);
+    }
 
-// Change repeat count
-changeRepeatCount() {
-    const countSelect = document.getElementById('repeat-count');
-    window.appState.repeatCount = countSelect.value === 'infinite' ? 'infinite' : parseInt(countSelect.value);
-    
-    console.log(`Repeat count changed to: ${window.appState.repeatCount}`);
-}
+    // Change repeat count
+    changeRepeatCount() {
+        const countSelect = document.getElementById('repeat-count');
+        window.appState.repeatCount = countSelect.value === 'infinite' ? 'infinite' : parseInt(countSelect.value);
+        
+        console.log(`Repeat count changed to: ${window.appState.repeatCount}`);
+    }
 }
 
 // Global control functions for HTML onclick handlers

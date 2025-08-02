@@ -4,6 +4,57 @@
     box-sizing: border-box;
 }
 
+
+/* Fix overlapping elements that block button clicks */
+.arabic-text {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.verse-display {
+    pointer-events: none;
+}
+
+.verse-container {
+    pointer-events: none;
+}
+
+/* Ensure all interactive controls are clickable */
+.control-button {
+    pointer-events: auto !important;
+    z-index: 10;
+    position: relative;
+}
+
+.repeat-option {
+    pointer-events: auto !important;
+    z-index: 10;
+    position: relative;
+}
+
+.repeat-option input {
+    pointer-events: auto !important;
+    z-index: 10;
+}
+
+.repeat-count-container {
+    pointer-events: auto !important;
+    z-index: 10;
+    position: relative;
+}
+
+.repeat-count-container select {
+    pointer-events: auto !important;
+    z-index: 10;
+}
+
+/* Navigation controls */
+.nav-button {
+    pointer-events: auto !important;
+    z-index: 10;
+    position: relative;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);

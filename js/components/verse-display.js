@@ -79,25 +79,82 @@ class VerseDisplay {
     }
 
     // Navigate to next verse
-    next() {
-        if (window.appState.currentVerseIndex < window.appState.verses.length - 1) {
-            window.appState.currentVerseIndex++;
-            this.show(window.appState.currentVerseIndex, 'right');
-            
-            if (window.appState.isReciting) {
+next() {
+    // Disable navigation buttons temporarily
+    const nextBtn = document.getElementById('next-btn');
+    const prevBtn = document.getElementById('prev-btn');
+    if (nextBtn) nextBtn.disabled = true;
+    if (prevBtn) prevBtn.disabled = true;
+    
+    if (window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+        // Completely stop all audio and cleanup
+        audioService.cleanup();
+        this.removeAllHighlights();
+        
+        // Disable auto-advance to prevent conflicts
+        window.appState.autoAdvance = false;
+        
+        // Increment verse index
+        window.appState.currentVerseIndex++;
+        console.log(`Manual next to verse ${window.appState.currentVerseIndex}`);
+        
+        // Update display
+        this.show(window.appState.currentVerseIndex, 'right');
+        
+        // If reciting, play the new verse after cleanup is complete
+        if (window.appState.isReciting && !window.appState.isPaused) {
+            setTimeout(() => {
                 window.appState.autoAdvance = true;
-            }
+                window.playbackControls.playCurrentVerse();
+                
+                // Re-enable buttons after operation
+                if (nextBtn) nextBtn.disabled = false;
+                if (prevBtn) prevBtn.disabled = false;
+            }, 800);
+        } else {
+            window.appState.autoAdvance = true;
+            
+            // Re-enable buttons after operation
+            setTimeout(() => {
+                if (nextBtn) nextBtn.disabled = false;
+                if (prevBtn) prevBtn.disabled = false;
+            }, 800);
         }
+    } else {
+        // Re-enable buttons if at the end
+        if (nextBtn) nextBtn.disabled = false;
+        if (prevBtn) prevBtn.disabled = false;
     }
+}
 
-    // Navigate to previous verse
-    previous() {
-        if (window.appState.currentVerseIndex > 0) {
-            window.appState.currentVerseIndex--;
-            this.show(window.appState.currentVerseIndex, 'left');
-            window.appState.autoAdvance = false;
+// Navigate to previous verse
+previous() {
+    if (window.appState.currentVerseIndex > 0) {
+        // Completely stop all audio and cleanup
+        audioService.cleanup();
+        this.removeAllHighlights();
+        
+        // Disable auto-advance to prevent conflicts
+        window.appState.autoAdvance = false;
+        
+        // Decrement verse index
+        window.appState.currentVerseIndex--;
+        console.log(`Manual previous to verse ${window.appState.currentVerseIndex}`);
+        
+        // Update display
+        this.show(window.appState.currentVerseIndex, 'left');
+        
+        // If reciting, play the new verse after cleanup is complete
+        if (window.appState.isReciting && !window.appState.isPaused) {
+            setTimeout(() => {
+                window.appState.autoAdvance = true; // Re-enable auto-advance
+                window.playbackControls.playCurrentVerse();
+            }, 800); // Longer delay to ensure cleanup
+        } else {
+            window.appState.autoAdvance = true; // Re-enable auto-advance
         }
     }
+}
 
     // Update verse counter display
 updateCounter() {

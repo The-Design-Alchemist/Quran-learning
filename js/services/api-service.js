@@ -23,16 +23,17 @@ class ApiService {
             
             // Format verses
             const verses = data.verses.map(verse => ({
-                number: verse.number,
-                text: verse.arabic,
-                numberInSurah: verse.number,
-                juz: 1,
-                manzil: 1,
-                page: 1,
-                ruku: 1,
-                hizbQuarter: 1,
-                sajda: false
-            }));
+            number: verse.number,
+            text: verse.arabic,
+            translation: verse.translation,  // ← ADD THIS LINE
+            numberInSurah: verse.number,
+            juz: 1,
+            manzil: 1,
+            page: 1,
+            ruku: 1,
+            hizbQuarter: 1,
+            sajda: false
+}));
 
             this.dataCache.set(surahNumber, verses);
             console.log(`✅ Loaded ${verses.length} verses from local file`);
