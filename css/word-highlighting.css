@@ -93,26 +93,3 @@
 .verse-display.active .arabic-word {
     pointer-events: auto !important;
 }
-
-/* Show word number on hover (optional - comment out if not wanted) */
-.arabic-word:hover::before {
-    opacity: 1;
-}
-
-/* Tooltip style for future enhancement */
-.arabic-word::before {
-    content: attr(data-word-index);
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 12px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s;
-    white-space: nowrap;
-}
