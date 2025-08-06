@@ -1,0 +1,176 @@
+/* Components CSS - Buttons and UI Elements */
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    pointer-events: auto !important;
+    z-index: 100;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-50%) translateX(-2px);
+}
+
+/* Control Buttons */
+.control-row {
+    margin-bottom: 15px;
+}
+
+.control-button {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 12px 25px;
+    margin: 0 8px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    pointer-events: auto !important;
+    z-index: 100;
+    position: relative;
+}
+
+.control-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.control-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Navigation Buttons */
+.nav-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    pointer-events: auto !important;
+    z-index: 100;
+    position: relative;
+}
+
+.nav-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    pointer-events: none;
+}
+
+/* Repeat Controls */
+.repeat-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.repeat-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #2c3e50;
+    pointer-events: auto !important;
+    z-index: 100;
+    position: relative;
+}
+
+.repeat-option input[type="radio"] {
+    accent-color: #667eea;
+    pointer-events: auto !important;
+    z-index: 100;
+}
+
+.repeat-count-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    pointer-events: auto !important;
+    z-index: 100;
+    position: relative;
+}
+
+.repeat-count-container label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.repeat-count-container select {
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    color: #2c3e50;
+    cursor: pointer;
+    pointer-events: auto !important;
+    z-index: 100;
+}
+
+/* Verse Number Badge */
+.verse-number {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Verse Highlight */
+.current-verse-highlight {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}

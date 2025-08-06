@@ -1,22 +1,17 @@
+// controls.js - FINAL VERSION with Word Highlighting
 // Playback controls component
 
 class PlaybackControls {
     constructor() {
         this.statusElement = document.getElementById('status');
-        this.isLoading = false; // Add this line
+        this.isLoading = false;
+        this.audioTimeout = null; // Track timeouts
         this.setupEventListeners();
     }
 
     // Setup event listeners for controls
     setupEventListeners() {
-        // Navigation buttons
-        document.getElementById('prev-btn').addEventListener('click', () => {
-            window.verseDisplay.previous();
-        });
-
-        document.getElementById('next-btn').addEventListener('click', () => {
-            window.verseDisplay.next();
-        });
+        // Navigation buttons are now handled directly by verse-display.js
     }
 
     // Start recitation
@@ -38,7 +33,12 @@ class PlaybackControls {
                 window.mediaSessionService.updatePlaybackState();
             }
             
-            setTimeout(() => {
+            // Clear any existing timeouts
+            if (this.audioTimeout) {
+                clearTimeout(this.audioTimeout);
+            }
+            
+            this.audioTimeout = setTimeout(() => {
                 this.playCurrentVerse();
             }, 200);
             
@@ -58,6 +58,11 @@ class PlaybackControls {
                     this.playCurrentVerse();
                 });
                 this.updateStatus(`Resuming verse ${window.appState.verses[window.appState.currentVerseIndex].number}...`);
+                
+                // Resume word highlighting
+                if (window.wordHighlighter) {
+                    window.wordHighlighter.resumeHighlighting();
+                }
             } else {
                 this.playCurrentVerse();
             }
@@ -80,13 +85,25 @@ class PlaybackControls {
             if (currentAudio && !currentAudio.paused) {
                 currentAudio.pause();
             }
+            
+            // Pause word highlighting
+            if (window.wordHighlighter) {
+                window.wordHighlighter.pauseHighlighting();
+            }
+            
             this.updateStatus('Recitation paused');
         }
     }
 
-    // Stop recitation
+    // Stop recitation - FIXED
     stop() {
         console.log('Stopping recitation...');
+        
+        // Clear any pending timeouts
+        if (this.audioTimeout) {
+            clearTimeout(this.audioTimeout);
+            this.audioTimeout = null;
+        }
         
         window.appState.isReciting = false;
         window.appState.isPaused = false;
@@ -94,15 +111,24 @@ class PlaybackControls {
         window.appState.currentRepeatCount = 0;
         window.appState.surahRepeatCount = 0;
         
-        // Stop current audio immediately
-        const currentAudio = audioService.getCurrentAudio();
-        if (currentAudio) {
-            currentAudio.pause();
-            currentAudio.currentTime = 0;
-        }
+        // Stop ALL audio elements
+        const allAudioElements = document.querySelectorAll('audio');
+        allAudioElements.forEach(audio => {
+            audio.pause();
+            audio.currentTime = 0;
+            audio.remove();
+        });
         
+        // Clean up audio service
         audioService.cleanup();
+        
+        // Remove all highlights
         window.verseDisplay.removeAllHighlights();
+        
+        // Clean up word highlighting
+        if (window.wordHighlighter) {
+            window.wordHighlighter.cleanup();
+        }
         
         const startButton = document.querySelector('.control-button');
         if (startButton) startButton.disabled = false;
@@ -114,38 +140,50 @@ class PlaybackControls {
         this.updateStatus('Recitation stopped');
     }
 
-    // Play current verse
+    // Play current verse - FIXED
     async playCurrentVerse() {
-        // Add this check at the very beginning
-    if (this.isLoading) {
-        console.log('Already loading audio, ignoring request');
-        return;
-    }
-        
-        const verse = window.appState.verses[window.appState.currentVerseIndex];
-        
-        // Skip Bismillah (has no audio)
-        if (!verse.hasAudio) {
-            this.updateStatus('Displaying Bismillah...');
-            if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
-                setTimeout(() => {
-                    window.appState.currentVerseIndex++;
-                    window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
-                    this.playCurrentVerse();
-                }, 1500);
-            }
+        // Check if already loading or if we should stop
+        if (this.isLoading || !window.appState.isReciting) {
+            console.log('Already loading or stopped, ignoring request');
             return;
         }
-
-        this.updateStatus(`Loading verse ${verse.number} audio...`);
-        console.log(`🎵 Starting to load verse ${verse.number}`);
-
+        
+        this.isLoading = true;
+        
         try {
+            const verse = window.appState.verses[window.appState.currentVerseIndex];
+            
+            // Skip Bismillah (has no audio)
+            if (!verse.hasAudio) {
+                this.updateStatus('Displaying Bismillah...');
+                this.isLoading = false;
+                
+                if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+                    this.audioTimeout = setTimeout(() => {
+                        if (window.appState.isReciting && !window.appState.isPaused) {
+                            window.appState.currentVerseIndex++;
+                            window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
+                            this.playCurrentVerse();
+                        }
+                    }, 1500);
+                }
+                return;
+            }
+
+            this.updateStatus(`Loading verse ${verse.number} audio...`);
+            console.log(`🎵 Starting to load verse ${verse.number}`);
+
             const surahNumber = getSurahFromURL();
             const audioUrl = await audioService.loadAudio(surahNumber, verse.number);
             console.log(`✅ Audio URL obtained: ${audioUrl}`);
             
-            // Clean up previous audio
+            // Double check we're still supposed to be playing
+            if (!window.appState.isReciting || window.appState.isPaused) {
+                this.isLoading = false;
+                return;
+            }
+            
+            // Clean up any existing audio completely
             audioService.cleanup();
             
             // Create new audio element
@@ -168,42 +206,55 @@ class PlaybackControls {
             console.log(`▶️ Attempting to play verse ${verse.number}`);
             await newAudio.play();
             console.log(`🎵 Successfully playing verse ${verse.number}`);
+            
+            // Initialize word highlighting for this verse with a small delay
+if (window.wordHighlighter && verse.hasAudio) {
+    setTimeout(() => {
+        window.wordHighlighter.initializeVerse(verse.number);
+        window.wordHighlighter.startHighlighting();
+    }, 100); // Small delay to ensure verse is active
+}
 
         } catch (error) {
-            console.error(`💥 Complete failure loading/playing verse ${verse.number}:`, error);
-            this.updateStatus(`Cannot load verse ${verse.number} audio. Skipping...`);
-            window.verseDisplay.removeHighlight(verse.id);
+            console.error(`💥 Complete failure loading/playing verse ${window.appState.verses[window.appState.currentVerseIndex].number}:`, error);
+            this.updateStatus(`Cannot load verse ${window.appState.verses[window.appState.currentVerseIndex].number} audio. Skipping...`);
+            window.verseDisplay.removeHighlight(window.appState.verses[window.appState.currentVerseIndex].id);
             
             if (window.appState.autoAdvance && window.appState.isReciting && !window.appState.isPaused) {
-                setTimeout(() => {
-                    console.log(`⏭️ Skipping verse ${verse.number} due to complete failure`);
+                this.audioTimeout = setTimeout(() => {
                     this.handleVerseCompletion();
                 }, 1500);
             }
+        } finally {
+            this.isLoading = false;
         }
     }
 
-    // Setup event handlers for audio element
+    // Setup event handlers for audio element - FIXED
     setupAudioEventHandlers(audio, verse) {
         const endedHandler = () => {
             console.log(`📝 Verse ${verse.number} playback ended`);
-    window.verseDisplay.removeHighlight(verse.id);
-    
-    // Maintain playing state for iOS
-    if (window.mediaSessionService && 'mediaSession' in navigator) {
-        navigator.mediaSession.playbackState = 'playing';
-    }
-    
-    setTimeout(() => {
-        // CHECK: Only auto-advance if still enabled and reciting
-        if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
-            console.log(`➡️ Auto-advancing from verse ${verse.number}`);
-            this.handleVerseCompletion();
-        } else {
-            console.log(`⏸️ Not auto-advancing: reciting=${window.appState.isReciting}, paused=${window.appState.isPaused}, autoAdvance=${window.appState.autoAdvance}`);
-        }
-    }, 300);
-    
+            window.verseDisplay.removeHighlight(verse.id);
+            
+            // Maintain playing state for iOS
+            if (window.mediaSessionService && 'mediaSession' in navigator) {
+                navigator.mediaSession.playbackState = 'playing';
+            }
+            
+            // Clear any existing timeout
+            if (this.audioTimeout) {
+                clearTimeout(this.audioTimeout);
+            }
+            
+            this.audioTimeout = setTimeout(() => {
+                // CHECK: Only auto-advance if still enabled and reciting
+                if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
+                    console.log(`➡️ Auto-advancing from verse ${verse.number}`);
+                    this.handleVerseCompletion();
+                } else {
+                    console.log(`⏸️ Not auto-advancing: reciting=${window.appState.isReciting}, paused=${window.appState.isPaused}, autoAdvance=${window.appState.autoAdvance}`);
+                }
+            }, 300);
         };
 
         const errorHandler = (event) => {
@@ -212,98 +263,109 @@ class PlaybackControls {
             this.updateStatus(`Audio error for verse ${verse.number}, trying next...`);
             
             if (window.appState.autoAdvance && window.appState.isReciting && !window.appState.isPaused) {
-                setTimeout(() => {
-                    console.log(`⏭️ Skipping verse ${verse.number} due to complete failure`);
+                this.audioTimeout = setTimeout(() => {
                     this.handleVerseCompletion();
                 }, 1500);
             }
         };
 
+        // Remove any existing handlers first
+        if (audio._endedHandler) {
+            audio.removeEventListener('ended', audio._endedHandler);
+        }
+        if (audio._errorHandler) {
+            audio.removeEventListener('error', audio._errorHandler);
+        }
+
         // Store handlers for cleanup
         audio._endedHandler = endedHandler;
         audio._errorHandler = errorHandler;
 
-        audio.addEventListener('ended', endedHandler);
-        audio.addEventListener('error', errorHandler);
+        audio.addEventListener('ended', endedHandler, { once: true });
+        audio.addEventListener('error', errorHandler, { once: true });
     }
 
-    // Handle verse completion and repeat logic
-handleVerseCompletion() {
-    console.log('Handling verse completion...');
-    
-    // CRITICAL: Check if we're still on the same verse that just ended
-    // This prevents race conditions with manual navigation
-    const currentAudio = audioService.getCurrentAudio();
-    if (!currentAudio || !window.appState.isReciting || window.appState.isPaused) {
-        console.log('Audio stopped or paused, not advancing');
-        return;
-    }
-    
-    // Maintain playing state
-    if (window.mediaSessionService && 'mediaSession' in navigator) {
-        navigator.mediaSession.playbackState = 'playing';
-    }
-    
-    // Handle verse repeat mode
-    if (window.appState.repeatMode === 'verse') {
-        window.appState.currentRepeatCount++;
-        console.log(`Verse repeat: ${window.appState.currentRepeatCount}/${window.appState.repeatCount}`);
+    // Handle verse completion and repeat logic - FIXED
+    handleVerseCompletion() {
+        console.log('Handling verse completion...');
         
-        if (window.appState.repeatCount === 'infinite' || window.appState.currentRepeatCount < window.appState.repeatCount) {
-            this.updateStatus(`Repeating verse ${window.appState.verses[window.appState.currentVerseIndex].number} (${window.appState.currentRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
-            
-            setTimeout(() => {
-                if (window.appState.isReciting && !window.appState.isPaused) {
-                    this.playCurrentVerse();
-                }
-            }, 500);
-            return;
-        } else {
-            window.appState.currentRepeatCount = 0;
+        // Clean up word highlighting before moving to next verse
+        if (window.wordHighlighter) {
+            window.wordHighlighter.reset();
         }
-    }
-    
-    // Move to next verse ONLY if auto-advance is still enabled
-    if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
-        setTimeout(() => {
-            // Double-check auto-advance is still enabled before proceeding
-            if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
-                window.appState.currentVerseIndex++;
-                window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
+        
+        // Double check we're still playing
+        if (!window.appState.isReciting || window.appState.isPaused) {
+            console.log('Audio stopped or paused, not advancing');
+            return;
+        }
+        
+        // Maintain playing state
+        if (window.mediaSessionService && 'mediaSession' in navigator) {
+            navigator.mediaSession.playbackState = 'playing';
+        }
+        
+        // Handle verse repeat mode
+        if (window.appState.repeatMode === 'verse') {
+            window.appState.currentRepeatCount++;
+            console.log(`Verse repeat: ${window.appState.currentRepeatCount}/${window.appState.repeatCount}`);
+            
+            if (window.appState.repeatCount === 'infinite' || window.appState.currentRepeatCount < window.appState.repeatCount) {
+                this.updateStatus(`Repeating verse ${window.appState.verses[window.appState.currentVerseIndex].number} (${window.appState.currentRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
                 
-                setTimeout(() => {
-                    if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
+                this.audioTimeout = setTimeout(() => {
+                    if (window.appState.isReciting && !window.appState.isPaused) {
                         this.playCurrentVerse();
                     }
-                }, 200);
+                }, 500);
+                return;
+            } else {
+                window.appState.currentRepeatCount = 0;
             }
-        }, 500);
-    } else if (window.appState.repeatMode === 'surah') {
-        // Handle surah repeat mode
-        window.appState.surahRepeatCount++;
-        console.log(`Surah repeat: ${window.appState.surahRepeatCount}/${window.appState.repeatCount}`);
+        }
         
-        if (window.appState.repeatCount === 'infinite' || window.appState.surahRepeatCount < window.appState.repeatCount) {
-            this.updateStatus(`Repeating Surah (${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
-            setTimeout(() => {
-                if (window.appState.isReciting && !window.appState.isPaused) {
-                    window.appState.currentVerseIndex = 0;
+        // Move to next verse ONLY if auto-advance is still enabled
+        if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+            this.audioTimeout = setTimeout(() => {
+                // Double-check we're still supposed to advance
+                if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
+                    window.appState.currentVerseIndex++;
                     window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
-                    setTimeout(() => {
-                        if (window.appState.isReciting && !window.appState.isPaused) {
+                    
+                    this.audioTimeout = setTimeout(() => {
+                        if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
                             this.playCurrentVerse();
                         }
                     }, 200);
                 }
-            }, 1000);
-            return;
+            }, 500);
+        } else if (window.appState.repeatMode === 'surah') {
+            // Handle surah repeat mode
+            window.appState.surahRepeatCount++;
+            console.log(`Surah repeat: ${window.appState.surahRepeatCount}/${window.appState.repeatCount}`);
+            
+            if (window.appState.repeatCount === 'infinite' || window.appState.surahRepeatCount < window.appState.repeatCount) {
+                this.updateStatus(`Repeating Surah (${window.appState.surahRepeatCount}/${window.appState.repeatCount === 'infinite' ? '∞' : window.appState.repeatCount})`);
+                this.audioTimeout = setTimeout(() => {
+                    if (window.appState.isReciting && !window.appState.isPaused) {
+                        window.appState.currentVerseIndex = 0;
+                        window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
+                        this.audioTimeout = setTimeout(() => {
+                            if (window.appState.isReciting && !window.appState.isPaused) {
+                                this.playCurrentVerse();
+                            }
+                        }, 200);
+                    }
+                }, 1000);
+                return;
+            }
+        } else {
+            // Recitation complete
+            console.log('Recitation completed');
+            this.stop();
         }
-    } else {
-        // Recitation complete
-        console.log('Recitation completed');
-        this.stop();
     }
-}
+
     // Update status display
     updateStatus(message) {
         this.statusElement.textContent = message;

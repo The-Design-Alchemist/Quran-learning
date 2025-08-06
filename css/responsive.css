@@ -1,0 +1,187 @@
+/* Responsive CSS - Media queries and mobile optimization */
+
+/* Tablet and smaller screens */
+@media (max-width: 768px) {
+    /* Container adjustments */
+    .container {
+        margin: 10px;
+        border-radius: 15px;
+        height: 100vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Header adjustments */
+    .back-button {
+        position: static;
+        transform: none;
+        margin-bottom: 15px;
+        align-self: flex-start;
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .surah-title {
+        font-size: 2rem;
+    }
+    
+    /* Verse container */
+    .verse-container {
+        padding: 15px;
+        min-height: 150px;
+        max-height: calc(100vh - 380px); /* Adjust for mobile */
+    }
+    
+    .verse-display {
+        width: 95%;
+    }
+    
+    /* Typography adjustments */
+    .arabic-text {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        line-height: 1.8;
+    }
+    
+    .english-text {
+        font-size: 1.1rem;
+        padding: 12px;
+    }
+    
+    .bismillah-arabic {
+        font-size: 2.2rem;
+    }
+    
+    .bismillah-english {
+        font-size: 1.1rem;
+    }
+    
+    /* Component adjustments */
+    .control-button, .nav-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .verse-counter {
+        font-size: 0.9rem;
+    }
+    
+    .verse-number {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    /* Repeat controls */
+    .repeat-controls {
+        gap: 10px;
+    }
+
+    .repeat-option {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+
+    .repeat-count-container {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+    
+    /* Word highlighting adjustments */
+    .arabic-word {
+        padding: 1px 3px;
+        margin: 0 1px;
+    }
+    
+    .arabic-word.word-highlight {
+        transform: scale(1.1);
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        margin: 5px;
+    }
+    
+    .control-button {
+        padding: 8px 15px;
+        margin: 0 4px;
+        font-size: 0.85rem;
+    }
+    
+    .nav-button {
+        padding: 12px 20px;
+        font-size: 0.95rem;
+    }
+    
+    .repeat-controls {
+        gap: 8px;
+    }
+}
+
+/* Very small height screens */
+@media (max-height: 700px) {
+    .verse-container {
+        min-height: 200px;
+        padding: 20px;
+    }
+    
+    .container {
+        height: 100vh;
+        overflow-y: auto;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+    
+    .arabic-text {
+        font-size: 4rem;
+    }
+    
+    .english-text {
+        font-size: 1.6rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+    
+    .container {
+        box-shadow: none;
+        border-radius: 0;
+    }
+    
+    .audio-controls,
+    .navigation-controls,
+    .back-button {
+        display: none;
+    }
+    
+    .verse-display {
+        position: static !important;
+        transform: none !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+}

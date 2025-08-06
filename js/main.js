@@ -111,6 +111,11 @@ class QuranLearningApp {
         this.audioControlsElement.style.display = 'block';
         this.verseContainerElement.style.display = 'flex';
         this.navigationControlsElement.style.display = 'flex';
+
+        // Enable navigation buttons after content is shown
+        setTimeout(() => {
+            window.verseDisplay.updateNavigationButtons();
+        }, 100);
     }
 
     // Update header with Surah info
