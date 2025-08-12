@@ -1,247 +1,247 @@
 {
-  "number": 78,
+  "surah": 78,
   "name": "An-Naba",
-  "totalVerses": 40,
+  "arabicName": "سُورَةُ النَّبَإِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  عَمَّ یَتَسَاۤءَلُونَ\n",
       "translation": "About what are they asking one another?",
-      "audioFile": "audio/078/078001.mp3"
+      "transliteration": "'Amma Yatasaa-aloon"
     },
     {
       "number": 2,
       "arabic": "عَنِ ٱلنَّبَإِ ٱلۡعَظِیمِ\n",
       "translation": "About the great news -",
-      "audioFile": "audio/078/078002.mp3"
+      "transliteration": "'Anin-nabaa-il 'azeem"
     },
     {
       "number": 3,
       "arabic": "ٱلَّذِی هُمۡ فِیهِ مُخۡتَلِفُونَ\n",
       "translation": "That over which they are in disagreement.",
-      "audioFile": "audio/078/078003.mp3"
+      "transliteration": "Allazi hum feehi mukh talifoon"
     },
     {
       "number": 4,
       "arabic": "كَلَّا سَیَعۡلَمُونَ\n",
       "translation": "No! They are going to know.",
-      "audioFile": "audio/078/078004.mp3"
+      "transliteration": "Kallaa sa y'alamoon"
     },
     {
       "number": 5,
       "arabic": "ثُمَّ كَلَّا سَیَعۡلَمُونَ\n",
       "translation": "Then, no! They are going to know.",
-      "audioFile": "audio/078/078005.mp3"
+      "transliteration": "Thumma kallaa sa y'alamoon"
     },
     {
       "number": 6,
       "arabic": "أَلَمۡ نَجۡعَلِ ٱلۡأَرۡضَ مِهَـٰدࣰا\n",
       "translation": "Have We not made the earth a resting place?",
-      "audioFile": "audio/078/078006.mp3"
+      "transliteration": "Alam naj'alil arda mihaa da"
     },
     {
       "number": 7,
       "arabic": "وَٱلۡجِبَالَ أَوۡتَادࣰا\n",
       "translation": "And the mountains as stakes?",
-      "audioFile": "audio/078/078007.mp3"
+      "transliteration": "Wal jibaala au taada"
     },
     {
       "number": 8,
       "arabic": "وَخَلَقۡنَـٰكُمۡ أَزۡوَ ٰ⁠جࣰا\n",
       "translation": "And We created you in pairs",
-      "audioFile": "audio/078/078008.mp3"
+      "transliteration": "Wa khalaq naakum azwaaja"
     },
     {
       "number": 9,
       "arabic": "وَجَعَلۡنَا نَوۡمَكُمۡ سُبَاتࣰا\n",
       "translation": "And made your sleep [a means for] rest",
-      "audioFile": "audio/078/078009.mp3"
+      "transliteration": "Waja'alnan naumakum subata"
     },
     {
       "number": 10,
       "arabic": "وَجَعَلۡنَا ٱلَّیۡلَ لِبَاسࣰا\n",
       "translation": "And made the night as clothing",
-      "audioFile": "audio/078/078010.mp3"
+      "transliteration": "Waja'alnal laila libasa"
     },
     {
       "number": 11,
       "arabic": "وَجَعَلۡنَا ٱلنَّهَارَ مَعَاشࣰا\n",
       "translation": "And made the day for livelihood",
-      "audioFile": "audio/078/078011.mp3"
+      "transliteration": "Waja'alnan nahara ma 'aasha"
     },
     {
       "number": 12,
       "arabic": "وَبَنَیۡنَا فَوۡقَكُمۡ سَبۡعࣰا شِدَادࣰا\n",
       "translation": "And constructed above you seven strong [heavens]",
-      "audioFile": "audio/078/078012.mp3"
+      "transliteration": "Wa banaina fauqakum sab 'an shi daada"
     },
     {
       "number": 13,
       "arabic": "وَجَعَلۡنَا سِرَاجࣰا وَهَّاجࣰا\n",
       "translation": "And made [therein] a burning lamp",
-      "audioFile": "audio/078/078013.mp3"
+      "transliteration": "Waja'alna siraajaw wah haaja"
     },
     {
       "number": 14,
       "arabic": "وَأَنزَلۡنَا مِنَ ٱلۡمُعۡصِرَ ٰ⁠تِ مَاۤءࣰ ثَجَّاجࣰا\n",
       "translation": "And sent down, from the rain clouds, pouring water",
-      "audioFile": "audio/078/078014.mp3"
+      "transliteration": "Wa anzalna minal m'usiraati maa-an saj-jaaja"
     },
     {
       "number": 15,
       "arabic": "لِّنُخۡرِجَ بِهِۦ حَبࣰّا وَنَبَاتࣰا\n",
       "translation": "That We may bring forth thereby grain and vegetation",
-      "audioFile": "audio/078/078015.mp3"
+      "transliteration": "Linukh rija bihee habbaw wana baata"
     },
     {
       "number": 16,
       "arabic": "وَجَنَّـٰتٍ أَلۡفَافًا\n",
       "translation": "And gardens of entwined growth.",
-      "audioFile": "audio/078/078016.mp3"
+      "transliteration": "Wa jan naatin alfafa"
     },
     {
       "number": 17,
       "arabic": "إِنَّ یَوۡمَ ٱلۡفَصۡلِ كَانَ مِیقَـٰتࣰا\n",
       "translation": "Indeed, the Day of Judgement is an appointed time -",
-      "audioFile": "audio/078/078017.mp3"
+      "transliteration": "Inna yaumal-fasli kana miqaata"
     },
     {
       "number": 18,
       "arabic": "یَوۡمَ یُنفَخُ فِی ٱلصُّورِ فَتَأۡتُونَ أَفۡوَاجࣰا\n",
       "translation": "The Day the Horn is blown and you will come forth in multitudes",
-      "audioFile": "audio/078/078018.mp3"
+      "transliteration": "Yauma yun fakhu fis-soori fataa toona afwaaja"
     },
     {
       "number": 19,
       "arabic": "وَفُتِحَتِ ٱلسَّمَاۤءُ فَكَانَتۡ أَبۡوَ ٰ⁠بࣰا\n",
       "translation": "And the heaven is opened and will become gateways",
-      "audioFile": "audio/078/078019.mp3"
+      "transliteration": "Wa futiha tis samaa-u fakaanat abwaaba"
     },
     {
       "number": 20,
       "arabic": "وَسُیِّرَتِ ٱلۡجِبَالُ فَكَانَتۡ سَرَابًا\n",
       "translation": "And the mountains are removed and will be [but] a mirage.",
-      "audioFile": "audio/078/078020.mp3"
+      "transliteration": "Wa suyyi raatil jibaalu fa kaanat saraaba"
     },
     {
       "number": 21,
       "arabic": "إِنَّ جَهَنَّمَ كَانَتۡ مِرۡصَادࣰا\n",
       "translation": "Indeed, Hell has been lying in wait",
-      "audioFile": "audio/078/078021.mp3"
+      "transliteration": "Inna jahan nama kaanat mirsaada"
     },
     {
       "number": 22,
       "arabic": "لِّلطَّـٰغِینَ مَـَٔابࣰا\n",
       "translation": "For the transgressors, a place of return,",
-      "audioFile": "audio/078/078022.mp3"
+      "transliteration": "Lit taa gheena ma aaba"
     },
     {
       "number": 23,
       "arabic": "لَّـٰبِثِینَ فِیهَاۤ أَحۡقَابࣰا\n",
       "translation": "In which they will remain for ages [unending].",
-      "audioFile": "audio/078/078023.mp3"
+      "transliteration": "Laa bitheena feehaa ahqaaba"
     },
     {
       "number": 24,
       "arabic": "لَّا یَذُوقُونَ فِیهَا بَرۡدࣰا وَلَا شَرَابًا\n",
       "translation": "They will not taste therein [any] coolness or drink",
-      "audioFile": "audio/078/078024.mp3"
+      "transliteration": "Laa ya zooqoona feeha bar daw walaa sharaaba"
     },
     {
       "number": 25,
       "arabic": "إِلَّا حَمِیمࣰا وَغَسَّاقࣰا\n",
       "translation": "Except scalding water and [foul] purulence -",
-      "audioFile": "audio/078/078025.mp3"
+      "transliteration": "Illa hamee maw-wa ghas saaqa"
     },
     {
       "number": 26,
       "arabic": "جَزَاۤءࣰ وِفَاقًا\n",
       "translation": "An appropriate recompense.",
-      "audioFile": "audio/078/078026.mp3"
+      "transliteration": "Jazaa-aw wi faaqa"
     },
     {
       "number": 27,
       "arabic": "إِنَّهُمۡ كَانُوا۟ لَا یَرۡجُونَ حِسَابࣰا\n",
       "translation": "Indeed, they were not expecting an account",
-      "audioFile": "audio/078/078027.mp3"
+      "transliteration": "Innahum kaanu laa yarjoona hisaaba"
     },
     {
       "number": 28,
       "arabic": "وَكَذَّبُوا۟ بِـَٔایَـٰتِنَا كِذَّابࣰا\n",
       "translation": "And denied Our verses with [emphatic] denial.",
-      "audioFile": "audio/078/078028.mp3"
+      "transliteration": "Wa kazzabu bi aayaa tina kizzaba"
     },
     {
       "number": 29,
       "arabic": "وَكُلَّ شَیۡءٍ أَحۡصَیۡنَـٰهُ كِتَـٰبࣰا\n",
       "translation": "But all things We have enumerated in writing.",
-      "audioFile": "audio/078/078029.mp3"
+      "transliteration": "Wa kulla shai-in ahsai naahu kitaa ba"
     },
     {
       "number": 30,
       "arabic": "فَذُوقُوا۟ فَلَن نَّزِیدَكُمۡ إِلَّا عَذَابًا\n",
       "translation": "\"So taste [the penalty], and never will We increase you except in torment.\"",
-      "audioFile": "audio/078/078030.mp3"
+      "transliteration": "Fa zooqoo falan-nazee dakum ill-laa azaaba"
     },
     {
       "number": 31,
       "arabic": "إِنَّ لِلۡمُتَّقِینَ مَفَازًا\n",
       "translation": "Indeed, for the righteous is attainment -",
-      "audioFile": "audio/078/078031.mp3"
+      "transliteration": "Inna lil mutta qeena mafaaza"
     },
     {
       "number": 32,
       "arabic": "حَدَاۤىِٕقَ وَأَعۡنَـٰبࣰا\n",
       "translation": "Gardens and grapevines",
-      "audioFile": "audio/078/078032.mp3"
+      "transliteration": "Hadaa-iqa wa a'anaa ba"
     },
     {
       "number": 33,
       "arabic": "وَكَوَاعِبَ أَتۡرَابࣰا\n",
       "translation": "And full-breasted [companions] of equal age",
-      "audioFile": "audio/078/078033.mp3"
+      "transliteration": "Wa kaawa 'iba at raaba"
     },
     {
       "number": 34,
       "arabic": "وَكَأۡسࣰا دِهَاقࣰا\n",
       "translation": "And a full cup.",
-      "audioFile": "audio/078/078034.mp3"
+      "transliteration": "Wa ka'san di haaqa"
     },
     {
       "number": 35,
       "arabic": "لَّا یَسۡمَعُونَ فِیهَا لَغۡوࣰا وَلَا كِذَّ ٰ⁠بࣰا\n",
       "translation": "No ill speech will they hear therein or any falsehood -",
-      "audioFile": "audio/078/078035.mp3"
+      "transliteration": "Laa yasma'oona fiha lagh waw walaa kizzaba"
     },
     {
       "number": 36,
       "arabic": "جَزَاۤءࣰ مِّن رَّبِّكَ عَطَاۤءً حِسَابࣰا\n",
       "translation": "[As] reward from your Lord, [a generous] gift [made due by] account,",
-      "audioFile": "audio/078/078036.mp3"
+      "transliteration": "Jazaa-am mir-rabbika ataa-an hisaaba"
     },
     {
       "number": 37,
       "arabic": "رَّبِّ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ وَمَا بَیۡنَهُمَا ٱلرَّحۡمَـٰنِۖ لَا یَمۡلِكُونَ مِنۡهُ خِطَابࣰا\n",
       "translation": "[From] the Lord of the heavens and the earth and whatever is between them, the Most Merciful. They possess not from Him [authority for] speech.",
-      "audioFile": "audio/078/078037.mp3"
+      "transliteration": "Rabbis samaa waati wal ardi wa maa baina humar rahmaani laa yam likoona minhu khi taaba"
     },
     {
       "number": 38,
       "arabic": "یَوۡمَ یَقُومُ ٱلرُّوحُ وَٱلۡمَلَـٰۤىِٕكَةُ صَفࣰّاۖ لَّا یَتَكَلَّمُونَ إِلَّا مَنۡ أَذِنَ لَهُ ٱلرَّحۡمَـٰنُ وَقَالَ صَوَابࣰا\n",
       "translation": "The Day that the Spirit and the angels will stand in rows, they will not speak except for one whom the Most Merciful permits, and he will say what is correct.",
-      "audioFile": "audio/078/078038.mp3"
+      "transliteration": "Yauma yaqoo mur roohu wal malaa-ikatu saf-fal laa yata kalla moona illa man azina lahur rahmaanu wa qaala sawaaba"
     },
     {
       "number": 39,
       "arabic": "ذَ ٰ⁠لِكَ ٱلۡیَوۡمُ ٱلۡحَقُّۖ فَمَن شَاۤءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا\n",
       "translation": "That is the True Day; so he who wills may take to his Lord a [way of] return.",
-      "audioFile": "audio/078/078039.mp3"
+      "transliteration": "Zaalikal yaumul haqqu faman shaa-at ta khaaza ill-laa rabbihi ma-aaba"
     },
     {
       "number": 40,
       "arabic": "إِنَّاۤ أَنذَرۡنَـٰكُمۡ عَذَابࣰا قَرِیبࣰا یَوۡمَ یَنظُرُ ٱلۡمَرۡءُ مَا قَدَّمَتۡ یَدَاهُ وَیَقُولُ ٱلۡكَافِرُ یَـٰلَیۡتَنِی كُنتُ تُرَ ٰ⁠بَۢا\n",
       "translation": "Indeed, We have warned you of a near punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, \"Oh, I wish that I were dust!\"",
-      "audioFile": "audio/078/078040.mp3"
+      "transliteration": "In naa anzar naakum azaaban qareebaiy-yauma yan zurul marr-u maa qaddamat yadaahu wa ya qoolul-kaafiru yaa lai tanee kuntu turaaba"
     }
   ]
 }

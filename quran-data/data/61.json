@@ -1,91 +1,91 @@
 {
-  "number": 61,
+  "surah": 61,
   "name": "As-Saff",
-  "totalVerses": 14,
+  "arabicName": "سُورَةُ الصَّفِّ",
   "verses": [
     {
       "number": 1,
       "arabic": "  سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
       "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise.",
-      "audioFile": "audio/061/061001.mp3"
+      "transliteration": "Sabbaha lillaahi maa fisamaawaati wa maa fil ardi wa huwal 'Azeezul Hakeem"
     },
     {
       "number": 2,
       "arabic": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لِمَ تَقُولُونَ مَا لَا تَفۡعَلُونَ\n",
       "translation": "O you who have believed, why do you say what you do not do?",
-      "audioFile": "audio/061/061002.mp3"
+      "transliteration": "Yaa ayyuhal lazeena aamanoo lima taqooloona maa laa taf'aloon"
     },
     {
       "number": 3,
       "arabic": "كَبُرَ مَقۡتًا عِندَ ٱللَّهِ أَن تَقُولُوا۟ مَا لَا تَفۡعَلُونَ\n",
       "translation": "Great is hatred in the sight of Allah that you say what you do not do.",
-      "audioFile": "audio/061/061003.mp3"
+      "transliteration": "Kabura maqtan 'indal laahi an taqooloo maa laa taf'aloon"
     },
     {
       "number": 4,
       "arabic": "إِنَّ ٱللَّهَ یُحِبُّ ٱلَّذِینَ یُقَـٰتِلُونَ فِی سَبِیلِهِۦ صَفࣰّا كَأَنَّهُم بُنۡیَـٰنࣱ مَّرۡصُوصࣱ\n",
       "translation": "Indeed, Allah loves those who fight in His cause in a row as though they are a [single] structure joined firmly.",
-      "audioFile": "audio/061/061004.mp3"
+      "transliteration": "Innal laaha yuhibbul lazeena yuqaatiloona fee sabeelihee saffan kaannahum bunyaanum marsoos"
     },
     {
       "number": 5,
       "arabic": "وَإِذۡ قَالَ مُوسَىٰ لِقَوۡمِهِۦ یَـٰقَوۡمِ لِمَ تُؤۡذُونَنِی وَقَد تَّعۡلَمُونَ أَنِّی رَسُولُ ٱللَّهِ إِلَیۡكُمۡۖ فَلَمَّا زَاغُوۤا۟ أَزَاغَ ٱللَّهُ قُلُوبَهُمۡۚ وَٱللَّهُ لَا یَهۡدِی ٱلۡقَوۡمَ ٱلۡفَـٰسِقِینَ\n",
       "translation": "And [mention, O Muhammad], when Moses said to his people, \"O my people, why do you harm me while you certainly know that I am the messenger of Allah to you?\" And when they deviated, Allah caused their hearts to deviate. And Allah does not guide the defiantly disobedient people.",
-      "audioFile": "audio/061/061005.mp3"
+      "transliteration": "Wa iz qaala Moosa liqawmihee yaa qawmi lima tu'zoonanee wa qat ta'lamoona annee Rasoolul laahi ilaikum falammaa zaaghooo azaaghal laahu quloobahum; wallaahu laa yahdil qawmal faasiqeen"
     },
     {
       "number": 6,
       "arabic": "وَإِذۡ قَالَ عِیسَى ٱبۡنُ مَرۡیَمَ یَـٰبَنِیۤ إِسۡرَ ٰ⁠ۤءِیلَ إِنِّی رَسُولُ ٱللَّهِ إِلَیۡكُم مُّصَدِّقࣰا لِّمَا بَیۡنَ یَدَیَّ مِنَ ٱلتَّوۡرَىٰةِ وَمُبَشِّرَۢا بِرَسُولࣲ یَأۡتِی مِنۢ بَعۡدِی ٱسۡمُهُۥۤ أَحۡمَدُۖ فَلَمَّا جَاۤءَهُم بِٱلۡبَیِّنَـٰتِ قَالُوا۟ هَـٰذَا سِحۡرࣱ مُّبِینࣱ\n",
       "translation": "And [mention] when Jesus, the son of Mary, said, \"O children of Israel, indeed I am the messenger of Allah to you confirming what came before me of the Torah and bringing good tidings of a messenger to come after me, whose name is Ahmad.\" But when he came to them with clear evidences, they said, \"This is obvious magic.\"",
-      "audioFile": "audio/061/061006.mp3"
+      "transliteration": "Wa iz qaala 'Eesab-nu-Mayama yaa Banee Israaa'eela innee Rasoolul laahi ilaikum musaddiqal limaa baina yadayya minat Tawraati wa mubashshiram bi Rasooliny yaatee mim ba'dis muhooo Ahmad; falammaa jaaa'ahum bil baiyinaati qaaloo haazaa sihrum mubeen"
     },
     {
       "number": 7,
       "arabic": "وَمَنۡ أَظۡلَمُ مِمَّنِ ٱفۡتَرَىٰ عَلَى ٱللَّهِ ٱلۡكَذِبَ وَهُوَ یُدۡعَىٰۤ إِلَى ٱلۡإِسۡلَـٰمِۚ وَٱللَّهُ لَا یَهۡدِی ٱلۡقَوۡمَ ٱلظَّـٰلِمِینَ\n",
       "translation": "And who is more unjust than one who invents about Allah untruth while he is being invited to Islam. And Allah does not guide the wrongdoing people.",
-      "audioFile": "audio/061/061007.mp3"
+      "transliteration": "Wa man azlamu mimma nif taraa 'alal laahil kaziba wa huwa yad'aaa ilal Islaam; wallaahu laa yahdil qawmaz zaalimeen"
     },
     {
       "number": 8,
       "arabic": "یُرِیدُونَ لِیُطۡفِـُٔوا۟ نُورَ ٱللَّهِ بِأَفۡوَ ٰ⁠هِهِمۡ وَٱللَّهُ مُتِمُّ نُورِهِۦ وَلَوۡ كَرِهَ ٱلۡكَـٰفِرُونَ\n",
       "translation": "They want to extinguish the light of Allah with their mouths, but Allah will perfect His light, although the disbelievers dislike it.",
-      "audioFile": "audio/061/061008.mp3"
+      "transliteration": "Yureedoona liyutfi'oo nooral laahi bi afwaahimim wallaahu mutimmu noorihee wa law karihal kaafiroon"
     },
     {
       "number": 9,
       "arabic": "هُوَ ٱلَّذِیۤ أَرۡسَلَ رَسُولَهُۥ بِٱلۡهُدَىٰ وَدِینِ ٱلۡحَقِّ لِیُظۡهِرَهُۥ عَلَى ٱلدِّینِ كُلِّهِۦ وَلَوۡ كَرِهَ ٱلۡمُشۡرِكُونَ\n",
       "translation": "It is He who sent His Messenger with guidance and the religion of truth to manifest it over all religion, although those who associate others with Allah dislike it.",
-      "audioFile": "audio/061/061009.mp3"
+      "transliteration": "Huwal lazee arsala Rasoolahoo bilhudaa wa deenil haqqi liyuzhirahoo 'alad deeni kullihee wa law karihal mushrikoon"
     },
     {
       "number": 10,
       "arabic": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ هَلۡ أَدُلُّكُمۡ عَلَىٰ تِجَـٰرَةࣲ تُنجِیكُم مِّنۡ عَذَابٍ أَلِیمࣲ\n",
       "translation": "O you who have believed, shall I guide you to a transaction that will save you from a painful punishment?",
-      "audioFile": "audio/061/061010.mp3"
+      "transliteration": "Yaaa ayyuhal lazeena aammano hal adullukum 'alaa tijaaratin tunjeekum min 'azaabin aleem"
     },
     {
       "number": 11,
       "arabic": "تُؤۡمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ وَتُجَـٰهِدُونَ فِی سَبِیلِ ٱللَّهِ بِأَمۡوَ ٰ⁠لِكُمۡ وَأَنفُسِكُمۡۚ ذَ ٰ⁠لِكُمۡ خَیۡرࣱ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ\n",
       "translation": "[It is that] you believe in Allah and His Messenger and strive in the cause of Allah with your wealth and your lives. That is best for you, if you should know.",
-      "audioFile": "audio/061/061011.mp3"
+      "transliteration": "Tu'minoona billaahi wa Rasoolihee wa tujaahidoona fee sabeelil laahi bi amwaalikum wa anfusikum; zaalikum khairul lakum in kuntum ta'lamoon"
     },
     {
       "number": 12,
       "arabic": "یَغۡفِرۡ لَكُمۡ ذُنُوبَكُمۡ وَیُدۡخِلۡكُمۡ جَنَّـٰتࣲ تَجۡرِی مِن تَحۡتِهَا ٱلۡأَنۡهَـٰرُ وَمَسَـٰكِنَ طَیِّبَةࣰ فِی جَنَّـٰتِ عَدۡنࣲۚ ذَ ٰ⁠لِكَ ٱلۡفَوۡزُ ٱلۡعَظِیمُ\n",
       "translation": "He will forgive for you your sins and admit you to gardens beneath which rivers flow and pleasant dwellings in gardens of perpetual residence. That is the great attainment.",
-      "audioFile": "audio/061/061012.mp3"
+      "transliteration": "Yaghfir lakum zunoobakum wa yudkhilkum Jannaatin tajree min tahtihal anhaaru wa masaakina taiyibatan fee Jannaati 'Ad; zaalikal fawzul 'Azeem"
     },
     {
       "number": 13,
       "arabic": "وَأُخۡرَىٰ تُحِبُّونَهَاۖ نَصۡرࣱ مِّنَ ٱللَّهِ وَفَتۡحࣱ قَرِیبࣱۗ وَبَشِّرِ ٱلۡمُؤۡمِنِینَ\n",
       "translation": "And [you will obtain] another [favor] that you love - victory from Allah and an imminent conquest; and give good tidings to the believers.",
-      "audioFile": "audio/061/061013.mp3"
+      "transliteration": "Wa ukhraa tuhibboonahaa nasrum minal laahi wa fat hun qaree; wa bashshiril mu 'mineen"
     },
     {
       "number": 14,
       "arabic": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ كُونُوۤا۟ أَنصَارَ ٱللَّهِ كَمَا قَالَ عِیسَى ٱبۡنُ مَرۡیَمَ لِلۡحَوَارِیِّـۧنَ مَنۡ أَنصَارِیۤ إِلَى ٱللَّهِۖ قَالَ ٱلۡحَوَارِیُّونَ نَحۡنُ أَنصَارُ ٱللَّهِۖ فَـَٔامَنَت طَّاۤىِٕفَةࣱ مِّنۢ بَنِیۤ إِسۡرَ ٰ⁠ۤءِیلَ وَكَفَرَت طَّاۤىِٕفَةࣱۖ فَأَیَّدۡنَا ٱلَّذِینَ ءَامَنُوا۟ عَلَىٰ عَدُوِّهِمۡ فَأَصۡبَحُوا۟ ظَـٰهِرِینَ\n",
       "translation": "O you who have believed, be supporters of Allah, as when Jesus, the son of Mary, said to the disciples, \"Who are my supporters for Allah?\" The disciples said, \"We are supporters of Allah.\" And a faction of the Children of Israel believed and a faction disbelieved. So We supported those who believed against their enemy, and they became dominant.",
-      "audioFile": "audio/061/061014.mp3"
+      "transliteration": "Yaaa ayyuhal lazeena aamaanoo koonooo ansaaral laahi kamaa qaala 'Eesab-nu-Maryama lil Hawaariyyeena man ansaareee ilal laah; qaalal Hawaariyyoona nahnu ansaa rul laahi fa aamanat taaa'ifatum mim Bannee Israaa'eela wa kafarat taaa'ifatun fa ayyadnal lazeena aammanoo 'alaa 'aduwwihim fa asbahoo zaahireen"
     }
   ]
 }

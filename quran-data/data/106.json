@@ -1,31 +1,31 @@
 {
-  "number": 106,
-  "name": "Quraysh",
-  "totalVerses": 4,
+  "surah": 106,
+  "name": "Quraish",
+  "arabicName": "سُورَةُ قُرَيۡشٍ",
   "verses": [
     {
       "number": 1,
       "arabic": "  لِإِیلَـٰفِ قُرَیۡشٍ\n",
       "translation": "For the accustomed security of the Quraysh -",
-      "audioFile": "audio/106/106001.mp3"
+      "transliteration": "Li-ilaafi quraish"
     },
     {
       "number": 2,
       "arabic": "إِۦلَـٰفِهِمۡ رِحۡلَةَ ٱلشِّتَاۤءِ وَٱلصَّیۡفِ\n",
       "translation": "Their accustomed security [in] the caravan of winter and summer -",
-      "audioFile": "audio/106/106002.mp3"
+      "transliteration": "Elaafihim rihlatash shitaa-i wass saif"
     },
     {
       "number": 3,
       "arabic": "فَلۡیَعۡبُدُوا۟ رَبَّ هَـٰذَا ٱلۡبَیۡتِ\n",
       "translation": "Let them worship the Lord of this House,",
-      "audioFile": "audio/106/106003.mp3"
+      "transliteration": "Fal y'abudu rabba haazal-bait"
     },
     {
       "number": 4,
       "arabic": "ٱلَّذِیۤ أَطۡعَمَهُم مِّن جُوعࣲ وَءَامَنَهُم مِّنۡ خَوۡفِۭ\n",
       "translation": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear.",
-      "audioFile": "audio/106/106004.mp3"
+      "transliteration": "Allazi at'amahum min ju'inw-wa-aamana hum min khawf"
     }
   ]
 }

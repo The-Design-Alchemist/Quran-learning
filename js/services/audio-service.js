@@ -131,17 +131,6 @@ class AudioService {
             this.audioElements.add(audio);
         }
     }
-
-    isIOS() {
-        return /iPad|iPhone|iPod/.test(navigator.userAgent);
-    }
-
-    initializeIOS() {
-        // iOS optimizations if needed
-        if (this.isIOS()) {
-            console.log('iOS device detected - audio optimizations enabled');
-        }
-    }
 }
 
 window.audioService = new AudioService();

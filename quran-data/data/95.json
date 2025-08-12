@@ -1,55 +1,55 @@
 {
-  "number": 95,
+  "surah": 95,
   "name": "At-Tin",
-  "totalVerses": 8,
+  "arabicName": "سُورَةُ التِّينِ",
   "verses": [
     {
       "number": 1,
       "arabic": "بِّسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ وَٱلتِّینِ وَٱلزَّیۡتُونِ\n",
       "translation": "By the fig and the olive",
-      "audioFile": "audio/095/095001.mp3"
+      "transliteration": "Wat teeni waz zaitoon"
     },
     {
       "number": 2,
       "arabic": "وَطُورِ سِینِینَ\n",
       "translation": "And [by] Mount Sinai",
-      "audioFile": "audio/095/095002.mp3"
+      "transliteration": "Wa toori sineen"
     },
     {
       "number": 3,
       "arabic": "وَهَـٰذَا ٱلۡبَلَدِ ٱلۡأَمِینِ\n",
       "translation": "And [by] this secure city [Makkah],",
-      "audioFile": "audio/095/095003.mp3"
+      "transliteration": "Wa haazal balad-il ameen"
     },
     {
       "number": 4,
       "arabic": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَـٰنَ فِیۤ أَحۡسَنِ تَقۡوِیمࣲ\n",
       "translation": "We have certainly created man in the best of stature;",
-      "audioFile": "audio/095/095004.mp3"
+      "transliteration": "Laqad khalaqnal insaana fee ahsani taqweem"
     },
     {
       "number": 5,
       "arabic": "ثُمَّ رَدَدۡنَـٰهُ أَسۡفَلَ سَـٰفِلِینَ\n",
       "translation": "Then We return him to the lowest of the low,",
-      "audioFile": "audio/095/095005.mp3"
+      "transliteration": "Thumma ra dad naahu asfala saafileen"
     },
     {
       "number": 6,
       "arabic": "إِلَّا ٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمۡ أَجۡرٌ غَیۡرُ مَمۡنُونࣲ\n",
       "translation": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
-      "audioFile": "audio/095/095006.mp3"
+      "transliteration": "Ill-lal lazeena aamanoo wa 'amilus saalihaati; falahum ajrun ghairu mamnoon"
     },
     {
       "number": 7,
       "arabic": "فَمَا یُكَذِّبُكَ بَعۡدُ بِٱلدِّینِ\n",
       "translation": "So what yet causes you to deny the Recompense?",
-      "audioFile": "audio/095/095007.mp3"
+      "transliteration": "Fama yu kaz zibuka b'adu bid deen"
     },
     {
       "number": 8,
       "arabic": "أَلَیۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَـٰكِمِینَ\n",
       "translation": "Is not Allah the most just of judges?",
-      "audioFile": "audio/095/095008.mp3"
+      "transliteration": "Alai sal laahu bi-ahkamil haakimeen"
     }
   ]
 }

@@ -174,3 +174,99 @@
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     transform: scale(1.02);
 }
+
+/* Toggle button states */
+.toggle-button {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.toggle-button.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.toggle-button.active:hover {
+    transform: scale(1.08);
+}
+
+/* Simplified control row */
+.control-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.control-button {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Verse Selector Dropdown */
+.verse-selector-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.verse-selector-label {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.verse-selector {
+    padding: 8px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+    background: white;
+    cursor: pointer;
+    min-width: 80px;
+    transition: all 0.3s ease;
+}
+
+.verse-selector:hover {
+    border-color: #667eea;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+}
+
+.verse-selector:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.verse-total {
+    font-weight: bold;
+    color: #7f8c8d;
+    font-size: 0.95rem;
+}
+
+/* Hide the old verse counter if it still exists */
+.verse-counter {
+    display: none;
+}
+

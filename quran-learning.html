@@ -26,54 +26,80 @@
             <button onclick="window.location.href='index.html'" style="margin-top: 15px; padding: 10px 20px; background: #667eea; color: white; border: none; border-radius: 5px; cursor: pointer;">Back to Home</button>
         </div>
 
-        <div class="audio-controls" id="audio-controls" style="display: none;">
-            <div class="control-row">
-                <button class="control-button" onclick="startRecitation()">▶️ Start Recitation</button>
-                <button class="control-button" onclick="stopRecitation()">⏹️ Stop</button>
-                <button class="control-button" onclick="pauseRecitation()">⏸️ Pause</button>
-            </div>
-            
-            <div class="repeat-controls">
-                <div class="repeat-option">
-                    <input type="radio" id="no-repeat" name="repeatMode" value="none" checked onchange="changeRepeatMode()">
-                    <label for="no-repeat">No Repeat</label>
-                </div>
-                
-                <div class="repeat-option">
-                    <input type="radio" id="repeat-verse" name="repeatMode" value="verse" onchange="changeRepeatMode()">
-                    <label for="repeat-verse">🔁 Repeat Current Verse</label>
-                </div>
-                
-                <div class="repeat-option">
-                    <input type="radio" id="repeat-surah" name="repeatMode" value="surah" onchange="changeRepeatMode()">
-                    <label for="repeat-surah">🔄 Repeat Entire Surah</label>
-                </div>
-                
-                <div class="repeat-count-container">
-                    <label for="repeat-count">Times:</label>
-                    <select id="repeat-count" onchange="changeRepeatCount()">
-                        <option value="2">2</option>
-                        <option value="3" selected>3</option>
-                        <option value="5">5</option>
-                        <option value="7">7</option>
-                        <option value="10">10</option>
-                        <option value="infinite">∞</option>
-                    </select>
-                </div>
-            </div>
-            
-            <div class="verse-status" id="status">Ready to recite</div>
+<div class="audio-controls" id="audio-controls" style="display: none;">
+    <div class="control-row">
+        <button class="control-button" id="play-pause-btn" onclick="togglePlayPause()">
+            <span id="play-pause-icon">▶️</span>
+            <span id="play-pause-text">Play</span>
+        </button>
+        
+        <button class="control-button" onclick="startFromBeginning()">
+            ⏮️ Start Over
+        </button>
+        
+        <button class="control-button toggle-button" id="repeat-btn" onclick="toggleRepeat()">
+            🔁 Repeat
+        </button>
+    </div>
+    
+    <div class="verse-status" id="status">Ready to recite</div>
+</div>
+
+<!-- Add this after the audio-controls div -->
+<div class="settings-container">
+    <button class="settings-toggle-btn" id="settings-toggle" onclick="toggleSettings()">
+        ⚙️ Settings
+    </button>
+    
+    <div class="settings-menu" id="settings-menu" style="display: none;">
+        <div class="settings-header">
+            <h3>Display Settings</h3>
+            <button class="settings-close" onclick="closeSettings()">✕</button>
         </div>
+        
+        <div class="settings-content">
+    <div class="setting-item">
+        <label class="setting-label">
+            <span>English Translation</span>
+            <label class="toggle-switch">
+                <input type="checkbox" id="translation-toggle" checked onchange="toggleTranslation()">
+                <span class="toggle-slider"></span>
+            </label>
+        </label>
+    </div>
+    
+    <div class="setting-item">
+        <label class="setting-label">
+            <span>Transliteration</span>
+            <label class="toggle-switch">
+                <input type="checkbox" id="transliteration-toggle" checked onchange="toggleTransliteration()">
+                <span class="toggle-slider"></span>
+            </label>
+        </label>
+    </div>
+    
+</div>
+
+    </div>
+</div>
 
         <div class="verse-container" id="verse-container" style="display: none;">
             <!-- Verses will be dynamically generated here -->
         </div>
 
         <div class="navigation-controls" id="navigation-controls" style="display: none;">
-            <button class="nav-button" id="prev-btn" onclick="previousVerse()">◀️ Previous</button>
-            <div class="verse-counter" id="verse-counter">Loading...</div>
-            <button class="nav-button" id="next-btn" onclick="nextVerse()">Next ▶️</button>
-        </div>
+    <button class="nav-button" id="prev-btn" onclick="previousVerse()">◀️ Previous</button>
+    
+    <div class="verse-selector-container">
+        <label for="verse-selector" class="verse-selector-label">Verse:</label>
+        <select id="verse-selector" class="verse-selector" onchange="jumpToVerse()">
+            <!-- Options will be populated dynamically -->
+        </select>
+        <span class="verse-total" id="verse-total">of 0</span>
+    </div>
+    
+    <button class="nav-button" id="next-btn" onclick="nextVerse()">Next ▶️</button>
+</div>
     </div>
 
     <!-- JavaScript Files -->
@@ -81,10 +107,10 @@
     <script src="js/utils/url-utils.js"></script>
     <script src="js/services/api-service.js"></script>
     <script src="js/services/audio-service.js"></script>
-    <script src="js/services/media-session.js"></script>
     <script src="js/components/verse-display.js"></script>
     <script src="js/components/controls.js"></script>
     <script src="js/components/word-highlighting.js"></script>
+    <script src="js/components/settings.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,163 +1,163 @@
 {
-  "number": 88,
-  "name": "Al-Ghashiyah",
-  "totalVerses": 26,
+  "surah": 88,
+  "name": "Al-Ghaashiya",
+  "arabicName": "سُورَةُ الغَاشِيَةِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  هَلۡ أَتَىٰكَ حَدِیثُ ٱلۡغَـٰشِیَةِ\n",
       "translation": "Has there reached you the report of the Overwhelming [event]?",
-      "audioFile": "audio/088/088001.mp3"
+      "transliteration": "Hal ataaka hadeesul ghaashiyah"
     },
     {
       "number": 2,
       "arabic": "وُجُوهࣱ یَوۡمَىِٕذٍ خَـٰشِعَةٌ\n",
       "translation": "[Some] faces, that Day, will be humbled,",
-      "audioFile": "audio/088/088002.mp3"
+      "transliteration": "Wujoohuny yawma 'izin khaashi'ah"
     },
     {
       "number": 3,
       "arabic": "عَامِلَةࣱ نَّاصِبَةࣱ\n",
       "translation": "Working [hard] and exhausted.",
-      "audioFile": "audio/088/088003.mp3"
+      "transliteration": "'Aamilatun naasibah"
     },
     {
       "number": 4,
       "arabic": "تَصۡلَىٰ نَارًا حَامِیَةࣰ\n",
       "translation": "They will [enter to] burn in an intensely hot Fire.",
-      "audioFile": "audio/088/088004.mp3"
+      "transliteration": "Taslaa naaran haamiyah"
     },
     {
       "number": 5,
       "arabic": "تُسۡقَىٰ مِنۡ عَیۡنٍ ءَانِیَةࣲ\n",
       "translation": "They will be given drink from a boiling spring.",
-      "audioFile": "audio/088/088005.mp3"
+      "transliteration": "Tusqaa min 'aynin aaniyah"
     },
     {
       "number": 6,
       "arabic": "لَّیۡسَ لَهُمۡ طَعَامٌ إِلَّا مِن ضَرِیعࣲ\n",
       "translation": "For them there will be no food except from a poisonous, thorny plant",
-      "audioFile": "audio/088/088006.mp3"
+      "transliteration": "Laisa lahum ta'aamun illaa min daree'"
     },
     {
       "number": 7,
       "arabic": "لَّا یُسۡمِنُ وَلَا یُغۡنِی مِن جُوعࣲ\n",
       "translation": "Which neither nourishes nor avails against hunger.",
-      "audioFile": "audio/088/088007.mp3"
+      "transliteration": "Laa yusminu wa laa yughnee min joo'"
     },
     {
       "number": 8,
       "arabic": "وُجُوهࣱ یَوۡمَىِٕذࣲ نَّاعِمَةࣱ\n",
       "translation": "[Other] faces, that Day, will show pleasure.",
-      "audioFile": "audio/088/088008.mp3"
+      "transliteration": "Wujoohuny yawma 'izin naa'imah"
     },
     {
       "number": 9,
       "arabic": "لِّسَعۡیِهَا رَاضِیَةࣱ\n",
       "translation": "With their effort [they are] satisfied",
-      "audioFile": "audio/088/088009.mp3"
+      "transliteration": "Lisa'yihaa raadiyah"
     },
     {
       "number": 10,
       "arabic": "فِی جَنَّةٍ عَالِیَةࣲ\n",
       "translation": "In an elevated garden,",
-      "audioFile": "audio/088/088010.mp3"
+      "transliteration": "Fee jannatin 'aaliyah"
     },
     {
       "number": 11,
       "arabic": "لَّا تَسۡمَعُ فِیهَا لَـٰغِیَةࣰ\n",
       "translation": "Wherein they will hear no unsuitable speech.",
-      "audioFile": "audio/088/088011.mp3"
+      "transliteration": "Laa tasma'u feehaa laaghiyah"
     },
     {
       "number": 12,
       "arabic": "فِیهَا عَیۡنࣱ جَارِیَةࣱ\n",
       "translation": "Within it is a flowing spring.",
-      "audioFile": "audio/088/088012.mp3"
+      "transliteration": "Feehaa 'aynun jaariyah"
     },
     {
       "number": 13,
       "arabic": "فِیهَا سُرُرࣱ مَّرۡفُوعَةࣱ\n",
       "translation": "Within it are couches raised high",
-      "audioFile": "audio/088/088013.mp3"
+      "transliteration": "Feehaa sururum marfoo'ah"
     },
     {
       "number": 14,
       "arabic": "وَأَكۡوَابࣱ مَّوۡضُوعَةࣱ\n",
       "translation": "And cups put in place",
-      "audioFile": "audio/088/088014.mp3"
+      "transliteration": "Wa akwaabum mawdoo 'ah"
     },
     {
       "number": 15,
       "arabic": "وَنَمَارِقُ مَصۡفُوفَةࣱ\n",
       "translation": "And cushions lined up",
-      "audioFile": "audio/088/088015.mp3"
+      "transliteration": "Wa namaariqu masfoofah"
     },
     {
       "number": 16,
       "arabic": "وَزَرَابِیُّ مَبۡثُوثَةٌ\n",
       "translation": "And carpets spread around.",
-      "audioFile": "audio/088/088016.mp3"
+      "transliteration": "Wa zaraabiyyu mabsoosah"
     },
     {
       "number": 17,
       "arabic": "أَفَلَا یَنظُرُونَ إِلَى ٱلۡإِبِلِ كَیۡفَ خُلِقَتۡ\n",
       "translation": "Then do they not look at the camels - how they are created?",
-      "audioFile": "audio/088/088017.mp3"
+      "transliteration": "Afalaa yanzuroona ilalibili kaifa khuliqat"
     },
     {
       "number": 18,
       "arabic": "وَإِلَى ٱلسَّمَاۤءِ كَیۡفَ رُفِعَتۡ\n",
       "translation": "And at the sky - how it is raised?",
-      "audioFile": "audio/088/088018.mp3"
+      "transliteration": "Wa ilas samaaa'i kaifa rufi'at"
     },
     {
       "number": 19,
       "arabic": "وَإِلَى ٱلۡجِبَالِ كَیۡفَ نُصِبَتۡ\n",
       "translation": "And at the mountains - how they are erected?",
-      "audioFile": "audio/088/088019.mp3"
+      "transliteration": "Wa ilal jibaali kaifa nusibat"
     },
     {
       "number": 20,
       "arabic": "وَإِلَى ٱلۡأَرۡضِ كَیۡفَ سُطِحَتۡ\n",
       "translation": "And at the earth - how it is spread out?",
-      "audioFile": "audio/088/088020.mp3"
+      "transliteration": "Wa ilal ardi kaifa sutihat"
     },
     {
       "number": 21,
       "arabic": "فَذَكِّرۡ إِنَّمَاۤ أَنتَ مُذَكِّرࣱ\n",
       "translation": "So remind, [O Muhammad]; you are only a reminder.",
-      "audioFile": "audio/088/088021.mp3"
+      "transliteration": "Fazakkir innama anta Muzakkir"
     },
     {
       "number": 22,
       "arabic": "لَّسۡتَ عَلَیۡهِم بِمُصَیۡطِرٍ\n",
       "translation": "You are not over them a controller.",
-      "audioFile": "audio/088/088022.mp3"
+      "transliteration": "Lasta 'alaihim bimusaitir"
     },
     {
       "number": 23,
       "arabic": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ\n",
       "translation": "However, he who turns away and disbelieves -",
-      "audioFile": "audio/088/088023.mp3"
+      "transliteration": "Illaa man tawallaa wa kafar"
     },
     {
       "number": 24,
       "arabic": "فَیُعَذِّبُهُ ٱللَّهُ ٱلۡعَذَابَ ٱلۡأَكۡبَرَ\n",
       "translation": "Then Allah will punish him with the greatest punishment.",
-      "audioFile": "audio/088/088024.mp3"
+      "transliteration": "Fa yu'azzibuhul laahul 'azaabal akbar"
     },
     {
       "number": 25,
       "arabic": "إِنَّ إِلَیۡنَاۤ إِیَابَهُمۡ\n",
       "translation": "Indeed, to Us is their return.",
-      "audioFile": "audio/088/088025.mp3"
+      "transliteration": "Innaa ilainaaa iyaabahum"
     },
     {
       "number": 26,
       "arabic": "ثُمَّ إِنَّ عَلَیۡنَا حِسَابَهُم\n",
       "translation": "Then indeed, upon Us is their account.",
-      "audioFile": "audio/088/088026.mp3"
+      "transliteration": "Summa inna 'alainaa hisaabahum"
     }
   ]
 }

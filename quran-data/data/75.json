@@ -1,247 +1,247 @@
 {
-  "number": 75,
-  "name": "Al-Qiyama",
-  "totalVerses": 40,
+  "surah": 75,
+  "name": "Al-Qiyaama",
+  "arabicName": "سُورَةُ القِيَامَةِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  لَاۤ أُقۡسِمُ بِیَوۡمِ ٱلۡقِیَـٰمَةِ\n",
       "translation": "I swear by the Day of Resurrection",
-      "audioFile": "audio/075/075001.mp3"
+      "transliteration": "Laaa uqsimu bi yawmil qiyaamah"
     },
     {
       "number": 2,
       "arabic": "وَلَاۤ أُقۡسِمُ بِٱلنَّفۡسِ ٱللَّوَّامَةِ\n",
       "translation": "And I swear by the reproaching soul [to the certainty of resurrection].",
-      "audioFile": "audio/075/075002.mp3"
+      "transliteration": "Wa laaa uqsimu bin nafsil lawwaamah"
     },
     {
       "number": 3,
       "arabic": "أَیَحۡسَبُ ٱلۡإِنسَـٰنُ أَلَّن نَّجۡمَعَ عِظَامَهُۥ\n",
       "translation": "Does man think that We will not assemble his bones?",
-      "audioFile": "audio/075/075003.mp3"
+      "transliteration": "Ayahsabul insaanu al lan najm'a 'izaamah"
     },
     {
       "number": 4,
       "arabic": "بَلَىٰ قَـٰدِرِینَ عَلَىٰۤ أَن نُّسَوِّیَ بَنَانَهُۥ\n",
       "translation": "Yes. [We are] Able [even] to proportion his fingertips.",
-      "audioFile": "audio/075/075004.mp3"
+      "transliteration": "Balaa qaadireena 'alaaa an nusawwiya banaanah"
     },
     {
       "number": 5,
       "arabic": "بَلۡ یُرِیدُ ٱلۡإِنسَـٰنُ لِیَفۡجُرَ أَمَامَهُۥ\n",
       "translation": "But man desires to continue in sin.",
-      "audioFile": "audio/075/075005.mp3"
+      "transliteration": "Bal yureedul insaanu liyafjura amaamah"
     },
     {
       "number": 6,
       "arabic": "یَسۡـَٔلُ أَیَّانَ یَوۡمُ ٱلۡقِیَـٰمَةِ\n",
       "translation": "He asks, \"When is the Day of Resurrection?\"",
-      "audioFile": "audio/075/075006.mp3"
+      "transliteration": "Yas'alu ayyyaana yawmul qiyaamah"
     },
     {
       "number": 7,
       "arabic": "فَإِذَا بَرِقَ ٱلۡبَصَرُ\n",
       "translation": "So when vision is dazzled",
-      "audioFile": "audio/075/075007.mp3"
+      "transliteration": "Fa izaa bariqal basar"
     },
     {
       "number": 8,
       "arabic": "وَخَسَفَ ٱلۡقَمَرُ\n",
       "translation": "And the moon darkens",
-      "audioFile": "audio/075/075008.mp3"
+      "transliteration": "We khasafal qamar"
     },
     {
       "number": 9,
       "arabic": "وَجُمِعَ ٱلشَّمۡسُ وَٱلۡقَمَرُ\n",
       "translation": "And the sun and the moon are joined,",
-      "audioFile": "audio/075/075009.mp3"
+      "transliteration": "Wa jumi'ash shamusu wal qamar"
     },
     {
       "number": 10,
       "arabic": "یَقُولُ ٱلۡإِنسَـٰنُ یَوۡمَىِٕذٍ أَیۡنَ ٱلۡمَفَرُّ\n",
       "translation": "Man will say on that Day, \"Where is the [place of] escape?\"",
-      "audioFile": "audio/075/075010.mp3"
+      "transliteration": "Yaqoolul insaanu yaw ma 'izin aynal mafarr"
     },
     {
       "number": 11,
       "arabic": "كَلَّا لَا وَزَرَ\n",
       "translation": "No! There is no refuge.",
-      "audioFile": "audio/075/075011.mp3"
+      "transliteration": "Kallaa laa wazar"
     },
     {
       "number": 12,
       "arabic": "إِلَىٰ رَبِّكَ یَوۡمَىِٕذٍ ٱلۡمُسۡتَقَرُّ\n",
       "translation": "To your Lord, that Day, is the [place of] permanence.",
-      "audioFile": "audio/075/075012.mp3"
+      "transliteration": "Ilaa rabbika yawma 'izinil mustaqarr"
     },
     {
       "number": 13,
       "arabic": "یُنَبَّؤُا۟ ٱلۡإِنسَـٰنُ یَوۡمَىِٕذِۭ بِمَا قَدَّمَ وَأَخَّرَ\n",
       "translation": "Man will be informed that Day of what he sent ahead and kept back.",
-      "audioFile": "audio/075/075013.mp3"
+      "transliteration": "Yunabba 'ul insaanu yawma 'izim bimaa qaddama wa akhkhar"
     },
     {
       "number": 14,
       "arabic": "بَلِ ٱلۡإِنسَـٰنُ عَلَىٰ نَفۡسِهِۦ بَصِیرَةࣱ\n",
       "translation": "Rather, man, against himself, will be a witness,",
-      "audioFile": "audio/075/075014.mp3"
+      "transliteration": "Balil insaanu 'alaa nafsihee baseerah"
     },
     {
       "number": 15,
       "arabic": "وَلَوۡ أَلۡقَىٰ مَعَاذِیرَهُۥ\n",
       "translation": "Even if he presents his excuses.",
-      "audioFile": "audio/075/075015.mp3"
+      "transliteration": "Wa law alqaa ma'aazeerah"
     },
     {
       "number": 16,
       "arabic": "لَا تُحَرِّكۡ بِهِۦ لِسَانَكَ لِتَعۡجَلَ بِهِۦۤ\n",
       "translation": "Move not your tongue with it, [O Muhammad], to hasten with recitation of the Qur'an.",
-      "audioFile": "audio/075/075016.mp3"
+      "transliteration": "Laa tuharrik bihee lisaa naka lita'jala bih"
     },
     {
       "number": 17,
       "arabic": "إِنَّ عَلَیۡنَا جَمۡعَهُۥ وَقُرۡءَانَهُۥ\n",
       "translation": "Indeed, upon Us is its collection [in your heart] and [to make possible] its recitation.",
-      "audioFile": "audio/075/075017.mp3"
+      "transliteration": "Inna 'alainaa jam'ahoo wa qur aanah"
     },
     {
       "number": 18,
       "arabic": "فَإِذَا قَرَأۡنَـٰهُ فَٱتَّبِعۡ قُرۡءَانَهُۥ\n",
       "translation": "So when We have recited it [through Gabriel], then follow its recitation.",
-      "audioFile": "audio/075/075018.mp3"
+      "transliteration": "Fa izaa qaraanaahu fattabi' qur aanah"
     },
     {
       "number": 19,
       "arabic": "ثُمَّ إِنَّ عَلَیۡنَا بَیَانَهُۥ\n",
       "translation": "Then upon Us is its clarification [to you].",
-      "audioFile": "audio/075/075019.mp3"
+      "transliteration": "Summa inna 'alainaa bayaanah"
     },
     {
       "number": 20,
       "arabic": "كَلَّا بَلۡ تُحِبُّونَ ٱلۡعَاجِلَةَ\n",
       "translation": "No! But you love the immediate",
-      "audioFile": "audio/075/075020.mp3"
+      "transliteration": "Kallaa bal tuhibboonal 'aajilah"
     },
     {
       "number": 21,
       "arabic": "وَتَذَرُونَ ٱلۡـَٔاخِرَةَ\n",
       "translation": "And leave the Hereafter.",
-      "audioFile": "audio/075/075021.mp3"
+      "transliteration": "Wa tazaroonal Aakhirah"
     },
     {
       "number": 22,
       "arabic": "وُجُوهࣱ یَوۡمَىِٕذࣲ نَّاضِرَةٌ\n",
       "translation": "[Some] faces, that Day, will be radiant,",
-      "audioFile": "audio/075/075022.mp3"
+      "transliteration": "Wujoohuny yawma 'izin naadirah"
     },
     {
       "number": 23,
       "arabic": "إِلَىٰ رَبِّهَا نَاظِرَةࣱ\n",
       "translation": "Looking at their Lord.",
-      "audioFile": "audio/075/075023.mp3"
+      "transliteration": "Ilaa rabbihaa naazirah"
     },
     {
       "number": 24,
       "arabic": "وَوُجُوهࣱ یَوۡمَىِٕذِۭ بَاسِرَةࣱ\n",
       "translation": "And [some] faces, that Day, will be contorted,",
-      "audioFile": "audio/075/075024.mp3"
+      "transliteration": "Wa wujoohuny yawma 'izim baasirah"
     },
     {
       "number": 25,
       "arabic": "تَظُنُّ أَن یُفۡعَلَ بِهَا فَاقِرَةࣱ\n",
       "translation": "Expecting that there will be done to them [something] backbreaking.",
-      "audioFile": "audio/075/075025.mp3"
+      "transliteration": "Tazunnu any yuf'ala bihaa faaqirah"
     },
     {
       "number": 26,
       "arabic": "كَلَّاۤ إِذَا بَلَغَتِ ٱلتَّرَاقِیَ\n",
       "translation": "No! When the soul has reached the collar bones",
-      "audioFile": "audio/075/075026.mp3"
+      "transliteration": "Kallaaa izaa balaghatit taraaqee"
     },
     {
       "number": 27,
       "arabic": "وَقِیلَ مَنۡۜ رَاقࣲ\n",
       "translation": "And it is said, \"Who will cure [him]?\"",
-      "audioFile": "audio/075/075027.mp3"
+      "transliteration": "Wa qeela man raaq"
     },
     {
       "number": 28,
       "arabic": "وَظَنَّ أَنَّهُ ٱلۡفِرَاقُ\n",
       "translation": "And the dying one is certain that it is the [time of] separation",
-      "audioFile": "audio/075/075028.mp3"
+      "transliteration": "Wa zanna annahul firaaq"
     },
     {
       "number": 29,
       "arabic": "وَٱلۡتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ\n",
       "translation": "And the leg is wound about the leg,",
-      "audioFile": "audio/075/075029.mp3"
+      "transliteration": "Waltaffatis saaqu bissaaq"
     },
     {
       "number": 30,
       "arabic": "إِلَىٰ رَبِّكَ یَوۡمَىِٕذٍ ٱلۡمَسَاقُ\n",
       "translation": "To your Lord, that Day, will be the procession.",
-      "audioFile": "audio/075/075030.mp3"
+      "transliteration": "Ilaa rabbika yawma'izinil masaaq"
     },
     {
       "number": 31,
       "arabic": "فَلَا صَدَّقَ وَلَا صَلَّىٰ\n",
       "translation": "And the disbeliever had not believed, nor had he prayed.",
-      "audioFile": "audio/075/075031.mp3"
+      "transliteration": "Falaa saddaqa wa laa sallaa"
     },
     {
       "number": 32,
       "arabic": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ\n",
       "translation": "But [instead], he denied and turned away.",
-      "audioFile": "audio/075/075032.mp3"
+      "transliteration": "Wa laakin kazzaba wa tawalla"
     },
     {
       "number": 33,
       "arabic": "ثُمَّ ذَهَبَ إِلَىٰۤ أَهۡلِهِۦ یَتَمَطَّىٰۤ\n",
       "translation": "And then he went to his people, swaggering [in pride].",
-      "audioFile": "audio/075/075033.mp3"
+      "transliteration": "Summa zahaba ilaaa ahlihee yatamatta"
     },
     {
       "number": 34,
       "arabic": "أَوۡلَىٰ لَكَ فَأَوۡلَىٰ\n",
       "translation": "Woe to you, and woe!",
-      "audioFile": "audio/075/075034.mp3"
+      "transliteration": "Awlaa laka fa awlaa"
     },
     {
       "number": 35,
       "arabic": "ثُمَّ أَوۡلَىٰ لَكَ فَأَوۡلَىٰۤ\n",
       "translation": "Then woe to you, and woe!",
-      "audioFile": "audio/075/075035.mp3"
+      "transliteration": "Summa awlaa laka fa awla"
     },
     {
       "number": 36,
       "arabic": "أَیَحۡسَبُ ٱلۡإِنسَـٰنُ أَن یُتۡرَكَ سُدًى\n",
       "translation": "Does man think that he will be left neglected?",
-      "audioFile": "audio/075/075036.mp3"
+      "transliteration": "Ayahsabul insaanu anyytraka sudaa"
     },
     {
       "number": 37,
       "arabic": "أَلَمۡ یَكُ نُطۡفَةࣰ مِّن مَّنِیࣲّ یُمۡنَىٰ\n",
       "translation": "Had he not been a sperm from semen emitted?",
-      "audioFile": "audio/075/075037.mp3"
+      "transliteration": "Alam yaku nutfatam mim maniyyiny yumnaa"
     },
     {
       "number": 38,
       "arabic": "ثُمَّ كَانَ عَلَقَةࣰ فَخَلَقَ فَسَوَّىٰ\n",
       "translation": "Then he was a clinging clot, and [Allah] created [his form] and proportioned [him]",
-      "audioFile": "audio/075/075038.mp3"
+      "transliteration": "Summa kaana 'alaqata fakhalaq fasawwaa"
     },
     {
       "number": 39,
       "arabic": "فَجَعَلَ مِنۡهُ ٱلزَّوۡجَیۡنِ ٱلذَّكَرَ وَٱلۡأُنثَىٰۤ\n",
       "translation": "And made of him two mates, the male and the female.",
-      "audioFile": "audio/075/075039.mp3"
+      "transliteration": "Faja'ala minhuz zawjayniz zakara wal unsaa"
     },
     {
       "number": 40,
       "arabic": "أَلَیۡسَ ذَ ٰ⁠لِكَ بِقَـٰدِرٍ عَلَىٰۤ أَن یُحۡـِۧیَ ٱلۡمَوۡتَىٰ\n",
       "translation": "Is not that [Creator] Able to give life to the dead?",
-      "audioFile": "audio/075/075040.mp3"
+      "transliteration": "Alaisa zaalika biqaadirin 'alaaa any yuhyiyal mawtaa"
     }
   ]
 }

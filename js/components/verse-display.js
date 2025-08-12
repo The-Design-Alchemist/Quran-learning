@@ -14,92 +14,70 @@ class VerseDisplay {
 generateHTML() {
     this.container.innerHTML = '';
     
-    // Create a scrollable container for all verses
-    const scrollContainer = document.createElement('div');
-    scrollContainer.className = 'verses-scroll-container';
-    scrollContainer.id = 'verses-scroll-container';
+    // Create a single verse display container
+    const verseDisplay = document.createElement('div');
+    verseDisplay.className = 'verse-display';
+    verseDisplay.id = 'verse-display';
     
-    window.appState.verses.forEach((verse, index) => {
-        const verseDiv = document.createElement('div');
-        verseDiv.className = 'verse-item';
-        verseDiv.id = verse.id;
-        verseDiv.setAttribute('data-verse-index', index);
+    // This will hold the current verse content
+    this.container.appendChild(verseDisplay);
+    
+    // Populate verse selector dropdown
+    this.populateVerseSelector();
+}
 
+
+show(index, direction = 'right') {
+    const verseDisplay = document.getElementById('verse-display');
+    if (!verseDisplay) return;
+    
+    const verse = window.appState.verses[index];
+    if (!verse) return;
+    
+    // Add exit animation to current content
+    verseDisplay.classList.add(direction === 'right' ? 'exit-left' : 'exit-right');
+    
+    // After animation, update content
+    setTimeout(() => {
+        // Clear previous classes
+        verseDisplay.className = 'verse-display';
+        
+        // Update content based on verse type
         if (verse.number === 'Bismillah') {
-            verseDiv.innerHTML = `
+            verseDisplay.innerHTML = `
                 <div class="bismillah">
                     <div class="bismillah-arabic">${verse.text}</div>
+                    <div class="bismillah-transliteration">${verse.transliteration}</div>
                     <div class="bismillah-english">${verse.english}</div>
                 </div>
             `;
         } else {
-            verseDiv.innerHTML = `
+            verseDisplay.innerHTML = `
                 <div class="verse-content">
                     <div class="verse-number">${verse.number}</div>
                     <div class="verse-text-group">
                         <div class="arabic-text">${verse.text}</div>
+                        <div class="transliteration-text">${verse.transliteration}</div>
                         <div class="english-text">${verse.english}</div>
                     </div>
                 </div>
             `;
         }
-
-        scrollContainer.appendChild(verseDiv);
-    });
-    
-    this.container.appendChild(scrollContainer);
-}
-
-    // Update the show method for smooth scrolling:
-show(index, direction = 'right') {
-    // Remove all active states
-    document.querySelectorAll('.verse-item').forEach(verse => {
-        verse.classList.remove('active', 'current-verse-highlight');
-    });
-    
-    // Add active state to current verse
-    if (window.appState.verses[index]) {
-        const currentVerse = document.getElementById(window.appState.verses[index].id);
-        if (currentVerse) {
-            currentVerse.classList.add('active');
-            
-            // Smooth scroll to verse
-            this.scrollToVerse(currentVerse);
-            
-            // Add highlight if currently reciting
-            if (window.appState.isReciting && window.appState.currentVerseIndex === index) {
-                currentVerse.classList.add('current-verse-highlight');
-            }
-        }
-    }
+        
+        // Set verse as active (for word highlighting)
+        verseDisplay.setAttribute('data-verse-index', index);
+        verseDisplay.classList.add('active');
+        
+        // Add enter animation
+        setTimeout(() => {
+            verseDisplay.classList.add(direction === 'right' ? 'enter-right' : 'enter-left');
+        }, 50);
+        
+    }, 300);
     
     this.updateCounter();
     this.updateNavigationButtons();
-    
-    // Update media session metadata
-    if (window.mediaSessionService) {
-        window.mediaSessionService.updateMetadata();
-    }
 }
-
-// New method for smooth scrolling
-scrollToVerse(verseElement) {
-    const container = document.getElementById('verses-scroll-container');
-    if (!container || !verseElement) return;
-    
-    const containerRect = container.getBoundingClientRect();
-    const verseRect = verseElement.getBoundingClientRect();
-    
-    // Calculate the position to scroll to (center the verse in view)
-    const scrollTop = verseElement.offsetTop - (containerRect.height / 2) + (verseRect.height / 2);
-    
-    // Smooth scroll
-    container.scrollTo({
-        top: Math.max(0, scrollTop),
-        behavior: 'smooth'
-    });
-}
-
 
 
     // Navigate to next verse - FIXED
@@ -232,18 +210,79 @@ scrollToVerse(verseElement) {
         this.removeAllHighlights();
     }
 
-    // Update verse counter display
-    updateCounter() {
-        const current = window.appState.verses[window.appState.currentVerseIndex];
-        if (current) {
+   // Add this new method to populate the dropdown
+populateVerseSelector() {
+    const selector = document.getElementById('verse-selector');
+    const totalSpan = document.getElementById('verse-total');
+    
+    if (!selector || !window.appState.verses) return;
+    
+    // Clear existing options
+    selector.innerHTML = '';
+    
+    // Add options for each verse
+    window.appState.verses.forEach((verse, index) => {
+        const option = document.createElement('option');
+        option.value = index;
+        
+        if (verse.number === 'Bismillah') {
+            option.textContent = 'Bismillah';
+        } else {
+            option.textContent = verse.number;
+        }
+        
+        selector.appendChild(option);
+    });
+    
+    // Update total count (excluding Bismillah)
+    const totalVerses = window.appState.currentSurah.verses;
+    totalSpan.textContent = `of ${totalVerses}`;
+}
+
+// Update the updateCounter method to also update dropdown
+updateCounter() {
+    const current = window.appState.verses[window.appState.currentVerseIndex];
+    const selector = document.getElementById('verse-selector');
+    
+    if (current) {
+        // Update dropdown selection
+        if (selector) {
+            selector.value = window.appState.currentVerseIndex;
+        }
+        
+        // The verse counter is now replaced by dropdown, but keep for any other uses
+        const counter = document.getElementById('verse-counter');
+        if (counter) {
             if (current.number === 'Bismillah') {
-                this.counter.textContent = 'Bismillah';
+                counter.textContent = 'Bismillah';
             } else {
                 const totalVerses = window.appState.currentSurah.verses;
-                this.counter.textContent = `Verse ${current.number} of ${totalVerses}`;
+                counter.textContent = `Verse ${current.number} of ${totalVerses}`;
             }
         }
     }
+}
+    
+    // Add method to handle jumping to selected verse
+jumpToVerse(index) {
+    // Stop any ongoing playback first
+    if (window.appState.isReciting) {
+        window.playbackControls.stop();
+    }
+    
+    // Update verse index
+    window.appState.currentVerseIndex = parseInt(index);
+    
+    // Show the selected verse
+    this.show(window.appState.currentVerseIndex);
+    
+    // Update navigation buttons
+    this.updateNavigationButtons();
+    
+    console.log(`Jumped to verse ${window.appState.verses[window.appState.currentVerseIndex].number}`);
+}
+    
+    
 
     updateNavigationButtons() {
     // Get buttons directly each time
@@ -260,35 +299,32 @@ scrollToVerse(verseElement) {
 }
 
     // Add highlight to current verse
-    addHighlight(verseId) {
-    const verseElement = document.getElementById(verseId);
-    if (verseElement) {
-        verseElement.classList.add('current-verse-highlight');
-        this.scrollToVerse(verseElement);
+   addHighlight(verseId) {
+    const verseDisplay = document.getElementById('verse-display');
+    if (verseDisplay) {
+        verseDisplay.classList.add('current-verse-highlight');
     }
 }
 
     // Remove highlight from verse
     removeHighlight(verseId) {
-    const verseElement = document.getElementById(verseId);
-    if (verseElement) {
-        verseElement.classList.remove('current-verse-highlight');
+    const verseDisplay = document.getElementById('verse-display');
+    if (verseDisplay) {
+        verseDisplay.classList.remove('current-verse-highlight');
     }
 }
 
     // Remove all highlights
     removeAllHighlights() {
-    document.querySelectorAll('.verse-item').forEach(verse => {
-        verse.classList.remove('current-verse-highlight');
-    });
+    const verseDisplay = document.getElementById('verse-display');
+    if (verseDisplay) {
+        verseDisplay.classList.remove('current-verse-highlight');
+    }
 }
 
     // Get current verse element
     getCurrentVerseElement() {
-        if (window.appState.verses[window.appState.currentVerseIndex]) {
-            return document.getElementById(window.appState.verses[window.appState.currentVerseIndex].id);
-        }
-        return null;
+        return document.getElementById('verse-display');
     }
 }
 

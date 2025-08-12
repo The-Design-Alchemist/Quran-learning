@@ -1,85 +1,85 @@
 {
-  "number": 60,
+  "surah": 60,
   "name": "Al-Mumtahana",
-  "totalVerses": 13,
+  "arabicName": "سُورَةُ المُمۡتَحنَةِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ عَدُوِّی وَعَدُوَّكُمۡ أَوۡلِیَاۤءَ تُلۡقُونَ إِلَیۡهِم بِٱلۡمَوَدَّةِ وَقَدۡ كَفَرُوا۟ بِمَا جَاۤءَكُم مِّنَ ٱلۡحَقِّ یُخۡرِجُونَ ٱلرَّسُولَ وَإِیَّاكُمۡ أَن تُؤۡمِنُوا۟ بِٱللَّهِ رَبِّكُمۡ إِن كُنتُمۡ خَرَجۡتُمۡ جِهَـٰدࣰا فِی سَبِیلِی وَٱبۡتِغَاۤءَ مَرۡضَاتِیۚ تُسِرُّونَ إِلَیۡهِم بِٱلۡمَوَدَّةِ وَأَنَا۠ أَعۡلَمُ بِمَاۤ أَخۡفَیۡتُمۡ وَمَاۤ أَعۡلَنتُمۡۚ وَمَن یَفۡعَلۡهُ مِنكُمۡ فَقَدۡ ضَلَّ سَوَاۤءَ ٱلسَّبِیلِ\n",
       "translation": "O you who have believed, do not take My enemies and your enemies as allies, extending to them affection while they have disbelieved in what came to you of the truth, having driven out the Prophet and yourselves [only] because you believe in Allah, your Lord. If you have come out for jihad in My cause and seeking means to My approval, [take them not as friends]. You confide to them affection, but I am most knowing of what you have concealed and what you have declared. And whoever does it among you has certainly strayed from the soundness of the way.",
-      "audioFile": "audio/060/060001.mp3"
+      "transliteration": "Yaa ayyuhal lazeena aamanoo laa tattakhizoo 'aduwwee wa 'aduwaakum awliyaaa'a tulqoona ilaihim bilmawaddati wa qad kafaroo bima jaaa'akum minal haqq, yukhrijoonar Rasoola wa iyyaakum an tu'minoo billaahi rabbikum in kuntum kharajtum jihaadan fee sabeelee wabtighaaa'a mardaatee; tusirroona ilaihim bilma waddati wa ana a'alamu bimaaa akhfaitum wa maaa a'lantum; wa many yaf'alhu minkum faqad dalla sawaaa'as sabeel"
     },
     {
       "number": 2,
       "arabic": "إِن یَثۡقَفُوكُمۡ یَكُونُوا۟ لَكُمۡ أَعۡدَاۤءࣰ وَیَبۡسُطُوۤا۟ إِلَیۡكُمۡ أَیۡدِیَهُمۡ وَأَلۡسِنَتَهُم بِٱلسُّوۤءِ وَوَدُّوا۟ لَوۡ تَكۡفُرُونَ\n",
       "translation": "If they gain dominance over you, they would be to you as enemies and extend against you their hands and their tongues with evil, and they wish you would disbelieve.",
-      "audioFile": "audio/060/060002.mp3"
+      "transliteration": "Iny yasqafookum yakoonoo lakum a'daaa'anw wa yabsutooo ilaikum aydiyahum wa alsinatahum bissooo'i wa waddoo law takfuroon"
     },
     {
       "number": 3,
       "arabic": "لَن تَنفَعَكُمۡ أَرۡحَامُكُمۡ وَلَاۤ أَوۡلَـٰدُكُمۡۚ یَوۡمَ ٱلۡقِیَـٰمَةِ یَفۡصِلُ بَیۡنَكُمۡۚ وَٱللَّهُ بِمَا تَعۡمَلُونَ بَصِیرࣱ\n",
       "translation": "Never will your relatives or your children benefit you; the Day of Resurrection He will judge between you. And Allah, of what you do, is Seeing.",
-      "audioFile": "audio/060/060003.mp3"
+      "transliteration": "Lan tanfa'akum arhaamukum wa laaa awlaadukum; yawmal qiyaamati yafsilu bainakum; wallaahu bimaa ta'maloon baseer"
     },
     {
       "number": 4,
       "arabic": "قَدۡ كَانَتۡ لَكُمۡ أُسۡوَةٌ حَسَنَةࣱ فِیۤ إِبۡرَ ٰ⁠هِیمَ وَٱلَّذِینَ مَعَهُۥۤ إِذۡ قَالُوا۟ لِقَوۡمِهِمۡ إِنَّا بُرَءَ ٰۤ⁠ ؤُا۟ مِنكُمۡ وَمِمَّا تَعۡبُدُونَ مِن دُونِ ٱللَّهِ كَفَرۡنَا بِكُمۡ وَبَدَا بَیۡنَنَا وَبَیۡنَكُمُ ٱلۡعَدَ ٰ⁠وَةُ وَٱلۡبَغۡضَاۤءُ أَبَدًا حَتَّىٰ تُؤۡمِنُوا۟ بِٱللَّهِ وَحۡدَهُۥۤ إِلَّا قَوۡلَ إِبۡرَ ٰ⁠هِیمَ لِأَبِیهِ لَأَسۡتَغۡفِرَنَّ لَكَ وَمَاۤ أَمۡلِكُ لَكَ مِنَ ٱللَّهِ مِن شَیۡءࣲۖ رَّبَّنَا عَلَیۡكَ تَوَكَّلۡنَا وَإِلَیۡكَ أَنَبۡنَا وَإِلَیۡكَ ٱلۡمَصِیرُ\n",
       "translation": "There has already been for you an excellent pattern in Abraham and those with him, when they said to their people, \"Indeed, we are disassociated from you and from whatever you worship other than Allah. We have denied you, and there has appeared between us and you animosity and hatred forever until you believe in Allah alone\" except for the saying of Abraham to his father, \"I will surely ask forgiveness for you, but I have not [power to do] for you anything against Allah. Our Lord, upon You we have relied, and to You we have returned, and to You is the destination.",
-      "audioFile": "audio/060/060004.mp3"
+      "transliteration": "Qad kaanat lakum uswatun basanatun feee Ibraaheema wallazeena ma'ahoo iz qaaloo liqawmihim innaa bura'aaa'u minkum wa mimmaa ta'budoona min doonil laahi kafarnaa bikum wa badaa bainanaa wa bainakumul 'adaawatu wal baghdaaa'u abadan hattaa tu'minoo billaahi wahdahooo illaa qawla Ibraheema li abeehi la astaghfiranna laka wa maaa amliku laka minal laahi min shai; rabbanaa 'alaika tawakkalnaa wa ilaika anabnaa wa ilaikal maseer"
     },
     {
       "number": 5,
       "arabic": "رَبَّنَا لَا تَجۡعَلۡنَا فِتۡنَةࣰ لِّلَّذِینَ كَفَرُوا۟ وَٱغۡفِرۡ لَنَا رَبَّنَاۤۖ إِنَّكَ أَنتَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
       "translation": "Our Lord, make us not [objects of] torment for the disbelievers and forgive us, our Lord. Indeed, it is You who is the Exalted in Might, the Wise.\"",
-      "audioFile": "audio/060/060005.mp3"
+      "transliteration": "Rabbana laa taj'alnaa fitnatal lillazeena kafaroo waghfir lanaa rabbanaa innaka antal azeezul hakeem"
     },
     {
       "number": 6,
       "arabic": "لَقَدۡ كَانَ لَكُمۡ فِیهِمۡ أُسۡوَةٌ حَسَنَةࣱ لِّمَن كَانَ یَرۡجُوا۟ ٱللَّهَ وَٱلۡیَوۡمَ ٱلۡـَٔاخِرَۚ وَمَن یَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلۡغَنِیُّ ٱلۡحَمِیدُ\n",
       "translation": "There has certainly been for you in them an excellent pattern for anyone whose hope is in Allah and the Last Day. And whoever turns away - then indeed, Allah is the Free of need, the Praiseworthy.",
-      "audioFile": "audio/060/060006.mp3"
+      "transliteration": "Laqad kaana lakum feehim uswatunhasanatul liman kaana yarjul laaha wal yawmal aakhir; wa many yatawalla fa innal laaha huwal ghaniyyul hameed"
     },
     {
       "number": 7,
       "arabic": "۞ عَسَى ٱللَّهُ أَن یَجۡعَلَ بَیۡنَكُمۡ وَبَیۡنَ ٱلَّذِینَ عَادَیۡتُم مِّنۡهُم مَّوَدَّةࣰۚ وَٱللَّهُ قَدِیرࣱۚ وَٱللَّهُ غَفُورࣱ رَّحِیمࣱ\n",
       "translation": "Perhaps Allah will put, between you and those to whom you have been enemies among them, affection. And Allah is competent, and Allah is Forgiving and Merciful.",
-      "audioFile": "audio/060/060007.mp3"
+      "transliteration": "Asal laahu any yaj'ala bainakum wa bainal lazeena 'aadaitum minhum mawaddah; wallahu qadeer; wallahu ghafoorur raheem"
     },
     {
       "number": 8,
       "arabic": "لَّا یَنۡهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِینَ لَمۡ یُقَـٰتِلُوكُمۡ فِی ٱلدِّینِ وَلَمۡ یُخۡرِجُوكُم مِّن دِیَـٰرِكُمۡ أَن تَبَرُّوهُمۡ وَتُقۡسِطُوۤا۟ إِلَیۡهِمۡۚ إِنَّ ٱللَّهَ یُحِبُّ ٱلۡمُقۡسِطِینَ\n",
       "translation": "Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes - from being righteous toward them and acting justly toward them. Indeed, Allah loves those who act justly.",
-      "audioFile": "audio/060/060008.mp3"
+      "transliteration": "Laa yanhaakumul laahu 'anil lazeena lam yuqaatilookum fid deeni wa lam yukhrijookum min diyaarikum an tabarroohum wa tuqsitooo ilaihim; innal laaha yuhibbul muqsiteen"
     },
     {
       "number": 9,
       "arabic": "إِنَّمَا یَنۡهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِینَ قَـٰتَلُوكُمۡ فِی ٱلدِّینِ وَأَخۡرَجُوكُم مِّن دِیَـٰرِكُمۡ وَظَـٰهَرُوا۟ عَلَىٰۤ إِخۡرَاجِكُمۡ أَن تَوَلَّوۡهُمۡۚ وَمَن یَتَوَلَّهُمۡ فَأُو۟لَـٰۤىِٕكَ هُمُ ٱلظَّـٰلِمُونَ\n",
       "translation": "Allah only forbids you from those who fight you because of religion and expel you from your homes and aid in your expulsion - [forbids] that you make allies of them. And whoever makes allies of them, then it is those who are the wrongdoers.",
-      "audioFile": "audio/060/060009.mp3"
+      "transliteration": "Innamaa yanhaakumul laahu 'anil lazeena qaatalookum fid deeni wa akhrajookum min diyaarikum wa zaaharoo 'alaa ikhraajikum an tawallawhum; wa many yatawallahum faulaaa'ika humuz zaalimoon"
     },
     {
       "number": 10,
       "arabic": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ إِذَا جَاۤءَكُمُ ٱلۡمُؤۡمِنَـٰتُ مُهَـٰجِرَ ٰ⁠تࣲ فَٱمۡتَحِنُوهُنَّۖ ٱللَّهُ أَعۡلَمُ بِإِیمَـٰنِهِنَّۖ فَإِنۡ عَلِمۡتُمُوهُنَّ مُؤۡمِنَـٰتࣲ فَلَا تَرۡجِعُوهُنَّ إِلَى ٱلۡكُفَّارِۖ لَا هُنَّ حِلࣱّ لَّهُمۡ وَلَا هُمۡ یَحِلُّونَ لَهُنَّۖ وَءَاتُوهُم مَّاۤ أَنفَقُوا۟ۚ وَلَا جُنَاحَ عَلَیۡكُمۡ أَن تَنكِحُوهُنَّ إِذَاۤ ءَاتَیۡتُمُوهُنَّ أُجُورَهُنَّۚ وَلَا تُمۡسِكُوا۟ بِعِصَمِ ٱلۡكَوَافِرِ وَسۡـَٔلُوا۟ مَاۤ أَنفَقۡتُمۡ وَلۡیَسۡـَٔلُوا۟ مَاۤ أَنفَقُوا۟ۚ ذَ ٰ⁠لِكُمۡ حُكۡمُ ٱللَّهِ یَحۡكُمُ بَیۡنَكُمۡۖ وَٱللَّهُ عَلِیمٌ حَكِیمࣱ\n",
       "translation": "O you who have believed, when the believing women come to you as emigrants, examine them. Allah is most knowing as to their faith. And if you know them to be believers, then do not return them to the disbelievers; they are not lawful [wives] for them, nor are they lawful [husbands] for them. But give the disbelievers what they have spent. And there is no blame upon you if you marry them when you have given them their due compensation. And hold not to marriage bonds with disbelieving women, but ask for what you have spent and let them ask for what they have spent. That is the judgement of Allah; He judges between you. And Allah is Knowing and Wise.",
-      "audioFile": "audio/060/060010.mp3"
+      "transliteration": "Yaa ayyuhal lazeena aamanoo izaa jaaa'akumul mu'minaatu muhaajiraatin famtah inoohunna Allaahu a'lamu bieemaanihinna fa in 'alimtumoohunna mu'minaatin falaa tarji'oohunna ilal kuffaar; laa hunna hillul lahum wa laa hum uahilloona lahunna wa aatoohum maa anfaqoo wa laa junaaha 'alaikum an tankihoohunna izaaa aataitumoohunna ujoorahunn; wa laa tumsikoo bi 'isamil kawaafiri was'aloo maaa anfaqtum walyas'aloo maaa anfaqoo zaalikum hukmul laahi yahkumu bainakum wallaahu 'aleemun hakeem"
     },
     {
       "number": 11,
       "arabic": "وَإِن فَاتَكُمۡ شَیۡءࣱ مِّنۡ أَزۡوَ ٰ⁠جِكُمۡ إِلَى ٱلۡكُفَّارِ فَعَاقَبۡتُمۡ فَـَٔاتُوا۟ ٱلَّذِینَ ذَهَبَتۡ أَزۡوَ ٰ⁠جُهُم مِّثۡلَ مَاۤ أَنفَقُوا۟ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِیۤ أَنتُم بِهِۦ مُؤۡمِنُونَ\n",
       "translation": "And if you have lost any of your wives to the disbelievers and you subsequently obtain [something], then give those whose wives have gone the equivalent of what they had spent. And fear Allah, in whom you are believers.",
-      "audioFile": "audio/060/060011.mp3"
+      "transliteration": "Wa in faatakum shai'um min azwaajikum ilal kuffaari fa'aaqabtum fa aatul lazeena zahabat azwaajuhum misla maaa anfaqoo; wattaqul laahal lazeee antum bihee mu'minoon"
     },
     {
       "number": 12,
       "arabic": "یَـٰۤأَیُّهَا ٱلنَّبِیُّ إِذَا جَاۤءَكَ ٱلۡمُؤۡمِنَـٰتُ یُبَایِعۡنَكَ عَلَىٰۤ أَن لَّا یُشۡرِكۡنَ بِٱللَّهِ شَیۡـࣰٔا وَلَا یَسۡرِقۡنَ وَلَا یَزۡنِینَ وَلَا یَقۡتُلۡنَ أَوۡلَـٰدَهُنَّ وَلَا یَأۡتِینَ بِبُهۡتَـٰنࣲ یَفۡتَرِینَهُۥ بَیۡنَ أَیۡدِیهِنَّ وَأَرۡجُلِهِنَّ وَلَا یَعۡصِینَكَ فِی مَعۡرُوفࣲ فَبَایِعۡهُنَّ وَٱسۡتَغۡفِرۡ لَهُنَّ ٱللَّهَۚ إِنَّ ٱللَّهَ غَفُورࣱ رَّحِیمࣱ\n",
       "translation": "O Prophet, when the believing women come to you pledging to you that they will not associate anything with Allah, nor will they steal, nor will they commit unlawful sexual intercourse, nor will they kill their children, nor will they bring forth a slander they have invented between their arms and legs, nor will they disobey you in what is right - then accept their pledge and ask forgiveness for them of Allah. Indeed, Allah is Forgiving and Merciful.",
-      "audioFile": "audio/060/060012.mp3"
+      "transliteration": "Yaaa ayyuhan nabbiyyu izaa jaaa'akal mu'minaau yubaai naka 'alaaa allaa yushrikna billaahi shai 'anw wa laa yasriqna wa laa yazneena wa laa yaqtulna awlaadahunna wa laa yaateena bibuhtaaniny yaftaree nahoo baina aydeehinna wa arjulihinna wa laa ya'seenaka fee ma'roofin fabaayi'hunna wastaghfir lahunnal laaha innnal laaha ghafoorur raheem"
     },
     {
       "number": 13,
       "arabic": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تَتَوَلَّوۡا۟ قَوۡمًا غَضِبَ ٱللَّهُ عَلَیۡهِمۡ قَدۡ یَىِٕسُوا۟ مِنَ ٱلۡـَٔاخِرَةِ كَمَا یَىِٕسَ ٱلۡكُفَّارُ مِنۡ أَصۡحَـٰبِ ٱلۡقُبُورِ\n",
       "translation": "O you who have believed, do not make allies of a people with whom Allah has become angry. They have despaired of [reward in] the Hereafter just as the disbelievers have despaired of [meeting] the inhabitants of the graves.",
-      "audioFile": "audio/060/060013.mp3"
+      "transliteration": "Yaaa ayyuhal lazeena amanoo laa tatawallaw qawman ghadibal laahu 'alaihim qad ya'isoo minal aakhirati kamaa ya'isal kuffaaru min as haabil quboor"
     }
   ]
 }

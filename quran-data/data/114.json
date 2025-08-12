@@ -1,43 +1,43 @@
 {
-  "number": 114,
-  "name": "An-Nas",
-  "totalVerses": 6,
+  "surah": 114,
+  "name": "An-Naas",
+  "arabicName": "سُورَةُ النَّاسِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ\n",
       "translation": "Say, \"I seek refuge in the Lord of mankind,",
-      "audioFile": "audio/114/114001.mp3"
+      "transliteration": "Qul a'uzu birabbin naas"
     },
     {
       "number": 2,
       "arabic": "مَلِكِ ٱلنَّاسِ\n",
       "translation": "The Sovereign of mankind.",
-      "audioFile": "audio/114/114002.mp3"
+      "transliteration": "Malikin naas"
     },
     {
       "number": 3,
       "arabic": "إِلَـٰهِ ٱلنَّاسِ\n",
       "translation": "The God of mankind,",
-      "audioFile": "audio/114/114003.mp3"
+      "transliteration": "Ilaahin naas"
     },
     {
       "number": 4,
       "arabic": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ\n",
       "translation": "From the evil of the retreating whisperer -",
-      "audioFile": "audio/114/114004.mp3"
+      "transliteration": "Min sharril was waasil khannaas"
     },
     {
       "number": 5,
       "arabic": "ٱلَّذِی یُوَسۡوِسُ فِی صُدُورِ ٱلنَّاسِ\n",
       "translation": "Who whispers [evil] into the breasts of mankind -",
-      "audioFile": "audio/114/114005.mp3"
+      "transliteration": "Al lazee yuwas wisu fee sudoorin naas"
     },
     {
       "number": 6,
       "arabic": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
       "translation": "From among the jinn and mankind.\"",
-      "audioFile": "audio/114/114006.mp3"
+      "transliteration": "Minal jinnati wan naas"
     }
   ]
 }

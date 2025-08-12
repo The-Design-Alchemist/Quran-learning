@@ -1,307 +1,307 @@
 {
-  "number": 77,
-  "name": "Al-Mursalat",
-  "totalVerses": 50,
+  "surah": 77,
+  "name": "Al-Mursalaat",
+  "arabicName": "سُورَةُ المُرۡسَلَاتِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  وَٱلۡمُرۡسَلَـٰتِ عُرۡفࣰا\n",
       "translation": "By those [winds] sent forth in gusts",
-      "audioFile": "audio/077/077001.mp3"
+      "transliteration": "Wal mursalaati'urfaa"
     },
     {
       "number": 2,
       "arabic": "فَٱلۡعَـٰصِفَـٰتِ عَصۡفࣰا\n",
       "translation": "And the winds that blow violently",
-      "audioFile": "audio/077/077002.mp3"
+      "transliteration": "Fal'aasifaati 'asfaa"
     },
     {
       "number": 3,
       "arabic": "وَٱلنَّـٰشِرَ ٰ⁠تِ نَشۡرࣰا\n",
       "translation": "And [by] the winds that spread [clouds]",
-      "audioFile": "audio/077/077003.mp3"
+      "transliteration": "Wannaashiraati nashraa"
     },
     {
       "number": 4,
       "arabic": "فَٱلۡفَـٰرِقَـٰتِ فَرۡقࣰا\n",
       "translation": "And those [angels] who bring criterion",
-      "audioFile": "audio/077/077004.mp3"
+      "transliteration": "Falfaariqaati farqaa"
     },
     {
       "number": 5,
       "arabic": "فَٱلۡمُلۡقِیَـٰتِ ذِكۡرًا\n",
       "translation": "And those [angels] who deliver a message",
-      "audioFile": "audio/077/077005.mp3"
+      "transliteration": "Falmulqiyaati zikra"
     },
     {
       "number": 6,
       "arabic": "عُذۡرًا أَوۡ نُذۡرًا\n",
       "translation": "As justification or warning,",
-      "audioFile": "audio/077/077006.mp3"
+      "transliteration": "'Uzran aw nuzraa"
     },
     {
       "number": 7,
       "arabic": "إِنَّمَا تُوعَدُونَ لَوَ ٰ⁠قِعࣱ\n",
       "translation": "Indeed, what you are promised is to occur.",
-      "audioFile": "audio/077/077007.mp3"
+      "transliteration": "Innamaa too'adoona lawaaqi'"
     },
     {
       "number": 8,
       "arabic": "فَإِذَا ٱلنُّجُومُ طُمِسَتۡ\n",
       "translation": "So when the stars are obliterated",
-      "audioFile": "audio/077/077008.mp3"
+      "transliteration": "Fa izam nujoomu tumisat"
     },
     {
       "number": 9,
       "arabic": "وَإِذَا ٱلسَّمَاۤءُ فُرِجَتۡ\n",
       "translation": "And when the heaven is opened",
-      "audioFile": "audio/077/077009.mp3"
+      "transliteration": "Wa izas samaaa'u furijat"
     },
     {
       "number": 10,
       "arabic": "وَإِذَا ٱلۡجِبَالُ نُسِفَتۡ\n",
       "translation": "And when the mountains are blown away",
-      "audioFile": "audio/077/077010.mp3"
+      "transliteration": "Wa izal jibaalu nusifat"
     },
     {
       "number": 11,
       "arabic": "وَإِذَا ٱلرُّسُلُ أُقِّتَتۡ\n",
       "translation": "And when the messengers' time has come...",
-      "audioFile": "audio/077/077011.mp3"
+      "transliteration": "Wa izar Rusulu uqqitat"
     },
     {
       "number": 12,
       "arabic": "لِأَیِّ یَوۡمٍ أُجِّلَتۡ\n",
       "translation": "For what Day was it postponed?",
-      "audioFile": "audio/077/077012.mp3"
+      "transliteration": "Li ayyi yawmin ujjilat"
     },
     {
       "number": 13,
       "arabic": "لِیَوۡمِ ٱلۡفَصۡلِ\n",
       "translation": "For the Day of Judgement.",
-      "audioFile": "audio/077/077013.mp3"
+      "transliteration": "Li yawmil Fasl"
     },
     {
       "number": 14,
       "arabic": "وَمَاۤ أَدۡرَىٰكَ مَا یَوۡمُ ٱلۡفَصۡلِ\n",
       "translation": "And what can make you know what is the Day of Judgement?",
-      "audioFile": "audio/077/077014.mp3"
+      "transliteration": "Wa maaa adraaka maa yawmul fasl"
     },
     {
       "number": 15,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077015.mp3"
+      "transliteration": "Wailuny yawma 'izillilmukazzibeen"
     },
     {
       "number": 16,
       "arabic": "أَلَمۡ نُهۡلِكِ ٱلۡأَوَّلِینَ\n",
       "translation": "Did We not destroy the former peoples?",
-      "audioFile": "audio/077/077016.mp3"
+      "transliteration": "Alam nuhlikil awwaleen"
     },
     {
       "number": 17,
       "arabic": "ثُمَّ نُتۡبِعُهُمُ ٱلۡـَٔاخِرِینَ\n",
       "translation": "Then We will follow them with the later ones.",
-      "audioFile": "audio/077/077017.mp3"
+      "transliteration": "Summa nutbi'uhumul aakhireen"
     },
     {
       "number": 18,
       "arabic": "كَذَ ٰ⁠لِكَ نَفۡعَلُ بِٱلۡمُجۡرِمِینَ\n",
       "translation": "Thus do We deal with the criminals.",
-      "audioFile": "audio/077/077018.mp3"
+      "transliteration": "Kazzlika naf'alu bilmujrimeen"
     },
     {
       "number": 19,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077019.mp3"
+      "transliteration": "Wailunw yawma 'izil lil mukazzibeen"
     },
     {
       "number": 20,
       "arabic": "أَلَمۡ نَخۡلُقكُّم مِّن مَّاۤءࣲ مَّهِینࣲ\n",
       "translation": "Did We not create you from a liquid disdained?",
-      "audioFile": "audio/077/077020.mp3"
+      "transliteration": "Alam nakhlukkum mimmaaa'im maheen"
     },
     {
       "number": 21,
       "arabic": "فَجَعَلۡنَـٰهُ فِی قَرَارࣲ مَّكِینٍ\n",
       "translation": "And We placed it in a firm lodging",
-      "audioFile": "audio/077/077021.mp3"
+      "transliteration": "Faja'alnaahu fee qaraarim makeen"
     },
     {
       "number": 22,
       "arabic": "إِلَىٰ قَدَرࣲ مَّعۡلُومࣲ\n",
       "translation": "For a known extent.",
-      "audioFile": "audio/077/077022.mp3"
+      "transliteration": "Illaa qadrim ma'loom"
     },
     {
       "number": 23,
       "arabic": "فَقَدَرۡنَا فَنِعۡمَ ٱلۡقَـٰدِرُونَ\n",
       "translation": "And We determined [it], and excellent [are We] to determine.",
-      "audioFile": "audio/077/077023.mp3"
+      "transliteration": "Faqadarnaa fani'mal qaadiroon"
     },
     {
       "number": 24,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077024.mp3"
+      "transliteration": "Wailuny yawma 'izil lilmukazzibeen"
     },
     {
       "number": 25,
       "arabic": "أَلَمۡ نَجۡعَلِ ٱلۡأَرۡضَ كِفَاتًا\n",
       "translation": "Have We not made the earth a container",
-      "audioFile": "audio/077/077025.mp3"
+      "transliteration": "Alam naj'alil arda kifaataa"
     },
     {
       "number": 26,
       "arabic": "أَحۡیَاۤءࣰ وَأَمۡوَ ٰ⁠تࣰا\n",
       "translation": "Of the living and the dead?",
-      "audioFile": "audio/077/077026.mp3"
+      "transliteration": "Ahyaaa'anw wa amwaataa"
     },
     {
       "number": 27,
       "arabic": "وَجَعَلۡنَا فِیهَا رَوَ ٰ⁠سِیَ شَـٰمِخَـٰتࣲ وَأَسۡقَیۡنَـٰكُم مَّاۤءࣰ فُرَاتࣰا\n",
       "translation": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water.",
-      "audioFile": "audio/077/077027.mp3"
+      "transliteration": "Wa ja'alnaa feehaa rawaasiya shaamikhaatinw wa asqainaakum maaa'an furaataa"
     },
     {
       "number": 28,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077028.mp3"
+      "transliteration": "Wailuny yawma 'izil lilmukazzibeen"
     },
     {
       "number": 29,
       "arabic": "ٱنطَلِقُوۤا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ\n",
       "translation": "[They will be told], \"Proceed to that which you used to deny.",
-      "audioFile": "audio/077/077029.mp3"
+      "transliteration": "Intaliqooo ilaa maa kuntum bihee tukazziboon"
     },
     {
       "number": 30,
       "arabic": "ٱنطَلِقُوۤا۟ إِلَىٰ ظِلࣲّ ذِی ثَلَـٰثِ شُعَبࣲ\n",
       "translation": "Proceed to a shadow [of smoke] having three columns",
-      "audioFile": "audio/077/077030.mp3"
+      "transliteration": "Intaliqooo ilaa zillin zee salaasi shu'ab"
     },
     {
       "number": 31,
       "arabic": "لَّا ظَلِیلࣲ وَلَا یُغۡنِی مِنَ ٱللَّهَبِ\n",
       "translation": "[But having] no cool shade and availing not against the flame.\"",
-      "audioFile": "audio/077/077031.mp3"
+      "transliteration": "Laa zaleelinw wa laa yughnee minal lahab"
     },
     {
       "number": 32,
       "arabic": "إِنَّهَا تَرۡمِی بِشَرَرࣲ كَٱلۡقَصۡرِ\n",
       "translation": "Indeed, it throws sparks [as huge] as a fortress,",
-      "audioFile": "audio/077/077032.mp3"
+      "transliteration": "Innahaa tarmee bishararin kalqasr"
     },
     {
       "number": 33,
       "arabic": "كَأَنَّهُۥ جِمَـٰلَتࣱ صُفۡرࣱ\n",
       "translation": "As if they were yellowish [black] camels.",
-      "audioFile": "audio/077/077033.mp3"
+      "transliteration": "Ka annahoo jimaalatun sufr"
     },
     {
       "number": 34,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077034.mp3"
+      "transliteration": "Wailuny yawma 'izil lilmukazibeen"
     },
     {
       "number": 35,
       "arabic": "هَـٰذَا یَوۡمُ لَا یَنطِقُونَ\n",
       "translation": "This is a Day they will not speak,",
-      "audioFile": "audio/077/077035.mp3"
+      "transliteration": "Haazaa yawmu laa uantiqoon"
     },
     {
       "number": 36,
       "arabic": "وَلَا یُؤۡذَنُ لَهُمۡ فَیَعۡتَذِرُونَ\n",
       "translation": "Nor will it be permitted for them to make an excuse.",
-      "audioFile": "audio/077/077036.mp3"
+      "transliteration": "Wa laa yu'zanu lahum fa ya'taziroon"
     },
     {
       "number": 37,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077037.mp3"
+      "transliteration": "Wailunw yawma 'izil lilmukazzibeen"
     },
     {
       "number": 38,
       "arabic": "هَـٰذَا یَوۡمُ ٱلۡفَصۡلِۖ جَمَعۡنَـٰكُمۡ وَٱلۡأَوَّلِینَ\n",
       "translation": "This is the Day of Judgement; We will have assembled you and the former peoples.",
-      "audioFile": "audio/077/077038.mp3"
+      "transliteration": "Haaza yawmul fasli jama 'naakum wal awwaleen"
     },
     {
       "number": 39,
       "arabic": "فَإِن كَانَ لَكُمۡ كَیۡدࣱ فَكِیدُونِ\n",
       "translation": "So if you have a plan, then plan against Me.",
-      "audioFile": "audio/077/077039.mp3"
+      "transliteration": "Fa in kaana lakum kaidun fakeedoon"
     },
     {
       "number": 40,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077040.mp3"
+      "transliteration": "Wailuny yawma'izil lilmukazzibeen"
     },
     {
       "number": 41,
       "arabic": "إِنَّ ٱلۡمُتَّقِینَ فِی ظِلَـٰلࣲ وَعُیُونࣲ\n",
       "translation": "Indeed, the righteous will be among shades and springs",
-      "audioFile": "audio/077/077041.mp3"
+      "transliteration": "Innal muttaqeena fee zilaalinw wa 'uyoon"
     },
     {
       "number": 42,
       "arabic": "وَفَوَ ٰ⁠كِهَ مِمَّا یَشۡتَهُونَ\n",
       "translation": "And fruits from whatever they desire,",
-      "audioFile": "audio/077/077042.mp3"
+      "transliteration": "Wa fawaakiha mimmaa yastahoon"
     },
     {
       "number": 43,
       "arabic": "كُلُوا۟ وَٱشۡرَبُوا۟ هَنِیۤـَٔۢا بِمَا كُنتُمۡ تَعۡمَلُونَ\n",
       "translation": "[Being told], \"Eat and drink in satisfaction for what you used to do.\"",
-      "audioFile": "audio/077/077043.mp3"
+      "transliteration": "Kuloo washraboo haneee 'am bimaa kuntum ta'maloon"
     },
     {
       "number": 44,
       "arabic": "إِنَّا كَذَ ٰ⁠لِكَ نَجۡزِی ٱلۡمُحۡسِنِینَ\n",
       "translation": "Indeed, We thus reward the doers of good.",
-      "audioFile": "audio/077/077044.mp3"
+      "transliteration": "Innaa kazaalika najzil muhsineen"
     },
     {
       "number": 45,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077045.mp3"
+      "transliteration": "Wailuny yawma 'izil lilmuzkazzibeen"
     },
     {
       "number": 46,
       "arabic": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِیلًا إِنَّكُم مُّجۡرِمُونَ\n",
       "translation": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals.",
-      "audioFile": "audio/077/077046.mp3"
+      "transliteration": "Kuloo wa tamatta'oo qaleelan innakum mujrimoon"
     },
     {
       "number": 47,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077047.mp3"
+      "transliteration": "Wailunny yawma 'izil lilmukazzibeen"
     },
     {
       "number": 48,
       "arabic": "وَإِذَا قِیلَ لَهُمُ ٱرۡكَعُوا۟ لَا یَرۡكَعُونَ\n",
       "translation": "And when it is said to them, \"Bow [in prayer],\" they do not bow.",
-      "audioFile": "audio/077/077048.mp3"
+      "transliteration": "Wa izaa qeela lahumur ka'oo aa yarka'oon"
     },
     {
       "number": 49,
       "arabic": "وَیۡلࣱ یَوۡمَىِٕذࣲ لِّلۡمُكَذِّبِینَ\n",
       "translation": "Woe, that Day, to the deniers.",
-      "audioFile": "audio/077/077049.mp3"
+      "transliteration": "Wailunny yawma 'izil lilmukazzibeen"
     },
     {
       "number": 50,
       "arabic": "فَبِأَیِّ حَدِیثِۭ بَعۡدَهُۥ یُؤۡمِنُونَ\n",
       "translation": "Then in what statement after the Qur'an will they believe?",
-      "audioFile": "audio/077/077050.mp3"
+      "transliteration": "Fabi ayyi hadeesim ba'dahoo yu'minoon"
     }
   ]
 }

@@ -1,21 +1,6 @@
 /* Animations CSS - All animations and transitions */
 
-/* Verse transition animations */
-.verse-display.exit-left {
-    opacity: 0;
-    visibility: hidden;
-    transform: translate(-50%, -50%) translateX(-100px);
-    pointer-events: none;
-    position: absolute;
-}
-
-.verse-display.exit-right {
-    opacity: 0;
-    visibility: hidden;
-    transform: translate(-50%, -50%) translateX(100px);
-    pointer-events: none;
-    position: absolute;
-}
+/* Verse transition animations are now in layout.css */
 
 /* Word highlight pulse animation */
 @keyframes wordPulse {
@@ -59,9 +44,49 @@
     animation: wordJump 0.5s ease-out;
 }
 
-/* Button hover transitions are defined in components.css */
+/* Smooth fade animation for verse appearance */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
-/* Smooth transitions for layout changes */
+/* Scale in animation for emphasis */
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Optional: Add a subtle bounce for verse number */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.verse-number {
+    animation: bounce 0.5s ease-out;
+}
+
+/* Ensure smooth transitions for all interactive elements */
 * {
     transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Disable transitions during window resize to prevent janky animations */
+.resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
 }

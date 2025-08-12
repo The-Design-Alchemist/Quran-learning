@@ -1,73 +1,73 @@
 {
-  "number": 101,
-  "name": "Al-Qari'a",
-  "totalVerses": 11,
+  "surah": 101,
+  "name": "Al-Qaari'a",
+  "arabicName": "سُورَةُ القَارِعَةِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  ٱلۡقَارِعَةُ\n",
       "translation": "The Striking Calamity -",
-      "audioFile": "audio/101/101001.mp3"
+      "transliteration": "Al qaari'ah"
     },
     {
       "number": 2,
       "arabic": "مَا ٱلۡقَارِعَةُ\n",
       "translation": "What is the Striking Calamity?",
-      "audioFile": "audio/101/101002.mp3"
+      "transliteration": "Mal qaariah"
     },
     {
       "number": 3,
       "arabic": "وَمَاۤ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ\n",
       "translation": "And what can make you know what is the Striking Calamity?",
-      "audioFile": "audio/101/101003.mp3"
+      "transliteration": "Wa maa adraaka mal qaari'ah"
     },
     {
       "number": 4,
       "arabic": "یَوۡمَ یَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ\n",
       "translation": "It is the Day when people will be like moths, dispersed,",
-      "audioFile": "audio/101/101004.mp3"
+      "transliteration": "Yauma ya koonun naasu kal farashil mabthooth"
     },
     {
       "number": 5,
       "arabic": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ\n",
       "translation": "And the mountains will be like wool, fluffed up.",
-      "audioFile": "audio/101/101005.mp3"
+      "transliteration": "Wa ta koonul jibalu kal 'ihnil manfoosh"
     },
     {
       "number": 6,
       "arabic": "فَأَمَّا مَن ثَقُلَتۡ مَوَ ٰ⁠زِینُهُۥ\n",
       "translation": "Then as for one whose scales are heavy [with good deeds],",
-      "audioFile": "audio/101/101006.mp3"
+      "transliteration": "Fa-amma man thaqulat mawa zeenuh"
     },
     {
       "number": 7,
       "arabic": "فَهُوَ فِی عِیشَةࣲ رَّاضِیَةࣲ\n",
       "translation": "He will be in a pleasant life.",
-      "audioFile": "audio/101/101007.mp3"
+      "transliteration": "Fahuwa fee 'ishatir raadiyah"
     },
     {
       "number": 8,
       "arabic": "وَأَمَّا مَنۡ خَفَّتۡ مَوَ ٰ⁠زِینُهُۥ\n",
       "translation": "But as for one whose scales are light,",
-      "audioFile": "audio/101/101008.mp3"
+      "transliteration": "Wa amma man khaffat mawa zeenuh"
     },
     {
       "number": 9,
       "arabic": "فَأُمُّهُۥ هَاوِیَةࣱ\n",
       "translation": "His refuge will be an abyss.",
-      "audioFile": "audio/101/101009.mp3"
+      "transliteration": "Fa-ummuhu haawiyah"
     },
     {
       "number": 10,
       "arabic": "وَمَاۤ أَدۡرَىٰكَ مَا هِیَهۡ\n",
       "translation": "And what can make you know what that is?",
-      "audioFile": "audio/101/101010.mp3"
+      "transliteration": "Wa maa adraaka maa hiyah"
     },
     {
       "number": 11,
       "arabic": "نَارٌ حَامِیَةُۢ\n",
       "translation": "It is a Fire, intensely hot.",
-      "audioFile": "audio/101/101011.mp3"
+      "transliteration": "Naarun hamiyah"
     }
   ]
 }

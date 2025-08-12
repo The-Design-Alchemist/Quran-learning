@@ -1,283 +1,283 @@
 {
-  "number": 79,
-  "name": "An-Nazi'at",
-  "totalVerses": 46,
+  "surah": 79,
+  "name": "An-Naazi'aat",
+  "arabicName": "سُورَةُ النَّازِعَاتِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  وَٱلنَّـٰزِعَـٰتِ غَرۡقࣰا\n",
       "translation": "By those [angels] who extract with violence",
-      "audioFile": "audio/079/079001.mp3"
+      "transliteration": "Wan naazi 'aati gharqa"
     },
     {
       "number": 2,
       "arabic": "وَٱلنَّـٰشِطَـٰتِ نَشۡطࣰا\n",
       "translation": "And [by] those who remove with ease",
-      "audioFile": "audio/079/079002.mp3"
+      "transliteration": "Wan naa shi taati nashta"
     },
     {
       "number": 3,
       "arabic": "وَٱلسَّـٰبِحَـٰتِ سَبۡحࣰا\n",
       "translation": "And [by] those who glide [as if] swimming",
-      "audioFile": "audio/079/079003.mp3"
+      "transliteration": "Wass saabi-haati sabha"
     },
     {
       "number": 4,
       "arabic": "فَٱلسَّـٰبِقَـٰتِ سَبۡقࣰا\n",
       "translation": "And those who race each other in a race",
-      "audioFile": "audio/079/079004.mp3"
+      "transliteration": "Fass saabi qaati sabqa"
     },
     {
       "number": 5,
       "arabic": "فَٱلۡمُدَبِّرَ ٰ⁠تِ أَمۡرࣰا\n",
       "translation": "And those who arrange [each] matter,",
-      "audioFile": "audio/079/079005.mp3"
+      "transliteration": "Fal mu dab-bi raati amra"
     },
     {
       "number": 6,
       "arabic": "یَوۡمَ تَرۡجُفُ ٱلرَّاجِفَةُ\n",
       "translation": "On the Day the blast [of the Horn] will convulse [creation],",
-      "audioFile": "audio/079/079006.mp3"
+      "transliteration": "Yawma tarjufur raajifa"
     },
     {
       "number": 7,
       "arabic": "تَتۡبَعُهَا ٱلرَّادِفَةُ\n",
       "translation": "There will follow it the subsequent [one].",
-      "audioFile": "audio/079/079007.mp3"
+      "transliteration": "Tatba'u har raadifa"
     },
     {
       "number": 8,
       "arabic": "قُلُوبࣱ یَوۡمَىِٕذࣲ وَاجِفَةٌ\n",
       "translation": "Hearts, that Day, will tremble,",
-      "audioFile": "audio/079/079008.mp3"
+      "transliteration": "Quloobuny-yau maaiziw-waaji-fa"
     },
     {
       "number": 9,
       "arabic": "أَبۡصَـٰرُهَا خَـٰشِعَةࣱ\n",
       "translation": "Their eyes humbled.",
-      "audioFile": "audio/079/079009.mp3"
+      "transliteration": "Absaa ruhaa khashi'ah"
     },
     {
       "number": 10,
       "arabic": "یَقُولُونَ أَءِنَّا لَمَرۡدُودُونَ فِی ٱلۡحَافِرَةِ\n",
       "translation": "They are [presently] saying, \"Will we indeed be returned to [our] former state [of life]?",
-      "audioFile": "audio/079/079010.mp3"
+      "transliteration": "Ya qoo loona a-inna lamar doo doona fil haafirah"
     },
     {
       "number": 11,
       "arabic": "أَءِذَا كُنَّا عِظَـٰمࣰا نَّخِرَةࣰ\n",
       "translation": "Even if we should be decayed bones?",
-      "audioFile": "audio/079/079011.mp3"
+      "transliteration": "Aizaa kunna 'izaa man-nakhirah"
     },
     {
       "number": 12,
       "arabic": "قَالُوا۟ تِلۡكَ إِذࣰا كَرَّةٌ خَاسِرَةࣱ\n",
       "translation": "They say, \"That, then, would be a losing return.\"",
-      "audioFile": "audio/079/079012.mp3"
+      "transliteration": "Qaalu tilka izan karratun khaasirah."
     },
     {
       "number": 13,
       "arabic": "فَإِنَّمَا هِیَ زَجۡرَةࣱ وَ ٰ⁠حِدَةࣱ\n",
       "translation": "Indeed, it will be but one shout,",
-      "audioFile": "audio/079/079013.mp3"
+      "transliteration": "Fa inna ma hiya zajratuw-waahida"
     },
     {
       "number": 14,
       "arabic": "فَإِذَا هُم بِٱلسَّاهِرَةِ\n",
       "translation": "And suddenly they will be [alert] upon the earth's surface.",
-      "audioFile": "audio/079/079014.mp3"
+      "transliteration": "Faizaa hum biss saahirah"
     },
     {
       "number": 15,
       "arabic": "هَلۡ أَتَىٰكَ حَدِیثُ مُوسَىٰۤ\n",
       "translation": "Has there reached you the story of Moses? -",
-      "audioFile": "audio/079/079015.mp3"
+      "transliteration": "Hal ataaka hadeethu Musaa"
     },
     {
       "number": 16,
       "arabic": "إِذۡ نَادَىٰهُ رَبُّهُۥ بِٱلۡوَادِ ٱلۡمُقَدَّسِ طُوًى\n",
       "translation": "When his Lord called to him in the sacred valley of Tuwa,",
-      "audioFile": "audio/079/079016.mp3"
+      "transliteration": "Iz nadaahu rabbuhu bil waadil-muqad dasi tuwa"
     },
     {
       "number": 17,
       "arabic": "ٱذۡهَبۡ إِلَىٰ فِرۡعَوۡنَ إِنَّهُۥ طَغَىٰ\n",
       "translation": "\"Go to Pharaoh. Indeed, he has transgressed.",
-      "audioFile": "audio/079/079017.mp3"
+      "transliteration": "Izhab ilaa fir'auna innahu taghaa."
     },
     {
       "number": 18,
       "arabic": "فَقُلۡ هَل لَّكَ إِلَىٰۤ أَن تَزَكَّىٰ\n",
       "translation": "And say to him, 'Would you [be willing to] purify yourself",
-      "audioFile": "audio/079/079018.mp3"
+      "transliteration": "Faqul hal laka ilaa-an tazakka."
     },
     {
       "number": 19,
       "arabic": "وَأَهۡدِیَكَ إِلَىٰ رَبِّكَ فَتَخۡشَىٰ\n",
       "translation": "And let me guide you to your Lord so you would fear [Him]?'\"",
-      "audioFile": "audio/079/079019.mp3"
+      "transliteration": "Wa ahdi yaka ila rabbika fatakh sha"
     },
     {
       "number": 20,
       "arabic": "فَأَرَىٰهُ ٱلۡـَٔایَةَ ٱلۡكُبۡرَىٰ\n",
       "translation": "And he showed him the greatest sign,",
-      "audioFile": "audio/079/079020.mp3"
+      "transliteration": "Fa araahul-aayatal kubra."
     },
     {
       "number": 21,
       "arabic": "فَكَذَّبَ وَعَصَىٰ\n",
       "translation": "But Pharaoh denied and disobeyed.",
-      "audioFile": "audio/079/079021.mp3"
+      "transliteration": "Fa kazzaba wa asaa."
     },
     {
       "number": 22,
       "arabic": "ثُمَّ أَدۡبَرَ یَسۡعَىٰ\n",
       "translation": "Then he turned his back, striving.",
-      "audioFile": "audio/079/079022.mp3"
+      "transliteration": "Thumma adbara yas'aa."
     },
     {
       "number": 23,
       "arabic": "فَحَشَرَ فَنَادَىٰ\n",
       "translation": "And he gathered [his people] and called out",
-      "audioFile": "audio/079/079023.mp3"
+      "transliteration": "Fa hashara fanada."
     },
     {
       "number": 24,
       "arabic": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلۡأَعۡلَىٰ\n",
       "translation": "And said, \"I am your most exalted lord.\"",
-      "audioFile": "audio/079/079024.mp3"
+      "transliteration": "Faqala ana rabbu kumul-a'laa."
     },
     {
       "number": 25,
       "arabic": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلۡـَٔاخِرَةِ وَٱلۡأُولَىٰۤ\n",
       "translation": "So Allah seized him in exemplary punishment for the last and the first [transgression].",
-      "audioFile": "audio/079/079025.mp3"
+      "transliteration": "Fa-akha zahul laahu nakalal aakhirati wal-oola."
     },
     {
       "number": 26,
       "arabic": "إِنَّ فِی ذَ ٰ⁠لِكَ لَعِبۡرَةࣰ لِّمَن یَخۡشَىٰۤ\n",
       "translation": "Indeed in that is a warning for whoever would fear [Allah].",
-      "audioFile": "audio/079/079026.mp3"
+      "transliteration": "Inna fee zaalika la'ibratal limaiy-yaksha"
     },
     {
       "number": 27,
       "arabic": "ءَأَنتُمۡ أَشَدُّ خَلۡقًا أَمِ ٱلسَّمَاۤءُۚ بَنَىٰهَا\n",
       "translation": "Are you a more difficult creation or is the heaven? Allah constructed it.",
-      "audioFile": "audio/079/079027.mp3"
+      "transliteration": "A-antum a shaddu khalqan amis samaa-u banaaha."
     },
     {
       "number": 28,
       "arabic": "رَفَعَ سَمۡكَهَا فَسَوَّىٰهَا\n",
       "translation": "He raised its ceiling and proportioned it.",
-      "audioFile": "audio/079/079028.mp3"
+      "transliteration": "Raf'a sam kaha fasaw waaha"
     },
     {
       "number": 29,
       "arabic": "وَأَغۡطَشَ لَیۡلَهَا وَأَخۡرَجَ ضُحَىٰهَا\n",
       "translation": "And He darkened its night and extracted its brightness.",
-      "audioFile": "audio/079/079029.mp3"
+      "transliteration": "Wa aghtasha lailaha wa akhraja duhaaha."
     },
     {
       "number": 30,
       "arabic": "وَٱلۡأَرۡضَ بَعۡدَ ذَ ٰ⁠لِكَ دَحَىٰهَاۤ\n",
       "translation": "And after that He spread the earth.",
-      "audioFile": "audio/079/079030.mp3"
+      "transliteration": "Wal arda b'ada zaalika dahaaha."
     },
     {
       "number": 31,
       "arabic": "أَخۡرَجَ مِنۡهَا مَاۤءَهَا وَمَرۡعَىٰهَا\n",
       "translation": "He extracted from it its water and its pasture,",
-      "audioFile": "audio/079/079031.mp3"
+      "transliteration": "Akhraja minha maa-aha wa mar 'aaha."
     },
     {
       "number": 32,
       "arabic": "وَٱلۡجِبَالَ أَرۡسَىٰهَا\n",
       "translation": "And the mountains He set firmly",
-      "audioFile": "audio/079/079032.mp3"
+      "transliteration": "Wal jibala arsaaha."
     },
     {
       "number": 33,
       "arabic": "مَتَـٰعࣰا لَّكُمۡ وَلِأَنۡعَـٰمِكُمۡ\n",
       "translation": "As provision for you and your grazing livestock.",
-      "audioFile": "audio/079/079033.mp3"
+      "transliteration": "Mataa'al lakum wali an 'aamikum."
     },
     {
       "number": 34,
       "arabic": "فَإِذَا جَاۤءَتِ ٱلطَّاۤمَّةُ ٱلۡكُبۡرَىٰ\n",
       "translation": "But when there comes the greatest Overwhelming Calamity -",
-      "audioFile": "audio/079/079034.mp3"
+      "transliteration": "Fa-izaa jaaa'atit taaam matul kubraa."
     },
     {
       "number": 35,
       "arabic": "یَوۡمَ یَتَذَكَّرُ ٱلۡإِنسَـٰنُ مَا سَعَىٰ\n",
       "translation": "The Day when man will remember that for which he strove,",
-      "audioFile": "audio/079/079035.mp3"
+      "transliteration": "Yauma Yata zakkarul insaanu ma sa'aa."
     },
     {
       "number": 36,
       "arabic": "وَبُرِّزَتِ ٱلۡجَحِیمُ لِمَن یَرَىٰ\n",
       "translation": "And Hellfire will be exposed for [all] those who see -",
-      "audioFile": "audio/079/079036.mp3"
+      "transliteration": "Wa burrizatil-jaheemu limany-yaraa."
     },
     {
       "number": 37,
       "arabic": "فَأَمَّا مَن طَغَىٰ\n",
       "translation": "So as for he who transgressed",
-      "audioFile": "audio/079/079037.mp3"
+      "transliteration": "Fa ammaa man taghaa."
     },
     {
       "number": 38,
       "arabic": "وَءَاثَرَ ٱلۡحَیَوٰةَ ٱلدُّنۡیَا\n",
       "translation": "And preferred the life of the world,",
-      "audioFile": "audio/079/079038.mp3"
+      "transliteration": "Wa aasaral hayaatad dunyaa"
     },
     {
       "number": 39,
       "arabic": "فَإِنَّ ٱلۡجَحِیمَ هِیَ ٱلۡمَأۡوَىٰ\n",
       "translation": "Then indeed, Hellfire will be [his] refuge.",
-      "audioFile": "audio/079/079039.mp3"
+      "transliteration": "Fa innal jaheema hiyal maawaa."
     },
     {
       "number": 40,
       "arabic": "وَأَمَّا مَنۡ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفۡسَ عَنِ ٱلۡهَوَىٰ\n",
       "translation": "But as for he who feared the position of his Lord and prevented the soul from [unlawful] inclination,",
-      "audioFile": "audio/079/079040.mp3"
+      "transliteration": "Wa ammaa man khaafa maqaama Rabbihee wa nahan nafsa 'anil hawaa"
     },
     {
       "number": 41,
       "arabic": "فَإِنَّ ٱلۡجَنَّةَ هِیَ ٱلۡمَأۡوَىٰ\n",
       "translation": "Then indeed, Paradise will be [his] refuge.",
-      "audioFile": "audio/079/079041.mp3"
+      "transliteration": "Fa innal jannata hiyal maawaa"
     },
     {
       "number": 42,
       "arabic": "یَسۡـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَیَّانَ مُرۡسَىٰهَا\n",
       "translation": "They ask you, [O Muhammad], about the Hour: when is its arrival?",
-      "audioFile": "audio/079/079042.mp3"
+      "transliteration": "Yas'aloonaka 'anis saa'ati ayyaana mursaahaa"
     },
     {
       "number": 43,
       "arabic": "فِیمَ أَنتَ مِن ذِكۡرَىٰهَاۤ\n",
       "translation": "In what [position] are you that you should mention it?",
-      "audioFile": "audio/079/079043.mp3"
+      "transliteration": "Feema anta min zikraahaa"
     },
     {
       "number": 44,
       "arabic": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَاۤ\n",
       "translation": "To your Lord is its finality.",
-      "audioFile": "audio/079/079044.mp3"
+      "transliteration": "Ilaa Rabbika muntahaa haa"
     },
     {
       "number": 45,
       "arabic": "إِنَّمَاۤ أَنتَ مُنذِرُ مَن یَخۡشَىٰهَا\n",
       "translation": "You are only a warner for those who fear it.",
-      "audioFile": "audio/079/079045.mp3"
+      "transliteration": "Innamaaa anta munziru maiy yakshaahaa"
     },
     {
       "number": 46,
       "arabic": "كَأَنَّهُمۡ یَوۡمَ یَرَوۡنَهَا لَمۡ یَلۡبَثُوۤا۟ إِلَّا عَشِیَّةً أَوۡ ضُحَىٰهَا\n",
       "translation": "It will be, on the Day they see it, as though they had not remained [in the world] except for an afternoon or a morning thereof.",
-      "audioFile": "audio/079/079046.mp3"
+      "transliteration": "Ka annahum Yawma yarawnahaa lam yalbasooo illaa 'ashiyyatan aw duhaahaa"
     }
   ]
 }

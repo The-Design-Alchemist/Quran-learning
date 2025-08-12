@@ -11,7 +11,8 @@ window.appState = {
     currentRepeatCount: 0,
     surahRepeatCount: 0,
     currentSurah: null,
-    verses: []
+    verses: [],
+    highlightingEnabled: true // New setting for word highlighting
 };
 
 // Keep only essential globals
@@ -126,46 +127,39 @@ class QuranLearningApp {
     }
 
     // Build verses array from API data
-    async buildVersesArray(surahNumber, verseData) {
-        window.appState.verses = [];
-        
-        // Add Bismillah for all surahs except At-Tawbah (9)
-        if (surahNumber !== 9) {
-            window.appState.verses.push({
-                number: 'Bismillah',
-                text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-                english: "In the name of Allah, the Most Gracious, the Most Merciful",
-                id: "bismillah-display",
-                hasAudio: false
-            });
-        }
-
-        // Add all verses with translations
-        for (let i = 0; i < verseData.length; i++) {
-            const verse = verseData[i];
-            const verseNumber = verse.numberInSurah || verse.number || (i + 1);
-            
-            // Use translation from local JSON data
-            const englishTranslation = verse.translation || `Translation for Surah ${surahNumber}, Verse ${verseNumber}`;
-            
-            window.appState.verses.push({
-                number: verseNumber,
-                text: verse.text || `Verse ${verseNumber}`,
-                english: englishTranslation,
-                id: `verse-${verseNumber}-display`,
-                hasAudio: true
-            });
-        }
+   async buildVersesArray(surahNumber, verseData) {
+    window.appState.verses = [];
+    
+    // Add Bismillah for all surahs except At-Tawbah (9)
+    if (surahNumber !== 9) {
+        window.appState.verses.push({
+            number: 'Bismillah',
+            text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            english: "In the name of Allah, the Most Gracious, the Most Merciful",
+            transliteration: "Bismillah ir-Rahman ir-Raheem",
+            id: "bismillah-display",
+            hasAudio: false
+        });
     }
+
+    // Add all verses with translations and transliterations
+    for (let i = 0; i < verseData.length; i++) {
+        const verse = verseData[i];
+        const verseNumber = verse.numberInSurah || verse.number || (i + 1);
+        
+        window.appState.verses.push({
+            number: verseNumber,
+            text: verse.text || `Verse ${verseNumber}`,
+            english: verse.translation || `Translation for Surah ${surahNumber}, Verse ${verseNumber}`,
+            transliteration: verse.transliteration || '',
+            id: `verse-${verseNumber}-display`,
+            hasAudio: true
+        });
+    }
+}
 
     // Initialize all services
     initializeServices() {
-        // Initialize audio service with iOS support
-        audioService.initializeIOS();
-        
-        // Initialize media session
-        mediaSessionService.initialize();
-        
         // Update status
         window.playbackControls.updateStatus(`Ready to recite ${window.appState.currentSurah.english} with Mishary Alafasy`);
     }

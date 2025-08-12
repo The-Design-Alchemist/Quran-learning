@@ -1,37 +1,37 @@
 {
-  "number": 105,
+  "surah": 105,
   "name": "Al-Fil",
-  "totalVerses": 5,
+  "arabicName": "سُورَةُ الفِيلِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  أَلَمۡ تَرَ كَیۡفَ فَعَلَ رَبُّكَ بِأَصۡحَـٰبِ ٱلۡفِیلِ\n",
       "translation": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?",
-      "audioFile": "audio/105/105001.mp3"
+      "transliteration": "Alam tara kaifa fa'ala rabbuka bi ashaabil feel"
     },
     {
       "number": 2,
       "arabic": "أَلَمۡ یَجۡعَلۡ كَیۡدَهُمۡ فِی تَضۡلِیلࣲ\n",
       "translation": "Did He not make their plan into misguidance?",
-      "audioFile": "audio/105/105002.mp3"
+      "transliteration": "Alam yaj'al kai dahum fee tad leel"
     },
     {
       "number": 3,
       "arabic": "وَأَرۡسَلَ عَلَیۡهِمۡ طَیۡرًا أَبَابِیلَ\n",
       "translation": "And He sent against them birds in flocks,",
-      "audioFile": "audio/105/105003.mp3"
+      "transliteration": "Wa arsala 'alaihim tairan abaabeel"
     },
     {
       "number": 4,
       "arabic": "تَرۡمِیهِم بِحِجَارَةࣲ مِّن سِجِّیلࣲ\n",
       "translation": "Striking them with stones of hard clay,",
-      "audioFile": "audio/105/105004.mp3"
+      "transliteration": "Tar meehim bi hi jaaratim min sij jeel"
     },
     {
       "number": 5,
       "arabic": "فَجَعَلَهُمۡ كَعَصۡفࣲ مَّأۡكُولِۭ\n",
       "translation": "And He made them like eaten straw.",
-      "audioFile": "audio/105/105005.mp3"
+      "transliteration": "Faja 'alahum ka'asfim m'akool"
     }
   ]
 }

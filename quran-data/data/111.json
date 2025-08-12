@@ -1,37 +1,37 @@
 {
-  "number": 111,
+  "surah": 111,
   "name": "Al-Masad",
-  "totalVerses": 5,
+  "arabicName": "سُورَةُ المَسَدِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  تَبَّتۡ یَدَاۤ أَبِی لَهَبࣲ وَتَبَّ\n",
       "translation": "May the hands of Abu Lahab be ruined, and ruined is he.",
-      "audioFile": "audio/111/111001.mp3"
+      "transliteration": "Tab bat yadaa abee Lahabinw-wa tabb"
     },
     {
       "number": 2,
       "arabic": "مَاۤ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ\n",
       "translation": "His wealth will not avail him or that which he gained.",
-      "audioFile": "audio/111/111002.mp3"
+      "transliteration": "Maa aghna 'anhu maaluhu wa ma kasab"
     },
     {
       "number": 3,
       "arabic": "سَیَصۡلَىٰ نَارࣰا ذَاتَ لَهَبࣲ\n",
       "translation": "He will [enter to] burn in a Fire of [blazing] flame",
-      "audioFile": "audio/111/111003.mp3"
+      "transliteration": "Sa yas laa naran zaata lahab"
     },
     {
       "number": 4,
       "arabic": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ\n",
       "translation": "And his wife [as well] - the carrier of firewood.",
-      "audioFile": "audio/111/111004.mp3"
+      "transliteration": "Wam ra-atuh hamma latal-hatab"
     },
     {
       "number": 5,
       "arabic": "فِی جِیدِهَا حَبۡلࣱ مِّن مَّسَدِۭ\n",
       "translation": "Around her neck is a rope of [twisted] fiber.",
-      "audioFile": "audio/111/111005.mp3"
+      "transliteration": "Fee jeediha hab lum mim-masad"
     }
   ]
 }

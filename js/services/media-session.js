@@ -1,4 +1,4 @@
-// Media Session service for notification controls
+/* Media Session service for notification controls
 
 class MediaSessionService {
     constructor() {
@@ -199,4 +199,4 @@ startIOSKeepAlive() {
 }
 
 // Create global instance
-window.mediaSessionService = new MediaSessionService();
+window.mediaSessionService = new MediaSessionService(); */

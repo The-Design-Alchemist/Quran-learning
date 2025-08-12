@@ -15,6 +15,9 @@
 /* UI Components (buttons, controls, etc.) */
 @import url('./components.css');
 
+/* Settings menu and controls */
+@import url('./settings.css');
+
 /* Word highlighting feature */
 @import url('./word-highlighting.css');
 

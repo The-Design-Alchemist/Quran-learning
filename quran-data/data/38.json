@@ -1,535 +1,535 @@
 {
-  "number": 38,
-  "name": "Sad",
-  "totalVerses": 88,
+  "surah": 38,
+  "name": "Saad",
+  "arabicName": "سُورَةُ صٓ",
   "verses": [
     {
       "number": 1,
       "arabic": "  صۤۚ وَٱلۡقُرۡءَانِ ذِی ٱلذِّكۡرِ\n",
       "translation": "Sad. By the Qur'an containing reminder...",
-      "audioFile": "audio/038/038001.mp3"
+      "transliteration": "Saaad; wal-Qur-aani ziz zikr"
     },
     {
       "number": 2,
       "arabic": "بَلِ ٱلَّذِینَ كَفَرُوا۟ فِی عِزَّةࣲ وَشِقَاقࣲ\n",
       "translation": "But those who disbelieve are in pride and dissension.",
-      "audioFile": "audio/038/038002.mp3"
+      "transliteration": "Balil lazeena kafaroo fee 'izzatilnw wa shiqaaq"
     },
     {
       "number": 3,
       "arabic": "كَمۡ أَهۡلَكۡنَا مِن قَبۡلِهِم مِّن قَرۡنࣲ فَنَادَوا۟ وَّلَاتَ حِینَ مَنَاصࣲ\n",
       "translation": "How many a generation have We destroyed before them, and they [then] called out; but it was not a time for escape.",
-      "audioFile": "audio/038/038003.mp3"
+      "transliteration": "Kam ahlaknaa min qablihim min qarnin fanaadaw wa laata heena manaas"
     },
     {
       "number": 4,
       "arabic": "وَعَجِبُوۤا۟ أَن جَاۤءَهُم مُّنذِرࣱ مِّنۡهُمۡۖ وَقَالَ ٱلۡكَـٰفِرُونَ هَـٰذَا سَـٰحِرࣱ كَذَّابٌ\n",
       "translation": "And they wonder that there has come to them a warner from among themselves. And the disbelievers say, \"This is a magician and a liar.",
-      "audioFile": "audio/038/038004.mp3"
+      "transliteration": "Wa 'ajibooo an jaaa'a hum munzirum minhum wa qaalal kaafiroona haazaa saahirun kazzaab"
     },
     {
       "number": 5,
       "arabic": "أَجَعَلَ ٱلۡـَٔالِهَةَ إِلَـٰهࣰا وَ ٰ⁠حِدًاۖ إِنَّ هَـٰذَا لَشَیۡءٌ عُجَابࣱ\n",
       "translation": "Has he made the gods [only] one God? Indeed, this is a curious thing.\"",
-      "audioFile": "audio/038/038005.mp3"
+      "transliteration": "Aja'alal aalihata Ilaahanw Waahidan inna haazaa lashai'un 'ujaab"
     },
     {
       "number": 6,
       "arabic": "وَٱنطَلَقَ ٱلۡمَلَأُ مِنۡهُمۡ أَنِ ٱمۡشُوا۟ وَٱصۡبِرُوا۟ عَلَىٰۤ ءَالِهَتِكُمۡۖ إِنَّ هَـٰذَا لَشَیۡءࣱ یُرَادُ\n",
       "translation": "And the eminent among them went forth, [saying], \"Continue, and be patient over [the defense of] your gods. Indeed, this is a thing intended.",
-      "audioFile": "audio/038/038006.mp3"
+      "transliteration": "Wantalaqal mala-u minhum anim shoo wasbiroo 'alaaa aalihatikum innna haazaa lashai 'uny yuraad"
     },
     {
       "number": 7,
       "arabic": "مَا سَمِعۡنَا بِهَـٰذَا فِی ٱلۡمِلَّةِ ٱلۡـَٔاخِرَةِ إِنۡ هَـٰذَاۤ إِلَّا ٱخۡتِلَـٰقٌ\n",
       "translation": "We have not heard of this in the latest religion. This is not but a fabrication.",
-      "audioFile": "audio/038/038007.mp3"
+      "transliteration": "Maa sami'naa bihaazaa fil millatil aakhirati in haazaaa illakh tilaaq"
     },
     {
       "number": 8,
       "arabic": "أَءُنزِلَ عَلَیۡهِ ٱلذِّكۡرُ مِنۢ بَیۡنِنَاۚ بَلۡ هُمۡ فِی شَكࣲّ مِّن ذِكۡرِیۚ بَل لَّمَّا یَذُوقُوا۟ عَذَابِ\n",
       "translation": "Has the message been revealed to him out of [all of] us?\" Rather, they are in doubt about My message. Rather, they have not yet tasted My punishment.",
-      "audioFile": "audio/038/038008.mp3"
+      "transliteration": "'A-unzila 'alaihiz zikru mim baininaa; bal hum fee shakkim min Zikree bal lammaa yazooqoo 'azaab"
     },
     {
       "number": 9,
       "arabic": "أَمۡ عِندَهُمۡ خَزَاۤىِٕنُ رَحۡمَةِ رَبِّكَ ٱلۡعَزِیزِ ٱلۡوَهَّابِ\n",
       "translation": "Or do they have the depositories of the mercy of your Lord, the Exalted in Might, the Bestower?",
-      "audioFile": "audio/038/038009.mp3"
+      "transliteration": "Am'indahum khazaaa 'inu rahmati Rabbikal 'Azeezil Wahhab"
     },
     {
       "number": 10,
       "arabic": "أَمۡ لَهُم مُّلۡكُ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ وَمَا بَیۡنَهُمَاۖ فَلۡیَرۡتَقُوا۟ فِی ٱلۡأَسۡبَـٰبِ\n",
       "translation": "Or is theirs the dominion of the heavens and the earth and what is between them? Then let them ascend through [any] ways of access.",
-      "audioFile": "audio/038/038010.mp3"
+      "transliteration": "Am lahum mulkus samaawaati wal ardi wa maa bainahumaa falyartaqoo fil asbaab"
     },
     {
       "number": 11,
       "arabic": "جُندࣱ مَّا هُنَالِكَ مَهۡزُومࣱ مِّنَ ٱلۡأَحۡزَابِ\n",
       "translation": "[They are but] soldiers [who will be] defeated there among the companies [of disbelievers].",
-      "audioFile": "audio/038/038011.mp3"
+      "transliteration": "Jundum maa hunaalika mahzoomum minal Ahzaab"
     },
     {
       "number": 12,
       "arabic": "كَذَّبَتۡ قَبۡلَهُمۡ قَوۡمُ نُوحࣲ وَعَادࣱ وَفِرۡعَوۡنُ ذُو ٱلۡأَوۡتَادِ\n",
       "translation": "The people of Noah denied before them, and [the tribe of] 'Aad and Pharaoh, the owner of stakes,",
-      "audioFile": "audio/038/038012.mp3"
+      "transliteration": "Kazzabat qablahum qawmu Lootinw-wa 'Aadunw wa Fir'awnu zul awtaad"
     },
     {
       "number": 13,
       "arabic": "وَثَمُودُ وَقَوۡمُ لُوطࣲ وَأَصۡحَـٰبُ لۡـَٔیۡكَةِۚ أُو۟لَـٰۤىِٕكَ ٱلۡأَحۡزَابُ\n",
       "translation": "And [the tribe of] Thamud and the people of Lot and the companions of the thicket. Those are the companies.",
-      "audioFile": "audio/038/038013.mp3"
+      "transliteration": "Wa Samoodu wa qawmu Lootinw wa Ashaabul 'Aykah; ulaaa'ikal Ahzaab"
     },
     {
       "number": 14,
       "arabic": "إِن كُلٌّ إِلَّا كَذَّبَ ٱلرُّسُلَ فَحَقَّ عِقَابِ\n",
       "translation": "Each of them denied the messengers, so My penalty was justified.",
-      "audioFile": "audio/038/038014.mp3"
+      "transliteration": "In kullun illaa kazzabar Rusula fahaqqa 'iqaab"
     },
     {
       "number": 15,
       "arabic": "وَمَا یَنظُرُ هَـٰۤؤُلَاۤءِ إِلَّا صَیۡحَةࣰ وَ ٰ⁠حِدَةࣰ مَّا لَهَا مِن فَوَاقࣲ\n",
       "translation": "And these [disbelievers] await not but one blast [of the Horn]; for it there will be no delay.",
-      "audioFile": "audio/038/038015.mp3"
+      "transliteration": "Wa maa yanzuru haaa ulaaa'i illaa saihatanw waahidatam maa lahaa min fawaaq"
     },
     {
       "number": 16,
       "arabic": "وَقَالُوا۟ رَبَّنَا عَجِّل لَّنَا قِطَّنَا قَبۡلَ یَوۡمِ ٱلۡحِسَابِ\n",
       "translation": "And they say, \"Our Lord, hasten for us our share [of the punishment] before the Day of Account\"",
-      "audioFile": "audio/038/038016.mp3"
+      "transliteration": "Wa qaaloo Rabbanaa 'ajjil lanaa qittanaa qabla Yawmil Hisaab"
     },
     {
       "number": 17,
       "arabic": "ٱصۡبِرۡ عَلَىٰ مَا یَقُولُونَ وَٱذۡكُرۡ عَبۡدَنَا دَاوُۥدَ ذَا ٱلۡأَیۡدِۖ إِنَّهُۥۤ أَوَّابٌ\n",
       "translation": "Be patient over what they say and remember Our servant, David, the possessor of strength; indeed, he was one who repeatedly turned back [to Allah].",
-      "audioFile": "audio/038/038017.mp3"
+      "transliteration": "Isbir 'alaa maa yaqooloona wazkur 'abdanaa Daawooda zal aidi aidi innahooo awwaab"
     },
     {
       "number": 18,
       "arabic": "إِنَّا سَخَّرۡنَا ٱلۡجِبَالَ مَعَهُۥ یُسَبِّحۡنَ بِٱلۡعَشِیِّ وَٱلۡإِشۡرَاقِ\n",
       "translation": "Indeed, We subjected the mountains [to praise] with him, exalting [Allah] in the [late] afternoon and [after] sunrise.",
-      "audioFile": "audio/038/038018.mp3"
+      "transliteration": "Innaa sakhkharnal jibaala ma'ahoo yusabbihna bil'ashaiyi wal ishraaq"
     },
     {
       "number": 19,
       "arabic": "وَٱلطَّیۡرَ مَحۡشُورَةࣰۖ كُلࣱّ لَّهُۥۤ أَوَّابࣱ\n",
       "translation": "And the birds were assembled, all with him repeating [praises].",
-      "audioFile": "audio/038/038019.mp3"
+      "transliteration": "Wattayra mahshoorah; kullul lahooo awwaab"
     },
     {
       "number": 20,
       "arabic": "وَشَدَدۡنَا مُلۡكَهُۥ وَءَاتَیۡنَـٰهُ ٱلۡحِكۡمَةَ وَفَصۡلَ ٱلۡخِطَابِ\n",
       "translation": "And We strengthened his kingdom and gave him wisdom and discernment in speech.",
-      "audioFile": "audio/038/038020.mp3"
+      "transliteration": "Wa shadadnaa mulkahoo wa aatainaahul Hikmata wa faslal khitaab"
     },
     {
       "number": 21,
       "arabic": "۞ وَهَلۡ أَتَىٰكَ نَبَؤُا۟ ٱلۡخَصۡمِ إِذۡ تَسَوَّرُوا۟ ٱلۡمِحۡرَابَ\n",
       "translation": "And has there come to you the news of the adversaries, when they climbed over the wall of [his] prayer chamber -",
-      "audioFile": "audio/038/038021.mp3"
+      "transliteration": "Wa hal ataaka naba'ul khasm; iz tasawwarul mihraab"
     },
     {
       "number": 22,
       "arabic": "إِذۡ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنۡهُمۡۖ قَالُوا۟ لَا تَخَفۡۖ خَصۡمَانِ بَغَىٰ بَعۡضُنَا عَلَىٰ بَعۡضࣲ فَٱحۡكُم بَیۡنَنَا بِٱلۡحَقِّ وَلَا تُشۡطِطۡ وَٱهۡدِنَاۤ إِلَىٰ سَوَاۤءِ ٱلصِّرَ ٰ⁠طِ\n",
       "translation": "When they entered upon David and he was alarmed by them? They said, \"Fear not. [We are] two adversaries, one of whom has wronged the other, so judge between us with truth and do not exceed [it] and guide us to the sound path.",
-      "audioFile": "audio/038/038022.mp3"
+      "transliteration": "Iz dakhaloo 'alaa Daawooda fafazi'a minhum qaaloo la takhaf khasmaani baghaa ba'dunaa 'alaa ba'din fahkum bainanaaa bilhaqqi wa laa tushtit wahdinaaa ilaa Sawaaa'is Siraat"
     },
     {
       "number": 23,
       "arabic": "إِنَّ هَـٰذَاۤ أَخِی لَهُۥ تِسۡعࣱ وَتِسۡعُونَ نَعۡجَةࣰ وَلِیَ نَعۡجَةࣱ وَ ٰ⁠حِدَةࣱ فَقَالَ أَكۡفِلۡنِیهَا وَعَزَّنِی فِی ٱلۡخِطَابِ\n",
       "translation": "Indeed this, my brother, has ninety-nine ewes, and I have one ewe; so he said, 'Entrust her to me,' and he overpowered me in speech.\"",
-      "audioFile": "audio/038/038023.mp3"
+      "transliteration": "Inna haazaaa akhee lahoo tis'unw wa tis'oona na'jatanw wa liya na'jatunw waahidah; faqaala akfilneeha wa 'azzanee filkhitaab"
     },
     {
       "number": 24,
       "arabic": "قَالَ لَقَدۡ ظَلَمَكَ بِسُؤَالِ نَعۡجَتِكَ إِلَىٰ نِعَاجِهِۦۖ وَإِنَّ كَثِیرࣰا مِّنَ ٱلۡخُلَطَاۤءِ لَیَبۡغِی بَعۡضُهُمۡ عَلَىٰ بَعۡضٍ إِلَّا ٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَقَلِیلࣱ مَّا هُمۡۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّـٰهُ فَٱسۡتَغۡفَرَ رَبَّهُۥ وَخَرَّ رَاكِعࣰا وَأَنَابَ ۩\n",
       "translation": "[David] said, \"He has certainly wronged you in demanding your ewe [in addition] to his ewes. And indeed, many associates oppress one another, except for those who believe and do righteous deeds - and few are they.\" And David became certain that We had tried him, and he asked forgiveness of his Lord and fell down bowing [in prostration] and turned in repentance [to Allah].",
-      "audioFile": "audio/038/038024.mp3"
+      "transliteration": "Qaala laqad zalamaka bisu 'aali na'jatika ilaa ni'aajihee wa inna kaseeram minal khulataaa'i la-yabghee ba'duhum 'alaa ba'din illal lazeena aamanoo wa 'amilus saalihaati wa qaleehum maa hum; wa zanna Daawoodu annamaa fatannaahu fastaghrara Rabbahoo wa kharra raaki'anw wa anaab"
     },
     {
       "number": 25,
       "arabic": "فَغَفَرۡنَا لَهُۥ ذَ ٰ⁠لِكَۖ وَإِنَّ لَهُۥ عِندَنَا لَزُلۡفَىٰ وَحُسۡنَ مَـَٔابࣲ\n",
       "translation": "So We forgave him that; and indeed, for him is nearness to Us and a good place of return.",
-      "audioFile": "audio/038/038025.mp3"
+      "transliteration": "Faghafarnaa lahoo zaalik; wa inna lahoo 'indanaa lazulfaa wa husna ma aab"
     },
     {
       "number": 26,
       "arabic": "یَـٰدَاوُۥدُ إِنَّا جَعَلۡنَـٰكَ خَلِیفَةࣰ فِی ٱلۡأَرۡضِ فَٱحۡكُم بَیۡنَ ٱلنَّاسِ بِٱلۡحَقِّ وَلَا تَتَّبِعِ ٱلۡهَوَىٰ فَیُضِلَّكَ عَن سَبِیلِ ٱللَّهِۚ إِنَّ ٱلَّذِینَ یَضِلُّونَ عَن سَبِیلِ ٱللَّهِ لَهُمۡ عَذَابࣱ شَدِیدُۢ بِمَا نَسُوا۟ یَوۡمَ ٱلۡحِسَابِ\n",
       "translation": "[We said], \"O David, indeed We have made you a successor upon the earth, so judge between the people in truth and do not follow [your own] desire, as it will lead you astray from the way of Allah.\" Indeed, those who go astray from the way of Allah will have a severe punishment for having forgotten the Day of Account.",
-      "audioFile": "audio/038/038026.mp3"
+      "transliteration": "Yaa Daawoodu innaa ja'alnaaka khaleefatan fil ardi fahkum bainan naasi bilhaqqi wa laa tattabi'il hawaa fayudillaka 'an sabeelil laah; innal lazeena yadilloona 'an sabeelil laah; lahum 'azaabun shadeedum bimaa nasoo Yawmal Hisaab"
     },
     {
       "number": 27,
       "arabic": "وَمَا خَلَقۡنَا ٱلسَّمَاۤءَ وَٱلۡأَرۡضَ وَمَا بَیۡنَهُمَا بَـٰطِلࣰاۚ ذَ ٰ⁠لِكَ ظَنُّ ٱلَّذِینَ كَفَرُوا۟ۚ فَوَیۡلࣱ لِّلَّذِینَ كَفَرُوا۟ مِنَ ٱلنَّارِ\n",
       "translation": "And We did not create the heaven and the earth and that between them aimlessly. That is the assumption of those who disbelieve, so woe to those who disbelieve from the Fire.",
-      "audioFile": "audio/038/038027.mp3"
+      "transliteration": "Wa ma khalaqnas samaaa'a wal arda wa maa bainahumaa baatilaa; zaalika zannul lazeena kafaroo; fawi lul lillazeena kafaroo minan Naar"
     },
     {
       "number": 28,
       "arabic": "أَمۡ نَجۡعَلُ ٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ كَٱلۡمُفۡسِدِینَ فِی ٱلۡأَرۡضِ أَمۡ نَجۡعَلُ ٱلۡمُتَّقِینَ كَٱلۡفُجَّارِ\n",
       "translation": "Or should we treat those who believe and do righteous deeds like corrupters in the land? Or should We treat those who fear Allah like the wicked?",
-      "audioFile": "audio/038/038028.mp3"
+      "transliteration": "Am naj'alul lazeena aamanoo wa 'amilus saalihaati kalmufisdeena fil ardi am naj'alul muttaqeena kalfujjaar"
     },
     {
       "number": 29,
       "arabic": "كِتَـٰبٌ أَنزَلۡنَـٰهُ إِلَیۡكَ مُبَـٰرَكࣱ لِّیَدَّبَّرُوۤا۟ ءَایَـٰتِهِۦ وَلِیَتَذَكَّرَ أُو۟لُوا۟ ٱلۡأَلۡبَـٰبِ\n",
       "translation": "[This is] a blessed Book which We have revealed to you, [O Muhammad], that they might reflect upon its verses and that those of understanding would be reminded.",
-      "audioFile": "audio/038/038029.mp3"
+      "transliteration": "Kitaabun anzalnaahu ilaika mubaarakul liyaddabbarooo Aayaatihee wa liyatazakkara ulul albaab"
     },
     {
       "number": 30,
       "arabic": "وَوَهَبۡنَا لِدَاوُۥدَ سُلَیۡمَـٰنَۚ نِعۡمَ ٱلۡعَبۡدُ إِنَّهُۥۤ أَوَّابٌ\n",
       "translation": "And to David We gave Solomon. An excellent servant, indeed he was one repeatedly turning back [to Allah].",
-      "audioFile": "audio/038/038030.mp3"
+      "transliteration": "Wa wahabnaa li Daawooda Sulaimaan; ni'mal 'abd; innahoo awwaab"
     },
     {
       "number": 31,
       "arabic": "إِذۡ عُرِضَ عَلَیۡهِ بِٱلۡعَشِیِّ ٱلصَّـٰفِنَـٰتُ ٱلۡجِیَادُ\n",
       "translation": "[Mention] when there were exhibited before him in the afternoon the poised [standing] racehorses.",
-      "audioFile": "audio/038/038031.mp3"
+      "transliteration": "Iz 'urida 'alaihi bil'ashiy yis saafinaatul jiyaad"
     },
     {
       "number": 32,
       "arabic": "فَقَالَ إِنِّیۤ أَحۡبَبۡتُ حُبَّ ٱلۡخَیۡرِ عَن ذِكۡرِ رَبِّی حَتَّىٰ تَوَارَتۡ بِٱلۡحِجَابِ\n",
       "translation": "And he said, \"Indeed, I gave preference to the love of good [things] over the remembrance of my Lord until the sun disappeared into the curtain [of darkness].\"",
-      "audioFile": "audio/038/038032.mp3"
+      "transliteration": "Faqaala inneee ahbabtu hubbal khairi 'an zikri Rabbee hattaa tawaarat bilhijaab"
     },
     {
       "number": 33,
       "arabic": "رُدُّوهَا عَلَیَّۖ فَطَفِقَ مَسۡحَۢا بِٱلسُّوقِ وَٱلۡأَعۡنَاقِ\n",
       "translation": "[He said], \"Return them to me,\" and set about striking [their] legs and necks.",
-      "audioFile": "audio/038/038033.mp3"
+      "transliteration": "Ruddoohaa 'alaiya fatafiqa masham bissooqi wal a'naaq"
     },
     {
       "number": 34,
       "arabic": "وَلَقَدۡ فَتَنَّا سُلَیۡمَـٰنَ وَأَلۡقَیۡنَا عَلَىٰ كُرۡسِیِّهِۦ جَسَدࣰا ثُمَّ أَنَابَ\n",
       "translation": "And We certainly tried Solomon and placed on his throne a body; then he returned.",
-      "audioFile": "audio/038/038034.mp3"
+      "transliteration": "Wa laqad fatannaa Sulaimaana wa alqainaa 'alaa kursiyyihee jasadan summa anaab"
     },
     {
       "number": 35,
       "arabic": "قَالَ رَبِّ ٱغۡفِرۡ لِی وَهَبۡ لِی مُلۡكࣰا لَّا یَنۢبَغِی لِأَحَدࣲ مِّنۢ بَعۡدِیۤۖ إِنَّكَ أَنتَ ٱلۡوَهَّابُ\n",
       "translation": "He said, \"My Lord, forgive me and grant me a kingdom such as will not belong to anyone after me. Indeed, You are the Bestower.\"",
-      "audioFile": "audio/038/038035.mp3"
+      "transliteration": "Qaala Rabbigh fir lee wa hab lee mulkal laa yambaghee li ahadim mim ba'de inaka Antal Wahhab"
     },
     {
       "number": 36,
       "arabic": "فَسَخَّرۡنَا لَهُ ٱلرِّیحَ تَجۡرِی بِأَمۡرِهِۦ رُخَاۤءً حَیۡثُ أَصَابَ\n",
       "translation": "So We subjected to him the wind blowing by his command, gently, wherever he directed,",
-      "audioFile": "audio/038/038036.mp3"
+      "transliteration": "Fasakhkharnaa lahur reeha tajree bi amrihee rukhaaa'an haisu asaab"
     },
     {
       "number": 37,
       "arabic": "وَٱلشَّیَـٰطِینَ كُلَّ بَنَّاۤءࣲ وَغَوَّاصࣲ\n",
       "translation": "And [also] the devils [of jinn] - every builder and diver",
-      "audioFile": "audio/038/038037.mp3"
+      "transliteration": "Wash Shayaateena kulla bannaaa'inw wa ghawwaas"
     },
     {
       "number": 38,
       "arabic": "وَءَاخَرِینَ مُقَرَّنِینَ فِی ٱلۡأَصۡفَادِ\n",
       "translation": "And others bound together in shackles.",
-      "audioFile": "audio/038/038038.mp3"
+      "transliteration": "Wa aakhareena muqarraneena fil asfaad"
     },
     {
       "number": 39,
       "arabic": "هَـٰذَا عَطَاۤؤُنَا فَٱمۡنُنۡ أَوۡ أَمۡسِكۡ بِغَیۡرِ حِسَابࣲ\n",
       "translation": "[We said], \"This is Our gift, so grant or withhold without account.\"",
-      "audioFile": "audio/038/038039.mp3"
+      "transliteration": "Haazaa 'ataaa'unaa famnun aw amsik bighairi hisaab"
     },
     {
       "number": 40,
       "arabic": "وَإِنَّ لَهُۥ عِندَنَا لَزُلۡفَىٰ وَحُسۡنَ مَـَٔابࣲ\n",
       "translation": "And indeed, for him is nearness to Us and a good place of return.",
-      "audioFile": "audio/038/038040.mp3"
+      "transliteration": "Wa inna lahoo 'indanaa lazulfaa wa husna ma-aab"
     },
     {
       "number": 41,
       "arabic": "وَٱذۡكُرۡ عَبۡدَنَاۤ أَیُّوبَ إِذۡ نَادَىٰ رَبَّهُۥۤ أَنِّی مَسَّنِیَ ٱلشَّیۡطَـٰنُ بِنُصۡبࣲ وَعَذَابٍ\n",
       "translation": "And remember Our servant Job, when he called to his Lord, \"Indeed, Satan has touched me with hardship and torment.\"",
-      "audioFile": "audio/038/038041.mp3"
+      "transliteration": "Wazkur 'abdanaaa Ayyoob; iz naada Rabbahooo annee massaniyash Shaitaanu binus binw wa 'azaab"
     },
     {
       "number": 42,
       "arabic": "ٱرۡكُضۡ بِرِجۡلِكَۖ هَـٰذَا مُغۡتَسَلُۢ بَارِدࣱ وَشَرَابࣱ\n",
       "translation": "[So he was told], \"Strike [the ground] with your foot; this is a [spring for] a cool bath and drink.\"",
-      "audioFile": "audio/038/038042.mp3"
+      "transliteration": "Urkud birijlika haaza mughtasalum baaridunw wa sharaab"
     },
     {
       "number": 43,
       "arabic": "وَوَهَبۡنَا لَهُۥۤ أَهۡلَهُۥ وَمِثۡلَهُم مَّعَهُمۡ رَحۡمَةࣰ مِّنَّا وَذِكۡرَىٰ لِأُو۟لِی ٱلۡأَلۡبَـٰبِ\n",
       "translation": "And We granted him his family and a like [number] with them as mercy from Us and a reminder for those of understanding.",
-      "audioFile": "audio/038/038043.mp3"
+      "transliteration": "Wa wahabnaa lahoo ahlahoo wa mislahum ma'ahum rahmatam minna wa zikraa li ulil albaab"
     },
     {
       "number": 44,
       "arabic": "وَخُذۡ بِیَدِكَ ضِغۡثࣰا فَٱضۡرِب بِّهِۦ وَلَا تَحۡنَثۡۗ إِنَّا وَجَدۡنَـٰهُ صَابِرࣰاۚ نِّعۡمَ ٱلۡعَبۡدُ إِنَّهُۥۤ أَوَّابࣱ\n",
       "translation": "[We said], \"And take in your hand a bunch [of grass] and strike with it and do not break your oath.\" Indeed, We found him patient, an excellent servant. Indeed, he was one repeatedly turning back [to Allah].",
-      "audioFile": "audio/038/038044.mp3"
+      "transliteration": "Wa khuz biyadika dighsan fadrib bihee wa laa tahnas, innaa wajadnaahu saabiraa; ni'mal 'abd; innahooo awwaab"
     },
     {
       "number": 45,
       "arabic": "وَٱذۡكُرۡ عِبَـٰدَنَاۤ إِبۡرَ ٰ⁠هِیمَ وَإِسۡحَـٰقَ وَیَعۡقُوبَ أُو۟لِی ٱلۡأَیۡدِی وَٱلۡأَبۡصَـٰرِ\n",
       "translation": "And remember Our servants, Abraham, Isaac and Jacob - those of strength and [religious] vision.",
-      "audioFile": "audio/038/038045.mp3"
+      "transliteration": "Wazkur 'ibaadanaaa Ibraaheema wa Is-haaqa wa Ya'qooba ulil-aydee walabsaar"
     },
     {
       "number": 46,
       "arabic": "إِنَّاۤ أَخۡلَصۡنَـٰهُم بِخَالِصَةࣲ ذِكۡرَى ٱلدَّارِ\n",
       "translation": "Indeed, We chose them for an exclusive quality: remembrance of the home [of the Hereafter].",
-      "audioFile": "audio/038/038046.mp3"
+      "transliteration": "Innaaa akhlasnaahum bi khaalisatin zikrad daar"
     },
     {
       "number": 47,
       "arabic": "وَإِنَّهُمۡ عِندَنَا لَمِنَ ٱلۡمُصۡطَفَیۡنَ ٱلۡأَخۡیَارِ\n",
       "translation": "And indeed they are, to Us, among the chosen and outstanding.",
-      "audioFile": "audio/038/038047.mp3"
+      "transliteration": "Wa innahum 'indanaa laminal mustafainal akhyaar"
     },
     {
       "number": 48,
       "arabic": "وَٱذۡكُرۡ إِسۡمَـٰعِیلَ وَٱلۡیَسَعَ وَذَا ٱلۡكِفۡلِۖ وَكُلࣱّ مِّنَ ٱلۡأَخۡیَارِ\n",
       "translation": "And remember Ishmael, Elisha and Dhul-Kifl, and all are among the outstanding.",
-      "audioFile": "audio/038/038048.mp3"
+      "transliteration": "Wazkur Ismaa'eela wal Yasa'a wa Zal-Kifli wa kullum minal akhyaar"
     },
     {
       "number": 49,
       "arabic": "هَـٰذَا ذِكۡرࣱۚ وَإِنَّ لِلۡمُتَّقِینَ لَحُسۡنَ مَـَٔابࣲ\n",
       "translation": "This is a reminder. And indeed, for the righteous is a good place of return",
-      "audioFile": "audio/038/038049.mp3"
+      "transliteration": "Haazaa zikr; wa inna lilmuttaqeena lahusna ma aab"
     },
     {
       "number": 50,
       "arabic": "جَنَّـٰتِ عَدۡنࣲ مُّفَتَّحَةࣰ لَّهُمُ ٱلۡأَبۡوَ ٰ⁠بُ\n",
       "translation": "Gardens of perpetual residence, whose doors will be opened to them.",
-      "audioFile": "audio/038/038050.mp3"
+      "transliteration": "Jannaati 'adnim mufat tahatal lahumul abwaab"
     },
     {
       "number": 51,
       "arabic": "مُتَّكِـِٔینَ فِیهَا یَدۡعُونَ فِیهَا بِفَـٰكِهَةࣲ كَثِیرَةࣲ وَشَرَابࣲ\n",
       "translation": "Reclining within them, they will call therein for abundant fruit and drink.",
-      "audioFile": "audio/038/038051.mp3"
+      "transliteration": "Muttaki'eena feehaa yad'oona feehaa bifaakihatin kaseeratinw wa sharaab"
     },
     {
       "number": 52,
       "arabic": "۞ وَعِندَهُمۡ قَـٰصِرَ ٰ⁠تُ ٱلطَّرۡفِ أَتۡرَابٌ\n",
       "translation": "And with them will be women limiting [their] glances and of equal age.",
-      "audioFile": "audio/038/038052.mp3"
+      "transliteration": "Wa 'indahum qaasiraatut tarfi atraab"
     },
     {
       "number": 53,
       "arabic": "هَـٰذَا مَا تُوعَدُونَ لِیَوۡمِ ٱلۡحِسَابِ\n",
       "translation": "This is what you, [the righteous], are promised for the Day of Account.",
-      "audioFile": "audio/038/038053.mp3"
+      "transliteration": "Haaza maa too'odoona li Yawmil Hisaab"
     },
     {
       "number": 54,
       "arabic": "إِنَّ هَـٰذَا لَرِزۡقُنَا مَا لَهُۥ مِن نَّفَادٍ\n",
       "translation": "Indeed, this is Our provision; for it there is no depletion.",
-      "audioFile": "audio/038/038054.mp3"
+      "transliteration": "Inna haazaa larizqunaa maa lahoo min nafaad"
     },
     {
       "number": 55,
       "arabic": "هَـٰذَاۚ وَإِنَّ لِلطَّـٰغِینَ لَشَرَّ مَـَٔابࣲ\n",
       "translation": "This [is so]. But indeed, for the transgressors is an evil place of return -",
-      "audioFile": "audio/038/038055.mp3"
+      "transliteration": "Haazaa; wa inna littaagheena lasharra ma-aab"
     },
     {
       "number": 56,
       "arabic": "جَهَنَّمَ یَصۡلَوۡنَهَا فَبِئۡسَ ٱلۡمِهَادُ\n",
       "translation": "Hell, which they will [enter to] burn, and wretched is the resting place.",
-      "audioFile": "audio/038/038056.mp3"
+      "transliteration": "Jahannama yaslawnahaa fai'sal mihaad"
     },
     {
       "number": 57,
       "arabic": "هَـٰذَا فَلۡیَذُوقُوهُ حَمِیمࣱ وَغَسَّاقࣱ\n",
       "translation": "This - so let them taste it - is scalding water and [foul] purulence.",
-      "audioFile": "audio/038/038057.mp3"
+      "transliteration": "Haazaa falyazooqoohu hameemunw wa ghassaaq"
     },
     {
       "number": 58,
       "arabic": "وَءَاخَرُ مِن شَكۡلِهِۦۤ أَزۡوَ ٰ⁠جٌ\n",
       "translation": "And other [punishments] of its type [in various] kinds.",
-      "audioFile": "audio/038/038058.mp3"
+      "transliteration": "Wa aakharu min shak liheee azwaaj"
     },
     {
       "number": 59,
       "arabic": "هَـٰذَا فَوۡجࣱ مُّقۡتَحِمࣱ مَّعَكُمۡ لَا مَرۡحَبَۢا بِهِمۡۚ إِنَّهُمۡ صَالُوا۟ ٱلنَّارِ\n",
       "translation": "[Its inhabitants will say], \"This is a company bursting in with you. No welcome for them. Indeed, they will burn in the Fire.\"",
-      "audioFile": "audio/038/038059.mp3"
+      "transliteration": "Haazaa fawjum muqtahimum ma'akum laa marhabam bihim; innahum saalun Naar"
     },
     {
       "number": 60,
       "arabic": "قَالُوا۟ بَلۡ أَنتُمۡ لَا مَرۡحَبَۢا بِكُمۡۖ أَنتُمۡ قَدَّمۡتُمُوهُ لَنَاۖ فَبِئۡسَ ٱلۡقَرَارُ\n",
       "translation": "They will say, \"Nor you! No welcome for you. You, [our leaders], brought this upon us, and wretched is the settlement.\"",
-      "audioFile": "audio/038/038060.mp3"
+      "transliteration": "Qaaloo bal antum laa marhabam bikum; antum qaddamtumoohu lanaa fabi'sal qaraar"
     },
     {
       "number": 61,
       "arabic": "قَالُوا۟ رَبَّنَا مَن قَدَّمَ لَنَا هَـٰذَا فَزِدۡهُ عَذَابࣰا ضِعۡفࣰا فِی ٱلنَّارِ\n",
       "translation": "They will say, \"Our Lord, whoever brought this upon us - increase for him double punishment in the Fire.\"",
-      "audioFile": "audio/038/038061.mp3"
+      "transliteration": "Qaaloo Rabbanaa man qaddama lanaa haaza fazidhu 'azaaban di'fan fin Naar"
     },
     {
       "number": 62,
       "arabic": "وَقَالُوا۟ مَا لَنَا لَا نَرَىٰ رِجَالࣰا كُنَّا نَعُدُّهُم مِّنَ ٱلۡأَشۡرَارِ\n",
       "translation": "And they will say, \"Why do we not see men whom we used to count among the worst?",
-      "audioFile": "audio/038/038062.mp3"
+      "transliteration": "Wa qaaloo ma lanaa laa naraa rijaalan kunnaa na'udduhum minal ashraar"
     },
     {
       "number": 63,
       "arabic": "أَتَّخَذۡنَـٰهُمۡ سِخۡرِیًّا أَمۡ زَاغَتۡ عَنۡهُمُ ٱلۡأَبۡصَـٰرُ\n",
       "translation": "Is it [because] we took them in ridicule, or has [our] vision turned away from them?\"",
-      "audioFile": "audio/038/038063.mp3"
+      "transliteration": "Attakhaznaahum sikh riyyan am zaaghat 'anhumul absaar"
     },
     {
       "number": 64,
       "arabic": "إِنَّ ذَ ٰ⁠لِكَ لَحَقࣱّ تَخَاصُمُ أَهۡلِ ٱلنَّارِ\n",
       "translation": "Indeed, that is truth - the quarreling of the people of the Fire.",
-      "audioFile": "audio/038/038064.mp3"
+      "transliteration": "Inna zaalika lahaqqun takhaasumu Ahlin Naar"
     },
     {
       "number": 65,
       "arabic": "قُلۡ إِنَّمَاۤ أَنَا۠ مُنذِرࣱۖ وَمَا مِنۡ إِلَـٰهٍ إِلَّا ٱللَّهُ ٱلۡوَ ٰ⁠حِدُ ٱلۡقَهَّارُ\n",
       "translation": "Say, [O Muhammad], \"I am only a warner, and there is not any deity except Allah, the One, the Prevailing.",
-      "audioFile": "audio/038/038065.mp3"
+      "transliteration": "Qul innamaaa ana munzirunw wa maa min ilaahim illal laahul Waahidul Qahhaar"
     },
     {
       "number": 66,
       "arabic": "رَبُّ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ وَمَا بَیۡنَهُمَا ٱلۡعَزِیزُ ٱلۡغَفَّـٰرُ\n",
       "translation": "Lord of the heavens and the earth and whatever is between them, the Exalted in Might, the Perpetual Forgiver.\"",
-      "audioFile": "audio/038/038066.mp3"
+      "transliteration": "Rabbus samaawaati wal ardi wa maa bainahumal 'Azeezul Ghaffaar"
     },
     {
       "number": 67,
       "arabic": "قُلۡ هُوَ نَبَؤٌا۟ عَظِیمٌ\n",
       "translation": "Say, \"It is great news",
-      "audioFile": "audio/038/038067.mp3"
+      "transliteration": "Qul huwa naba'un 'azeem"
     },
     {
       "number": 68,
       "arabic": "أَنتُمۡ عَنۡهُ مُعۡرِضُونَ\n",
       "translation": "From which you turn away.",
-      "audioFile": "audio/038/038068.mp3"
+      "transliteration": "Antum 'anhu mu'ridoon"
     },
     {
       "number": 69,
       "arabic": "مَا كَانَ لِیَ مِنۡ عِلۡمِۭ بِٱلۡمَلَإِ ٱلۡأَعۡلَىٰۤ إِذۡ یَخۡتَصِمُونَ\n",
       "translation": "I had no knowledge of the exalted assembly [of angels] when they were disputing [the creation of Adam].",
-      "audioFile": "audio/038/038069.mp3"
+      "transliteration": "Maa kaana liya min 'ilmim bilmala il a'laaa iz yakhtasimoon"
     },
     {
       "number": 70,
       "arabic": "إِن یُوحَىٰۤ إِلَیَّ إِلَّاۤ أَنَّمَاۤ أَنَا۠ نَذِیرࣱ مُّبِینٌ\n",
       "translation": "It has not been revealed to me except that I am a clear warner.\"",
-      "audioFile": "audio/038/038070.mp3"
+      "transliteration": "Iny-yoohaaa ilaiya illaaa annnamaaa ana nazeerum mubeen"
     },
     {
       "number": 71,
       "arabic": "إِذۡ قَالَ رَبُّكَ لِلۡمَلَـٰۤىِٕكَةِ إِنِّی خَـٰلِقُۢ بَشَرࣰا مِّن طِینࣲ\n",
       "translation": "[So mention] when your Lord said to the angels, \"Indeed, I am going to create a human being from clay.",
-      "audioFile": "audio/038/038071.mp3"
+      "transliteration": "Iz qaala Rabbuka lilmalaaa'ikati innee khaaliqum basharam min teen"
     },
     {
       "number": 72,
       "arabic": "فَإِذَا سَوَّیۡتُهُۥ وَنَفَخۡتُ فِیهِ مِن رُّوحِی فَقَعُوا۟ لَهُۥ سَـٰجِدِینَ\n",
       "translation": "So when I have proportioned him and breathed into him of My [created] soul, then fall down to him in prostration.\"",
-      "audioFile": "audio/038/038072.mp3"
+      "transliteration": "Fa-iza sawwaituhoo wa nafakhtu feehi mir roohee faqa'oo lahoo saajideen"
     },
     {
       "number": 73,
       "arabic": "فَسَجَدَ ٱلۡمَلَـٰۤىِٕكَةُ كُلُّهُمۡ أَجۡمَعُونَ\n",
       "translation": "So the angels prostrated - all of them entirely.",
-      "audioFile": "audio/038/038073.mp3"
+      "transliteration": "Fasajadal malaaa'ikatu kulluhum ajma'oon"
     },
     {
       "number": 74,
       "arabic": "إِلَّاۤ إِبۡلِیسَ ٱسۡتَكۡبَرَ وَكَانَ مِنَ ٱلۡكَـٰفِرِینَ\n",
       "translation": "Except Iblees; he was arrogant and became among the disbelievers.",
-      "audioFile": "audio/038/038074.mp3"
+      "transliteration": "Illaaa Iblees; istakbara wa kaana minal kaafireen"
     },
     {
       "number": 75,
       "arabic": "قَالَ یَـٰۤإِبۡلِیسُ مَا مَنَعَكَ أَن تَسۡجُدَ لِمَا خَلَقۡتُ بِیَدَیَّۖ أَسۡتَكۡبَرۡتَ أَمۡ كُنتَ مِنَ ٱلۡعَالِینَ\n",
       "translation": "[Allah] said, \"O Iblees, what prevented you from prostrating to that which I created with My hands? Were you arrogant [then], or were you [already] among the haughty?\"",
-      "audioFile": "audio/038/038075.mp3"
+      "transliteration": "Qaala yaaa Ibleesu maa man'aka an tasjuda limaa khalaqtu biyadai; astakbarta am kunta min 'aaleen"
     },
     {
       "number": 76,
       "arabic": "قَالَ أَنَا۠ خَیۡرࣱ مِّنۡهُ خَلَقۡتَنِی مِن نَّارࣲ وَخَلَقۡتَهُۥ مِن طِینࣲ\n",
       "translation": "He said, \"I am better than him. You created me from fire and created him from clay.\"",
-      "audioFile": "audio/038/038076.mp3"
+      "transliteration": "Qaala ana khairum minah; khalaqtanee min naarinw wa khalaqtahoo min teen"
     },
     {
       "number": 77,
       "arabic": "قَالَ فَٱخۡرُجۡ مِنۡهَا فَإِنَّكَ رَجِیمࣱ\n",
       "translation": "[Allah] said, \"Then get out of Paradise, for indeed, you are expelled.",
-      "audioFile": "audio/038/038077.mp3"
+      "transliteration": "Qaala fakhruj minhaa fainnaka rajeem"
     },
     {
       "number": 78,
       "arabic": "وَإِنَّ عَلَیۡكَ لَعۡنَتِیۤ إِلَىٰ یَوۡمِ ٱلدِّینِ\n",
       "translation": "And indeed, upon you is My curse until the Day of Recompense.\"",
-      "audioFile": "audio/038/038078.mp3"
+      "transliteration": "Wa inna 'alaika la'nateee ilaa Yawmid Deen"
     },
     {
       "number": 79,
       "arabic": "قَالَ رَبِّ فَأَنظِرۡنِیۤ إِلَىٰ یَوۡمِ یُبۡعَثُونَ\n",
       "translation": "He said, \"My Lord, then reprieve me until the Day they are resurrected.\"",
-      "audioFile": "audio/038/038079.mp3"
+      "transliteration": "Qaala Rabbi fa anzirneee ilaa Yawmi yub'asoon"
     },
     {
       "number": 80,
       "arabic": "قَالَ فَإِنَّكَ مِنَ ٱلۡمُنظَرِینَ\n",
       "translation": "[Allah] said, \"So indeed, you are of those reprieved",
-      "audioFile": "audio/038/038080.mp3"
+      "transliteration": "Qaala fa innaka minal munzareen"
     },
     {
       "number": 81,
       "arabic": "إِلَىٰ یَوۡمِ ٱلۡوَقۡتِ ٱلۡمَعۡلُومِ\n",
       "translation": "Until the Day of the time well-known.\"",
-      "audioFile": "audio/038/038081.mp3"
+      "transliteration": "Ilaa Yawmil waqtil ma'loom"
     },
     {
       "number": 82,
       "arabic": "قَالَ فَبِعِزَّتِكَ لَأُغۡوِیَنَّهُمۡ أَجۡمَعِینَ\n",
       "translation": "[Iblees] said, \"By your might, I will surely mislead them all",
-      "audioFile": "audio/038/038082.mp3"
+      "transliteration": "Qaala fabi'izzatika la ughwiyannahum ajma'een"
     },
     {
       "number": 83,
       "arabic": "إِلَّا عِبَادَكَ مِنۡهُمُ ٱلۡمُخۡلَصِینَ\n",
       "translation": "Except, among them, Your chosen servants.\"",
-      "audioFile": "audio/038/038083.mp3"
+      "transliteration": "Illaa 'ibaadaka minhumul mukhlaseen"
     },
     {
       "number": 84,
       "arabic": "قَالَ فَٱلۡحَقُّ وَٱلۡحَقَّ أَقُولُ\n",
       "translation": "[Allah] said, \"The truth [is My oath], and the truth I say -",
-      "audioFile": "audio/038/038084.mp3"
+      "transliteration": "Qaala falhaqq, walhaqqa aqool"
     },
     {
       "number": 85,
       "arabic": "لَأَمۡلَأَنَّ جَهَنَّمَ مِنكَ وَمِمَّن تَبِعَكَ مِنۡهُمۡ أَجۡمَعِینَ\n",
       "translation": "[That] I will surely fill Hell with you and those of them that follow you all together.\"",
-      "audioFile": "audio/038/038085.mp3"
+      "transliteration": "La amla'annna Jahannama minka wa mimman tabi'aka minhum ajma'een"
     },
     {
       "number": 86,
       "arabic": "قُلۡ مَاۤ أَسۡـَٔلُكُمۡ عَلَیۡهِ مِنۡ أَجۡرࣲ وَمَاۤ أَنَا۠ مِنَ ٱلۡمُتَكَلِّفِینَ\n",
       "translation": "Say, [O Muhammad], \"I do not ask you for the Qur'an any payment, and I am not of the pretentious",
-      "audioFile": "audio/038/038086.mp3"
+      "transliteration": "Qul maaa as'alukum 'alaihi min ajrinw wa maaa ana minal mutakallifeen"
     },
     {
       "number": 87,
       "arabic": "إِنۡ هُوَ إِلَّا ذِكۡرࣱ لِّلۡعَـٰلَمِینَ\n",
       "translation": "It is but a reminder to the worlds.",
-      "audioFile": "audio/038/038087.mp3"
+      "transliteration": "In huwa illaa zikrul lil'aalameen"
     },
     {
       "number": 88,
       "arabic": "وَلَتَعۡلَمُنَّ نَبَأَهُۥ بَعۡدَ حِینِۭ\n",
       "translation": "And you will surely know [the truth of] its information after a time.\"",
-      "audioFile": "audio/038/038088.mp3"
+      "transliteration": "Wa lata'lamunna naba ahoo ba'da heen"
     }
   ]
 }

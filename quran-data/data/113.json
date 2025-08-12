@@ -1,37 +1,37 @@
 {
-  "number": 113,
+  "surah": 113,
   "name": "Al-Falaq",
-  "totalVerses": 5,
+  "arabicName": "سُورَةُ الفَلَقِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ\n",
       "translation": "Say, \"I seek refuge in the Lord of daybreak",
-      "audioFile": "audio/113/113001.mp3"
+      "transliteration": "Qul a'uzoo bi rabbil-falaq"
     },
     {
       "number": 2,
       "arabic": "مِن شَرِّ مَا خَلَقَ\n",
       "translation": "From the evil of that which He created",
-      "audioFile": "audio/113/113002.mp3"
+      "transliteration": "Min sharri ma khalaq"
     },
     {
       "number": 3,
       "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ\n",
       "translation": "And from the evil of darkness when it settles",
-      "audioFile": "audio/113/113003.mp3"
+      "transliteration": "Wa min sharri ghasiqin iza waqab"
     },
     {
       "number": 4,
       "arabic": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِی ٱلۡعُقَدِ\n",
       "translation": "And from the evil of the blowers in knots",
-      "audioFile": "audio/113/113004.mp3"
+      "transliteration": "Wa min sharrin-naffaa-thaati fil 'uqad"
     },
     {
       "number": 5,
       "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ\n",
       "translation": "And from the evil of an envier when he envies.\"",
-      "audioFile": "audio/113/113005.mp3"
+      "transliteration": "Wa min shar ri haasidin iza hasad"
     }
   ]
 }

@@ -1,73 +1,73 @@
 {
-  "number": 93,
-  "name": "Ad-Duha",
-  "totalVerses": 11,
+  "surah": 93,
+  "name": "Ad-Dhuhaa",
+  "arabicName": "سُورَةُ الضُّحَىٰ",
   "verses": [
     {
       "number": 1,
       "arabic": "  وَٱلضُّحَىٰ\n",
       "translation": "By the morning brightness",
-      "audioFile": "audio/093/093001.mp3"
+      "transliteration": "Wad duhaa"
     },
     {
       "number": 2,
       "arabic": "وَٱلَّیۡلِ إِذَا سَجَىٰ\n",
       "translation": "And [by] the night when it covers with darkness,",
-      "audioFile": "audio/093/093002.mp3"
+      "transliteration": "Wal laili iza sajaa"
     },
     {
       "number": 3,
       "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ\n",
       "translation": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you].",
-      "audioFile": "audio/093/093003.mp3"
+      "transliteration": "Ma wad da'aka rabbuka wa ma qalaa"
     },
     {
       "number": 4,
       "arabic": "وَلَلۡـَٔاخِرَةُ خَیۡرࣱ لَّكَ مِنَ ٱلۡأُولَىٰ\n",
       "translation": "And the Hereafter is better for you than the first [life].",
-      "audioFile": "audio/093/093004.mp3"
+      "transliteration": "Walal-aakhiratu khairul laka minal-oola"
     },
     {
       "number": 5,
       "arabic": "وَلَسَوۡفَ یُعۡطِیكَ رَبُّكَ فَتَرۡضَىٰۤ\n",
       "translation": "And your Lord is going to give you, and you will be satisfied.",
-      "audioFile": "audio/093/093005.mp3"
+      "transliteration": "Wa la sawfa y'uteeka rabbuka fatarda"
     },
     {
       "number": 6,
       "arabic": "أَلَمۡ یَجِدۡكَ یَتِیمࣰا فَـَٔاوَىٰ\n",
       "translation": "Did He not find you an orphan and give [you] refuge?",
-      "audioFile": "audio/093/093006.mp3"
+      "transliteration": "Alam ya jidka yateeman fa aawaa"
     },
     {
       "number": 7,
       "arabic": "وَوَجَدَكَ ضَاۤلࣰّا فَهَدَىٰ\n",
       "translation": "And He found you lost and guided [you],",
-      "audioFile": "audio/093/093007.mp3"
+      "transliteration": "Wa wa jadaka daal lan fahada"
     },
     {
       "number": 8,
       "arabic": "وَوَجَدَكَ عَاۤىِٕلࣰا فَأَغۡنَىٰ\n",
       "translation": "And He found you poor and made [you] self-sufficient.",
-      "audioFile": "audio/093/093008.mp3"
+      "transliteration": "Wa wa jadaka 'aa-ilan fa aghnaa"
     },
     {
       "number": 9,
       "arabic": "فَأَمَّا ٱلۡیَتِیمَ فَلَا تَقۡهَرۡ\n",
       "translation": "So as for the orphan, do not oppress [him].",
-      "audioFile": "audio/093/093009.mp3"
+      "transliteration": "Fa am mal yateema fala taqhar"
     },
     {
       "number": 10,
       "arabic": "وَأَمَّا ٱلسَّاۤىِٕلَ فَلَا تَنۡهَرۡ\n",
       "translation": "And as for the petitioner, do not repel [him].",
-      "audioFile": "audio/093/093010.mp3"
+      "transliteration": "Wa am mas saa-ila fala tanhar"
     },
     {
       "number": 11,
       "arabic": "وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّثۡ\n",
       "translation": "But as for the favor of your Lord, report [it].",
-      "audioFile": "audio/093/093011.mp3"
+      "transliteration": "Wa amma bi ni'mati rabbika fahad dith"
     }
   ]
 }

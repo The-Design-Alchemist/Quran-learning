@@ -1,151 +1,151 @@
 {
-  "number": 59,
+  "surah": 59,
   "name": "Al-Hashr",
-  "totalVerses": 24,
+  "arabicName": "سُورَةُ الحَشۡرِ",
   "verses": [
     {
       "number": 1,
       "arabic": "  سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَمَا فِی ٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
       "translation": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise.",
-      "audioFile": "audio/059/059001.mp3"
+      "transliteration": "Sabbaha lillaahi maa fissamaawaati wa maa fil ardi wa Huwal 'Azeezul Hakeem"
     },
     {
       "number": 2,
       "arabic": "هُوَ ٱلَّذِیۤ أَخۡرَجَ ٱلَّذِینَ كَفَرُوا۟ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ مِن دِیَـٰرِهِمۡ لِأَوَّلِ ٱلۡحَشۡرِۚ مَا ظَنَنتُمۡ أَن یَخۡرُجُوا۟ۖ وَظَنُّوۤا۟ أَنَّهُم مَّانِعَتُهُمۡ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنۡ حَیۡثُ لَمۡ یَحۡتَسِبُوا۟ۖ وَقَذَفَ فِی قُلُوبِهِمُ ٱلرُّعۡبَۚ یُخۡرِبُونَ بُیُوتَهُم بِأَیۡدِیهِمۡ وَأَیۡدِی ٱلۡمُؤۡمِنِینَ فَٱعۡتَبِرُوا۟ یَـٰۤأُو۟لِی ٱلۡأَبۡصَـٰرِ\n",
       "translation": "It is He who expelled the ones who disbelieved among the People of the Scripture from their homes at the first gathering. You did not think they would leave, and they thought that their fortresses would protect them from Allah; but [the decree of] Allah came upon them from where they had not expected, and He cast terror into their hearts [so] they destroyed their houses by their [own] hands and the hands of the believers. So take warning, O people of vision.",
-      "audioFile": "audio/059/059002.mp3"
+      "transliteration": "Huwal lazeee akharajal lazeena kafaroo min ahlil kitaabi min diyaarihim li awwalil Hashr; maa zanantum any yakhrujoo wa zannooo annahum maa ni'atuhum husoonuhum minal laahi faataahumul laahu min haisu lam yahtasiboo wa qazafa fee quloobihimur ru'ba yukhriboona bu yootahum bi aydeehim wa aydil mu'mineena fa'tabiroo yaaa ulil absaar"
     },
     {
       "number": 3,
       "arabic": "وَلَوۡلَاۤ أَن كَتَبَ ٱللَّهُ عَلَیۡهِمُ ٱلۡجَلَاۤءَ لَعَذَّبَهُمۡ فِی ٱلدُّنۡیَاۖ وَلَهُمۡ فِی ٱلۡـَٔاخِرَةِ عَذَابُ ٱلنَّارِ\n",
       "translation": "And if not that Allah had decreed for them evacuation, He would have punished them in [this] world, and for them in the Hereafter is the punishment of the Fire.",
-      "audioFile": "audio/059/059003.mp3"
+      "transliteration": "Wa law laaa an katabal laahu 'alaihimul jalaaa'a la'azzabahum fid dunyaa wa lahum fil Aakhirati 'azaabun Naar"
     },
     {
       "number": 4,
       "arabic": "ذَ ٰ⁠لِكَ بِأَنَّهُمۡ شَاۤقُّوا۟ ٱللَّهَ وَرَسُولَهُۥۖ وَمَن یُشَاۤقِّ ٱللَّهَ فَإِنَّ ٱللَّهَ شَدِیدُ ٱلۡعِقَابِ\n",
       "translation": "That is because they opposed Allah and His Messenger. And whoever opposes Allah - then indeed, Allah is severe in penalty.",
-      "audioFile": "audio/059/059004.mp3"
+      "transliteration": "Zaalika bi annahum shaaqqul laaha wa Rasoolahoo wa many yushaaaqqil laaha fa innal laaha shadeedul-'iqaab"
     },
     {
       "number": 5,
       "arabic": "مَا قَطَعۡتُم مِّن لِّینَةٍ أَوۡ تَرَكۡتُمُوهَا قَاۤىِٕمَةً عَلَىٰۤ أُصُولِهَا فَبِإِذۡنِ ٱللَّهِ وَلِیُخۡزِیَ ٱلۡفَـٰسِقِینَ\n",
       "translation": "Whatever you have cut down of [their] palm trees or left standing on their trunks - it was by permission of Allah and so He would disgrace the defiantly disobedient.",
-      "audioFile": "audio/059/059005.mp3"
+      "transliteration": "Maa qata'tum mil leenatin aw taraktumoohaa qaaa'imatan'alaaa usoolihaa fabi iznil laahi wa liyukhziyal faasiqeen"
     },
     {
       "number": 6,
       "arabic": "وَمَاۤ أَفَاۤءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنۡهُمۡ فَمَاۤ أَوۡجَفۡتُمۡ عَلَیۡهِ مِنۡ خَیۡلࣲ وَلَا رِكَابࣲ وَلَـٰكِنَّ ٱللَّهَ یُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن یَشَاۤءُۚ وَٱللَّهُ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣱ\n",
       "translation": "And what Allah restored [of property] to His Messenger from them - you did not spur for it [in an expedition] any horses or camels, but Allah gives His messengers power over whom He wills, and Allah is over all things competent.",
-      "audioFile": "audio/059/059006.mp3"
+      "transliteration": "Wa maaa afaaa'al laahu 'alaaa Rasoolihee minhum famaaa awjaftum 'alaihi min khailiinw wa laa rikaabinw wa laakinnal laaha yusallitu Rusulahoo 'alaa many yashaaa'; wallaahu 'alaa kulli shai'in Qadeer"
     },
     {
       "number": 7,
       "arabic": "مَّاۤ أَفَاۤءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنۡ أَهۡلِ ٱلۡقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِی ٱلۡقُرۡبَىٰ وَٱلۡیَتَـٰمَىٰ وَٱلۡمَسَـٰكِینِ وَٱبۡنِ ٱلسَّبِیلِ كَیۡ لَا یَكُونَ دُولَةَۢ بَیۡنَ ٱلۡأَغۡنِیَاۤءِ مِنكُمۡۚ وَمَاۤ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمۡ عَنۡهُ فَٱنتَهُوا۟ۚ وَٱتَّقُوا۟ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِیدُ ٱلۡعِقَابِ\n",
       "translation": "And what Allah restored to His Messenger from the people of the towns - it is for Allah and for the Messenger and for [his] near relatives and orphans and the [stranded] traveler - so that it will not be a perpetual distribution among the rich from among you. And whatever the Messenger has given you - take; and what he has forbidden you - refrain from. And fear Allah; indeed, Allah is severe in penalty.",
-      "audioFile": "audio/059/059007.mp3"
+      "transliteration": "Maaa afaaa'al laahu 'alaa Rasoolihee min ahlil quraa falillaahi wa lir Rasooli wa lizil qurbaa wal yataamaa walmasaakeeni wabnis sabeeli kai laa yakoona doolatam bainal aghniyaaa'i minkum; wa maaa aataakumur Rasoolu fakhuzoohu wa maa nahaakum 'anhu fantahoo; wattaqul laaha innal laaha shadeedul-'iqaab"
     },
     {
       "number": 8,
       "arabic": "لِلۡفُقَرَاۤءِ ٱلۡمُهَـٰجِرِینَ ٱلَّذِینَ أُخۡرِجُوا۟ مِن دِیَـٰرِهِمۡ وَأَمۡوَ ٰ⁠لِهِمۡ یَبۡتَغُونَ فَضۡلࣰا مِّنَ ٱللَّهِ وَرِضۡوَ ٰ⁠نࣰا وَیَنصُرُونَ ٱللَّهَ وَرَسُولَهُۥۤۚ أُو۟لَـٰۤىِٕكَ هُمُ ٱلصَّـٰدِقُونَ\n",
       "translation": "For the poor emigrants who were expelled from their homes and their properties, seeking bounty from Allah and [His] approval and supporting Allah and His Messenger, [there is also a share]. Those are the truthful.",
-      "audioFile": "audio/059/059008.mp3"
+      "transliteration": "Lilfuqaraaa'il Muhaaji reenal lazeena ukhrijoo min diyaarihim wa amwaalihim yabtaghoona fadlam minal laahi wa ridwaananw wa yansuroonal laaha wa Rasoolah; ulaaa'ika humus saadiqoon"
     },
     {
       "number": 9,
       "arabic": "وَٱلَّذِینَ تَبَوَّءُو ٱلدَّارَ وَٱلۡإِیمَـٰنَ مِن قَبۡلِهِمۡ یُحِبُّونَ مَنۡ هَاجَرَ إِلَیۡهِمۡ وَلَا یَجِدُونَ فِی صُدُورِهِمۡ حَاجَةࣰ مِّمَّاۤ أُوتُوا۟ وَیُؤۡثِرُونَ عَلَىٰۤ أَنفُسِهِمۡ وَلَوۡ كَانَ بِهِمۡ خَصَاصَةࣱۚ وَمَن یُوقَ شُحَّ نَفۡسِهِۦ فَأُو۟لَـٰۤىِٕكَ هُمُ ٱلۡمُفۡلِحُونَ\n",
       "translation": "And [also for] those who were settled in al-Madinah and [adopted] the faith before them. They love those who emigrated to them and find not any want in their breasts of what the emigrants were given but give [them] preference over themselves, even though they are in privation. And whoever is protected from the stinginess of his soul - it is those who will be the successful.",
-      "audioFile": "audio/059/059009.mp3"
+      "transliteration": "Wallazeena tabawwa'ud daara wal eemaana min qablihim yuhibboona man haajara ilaihim wa laa yajidoona fee sudoorihim haajatam mimmaa ootoo wa yu'siroona 'alaa anfusihim wa law kaana bihim khasaasah; wa many yooqa shuhha nafsihee fa ulaaa'ika humul muflihoon"
     },
     {
       "number": 10,
       "arabic": "وَٱلَّذِینَ جَاۤءُو مِنۢ بَعۡدِهِمۡ یَقُولُونَ رَبَّنَا ٱغۡفِرۡ لَنَا وَلِإِخۡوَ ٰ⁠نِنَا ٱلَّذِینَ سَبَقُونَا بِٱلۡإِیمَـٰنِ وَلَا تَجۡعَلۡ فِی قُلُوبِنَا غِلࣰّا لِّلَّذِینَ ءَامَنُوا۟ رَبَّنَاۤ إِنَّكَ رَءُوفࣱ رَّحِیمٌ\n",
       "translation": "And [there is a share for] those who came after them, saying, \"Our Lord, forgive us and our brothers who preceded us in faith and put not in our hearts [any] resentment toward those who have believed. Our Lord, indeed You are Kind and Merciful.\"",
-      "audioFile": "audio/059/059010.mp3"
+      "transliteration": "Wallazeena jaaa'oo min ba'dihim yaqooloona Rabbanagh fir lanaa wa li ikhwaani nal lazeena sabqoonaa bil eemaani wa laa taj'al fee quloobinaa ghillalil lazeena aamanoo rabbannaaa innaka Ra'oofur Raheem"
     },
     {
       "number": 11,
       "arabic": "۞ أَلَمۡ تَرَ إِلَى ٱلَّذِینَ نَافَقُوا۟ یَقُولُونَ لِإِخۡوَ ٰ⁠نِهِمُ ٱلَّذِینَ كَفَرُوا۟ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ لَىِٕنۡ أُخۡرِجۡتُمۡ لَنَخۡرُجَنَّ مَعَكُمۡ وَلَا نُطِیعُ فِیكُمۡ أَحَدًا أَبَدࣰا وَإِن قُوتِلۡتُمۡ لَنَنصُرَنَّكُمۡ وَٱللَّهُ یَشۡهَدُ إِنَّهُمۡ لَكَـٰذِبُونَ\n",
       "translation": "Have you not considered those who practice hypocrisy, saying to their brothers who have disbelieved among the People of the Scripture, \"If you are expelled, we will surely leave with you, and we will not obey, in regard to you, anyone - ever; and if you are fought, we will surely aid you.\" But Allah testifies that they are liars.",
-      "audioFile": "audio/059/059011.mp3"
+      "transliteration": "Alam tara ilal lazeena naafaqoo yaqooloona li ikhwaanihimul lazeena kafaroo min ahlil kitaabi la'in ukhrijtum lanakhrujanna ma'akum wa laa nutee'u feekum ahadan abadanw-wa in qootiltum lanansuran nakum wallaahu yashhadu innahum lakaaziboon"
     },
     {
       "number": 12,
       "arabic": "لَىِٕنۡ أُخۡرِجُوا۟ لَا یَخۡرُجُونَ مَعَهُمۡ وَلَىِٕن قُوتِلُوا۟ لَا یَنصُرُونَهُمۡ وَلَىِٕن نَّصَرُوهُمۡ لَیُوَلُّنَّ ٱلۡأَدۡبَـٰرَ ثُمَّ لَا یُنصَرُونَ\n",
       "translation": "If they are expelled, they will not leave with them, and if they are fought, they will not aid them. And [even] if they should aid them, they will surely turn their backs; then [thereafter] they will not be aided.",
-      "audioFile": "audio/059/059012.mp3"
+      "transliteration": "La'in ukhrijoo laa yakhrujoona ma'ahum wa la'in qootiloo laa yansuroonahum wa la'in nasaroohum la yuwallunnal adbaara summa laa yunsaroon"
     },
     {
       "number": 13,
       "arabic": "لَأَنتُمۡ أَشَدُّ رَهۡبَةࣰ فِی صُدُورِهِم مِّنَ ٱللَّهِۚ ذَ ٰ⁠لِكَ بِأَنَّهُمۡ قَوۡمࣱ لَّا یَفۡقَهُونَ\n",
       "translation": "You [believers] are more fearful within their breasts than Allah. That is because they are a people who do not understand.",
-      "audioFile": "audio/059/059013.mp3"
+      "transliteration": "La antum ashaddu rahbatan fee sudoorihim minal laah; zaalika bi annahum qawmul laa yafqahoon"
     },
     {
       "number": 14,
       "arabic": "لَا یُقَـٰتِلُونَكُمۡ جَمِیعًا إِلَّا فِی قُرࣰى مُّحَصَّنَةٍ أَوۡ مِن وَرَاۤءِ جُدُرِۭۚ بَأۡسُهُم بَیۡنَهُمۡ شَدِیدࣱۚ تَحۡسَبُهُمۡ جَمِیعࣰا وَقُلُوبُهُمۡ شَتَّىٰۚ ذَ ٰ⁠لِكَ بِأَنَّهُمۡ قَوۡمࣱ لَّا یَعۡقِلُونَ\n",
       "translation": "They will not fight you all except within fortified cities or from behind walls. Their violence among themselves is severe. You think they are together, but their hearts are diverse. That is because they are a people who do not reason.",
-      "audioFile": "audio/059/059014.mp3"
+      "transliteration": "Laa yuqaatiloonakum jamee'an illaa fee quram muhas sanatin aw minw waraaa'i judur; baasuhum bainahum shadeed; tahsabuhum jamee'anw-wa quloobuhum shatta; zaalika biannahum qawmul laa ya'qiloon"
     },
     {
       "number": 15,
       "arabic": "كَمَثَلِ ٱلَّذِینَ مِن قَبۡلِهِمۡ قَرِیبࣰاۖ ذَاقُوا۟ وَبَالَ أَمۡرِهِمۡ وَلَهُمۡ عَذَابٌ أَلِیمࣱ\n",
       "translation": "[Theirs is] like the example of those shortly before them: they tasted the bad consequence of their affair, and they will have a painful punishment.",
-      "audioFile": "audio/059/059015.mp3"
+      "transliteration": "Kamasalil lazeena min qablihim qareeban zaaqoo wabaala amrihim wa lahum 'azaabun aleem"
     },
     {
       "number": 16,
       "arabic": "كَمَثَلِ ٱلشَّیۡطَـٰنِ إِذۡ قَالَ لِلۡإِنسَـٰنِ ٱكۡفُرۡ فَلَمَّا كَفَرَ قَالَ إِنِّی بَرِیۤءࣱ مِّنكَ إِنِّیۤ أَخَافُ ٱللَّهَ رَبَّ ٱلۡعَـٰلَمِینَ\n",
       "translation": "[The hypocrites are] like the example of Satan when he says to man, \"Disbelieve.\" But when he disbelieves, he says, \"Indeed, I am disassociated from you. Indeed, I fear Allah, Lord of the worlds.\"",
-      "audioFile": "audio/059/059016.mp3"
+      "transliteration": "Kamasalish shaitaani izqaala lil insaanik fur falammaa kafara qaala innee bareee'um minka inneee akhaaful laaha rabbal 'aalameen"
     },
     {
       "number": 17,
       "arabic": "فَكَانَ عَـٰقِبَتَهُمَاۤ أَنَّهُمَا فِی ٱلنَّارِ خَـٰلِدَیۡنِ فِیهَاۚ وَذَ ٰ⁠لِكَ جَزَ ٰ⁠ۤؤُا۟ ٱلظَّـٰلِمِینَ\n",
       "translation": "So the outcome for both of them is that they will be in the Fire, abiding eternally therein. And that is the recompense of the wrong-doers.",
-      "audioFile": "audio/059/059017.mp3"
+      "transliteration": "Fakaana 'aaqibatahumaaa annahumaa fin naari khaalidaini feehaa; wa zaalika jazaaa'uz zaalimeen"
     },
     {
       "number": 18,
       "arabic": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَلۡتَنظُرۡ نَفۡسࣱ مَّا قَدَّمَتۡ لِغَدࣲۖ وَٱتَّقُوا۟ ٱللَّهَۚ إِنَّ ٱللَّهَ خَبِیرُۢ بِمَا تَعۡمَلُونَ\n",
       "translation": "O you who have believed, fear Allah. And let every soul look to what it has put forth for tomorrow - and fear Allah. Indeed, Allah is Acquainted with what you do.",
-      "audioFile": "audio/059/059018.mp3"
+      "transliteration": "Yaaa ayyuhal lazeena aamanut taqul laa; waltanzur nafsum maa qaddamat lighadiw wattaqual laah; innal laaha khabeerum bimaa ta'maloon"
     },
     {
       "number": 19,
       "arabic": "وَلَا تَكُونُوا۟ كَٱلَّذِینَ نَسُوا۟ ٱللَّهَ فَأَنسَىٰهُمۡ أَنفُسَهُمۡۚ أُو۟لَـٰۤىِٕكَ هُمُ ٱلۡفَـٰسِقُونَ\n",
       "translation": "And be not like those who forgot Allah, so He made them forget themselves. Those are the defiantly disobedient.",
-      "audioFile": "audio/059/059019.mp3"
+      "transliteration": "Wa laa takoonoo kallazeena nasul laaha fa ansaahum anfusahum; ulaaa'ika humul faasiqoon"
     },
     {
       "number": 20,
       "arabic": "لَا یَسۡتَوِیۤ أَصۡحَـٰبُ ٱلنَّارِ وَأَصۡحَـٰبُ ٱلۡجَنَّةِۚ أَصۡحَـٰبُ ٱلۡجَنَّةِ هُمُ ٱلۡفَاۤىِٕزُونَ\n",
       "translation": "Not equal are the companions of the Fire and the companions of Paradise. The companions of Paradise - they are the attainers [of success].",
-      "audioFile": "audio/059/059020.mp3"
+      "transliteration": "Laa yastaweee as-haabun naari wa ashaabul jannah; as haabul jannati humul faaa'izoon"
     },
     {
       "number": 21,
       "arabic": "لَوۡ أَنزَلۡنَا هَـٰذَا ٱلۡقُرۡءَانَ عَلَىٰ جَبَلࣲ لَّرَأَیۡتَهُۥ خَـٰشِعࣰا مُّتَصَدِّعࣰا مِّنۡ خَشۡیَةِ ٱللَّهِۚ وَتِلۡكَ ٱلۡأَمۡثَـٰلُ نَضۡرِبُهَا لِلنَّاسِ لَعَلَّهُمۡ یَتَفَكَّرُونَ\n",
       "translation": "If We had sent down this Qur'an upon a mountain, you would have seen it humbled and coming apart from fear of Allah. And these examples We present to the people that perhaps they will give thought.",
-      "audioFile": "audio/059/059021.mp3"
+      "transliteration": "Law anzalnaa haazal quraana 'alaa jabilil lara aytahoo khaashi'am muta saddi'am min khashiyatil laah; wa tilkal amsaalu nadribuhaa linnaasi la'allahum yatafakkaroon"
     },
     {
       "number": 22,
       "arabic": "هُوَ ٱللَّهُ ٱلَّذِی لَاۤ إِلَـٰهَ إِلَّا هُوَۖ عَـٰلِمُ ٱلۡغَیۡبِ وَٱلشَّهَـٰدَةِۖ هُوَ ٱلرَّحۡمَـٰنُ ٱلرَّحِیمُ\n",
       "translation": "He is Allah, other than whom there is no deity, Knower of the unseen and the witnessed. He is the Entirely Merciful, the Especially Merciful.",
-      "audioFile": "audio/059/059022.mp3"
+      "transliteration": "Huwal-laahul-lazee laaa Ilaaha illaa Huwa 'Aalimul Ghaibi wash-shahaada; Huwar Rahmaanur-Raheem"
     },
     {
       "number": 23,
       "arabic": "هُوَ ٱللَّهُ ٱلَّذِی لَاۤ إِلَـٰهَ إِلَّا هُوَ ٱلۡمَلِكُ ٱلۡقُدُّوسُ ٱلسَّلَـٰمُ ٱلۡمُؤۡمِنُ ٱلۡمُهَیۡمِنُ ٱلۡعَزِیزُ ٱلۡجَبَّارُ ٱلۡمُتَكَبِّرُۚ سُبۡحَـٰنَ ٱللَّهِ عَمَّا یُشۡرِكُونَ\n",
       "translation": "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Bestower of Faith, the Overseer, the Exalted in Might, the Compeller, the Superior. Exalted is Allah above whatever they associate with Him.",
-      "audioFile": "audio/059/059023.mp3"
+      "transliteration": "Huwal-laahul-lazee laaa Ilaaha illaa Huwal-Malikul Quddoosus-Salaamul Muminul Muhaiminul-'aAzeezul Jabbaarul-Mutakabbir; Subhaanal laahi 'Ammaa yushrikoon"
     },
     {
       "number": 24,
       "arabic": "هُوَ ٱللَّهُ ٱلۡخَـٰلِقُ ٱلۡبَارِئُ ٱلۡمُصَوِّرُۖ لَهُ ٱلۡأَسۡمَاۤءُ ٱلۡحُسۡنَىٰۚ یُسَبِّحُ لَهُۥ مَا فِی ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ\n",
       "translation": "He is Allah, the Creator, the Inventor, the Fashioner; to Him belong the best names. Whatever is in the heavens and earth is exalting Him. And He is the Exalted in Might, the Wise.",
-      "audioFile": "audio/059/059024.mp3"
+      "transliteration": "Huwal Laahul Khaaliqul Baari 'ul Musawwir; lahul Asmaaa'ul Husnaa; yusabbihu lahoo maa fis samaawaati wal ardi wa Huwal 'Azeezul Hakeem"
     }
   ]
 }
