@@ -26,3 +26,6 @@
 
 /* Responsive design and media queries */
 @import url('./responsive.css');
+
+/* for resuming modals */
+@import url('./resume-modal.css');

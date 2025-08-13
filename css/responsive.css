@@ -32,11 +32,12 @@
     
     /* Verse container */
     .verse-container {
-        padding: 15px;
+        padding: 10px;
     }
     
     .verse-display {
-        width: 95%;
+        width: 100%;
+        padding: 10px 0;
     }
     
     /* Typography adjustments */

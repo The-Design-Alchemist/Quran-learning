@@ -210,22 +210,27 @@ class PlaybackControls {
 
     // Setup event handlers for audio element
     setupAudioEventHandlers(audio, verse) {
-        const endedHandler = () => {
-            console.log(`📝 Verse ${verse.number} playback ended`);
-            window.verseDisplay.removeHighlight(verse.id);
-            
-            // Clear any existing timeout
-            if (this.audioTimeout) {
-                clearTimeout(this.audioTimeout);
-            }
-            
-            this.audioTimeout = setTimeout(() => {
-                if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
-                    console.log(`➡️ Auto-advancing from verse ${verse.number}`);
-                    this.handleVerseCompletion();
-                }
-            }, 300);
-        };
+       const endedHandler = () => {
+    console.log(`🔁 Verse ${verse.number} playback ended`);
+    window.verseDisplay.removeHighlight(verse.id);
+    
+    // Clean up word highlighting immediately when audio ends
+    if (window.wordHighlighter) {
+        window.wordHighlighter.reset();
+    }
+    
+    // Clear any existing timeout
+    if (this.audioTimeout) {
+        clearTimeout(this.audioTimeout);
+    }
+    
+    this.audioTimeout = setTimeout(() => {
+        if (window.appState.isReciting && !window.appState.isPaused && window.appState.autoAdvance) {
+            console.log(`➡️ Auto-advancing from verse ${verse.number}`);
+            this.handleVerseCompletion();
+        }
+    }, 300);
+};
 
         const errorHandler = (event) => {
             console.error(`❌ Audio playback error for verse ${verse.number}:`, event);
@@ -343,12 +348,20 @@ function togglePlayPause() {
 }
 
 function startFromBeginning() {
+    // Remove modal if it exists
+    const modal = document.querySelector('.resume-modal');
+    if (modal) modal.remove();
+    
     // Stop current playback
     window.playbackControls.stop();
     
     // Reset to first verse
     window.appState.currentVerseIndex = 0;
     window.verseDisplay.show(0);
+    
+    // Clear saved position for this surah
+    const surahNumber = getSurahFromURL();
+    window.readingProgress.clearPosition(surahNumber);
     
     // Update button state
     const icon = document.getElementById('play-pause-icon');
@@ -402,6 +415,22 @@ function jumpToVerse() {
 
 function previousVerse() {
     window.verseDisplay.previous();
+}
+
+function resumeFromSaved() {
+    // Remove modal
+    const modal = document.querySelector('.resume-modal');
+    if (modal) modal.remove();
+    
+    // Resume from saved position
+    if (window.savedResumePosition) {
+        window.appState.currentVerseIndex = window.savedResumePosition.verseIndex;
+        window.verseDisplay.show(window.savedResumePosition.verseIndex);
+        window.playbackControls.updateStatus(`Resumed at verse ${window.savedResumePosition.verseNumber}`);
+        
+        // Clear the saved position reference
+        window.savedResumePosition = null;
+    }
 }
 
 // Create global instance

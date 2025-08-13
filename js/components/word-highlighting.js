@@ -135,47 +135,68 @@ class WordHighlighter {
     }
 
     // Start highlighting with audio
-    startHighlighting() {
-        const audio = audioService.getCurrentAudio();
-        if (!audio || !this.currentVerseWords.length) return;
-
-        // Clear any existing interval
-        if (this.highlightInterval) {
-            clearInterval(this.highlightInterval);
-        }
-
-        // Start with -1 so first word gets highlighted
-        this.currentWordIndex = -1;
-
-        console.log('Starting highlight interval...');
-
-        // Highlight first word immediately
-        this.highlightWord(0);
-
-        // Check current time and highlight appropriate word
-        this.highlightInterval = setInterval(() => {
-            if (!audio || audio.paused || audio.ended) {
-                this.pauseHighlighting();
-                return;
-            }
-
-            const currentTime = audio.currentTime;
-            const duration = audio.duration || 10;
-            const wordCount = this.currentVerseWords.length;
-            const timePerWord = duration / wordCount;
-
-            // Calculate which word should be highlighted with offset
-            const adjustedTime = currentTime + 0.3; // Slight offset for better sync
-            const wordIndex = Math.min(
-                Math.floor(adjustedTime / timePerWord),
-                wordCount - 1
-            );
-
-            if (wordIndex !== this.currentWordIndex && wordIndex >= 0) {
-                this.highlightWord(wordIndex);
-            }
-        }, 50);
+   startHighlighting() {
+    const audio = audioService.getCurrentAudio();
+    if (!audio || !this.currentVerseWords.length) return;
+    
+    if (this.highlightInterval) {
+        clearInterval(this.highlightInterval);
     }
+    
+    this.currentWordIndex = -1;
+    
+    // Get sync offset from settings (default 300ms works well for Mishary)
+    const syncOffset = window.settingsManager?.settings?.syncOffset || 300;
+    
+    this.highlightInterval = setInterval(() => {
+        if (!audio || audio.paused || audio.ended) {
+            this.pauseHighlighting();
+            // Clean up when audio ends
+            if (audio && audio.ended) {
+                setTimeout(() => {
+                    this.reset();
+                }, 300);
+            }
+            return;
+        }
+        
+        const currentTime = audio.currentTime;
+        const duration = audio.duration || 10;
+        const wordCount = this.currentVerseWords.length;
+        
+        // Calculate progress percentage
+        const progressPercent = currentTime / duration;
+        
+        // Stop highlighting near the end to prevent wrap-around
+        if (progressPercent >= 0.97) {
+            // Highlight last word
+            if (this.currentWordIndex !== wordCount - 1) {
+                this.highlightWord(wordCount - 1);
+            }
+            // Stop the interval
+            this.pauseHighlighting();
+            // Clean up after a short delay
+            setTimeout(() => {
+                this.reset();
+            }, 500);
+            return;
+        }
+        
+        // Apply sync offset (in milliseconds)
+        const adjustedTime = currentTime + (syncOffset / 1000);
+        
+        // Calculate which word should be highlighted
+        const targetIndex = Math.min(
+            Math.floor((adjustedTime / duration) * wordCount),
+            wordCount - 1  // Never exceed last word
+        );
+        
+        // Only update if changed and valid
+        if (targetIndex !== this.currentWordIndex && targetIndex >= 0) {
+            this.highlightWord(targetIndex);
+        }
+    }, 30);
+}
 
     // Update highlight based on current time
     updateHighlight(currentTime) {
@@ -197,16 +218,17 @@ class WordHighlighter {
         }
     }
 
-    // Highlight specific word
-    highlightWord(wordIndex) {
-        // Remove previous highlights
-        this.currentVerseWords.forEach(word => {
-            word.classList.remove('word-highlight', 'word-previous');
-        });
+// Highlight specific word
+highlightWord(wordIndex) {
+    // Remove previous highlights
+    this.currentVerseWords.forEach(word => {
+        word.classList.remove('word-highlight', 'word-previous');
+    });
 
-        // Add current highlight
+    // Add current highlight
     if (wordIndex >= 0 && wordIndex < this.currentVerseWords.length) {
-        this.currentVerseWords[wordIndex].classList.add('word-highlight');
+        const wordElement = this.currentVerseWords[wordIndex];
+        wordElement.classList.add('word-highlight');
 
         // Add previous word styling for context
         if (wordIndex > 0) {
@@ -214,41 +236,10 @@ class WordHighlighter {
         }
 
         this.currentWordIndex = wordIndex;
-        // Since it's single verse, we don't need to scroll
-    }
-}
 
-    // Simplified for single verse display - adds visual focus effect
-scrollToWord(wordElement) {
-    // For single verse display, we add a subtle focus animation
-    // instead of scrolling since everything is visible
-    
-    if (!wordElement) return;
-    
-    // Optional: Add a subtle scale animation to draw attention
-    wordElement.style.transition = 'transform 0.3s ease';
-    wordElement.style.transform = 'scale(1.2)';
-    
-    // Reset the scale after a moment
-    setTimeout(() => {
-        wordElement.style.transform = '';
-    }, 300);
-    
-    // Optional: If the verse is very long and might overflow on mobile,
-    // ensure the word is in the center of the viewport
-    const container = document.querySelector('.verse-display');
-    const containerRect = container?.getBoundingClientRect();
-    const wordRect = wordElement.getBoundingClientRect();
-    
-    // Only if word is outside the visible area (edge case for very long verses)
-    if (containerRect && (wordRect.left < containerRect.left || wordRect.right > containerRect.right)) {
-        wordElement.scrollIntoView({ 
-            behavior: 'smooth', 
-            block: 'center', 
-            inline: 'center' 
-        });
     }
 }
+    
 
     // Pause highlighting
     pauseHighlighting() {
@@ -266,16 +257,16 @@ scrollToWord(wordElement) {
     }
 
     // Reset highlighting
-    reset() {
+reset() {
     this.pauseHighlighting();
-    this.currentWordIndex = 0;
+    this.currentWordIndex = -1;  // Reset to -1 instead of 0
     this.wordTimings = null;
 
     // Remove all highlights from single verse display
     document.querySelectorAll('.verse-display .arabic-word').forEach(word => {
         word.classList.remove('word-highlight', 'word-previous');
     });
-    }
+}
     
     // Clean up
    cleanup() {

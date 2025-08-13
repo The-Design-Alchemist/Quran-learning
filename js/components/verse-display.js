@@ -10,6 +10,20 @@ class VerseDisplay {
         this.isTransitioning = false; // Add transition lock
     }
 
+    // ADD THIS NEW METHOD (anywhere in the class, preferably after the show() method)
+    detectOverflow() {
+        const container = document.querySelector('.verse-container');
+        const content = document.querySelector('.verse-display');
+        
+        if (container && content) {
+            if (content.scrollHeight > container.clientHeight) {
+                container.classList.add('has-overflow');
+            } else {
+                container.classList.remove('has-overflow');
+            }
+        }
+    }
+
 // In the generateHTML method, update the verse structure:
 generateHTML() {
     this.container.innerHTML = '';
@@ -27,6 +41,7 @@ generateHTML() {
 }
 
 
+// In verse-display.js, update the show() method:
 show(index, direction = 'right') {
     const verseDisplay = document.getElementById('verse-display');
     if (!verseDisplay) return;
@@ -64,6 +79,16 @@ show(index, direction = 'right') {
             `;
         }
         
+        // Detect verse length and add data attribute
+        const wordCount = verse.text.split(/\s+/).length;
+        if (wordCount > 50) {
+            verseDisplay.setAttribute('data-verse-length', 'very-long');
+        } else if (wordCount > 30) {
+            verseDisplay.setAttribute('data-verse-length', 'long');
+        } else {
+            verseDisplay.setAttribute('data-verse-length', 'normal');
+        }
+        
         // Set verse as active (for word highlighting)
         verseDisplay.setAttribute('data-verse-index', index);
         verseDisplay.classList.add('active');
@@ -71,6 +96,15 @@ show(index, direction = 'right') {
         // Add enter animation
         setTimeout(() => {
             verseDisplay.classList.add(direction === 'right' ? 'enter-right' : 'enter-left');
+            
+            // CALL detectOverflow HERE
+            this.detectOverflow();
+            
+            // SAVE READING PROGRESS HERE
+            if (window.readingProgress && verse.number !== 'Bismillah') {
+                const surahNumber = getSurahFromURL();
+                window.readingProgress.savePosition(surahNumber, index, verse.number);
+            }
         }, 50);
         
     }, 300);
@@ -328,5 +362,13 @@ jumpToVerse(index) {
     }
 }
 
+// Add window resize listener to recheck overflow
+window.addEventListener('resize', () => {
+    if (window.verseDisplay) {
+        window.verseDisplay.detectOverflow();
+    }
+});
+
 // Create global instance
 window.verseDisplay = new VerseDisplay();
+

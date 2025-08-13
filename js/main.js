@@ -59,6 +59,11 @@ class QuranLearningApp {
             // Update header
             this.updateHeader(surahNumber);
 
+            // Track this surah as recently accessed
+            if (window.readingProgress) {
+                window.readingProgress.addToRecent(surahNumber);
+            }
+
             // Fetch verse data
             const verseData = await apiService.fetchVerseData(surahNumber);
             if (!verseData || verseData.length === 0) {
@@ -73,9 +78,17 @@ class QuranLearningApp {
             // Generate verse HTML
             window.verseDisplay.generateHTML();
 
-            // Initialize display
+            // Check for saved progress
+        const savedPosition = window.readingProgress.getPosition(surahNumber);
+        
+        if (savedPosition && savedPosition.verseIndex > 0) {
+            // Show resume dialog
+            this.showResumeDialog(savedPosition);
+        } else {
+            // Start from beginning
             window.appState.currentVerseIndex = 0;
             window.verseDisplay.show(0);
+        }
             
             // Show content
             this.showContent();
@@ -119,12 +132,41 @@ class QuranLearningApp {
         }, 100);
     }
 
+    // Add this new method to QuranLearningApp class:
+showResumeDialog(savedPosition) {
+    const timeSince = window.readingProgress.getTimeSinceLastRead(getSurahFromURL());
+    
+    // Create a simple modal dialog
+    const modal = document.createElement('div');
+    modal.className = 'resume-modal';
+    modal.innerHTML = `
+        <div class="resume-dialog">
+            <h3>Continue where you left off?</h3>
+            <p>You were at <strong>Verse ${savedPosition.verseNumber}</strong></p>
+            <p class="time-ago">${timeSince}</p>
+            <div class="resume-buttons">
+                <button class="resume-btn resume-yes" onclick="resumeFromSaved()">
+                    ✓ Continue
+                </button>
+                <button class="resume-btn resume-no" onclick="startFromBeginning()">
+                    ⟲ Start Over
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    // Store the saved position globally for the button handlers
+    window.savedResumePosition = savedPosition;
+}
+
     // Update header with Surah info
     updateHeader(surahNumber) {
-        document.getElementById('surah-title').textContent = window.appState.currentSurah.arabic;
-        document.getElementById('surah-info').textContent = 
-            `${window.appState.currentSurah.english} • Chapter ${surahNumber} • ${window.appState.currentSurah.verses} Verses • ${window.appState.currentSurah.revelation}`;
-    }
+    document.getElementById('surah-title').textContent = window.appState.currentSurah.arabic;
+    document.getElementById('surah-info').textContent = 
+        `${window.appState.currentSurah.english} • Chapter ${surahNumber} • ${window.appState.currentSurah.verses} Verses • ${window.appState.currentSurah.revelation}`;
+}
 
     // Build verses array from API data
    async buildVersesArray(surahNumber, verseData) {
