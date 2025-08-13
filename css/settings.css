@@ -182,10 +182,15 @@
 
 @media (max-width: 480px) {
     .settings-menu {
-        width: calc(100vw - 40px);
+        position: fixed;
+        top: 50%;
         left: 50%;
         right: auto;
-        transform: translateX(-50%);
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 350px;
+        max-height: 80vh;
+        overflow-y: auto;
     }
     
     .settings-toggle-btn {
