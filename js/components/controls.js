@@ -76,50 +76,51 @@ class PlaybackControls {
     }
 
     // Stop recitation
-    stop() {
-        console.log('Stopping recitation...');
-        
-        // Clear any pending timeouts
-        if (this.audioTimeout) {
-            clearTimeout(this.audioTimeout);
-            this.audioTimeout = null;
-        }
-        
-        window.appState.isReciting = false;
-        window.appState.isPaused = false;
-        window.appState.autoAdvance = true;
-        window.appState.currentRepeatCount = 0;
-        window.appState.surahRepeatCount = 0;
-        
-        // Stop ALL audio elements
+// Update the stop method to handle iOS properly
+stop() {
+    console.log('Stopping recitation...');
+    
+    if (this.audioTimeout) {
+        clearTimeout(this.audioTimeout);
+        this.audioTimeout = null;
+    }
+    
+    window.appState.isReciting = false;
+    window.appState.isPaused = false;
+    window.appState.autoAdvance = true;
+    window.appState.currentRepeatCount = 0;
+    window.appState.surahRepeatCount = 0;
+    
+    // For iOS, just pause the reusable audio
+    if (audioService.isIOS && audioService.reusableAudio) {
+        audioService.reusableAudio.pause();
+        audioService.reusableAudio.currentTime = 0;
+    } else {
+        // Normal cleanup for non-iOS
         const allAudioElements = document.querySelectorAll('audio');
         allAudioElements.forEach(audio => {
             audio.pause();
             audio.currentTime = 0;
             audio.remove();
         });
-        
-        // Clean up audio service
-        audioService.cleanup();
-        
-        // Remove all highlights
-        window.verseDisplay.removeAllHighlights();
-        
-        // Clean up word highlighting
-        if (window.wordHighlighter) {
-            window.wordHighlighter.cleanup();
-        }
-        
-        // Reset play/pause button state
-        const icon = document.getElementById('play-pause-icon');
-        const text = document.getElementById('play-pause-text');
-        if (icon && text) {
-            icon.textContent = '▶️';
-            text.textContent = 'Play';
-        }
-        
-        this.updateStatus('Recitation stopped');
     }
+    
+    audioService.cleanup();
+    window.verseDisplay.removeAllHighlights();
+    
+    if (window.wordHighlighter) {
+        window.wordHighlighter.cleanup();
+    }
+    
+    const icon = document.getElementById('play-pause-icon');
+    const text = document.getElementById('play-pause-text');
+    if (icon && text) {
+        icon.textContent = '▶️';
+        text.textContent = 'Play';
+    }
+    
+    this.updateStatus('Recitation stopped');
+}
 
 // Update the playCurrentVerse method in PlaybackControls class
 async playCurrentVerse() {
@@ -175,34 +176,41 @@ async playCurrentVerse() {
         this.setupAudioEventHandlers(newAudio, verse);
 
         // iOS-specific play handling
-        if (audioService.isIOS) {
-            // Use a promise-based approach for iOS
+        console.log(`▶️ Attempting to play verse ${verse.number}`);
+try {
+    await newAudio.play();
+    console.log(`🎵 Successfully playing verse ${verse.number}`);
+} catch (playError) {
+    console.error('Play error:', playError);
+    
+    // Only require tap for the FIRST verse if needed
+    if (window.appState.currentVerseIndex === 0 && audioService.isIOS) {
+        this.updateStatus('Tap to start playing...');
+        
+        const playOnInteraction = async () => {
             try {
                 await newAudio.play();
-                console.log(`🎵 Successfully playing verse ${verse.number}`);
-            } catch (playError) {
-                console.error('iOS play error:', playError);
-                // Retry with user interaction requirement
-                this.updateStatus('Tap to continue playing...');
-                
-                // Wait for user interaction
-                const playOnInteraction = async () => {
-                    try {
-                        await newAudio.play();
-                        document.removeEventListener('touchstart', playOnInteraction);
-                        document.removeEventListener('click', playOnInteraction);
-                    } catch (e) {
-                        console.error('Failed to play after interaction:', e);
-                    }
-                };
-                
-                document.addEventListener('touchstart', playOnInteraction, { once: true });
-                document.addEventListener('click', playOnInteraction, { once: true });
+                console.log('Started playback after user interaction');
+            } catch (e) {
+                console.error('Failed to play after interaction:', e);
             }
-        } else {
-            await newAudio.play();
-            console.log(`🎵 Successfully playing verse ${verse.number}`);
-        }
+        };
+        
+        document.addEventListener('touchstart', playOnInteraction, { once: true });
+        document.addEventListener('click', playOnInteraction, { once: true });
+    } else {
+        // For subsequent verses, try to recover without user interaction
+        console.log('Attempting to recover playback...');
+        setTimeout(async () => {
+            try {
+                await newAudio.play();
+            } catch (e) {
+                console.error('Recovery failed:', e);
+                this.handleVerseCompletion();
+            }
+        }, 100);
+    }
+}
         
         // Initialize word highlighting for this verse
         if (window.wordHighlighter && verse.hasAudio) {
