@@ -1,4 +1,4 @@
-// word-highlighting.js - Word-by-word highlighting system
+// word-highlighting.js - Word-by-word highlighting system with SMART ESTIMATION
 
 class WordHighlighter {
     constructor() {
@@ -6,52 +6,165 @@ class WordHighlighter {
         this.wordTimings = null;
         this.highlightInterval = null;
         this.currentVerseWords = [];
+        this.syncOffset = parseInt(localStorage.getItem('syncOffset') || '300'); // Default 300ms offset
     }
 
-   initializeVerse(verseNumber) {
-    // Check if highlighting is enabled
-    if (!window.appState.highlightingEnabled) {
-        return;
-    }
-       this.reset();
+    initializeVerse(verseNumber) {
+        // Check if highlighting is enabled
+        if (!window.appState.highlightingEnabled) {
+            return;
+        }
+        
+        this.reset();
 
-    // Updated selector for single verse display
-    const verseElement = document.querySelector('.verse-display.active .arabic-text');
-    console.log('Verse element found:', verseElement);
+        // Updated selector for single verse display
+        const verseElement = document.querySelector('.verse-display.active .arabic-text');
+        console.log('Verse element found:', verseElement);
 
-    if (!verseElement) return;
+        if (!verseElement) return;
 
-    // Store original text for cleanup (POINT 6)
-    if (!verseElement.dataset.originalText) {
-        verseElement.dataset.originalText = verseElement.textContent;
-    }
+        // Store original text for cleanup
+        if (!verseElement.dataset.originalText) {
+            verseElement.dataset.originalText = verseElement.textContent;
+        }
 
-    // Split verse into words and wrap each in a span
-    const arabicText = verseElement.textContent;
-    const words = arabicText.split(/\s+/).filter(word => word.length > 0);
-    console.log('Words found:', words.length);
+        // Split verse into words and wrap each in a span
+        const arabicText = verseElement.textContent;
+        const words = arabicText.split(/\s+/).filter(word => word.length > 0);
+        console.log('Words found:', words.length);
 
-    // Create wrapped words with spans
-    verseElement.innerHTML = words.map((word, index) =>
-        `<span class="arabic-word" data-word-index="${index}">${word}</span>`
-    ).join(' ');
+        // Create wrapped words with spans
+        verseElement.innerHTML = words.map((word, index) =>
+            `<span class="arabic-word" data-word-index="${index}">${word}</span>`
+        ).join(' ');
 
-    this.currentVerseWords = document.querySelectorAll('.verse-display.active .arabic-word');
+        this.currentVerseWords = document.querySelectorAll('.verse-display.active .arabic-word');
 
-    // Add click handlers to each word
-    this.currentVerseWords.forEach((wordElement, index) => {
-        wordElement.addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.jumpToWord(index);
+        // Add click handlers to each word
+        this.currentVerseWords.forEach((wordElement, index) => {
+            wordElement.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this.jumpToWord(index);
+            });
         });
-    });
 
-    // Load timings for this verse
-    this.loadWordTimings(getSurahFromURL(), verseNumber);
-}
+        // Load timings for this verse (for future use)
+        this.loadWordTimings(getSurahFromURL(), verseNumber);
+    }
 
+    // Load word timings from file or generate estimated timings
+    async loadWordTimings(surahNumber, verseNumber) {
+        try {
+            // Try to load timing file (for future implementation)
+            const response = await fetch(`./quran-data/timings/${surahNumber}/${verseNumber}.json`);
+            if (response.ok) {
+                this.wordTimings = await response.json();
+            } else {
+                // Generate estimated timings if file doesn't exist
+                this.wordTimings = null; // Will use smart estimation instead
+            }
+        } catch (error) {
+            console.log('No timing file found, using smart estimation');
+            this.wordTimings = null;
+        }
+    }
 
-    // ADD THIS NEW METHOD for jumping to a specific word
+    // Start highlighting with audio
+    startHighlighting() {
+        const audio = audioService.getCurrentAudio();
+        if (!audio || !this.currentVerseWords.length) return;
+        
+        if (this.highlightInterval) {
+            clearInterval(this.highlightInterval);
+        }
+        
+        this.currentWordIndex = -1;
+        
+        // Use smart estimation
+        this.highlightWithSmartEstimation(audio);
+    }
+
+    // NEW METHOD: Smart estimation with word weighting
+    highlightWithSmartEstimation(audio) {
+        // Word weight map based on Arabic word length
+        const WORD_WEIGHT_MAP = {
+            short: 0.7,   // 1-2 letters (faster pronunciation)
+            medium: 1.0,  // 3-4 letters (normal speed)
+            long: 1.3,    // 5+ letters (slower pronunciation)
+            veryLong: 1.6 // 7+ letters (much slower)
+        };
+        
+        // Calculate weighted durations for each word
+        const wordDurations = Array.from(this.currentVerseWords).map(wordEl => {
+            const word = wordEl.textContent;
+            const wordLength = word.length;
+            
+            // Special handling for words with special characters
+            const hasSpecialChars = /[ًٌٍَُِّْٰ]/.test(word); // Arabic diacritics
+            const extraWeight = hasSpecialChars ? 0.2 : 0;
+            
+            // Determine base weight
+            let weight;
+            if (wordLength <= 2) weight = WORD_WEIGHT_MAP.short;
+            else if (wordLength <= 4) weight = WORD_WEIGHT_MAP.medium;
+            else if (wordLength <= 6) weight = WORD_WEIGHT_MAP.long;
+            else weight = WORD_WEIGHT_MAP.veryLong;
+            
+            return weight + extraWeight;
+        });
+        
+        // Calculate total weight and normalize
+        const totalWeight = wordDurations.reduce((sum, w) => sum + w, 0);
+        const normalizedDurations = wordDurations.map(w => w / totalWeight);
+        
+        // Build cumulative time points (0 to 1)
+        const timePoints = [0];
+        for (let i = 0; i < normalizedDurations.length; i++) {
+            const previousTime = timePoints[timePoints.length - 1];
+            timePoints.push(previousTime + normalizedDurations[i]);
+        }
+        
+        console.log('Time points calculated:', timePoints);
+        console.log('Sync offset:', this.syncOffset + 'ms');
+        
+        // Highlighting interval
+        this.highlightInterval = setInterval(() => {
+            if (!audio || audio.paused || audio.ended) {
+                this.pauseHighlighting();
+                return;
+            }
+            
+            const currentTime = audio.currentTime;
+            const duration = audio.duration || 10;
+            
+            // Apply sync offset (positive offset = highlight earlier)
+            const adjustedTime = (currentTime + (this.syncOffset / 1000)) / duration;
+            
+            // Ensure adjusted time is within bounds
+            const clampedTime = Math.max(0, Math.min(1, adjustedTime));
+            
+            // Find corresponding word based on time points
+            let targetWord = 0;
+            for (let i = 0; i < timePoints.length - 1; i++) {
+                if (clampedTime >= timePoints[i] && clampedTime < timePoints[i + 1]) {
+                    targetWord = i;
+                    break;
+                }
+            }
+            
+            // Handle end of verse
+            if (clampedTime >= timePoints[timePoints.length - 1]) {
+                targetWord = this.currentVerseWords.length - 1;
+            }
+            
+            // Only update if word changed
+            if (targetWord !== this.currentWordIndex && targetWord >= 0) {
+                this.highlightWord(targetWord);
+            }
+        }, 30); // 30ms for smooth updates
+    }
+
+    // Jump to specific word when clicked
     jumpToWord(wordIndex) {
         const audio = audioService.getCurrentAudio();
         if (!audio || !audio.duration) return;
@@ -59,15 +172,43 @@ class WordHighlighter {
         // Check if audio is playing or paused
         const wasPlaying = window.appState.isReciting && !window.appState.isPaused;
 
-        // Calculate the time position for this word
-        const wordCount = this.currentVerseWords.length;
-        const timePerWord = audio.duration / wordCount;
-        const targetTime = wordIndex * timePerWord;
+        // Calculate the time position for this word using the same weighting
+        const WORD_WEIGHT_MAP = {
+            short: 0.7,
+            medium: 1.0,
+            long: 1.3,
+            veryLong: 1.6
+        };
+        
+        // Calculate weights for all words
+        const wordDurations = Array.from(this.currentVerseWords).map(wordEl => {
+            const wordLength = wordEl.textContent.length;
+            const hasSpecialChars = /[ًٌٍَُِّْٰ]/.test(wordEl.textContent);
+            const extraWeight = hasSpecialChars ? 0.2 : 0;
+            
+            let weight;
+            if (wordLength <= 2) weight = WORD_WEIGHT_MAP.short;
+            else if (wordLength <= 4) weight = WORD_WEIGHT_MAP.medium;
+            else if (wordLength <= 6) weight = WORD_WEIGHT_MAP.long;
+            else weight = WORD_WEIGHT_MAP.veryLong;
+            
+            return weight + extraWeight;
+        });
+        
+        const totalWeight = wordDurations.reduce((sum, w) => sum + w, 0);
+        const normalizedDurations = wordDurations.map(w => w / totalWeight);
+        
+        // Calculate target time
+        let targetTimePercent = 0;
+        for (let i = 0; i < wordIndex; i++) {
+            targetTimePercent += normalizedDurations[i];
+        }
+        
+        // Apply to audio (subtract offset since we're jumping directly)
+        const targetTime = (targetTimePercent * audio.duration) - (this.syncOffset / 1000);
+        audio.currentTime = Math.max(0, Math.min(audio.duration, targetTime));
 
         console.log(`Jumping to word ${wordIndex + 1} at ${targetTime.toFixed(2)}s`);
-
-        // Update the audio position
-        audio.currentTime = targetTime;
 
         // Update the highlighting immediately
         this.highlightWord(wordIndex);
@@ -82,164 +223,47 @@ class WordHighlighter {
         // Update status
         if (window.playbackControls) {
             window.playbackControls.updateStatus(
-                `Jumped to word ${wordIndex + 1} of ${wordCount}`
+                `Jumped to word ${wordIndex + 1} of ${this.currentVerseWords.length}`
             );
         }
 
         // Visual feedback - brief pulse effect
         const clickedWord = this.currentVerseWords[wordIndex];
-        clickedWord.style.transform = 'scale(1.3)';
+        clickedWord.classList.add('word-jumped');
         setTimeout(() => {
-            clickedWord.style.transform = '';
-        }, 200);
+            clickedWord.classList.remove('word-jumped');
+        }, 500);
     }
 
+    // Highlight specific word
+    highlightWord(wordIndex) {
+        // Remove previous highlights
+        this.currentVerseWords.forEach(word => {
+            word.classList.remove('word-highlight', 'word-previous');
+        });
 
-    // Load word timings from file or generate estimated timings
-    async loadWordTimings(surahNumber, verseNumber) {
-        try {
-            // Try to load timing file
-            const response = await fetch(`./quran-data/timings/${surahNumber}/${verseNumber}.json`);
-            if (response.ok) {
-                this.wordTimings = await response.json();
-            } else {
-                // Generate estimated timings if file doesn't exist
-                this.wordTimings = this.generateEstimatedTimings();
+        // Add current highlight
+        if (wordIndex >= 0 && wordIndex < this.currentVerseWords.length) {
+            const wordElement = this.currentVerseWords[wordIndex];
+            wordElement.classList.add('word-highlight');
+
+            // Add previous word styling for context
+            if (wordIndex > 0) {
+                this.currentVerseWords[wordIndex - 1].classList.add('word-previous');
             }
-        } catch (error) {
-            console.log('No timing file found, using estimated timings');
-            this.wordTimings = this.generateEstimatedTimings();
-        }
-    }
 
-    // Generate estimated word timings based on audio duration
-    generateEstimatedTimings() {
-        const audio = audioService.getCurrentAudio();
-        if (!audio || !this.currentVerseWords.length) return null;
+            this.currentWordIndex = wordIndex;
 
-        // Estimate duration when audio is loaded
-        const estimatedDuration = 10; // Default 10 seconds, will update when audio loads
-        const wordCount = this.currentVerseWords.length;
-        const timePerWord = estimatedDuration / wordCount;
-
-        const timings = [];
-        for (let i = 0; i < wordCount; i++) {
-            timings.push({
-                wordIndex: i,
-                startTime: i * timePerWord,
-                endTime: (i + 1) * timePerWord
-            });
-        }
-
-        return timings;
-    }
-
-    // Start highlighting with audio
-   startHighlighting() {
-    const audio = audioService.getCurrentAudio();
-    if (!audio || !this.currentVerseWords.length) return;
-    
-    if (this.highlightInterval) {
-        clearInterval(this.highlightInterval);
-    }
-    
-    this.currentWordIndex = -1;
-    
-    // Get sync offset from settings (default 300ms works well for Mishary)
-    const syncOffset = window.settingsManager?.settings?.syncOffset || 300;
-    
-    this.highlightInterval = setInterval(() => {
-        if (!audio || audio.paused || audio.ended) {
-            this.pauseHighlighting();
-            // Clean up when audio ends
-            if (audio && audio.ended) {
-                setTimeout(() => {
-                    this.reset();
-                }, 300);
-            }
-            return;
-        }
-        
-        const currentTime = audio.currentTime;
-        const duration = audio.duration || 10;
-        const wordCount = this.currentVerseWords.length;
-        
-        // Calculate progress percentage
-        const progressPercent = currentTime / duration;
-        
-        // Stop highlighting near the end to prevent wrap-around
-        if (progressPercent >= 0.97) {
-            // Highlight last word
-            if (this.currentWordIndex !== wordCount - 1) {
-                this.highlightWord(wordCount - 1);
-            }
-            // Stop the interval
-            this.pauseHighlighting();
-            // Clean up after a short delay
-            setTimeout(() => {
-                this.reset();
-            }, 500);
-            return;
-        }
-        
-        // Apply sync offset (in milliseconds)
-        const adjustedTime = currentTime + (syncOffset / 1000);
-        
-        // Calculate which word should be highlighted
-        const targetIndex = Math.min(
-            Math.floor((adjustedTime / duration) * wordCount),
-            wordCount - 1  // Never exceed last word
-        );
-        
-        // Only update if changed and valid
-        if (targetIndex !== this.currentWordIndex && targetIndex >= 0) {
-            this.highlightWord(targetIndex);
-        }
-    }, 30);
-}
-
-    // Update highlight based on current time
-    updateHighlight(currentTime) {
-        if (!this.wordTimings) return;
-
-        // Find the word that should be highlighted
-        let wordToHighlight = -1;
-        for (let i = 0; i < this.wordTimings.length; i++) {
-            const timing = this.wordTimings[i];
-            if (currentTime >= timing.startTime && currentTime < timing.endTime) {
-                wordToHighlight = i;
-                break;
+            // Optional: Smooth scroll to word if it's out of view
+            const container = document.querySelector('.verse-container');
+            const wordRect = wordElement.getBoundingClientRect();
+            const containerRect = container.getBoundingClientRect();
+            
+            if (wordRect.bottom > containerRect.bottom || wordRect.top < containerRect.top) {
+                wordElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         }
-
-        // Update highlighting if word changed
-        if (wordToHighlight !== this.currentWordIndex && wordToHighlight !== -1) {
-            this.highlightWord(wordToHighlight);
-        }
     }
-
-// Highlight specific word
-highlightWord(wordIndex) {
-    // Remove previous highlights
-    this.currentVerseWords.forEach(word => {
-        word.classList.remove('word-highlight', 'word-previous');
-    });
-
-    // Add current highlight
-    if (wordIndex >= 0 && wordIndex < this.currentVerseWords.length) {
-        const wordElement = this.currentVerseWords[wordIndex];
-        wordElement.classList.add('word-highlight');
-
-        // Add previous word styling for context
-        if (wordIndex > 0) {
-            this.currentVerseWords[wordIndex - 1].classList.add('word-previous');
-        }
-
-        this.currentWordIndex = wordIndex;
-
-    }
-}
-    
 
     // Pause highlighting
     pauseHighlighting() {
@@ -251,39 +275,46 @@ highlightWord(wordIndex) {
 
     // Resume highlighting
     resumeHighlighting() {
-        if (!this.highlightInterval && this.wordTimings) {
+        if (!this.highlightInterval && this.currentVerseWords.length) {
             this.startHighlighting();
         }
     }
 
     // Reset highlighting
-reset() {
-    this.pauseHighlighting();
-    this.currentWordIndex = -1;  // Reset to -1 instead of 0
-    this.wordTimings = null;
+    reset() {
+        this.pauseHighlighting();
+        this.currentWordIndex = -1;
+        this.wordTimings = null;
 
-    // Remove all highlights from single verse display
-    document.querySelectorAll('.verse-display .arabic-word').forEach(word => {
-        word.classList.remove('word-highlight', 'word-previous');
-    });
-}
+        // Remove all highlights from single verse display
+        document.querySelectorAll('.verse-display .arabic-word').forEach(word => {
+            word.classList.remove('word-highlight', 'word-previous');
+        });
+    }
     
     // Clean up
-   cleanup() {
-    this.reset();
-    this.currentVerseWords = [];
-    
-    // Ensure we clean up from the single verse display
-    const verseDisplay = document.querySelector('.verse-display');
-    if (verseDisplay) {
-        const arabicText = verseDisplay.querySelector('.arabic-text');
-        if (arabicText && arabicText.dataset.originalText) {
-            // Restore original text if we stored it
-            arabicText.textContent = arabicText.dataset.originalText;
-            delete arabicText.dataset.originalText;
+    cleanup() {
+        this.reset();
+        this.currentVerseWords = [];
+        
+        // Ensure we clean up from the single verse display
+        const verseDisplay = document.querySelector('.verse-display');
+        if (verseDisplay) {
+            const arabicText = verseDisplay.querySelector('.arabic-text');
+            if (arabicText && arabicText.dataset.originalText) {
+                // Restore original text if we stored it
+                arabicText.textContent = arabicText.dataset.originalText;
+                delete arabicText.dataset.originalText;
+            }
         }
     }
-}
+
+    // Method to adjust sync offset
+    setSyncOffset(offset) {
+        this.syncOffset = offset;
+        localStorage.setItem('syncOffset', offset);
+        console.log('Sync offset updated to:', offset + 'ms');
+    }
 }
 
 // Create global instance
