@@ -367,3 +367,29 @@
         transition: none !important;
     }
 }
+
+/* Safari-specific fixes */
+@supports (-webkit-touch-callout: none) {
+    /* iOS Safari specific styles */
+    .verse-container {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .control-button, .nav-button {
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+    }
+    
+    /* Prevent zoom on double tap */
+    input, select, textarea {
+        font-size: 16px !important;
+    }
+}
+
+/* iOS standalone app mode */
+@media all and (display-mode: standalone) {
+    .container {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}

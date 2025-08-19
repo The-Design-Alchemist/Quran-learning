@@ -28,19 +28,31 @@ class QuranLearningApp {
         this.navigationControlsElement = document.getElementById('navigation-controls');
     }
 
-    // Initialize the application
-    async initialize() {
-        try {
-            const surahNumber = getSurahFromURL();
-            console.log(`🚀 Starting Dynamic Quran App for Surah ${surahNumber}`);
+    // Add this to the QuranLearningApp initialize method
+async initialize() {
+    try {
+        // Add iOS audio initialization on first user interaction
+        if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+            const initAudioOnInteraction = async () => {
+                await audioService.unlockAudioContext();
+                document.removeEventListener('touchstart', initAudioOnInteraction);
+                document.removeEventListener('click', initAudioOnInteraction);
+            };
             
-            await this.loadSurah(surahNumber);
-            
-        } catch (error) {
-            console.error('Failed to initialize app:', error);
-            this.showError('Failed to initialize application');
+            document.addEventListener('touchstart', initAudioOnInteraction, { once: true });
+            document.addEventListener('click', initAudioOnInteraction, { once: true });
         }
+        
+        const surahNumber = getSurahFromURL();
+        console.log(`🚀 Starting Dynamic Quran App for Surah ${surahNumber}`);
+        
+        await this.loadSurah(surahNumber);
+        
+    } catch (error) {
+        console.error('Failed to initialize app:', error);
+        this.showError('Failed to initialize application');
     }
+}
 
     // Load a specific Surah
     async loadSurah(surahNumber) {

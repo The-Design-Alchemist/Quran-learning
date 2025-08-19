@@ -121,92 +121,114 @@ class PlaybackControls {
         this.updateStatus('Recitation stopped');
     }
 
-    // Play current verse
-    async playCurrentVerse() {
-        // Check if already loading or if we should stop
-        if (this.isLoading || !window.appState.isReciting) {
-            console.log('Already loading or stopped, ignoring request');
+// Update the playCurrentVerse method in PlaybackControls class
+async playCurrentVerse() {
+    if (this.isLoading || !window.appState.isReciting) {
+        console.log('Already loading or stopped, ignoring request');
+        return;
+    }
+    
+    this.isLoading = true;
+    
+    try {
+        const verse = window.appState.verses[window.appState.currentVerseIndex];
+        
+        // Skip Bismillah (has no audio)
+        if (!verse.hasAudio) {
+            this.updateStatus('Displaying Bismillah...');
+            this.isLoading = false;
+            
+            if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+                this.audioTimeout = setTimeout(() => {
+                    if (window.appState.isReciting && !window.appState.isPaused) {
+                        window.appState.currentVerseIndex++;
+                        window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
+                        this.playCurrentVerse();
+                    }
+                }, 1500);
+            }
+            return;
+        }
+
+        this.updateStatus(`Loading verse ${verse.number} audio...`);
+        console.log(`🎵 Starting to load verse ${verse.number}`);
+
+        const surahNumber = getSurahFromURL();
+        const audioUrl = await audioService.loadAudio(surahNumber, verse.number);
+        
+        if (!window.appState.isReciting || window.appState.isPaused) {
+            this.isLoading = false;
             return;
         }
         
-        this.isLoading = true;
+        // Clean up any existing audio completely
+        audioService.cleanup();
         
-        try {
-            const verse = window.appState.verses[window.appState.currentVerseIndex];
-            
-            // Skip Bismillah (has no audio)
-            if (!verse.hasAudio) {
-                this.updateStatus('Displaying Bismillah...');
-                this.isLoading = false;
+        // Create new audio element
+        const newAudio = await audioService.createAudioElement(audioUrl);
+        audioService.setCurrentAudio(newAudio);
+        
+        this.updateStatus(`Playing verse ${verse.number} - Mishary Alafasy${this.getRepeatInfo()}`);
+        window.verseDisplay.addHighlight(verse.id);
+
+        // Setup event handlers
+        this.setupAudioEventHandlers(newAudio, verse);
+
+        // iOS-specific play handling
+        if (audioService.isIOS) {
+            // Use a promise-based approach for iOS
+            try {
+                await newAudio.play();
+                console.log(`🎵 Successfully playing verse ${verse.number}`);
+            } catch (playError) {
+                console.error('iOS play error:', playError);
+                // Retry with user interaction requirement
+                this.updateStatus('Tap to continue playing...');
                 
-                if (window.appState.autoAdvance && window.appState.currentVerseIndex < window.appState.verses.length - 1) {
-                    this.audioTimeout = setTimeout(() => {
-                        if (window.appState.isReciting && !window.appState.isPaused) {
-                            window.appState.currentVerseIndex++;
-                            window.verseDisplay.show(window.appState.currentVerseIndex, 'right');
-                            this.playCurrentVerse();
-                        }
-                    }, 1500);
-                }
-                return;
+                // Wait for user interaction
+                const playOnInteraction = async () => {
+                    try {
+                        await newAudio.play();
+                        document.removeEventListener('touchstart', playOnInteraction);
+                        document.removeEventListener('click', playOnInteraction);
+                    } catch (e) {
+                        console.error('Failed to play after interaction:', e);
+                    }
+                };
+                
+                document.addEventListener('touchstart', playOnInteraction, { once: true });
+                document.addEventListener('click', playOnInteraction, { once: true });
             }
-
-            this.updateStatus(`Loading verse ${verse.number} audio...`);
-            console.log(`🎵 Starting to load verse ${verse.number}`);
-
-            const surahNumber = getSurahFromURL();
-            const audioUrl = await audioService.loadAudio(surahNumber, verse.number);
-            console.log(`✅ Audio URL obtained: ${audioUrl}`);
-            
-            // Double check we're still supposed to be playing
-            if (!window.appState.isReciting || window.appState.isPaused) {
-                this.isLoading = false;
-                return;
-            }
-            
-            // Clean up any existing audio completely
-            audioService.cleanup();
-            
-            // Create new audio element
-            const newAudio = await audioService.createAudioElement(audioUrl);
-            audioService.setCurrentAudio(newAudio);
-            
-            this.updateStatus(`Playing verse ${verse.number} - Mishary Alafasy${this.getRepeatInfo()}`);
-            window.verseDisplay.addHighlight(verse.id);
-
-            // Setup event handlers
-            this.setupAudioEventHandlers(newAudio, verse);
-
-            // Play audio
-            console.log(`▶️ Attempting to play verse ${verse.number}`);
+        } else {
             await newAudio.play();
             console.log(`🎵 Successfully playing verse ${verse.number}`);
-            
-            // Initialize word highlighting for this verse
-            if (window.wordHighlighter && verse.hasAudio) {
-                setTimeout(() => {
-                    const verseDisplay = document.getElementById('verse-display');
-                    if (verseDisplay && verseDisplay.classList.contains('active')) {
-                        window.wordHighlighter.initializeVerse(verse.number);
-                        window.wordHighlighter.startHighlighting();
-                    }
-                }, 400);
-            }
-
-        } catch (error) {
-            console.error(`💥 Failure loading verse ${window.appState.verses[window.appState.currentVerseIndex].number}:`, error);
-            this.updateStatus(`Cannot load verse ${window.appState.verses[window.appState.currentVerseIndex].number} audio. Skipping...`);
-            window.verseDisplay.removeHighlight(window.appState.verses[window.appState.currentVerseIndex].id);
-            
-            if (window.appState.autoAdvance && window.appState.isReciting && !window.appState.isPaused) {
-                this.audioTimeout = setTimeout(() => {
-                    this.handleVerseCompletion();
-                }, 1500);
-            }
-        } finally {
-            this.isLoading = false;
         }
+        
+        // Initialize word highlighting for this verse
+        if (window.wordHighlighter && verse.hasAudio) {
+            setTimeout(() => {
+                const verseDisplay = document.getElementById('verse-display');
+                if (verseDisplay && verseDisplay.classList.contains('active')) {
+                    window.wordHighlighter.initializeVerse(verse.number);
+                    window.wordHighlighter.startHighlighting();
+                }
+            }, 400);
+        }
+
+    } catch (error) {
+        console.error(`💥 Failure loading verse ${window.appState.verses[window.appState.currentVerseIndex].number}:`, error);
+        this.updateStatus(`Cannot load verse ${window.appState.verses[window.appState.currentVerseIndex].number} audio. Skipping...`);
+        window.verseDisplay.removeHighlight(window.appState.verses[window.appState.currentVerseIndex].id);
+        
+        if (window.appState.autoAdvance && window.appState.isReciting && !window.appState.isPaused) {
+            this.audioTimeout = setTimeout(() => {
+                this.handleVerseCompletion();
+            }, 1500);
+        }
+    } finally {
+        this.isLoading = false;
     }
+}
 
     // Setup event handlers for audio element
     setupAudioEventHandlers(audio, verse) {
