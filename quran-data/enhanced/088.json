@@ -1,0 +1,809 @@
+{
+  "number": 88,
+  "name": "الغاشية",
+  "englishName": "Al-Ghashiyah",
+  "englishNameTranslation": "The Overwhelming",
+  "revelationType": "makkah",
+  "numberOfAyahs": 26,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "88:1",
+      "arabic": " هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
+      "arabicSimple": " هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
+      "translation": "Has there reached you the report of the Overwhelming [event]?",
+      "transliteration": "Hal ataaka hadeesul ghaashiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "هَلْ",
+          "translation": "Has",
+          "transliteration": "hal"
+        },
+        {
+          "arabic": "أَتَىٰكَ",
+          "translation": "(there) come to you",
+          "transliteration": "atāka"
+        },
+        {
+          "arabic": "حَدِيثُ",
+          "translation": "(the) news",
+          "transliteration": "ḥadīthu"
+        },
+        {
+          "arabic": "ٱلْغَـٰشِيَةِ",
+          "translation": "(of) the Overwhelming",
+          "transliteration": "l-ghāshiyati"
+        }
+      ]
+    },
+    {
+      "key": "88:2",
+      "arabic": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
+      "arabicSimple": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
+      "translation": "[Some] faces, that Day, will be humbled,",
+      "transliteration": "Wujoohuny yawma 'izin khaashi'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وُجُوهٌۭ",
+          "translation": "Faces",
+          "transliteration": "wujūhun"
+        },
+        {
+          "arabic": "يَوْمَئِذٍ",
+          "translation": "that Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "خَـٰشِعَةٌ",
+          "translation": "(will be) humbled",
+          "transliteration": "khāshiʿatun"
+        }
+      ]
+    },
+    {
+      "key": "88:3",
+      "arabic": "عَامِلَةٌ نَّاصِبَةٌ",
+      "arabicSimple": "عَامِلَةٌ نَّاصِبَةٌ",
+      "translation": "Working [hard] and exhausted.",
+      "transliteration": "'Aamilatun naasibah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "عَامِلَةٌۭ",
+          "translation": "Laboring",
+          "transliteration": "ʿāmilatun"
+        },
+        {
+          "arabic": "نَّاصِبَةٌۭ",
+          "translation": "exhausted",
+          "transliteration": "nāṣibatun"
+        }
+      ]
+    },
+    {
+      "key": "88:4",
+      "arabic": "تَصْلَىٰ نَارًا حَامِيَةً",
+      "arabicSimple": "تَصْلَىٰ نَارًا حَامِيَةً",
+      "translation": "They will [enter to] burn in an intensely hot Fire.",
+      "transliteration": "Taslaa naaran haamiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "تَصْلَىٰ",
+          "translation": "They will burn",
+          "transliteration": "taṣlā"
+        },
+        {
+          "arabic": "نَارًا",
+          "translation": "(in) a Fire",
+          "transliteration": "nāran"
+        },
+        {
+          "arabic": "حَامِيَةًۭ",
+          "translation": "intensely hot",
+          "transliteration": "ḥāmiyatan"
+        }
+      ]
+    },
+    {
+      "key": "88:5",
+      "arabic": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
+      "arabicSimple": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
+      "translation": "They will be given drink from a boiling spring.",
+      "transliteration": "Tusqaa min 'aynin aaniyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "تُسْقَىٰ",
+          "translation": "They will be given to drink",
+          "transliteration": "tus'qā"
+        },
+        {
+          "arabic": "مِنْ",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "عَيْنٍ",
+          "translation": "a spring",
+          "transliteration": "ʿaynin"
+        },
+        {
+          "arabic": "ءَانِيَةٍۢ",
+          "translation": "boiling",
+          "transliteration": "āniyatin"
+        }
+      ]
+    },
+    {
+      "key": "88:6",
+      "arabic": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+      "arabicSimple": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+      "translation": "For them there will be no food except from a poisonous, thorny plant",
+      "transliteration": "Laisa lahum ta'aamun illaa min daree'",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "لَّيْسَ",
+          "translation": "Not is",
+          "transliteration": "laysa"
+        },
+        {
+          "arabic": "لَهُمْ",
+          "translation": "for them",
+          "transliteration": "lahum"
+        },
+        {
+          "arabic": "طَعَامٌ",
+          "translation": "food",
+          "transliteration": "ṭaʿāmun"
+        },
+        {
+          "arabic": "إِلَّا",
+          "translation": "except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "مِن",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "ضَرِيعٍۢ",
+          "translation": "a bitter thorny plant",
+          "transliteration": "ḍarīʿin"
+        }
+      ]
+    },
+    {
+      "key": "88:7",
+      "arabic": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+      "arabicSimple": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+      "translation": "Which neither nourishes nor avails against hunger.",
+      "transliteration": "Laa yusminu wa laa yughnee min joo'",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "لَّا",
+          "translation": "Not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "يُسْمِنُ",
+          "translation": "it nourishes",
+          "transliteration": "yus'minu"
+        },
+        {
+          "arabic": "وَلَا",
+          "translation": "and not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "يُغْنِى",
+          "translation": "it avails",
+          "transliteration": "yugh'nī"
+        },
+        {
+          "arabic": "مِن",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "جُوعٍۢ",
+          "translation": "hunger",
+          "transliteration": "jūʿin"
+        }
+      ]
+    },
+    {
+      "key": "88:8",
+      "arabic": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+      "arabicSimple": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+      "translation": "[Other] faces, that Day, will show pleasure.",
+      "transliteration": "Wujoohuny yawma 'izin naa'imah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وُجُوهٌۭ",
+          "translation": "Faces",
+          "transliteration": "wujūhun"
+        },
+        {
+          "arabic": "يَوْمَئِذٍۢ",
+          "translation": "that Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "نَّاعِمَةٌۭ",
+          "translation": "(will be) joyful",
+          "transliteration": "nāʿimatun"
+        }
+      ]
+    },
+    {
+      "key": "88:9",
+      "arabic": "لِّسَعْيِهَا رَاضِيَةٌ",
+      "arabicSimple": "لِّسَعْيِهَا رَاضِيَةٌ",
+      "translation": "With their effort [they are] satisfied",
+      "transliteration": "Lisa'yihaa raadiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "لِّسَعْيِهَا",
+          "translation": "With their effort",
+          "transliteration": "lisaʿyihā"
+        },
+        {
+          "arabic": "رَاضِيَةٌۭ",
+          "translation": "satisfied",
+          "transliteration": "rāḍiyatun"
+        }
+      ]
+    },
+    {
+      "key": "88:10",
+      "arabic": "فِى جَنَّةٍ عَالِيَةٍ",
+      "arabicSimple": "فِى جَنَّةٍ عَالِيَةٍ",
+      "translation": "In an elevated garden,",
+      "transliteration": "Fee jannatin 'aaliyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فِى",
+          "translation": "In",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "جَنَّةٍ",
+          "translation": "a garden",
+          "transliteration": "jannatin"
+        },
+        {
+          "arabic": "عَالِيَةٍۢ",
+          "translation": "elevated",
+          "transliteration": "ʿāliyatin"
+        }
+      ]
+    },
+    {
+      "key": "88:11",
+      "arabic": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
+      "arabicSimple": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
+      "translation": "Wherein they will hear no unsuitable speech.",
+      "transliteration": "Laa tasma'u feehaa laaghiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "لَّا",
+          "translation": "Not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "تَسْمَعُ",
+          "translation": "they will hear",
+          "transliteration": "tasmaʿu"
+        },
+        {
+          "arabic": "فِيهَا",
+          "translation": "therein",
+          "transliteration": "fīhā"
+        },
+        {
+          "arabic": "لَـٰغِيَةًۭ",
+          "translation": "vain talk",
+          "transliteration": "lāghiyatan"
+        }
+      ]
+    },
+    {
+      "key": "88:12",
+      "arabic": "فِيهَا عَيْنٌ جَارِيَةٌ",
+      "arabicSimple": "فِيهَا عَيْنٌ جَارِيَةٌ",
+      "translation": "Within it is a flowing spring.",
+      "transliteration": "Feehaa 'aynun jaariyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فِيهَا",
+          "translation": "Therein",
+          "transliteration": "fīhā"
+        },
+        {
+          "arabic": "عَيْنٌۭ",
+          "translation": "(will be) a spring",
+          "transliteration": "ʿaynun"
+        },
+        {
+          "arabic": "جَارِيَةٌۭ",
+          "translation": "flowing",
+          "transliteration": "jāriyatun"
+        }
+      ]
+    },
+    {
+      "key": "88:13",
+      "arabic": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+      "arabicSimple": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+      "translation": "Within it are couches raised high",
+      "transliteration": "Feehaa sururum marfoo'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فِيهَا",
+          "translation": "Therein",
+          "transliteration": "fīhā"
+        },
+        {
+          "arabic": "سُرُرٌۭ",
+          "translation": "(will be) thrones",
+          "transliteration": "sururun"
+        },
+        {
+          "arabic": "مَّرْفُوعَةٌۭ",
+          "translation": "raised high",
+          "transliteration": "marfūʿatun"
+        }
+      ]
+    },
+    {
+      "key": "88:14",
+      "arabic": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+      "arabicSimple": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+      "translation": "And cups put in place",
+      "transliteration": "Wa akwaabum mawdoo 'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَأَكْوَابٌۭ",
+          "translation": "And cups",
+          "transliteration": "wa-akwābun"
+        },
+        {
+          "arabic": "مَّوْضُوعَةٌۭ",
+          "translation": "put in place",
+          "transliteration": "mawḍūʿatun"
+        }
+      ]
+    },
+    {
+      "key": "88:15",
+      "arabic": "وَنَمَارِقُ مَصْفُوفَةٌ",
+      "arabicSimple": "وَنَمَارِقُ مَصْفُوفَةٌ",
+      "translation": "And cushions lined up",
+      "transliteration": "Wa namaariqu masfoofah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَنَمَارِقُ",
+          "translation": "And cushions",
+          "transliteration": "wanamāriqu"
+        },
+        {
+          "arabic": "مَصْفُوفَةٌۭ",
+          "translation": "lined up",
+          "transliteration": "maṣfūfatun"
+        }
+      ]
+    },
+    {
+      "key": "88:16",
+      "arabic": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+      "arabicSimple": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+      "translation": "And carpets spread around.",
+      "transliteration": "Wa zaraabiyyu mabsoosah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَزَرَابِىُّ",
+          "translation": "And carpets",
+          "transliteration": "wazarābiyyu"
+        },
+        {
+          "arabic": "مَبْثُوثَةٌ",
+          "translation": "spread out",
+          "transliteration": "mabthūthatun"
+        }
+      ]
+    },
+    {
+      "key": "88:17",
+      "arabic": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+      "arabicSimple": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+      "translation": "Then do they not look at the camels - how they are created?",
+      "transliteration": "Afalaa yanzuroona ilalibili kaifa khuliqat",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "أَفَلَا",
+          "translation": "Then do not",
+          "transliteration": "afalā"
+        },
+        {
+          "arabic": "يَنظُرُونَ",
+          "translation": "they look",
+          "transliteration": "yanẓurūna"
+        },
+        {
+          "arabic": "إِلَى",
+          "translation": "towards",
+          "transliteration": "ilā"
+        },
+        {
+          "arabic": "ٱلْإِبِلِ",
+          "translation": "the camels",
+          "transliteration": "l-ibili"
+        },
+        {
+          "arabic": "كَيْفَ",
+          "translation": "how",
+          "transliteration": "kayfa"
+        },
+        {
+          "arabic": "خُلِقَتْ",
+          "translation": "they are created",
+          "transliteration": "khuliqat"
+        }
+      ]
+    },
+    {
+      "key": "88:18",
+      "arabic": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+      "arabicSimple": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+      "translation": "And at the sky - how it is raised?",
+      "transliteration": "Wa ilas samaaa'i kaifa rufi'at",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَإِلَى",
+          "translation": "And towards",
+          "transliteration": "wa-ilā"
+        },
+        {
+          "arabic": "ٱلسَّمَآءِ",
+          "translation": "the sky",
+          "transliteration": "l-samāi"
+        },
+        {
+          "arabic": "كَيْفَ",
+          "translation": "how",
+          "transliteration": "kayfa"
+        },
+        {
+          "arabic": "رُفِعَتْ",
+          "translation": "it is raised",
+          "transliteration": "rufiʿat"
+        }
+      ]
+    },
+    {
+      "key": "88:19",
+      "arabic": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+      "arabicSimple": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+      "translation": "And at the mountains - how they are erected?",
+      "transliteration": "Wa ilal jibaali kaifa nusibat",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَإِلَى",
+          "translation": "And towards",
+          "transliteration": "wa-ilā"
+        },
+        {
+          "arabic": "ٱلْجِبَالِ",
+          "translation": "the mountains",
+          "transliteration": "l-jibāli"
+        },
+        {
+          "arabic": "كَيْفَ",
+          "translation": "how",
+          "transliteration": "kayfa"
+        },
+        {
+          "arabic": "نُصِبَتْ",
+          "translation": "they are fixed",
+          "transliteration": "nuṣibat"
+        }
+      ]
+    },
+    {
+      "key": "88:20",
+      "arabic": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+      "arabicSimple": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+      "translation": "And at the earth - how it is spread out?",
+      "transliteration": "Wa ilal ardi kaifa sutihat",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَإِلَى",
+          "translation": "And towards",
+          "transliteration": "wa-ilā"
+        },
+        {
+          "arabic": "ٱلْأَرْضِ",
+          "translation": "the earth",
+          "transliteration": "l-arḍi"
+        },
+        {
+          "arabic": "كَيْفَ",
+          "translation": "how",
+          "transliteration": "kayfa"
+        },
+        {
+          "arabic": "سُطِحَتْ",
+          "translation": "it is spread out",
+          "transliteration": "suṭiḥat"
+        }
+      ]
+    },
+    {
+      "key": "88:21",
+      "arabic": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
+      "arabicSimple": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
+      "translation": "So remind, [O Muhammad]; you are only a reminder.",
+      "transliteration": "Fazakkir innama anta Muzakkir",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَذَكِّرْ",
+          "translation": "So remind",
+          "transliteration": "fadhakkir"
+        },
+        {
+          "arabic": "إِنَّمَآ",
+          "translation": "only",
+          "transliteration": "innamā"
+        },
+        {
+          "arabic": "أَنتَ",
+          "translation": "you",
+          "transliteration": "anta"
+        },
+        {
+          "arabic": "مُذَكِّرٌۭ",
+          "translation": "(are) a reminder",
+          "transliteration": "mudhakkirun"
+        }
+      ]
+    },
+    {
+      "key": "88:22",
+      "arabic": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+      "arabicSimple": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+      "translation": "You are not over them a controller.",
+      "transliteration": "Lasta 'alaihim bimusaitir",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "لَّسْتَ",
+          "translation": "You are not",
+          "transliteration": "lasta"
+        },
+        {
+          "arabic": "عَلَيْهِم",
+          "translation": "over them",
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "arabic": "بِمُصَيْطِرٍ",
+          "translation": "a controller",
+          "transliteration": "bimuṣayṭirin"
+        }
+      ]
+    },
+    {
+      "key": "88:23",
+      "arabic": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+      "arabicSimple": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+      "translation": "However, he who turns away and disbelieves -",
+      "transliteration": "Illaa man tawallaa wa kafar",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "إِلَّا",
+          "translation": "But",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "مَن",
+          "translation": "whoever",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "تَوَلَّىٰ",
+          "translation": "turns away",
+          "transliteration": "tawallā"
+        },
+        {
+          "arabic": "وَكَفَرَ",
+          "translation": "and disbelieves",
+          "transliteration": "wakafara"
+        }
+      ]
+    },
+    {
+      "key": "88:24",
+      "arabic": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+      "arabicSimple": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+      "translation": "Then Allah will punish him with the greatest punishment.",
+      "transliteration": "Fa yu'azzibuhul laahul 'azaabal akbar",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَيُعَذِّبُهُ",
+          "translation": "Then will punish him",
+          "transliteration": "fayuʿadhibuhu"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "ٱلْعَذَابَ",
+          "translation": "(with) the punishment",
+          "transliteration": "l-ʿadhāba"
+        },
+        {
+          "arabic": "ٱلْأَكْبَرَ",
+          "translation": "greatest",
+          "transliteration": "l-akbara"
+        }
+      ]
+    },
+    {
+      "key": "88:25",
+      "arabic": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+      "arabicSimple": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+      "translation": "Indeed, to Us is their return.",
+      "transliteration": "Innaa ilainaaa iyaabahum",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "إِلَيْنَآ",
+          "translation": "to Us",
+          "transliteration": "ilaynā"
+        },
+        {
+          "arabic": "إِيَابَهُمْ",
+          "translation": "(will be) their return",
+          "transliteration": "iyābahum"
+        }
+      ]
+    },
+    {
+      "key": "88:26",
+      "arabic": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+      "arabicSimple": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+      "translation": "Then indeed, upon Us is their account.",
+      "transliteration": "Summa inna 'alainaa hisaabahum",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "إِنَّ",
+          "translation": "indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "عَلَيْنَا",
+          "translation": "upon Us",
+          "transliteration": "ʿalaynā"
+        },
+        {
+          "arabic": "حِسَابَهُم",
+          "translation": "(is) their account",
+          "transliteration": "ḥisābahum"
+        }
+      ]
+    }
+  ]
+}

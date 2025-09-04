@@ -1,0 +1,285 @@
+{
+  "number": 95,
+  "name": "التين",
+  "englishName": "At-Tin",
+  "englishNameTranslation": "The Fig",
+  "revelationType": "makkah",
+  "numberOfAyahs": 8,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "95:1",
+      "arabic": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
+      "arabicSimple": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
+      "translation": "By the fig and the olive",
+      "transliteration": "Wat teeni waz zaitoon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَٱلتِّينِ",
+          "translation": "By the fig",
+          "transliteration": "wal-tīni"
+        },
+        {
+          "arabic": "وَٱلزَّيْتُونِ",
+          "translation": "and the olive",
+          "transliteration": "wal-zaytūni"
+        }
+      ]
+    },
+    {
+      "key": "95:2",
+      "arabic": "وَطُورِ سِينِينَ",
+      "arabicSimple": "وَطُورِ سِينِينَ",
+      "translation": "And [by] Mount Sinai",
+      "transliteration": "Wa toori sineen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَطُورِ",
+          "translation": "And (the) Mount",
+          "transliteration": "waṭūri"
+        },
+        {
+          "arabic": "سِينِينَ",
+          "translation": "Sinai",
+          "transliteration": "sīnīna"
+        }
+      ]
+    },
+    {
+      "key": "95:3",
+      "arabic": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+      "arabicSimple": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+      "translation": "And [by] this secure city [Makkah],",
+      "transliteration": "Wa haazal balad-il ameen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَهَـٰذَا",
+          "translation": "And this",
+          "transliteration": "wahādhā"
+        },
+        {
+          "arabic": "ٱلْبَلَدِ",
+          "translation": "[the] city",
+          "transliteration": "l-baladi"
+        },
+        {
+          "arabic": "ٱلْأَمِينِ",
+          "translation": "[the] secure",
+          "transliteration": "l-amīni"
+        }
+      ]
+    },
+    {
+      "key": "95:4",
+      "arabic": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
+      "arabicSimple": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
+      "translation": "We have certainly created man in the best of stature;",
+      "transliteration": "Laqad khalaqnal insaana fee ahsani taqweem",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "لَقَدْ",
+          "translation": "Indeed",
+          "transliteration": "laqad"
+        },
+        {
+          "arabic": "خَلَقْنَا",
+          "translation": "We created",
+          "transliteration": "khalaqnā"
+        },
+        {
+          "arabic": "ٱلْإِنسَـٰنَ",
+          "translation": "man",
+          "transliteration": "l-insāna"
+        },
+        {
+          "arabic": "فِىٓ",
+          "translation": "in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "أَحْسَنِ",
+          "translation": "(the) best",
+          "transliteration": "aḥsani"
+        },
+        {
+          "arabic": "تَقْوِيمٍۢ",
+          "translation": "mould",
+          "transliteration": "taqwīmin"
+        }
+      ]
+    },
+    {
+      "key": "95:5",
+      "arabic": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ",
+      "arabicSimple": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ",
+      "translation": "Then We return him to the lowest of the low,",
+      "transliteration": "Thumma ra dad naahu asfala saafileen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "رَدَدْنَـٰهُ",
+          "translation": "We returned him",
+          "transliteration": "radadnāhu"
+        },
+        {
+          "arabic": "أَسْفَلَ",
+          "translation": "(to the) lowest",
+          "transliteration": "asfala"
+        },
+        {
+          "arabic": "سَـٰفِلِينَ",
+          "translation": "(of the) low",
+          "transliteration": "sāfilīna"
+        }
+      ]
+    },
+    {
+      "key": "95:6",
+      "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "arabicSimple": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "translation": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
+      "transliteration": "Ill-lal lazeena aamanoo wa 'amilus saalihaati; falahum ajrun ghairu mamnoon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 9,
+      "words": [
+        {
+          "arabic": "إِلَّا",
+          "translation": "Except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "ٱلَّذِينَ",
+          "translation": "those who",
+          "transliteration": "alladhīna"
+        },
+        {
+          "arabic": "ءَامَنُوا۟",
+          "translation": "believe",
+          "transliteration": "āmanū"
+        },
+        {
+          "arabic": "وَعَمِلُوا۟",
+          "translation": "and do",
+          "transliteration": "waʿamilū"
+        },
+        {
+          "arabic": "ٱلصَّـٰلِحَـٰتِ",
+          "translation": "righteous deeds",
+          "transliteration": "l-ṣāliḥāti"
+        },
+        {
+          "arabic": "فَلَهُمْ",
+          "translation": "then for them",
+          "transliteration": "falahum"
+        },
+        {
+          "arabic": "أَجْرٌ",
+          "translation": "(is a) reward",
+          "transliteration": "ajrun"
+        },
+        {
+          "arabic": "غَيْرُ",
+          "translation": "never",
+          "transliteration": "ghayru"
+        },
+        {
+          "arabic": "مَمْنُونٍۢ",
+          "translation": "ending",
+          "transliteration": "mamnūnin"
+        }
+      ]
+    },
+    {
+      "key": "95:7",
+      "arabic": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+      "arabicSimple": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+      "translation": "So what yet causes you to deny the Recompense?",
+      "transliteration": "Fama yu kaz zibuka b'adu bid deen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَمَا",
+          "translation": "Then what",
+          "transliteration": "famā"
+        },
+        {
+          "arabic": "يُكَذِّبُكَ",
+          "translation": "causes you to deny",
+          "transliteration": "yukadhibuka"
+        },
+        {
+          "arabic": "بَعْدُ",
+          "translation": "after (this)",
+          "transliteration": "baʿdu"
+        },
+        {
+          "arabic": "بِٱلدِّينِ",
+          "translation": "the judgment",
+          "transliteration": "bil-dīni"
+        }
+      ]
+    },
+    {
+      "key": "95:8",
+      "arabic": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ",
+      "arabicSimple": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ",
+      "translation": "Is not Allah the most just of judges?",
+      "transliteration": "Alai sal laahu bi-ahkamil haakimeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "أَلَيْسَ",
+          "translation": "Is not",
+          "transliteration": "alaysa"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "بِأَحْكَمِ",
+          "translation": "(the) Most Just",
+          "transliteration": "bi-aḥkami"
+        },
+        {
+          "arabic": "ٱلْحَـٰكِمِينَ",
+          "translation": "(of) the Judges",
+          "transliteration": "l-ḥākimīna"
+        }
+      ]
+    }
+  ]
+}

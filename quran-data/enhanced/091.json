@@ -1,0 +1,476 @@
+{
+  "number": 91,
+  "name": "الشمس",
+  "englishName": "Ash-Shams",
+  "englishNameTranslation": "The Sun",
+  "revelationType": "makkah",
+  "numberOfAyahs": 15,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "91:1",
+      "arabic": " وَٱلشَّمْسِ وَضُحَىٰهَا",
+      "arabicSimple": " وَٱلشَّمْسِ وَضُحَىٰهَا",
+      "translation": "By the sun and its brightness",
+      "transliteration": "Wash shamsi wa duhaa haa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلشَّمْسِ",
+          "translation": "By the sun",
+          "transliteration": "wal-shamsi"
+        },
+        {
+          "arabic": "وَضُحَىٰهَا",
+          "translation": "and its brightness",
+          "transliteration": "waḍuḥāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:2",
+      "arabic": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+      "arabicSimple": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+      "translation": "And [by] the moon when it follows it",
+      "transliteration": "Wal qamari izaa talaa haa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلْقَمَرِ",
+          "translation": "And the moon",
+          "transliteration": "wal-qamari"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "تَلَىٰهَا",
+          "translation": "it follows it",
+          "transliteration": "talāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:3",
+      "arabic": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "arabicSimple": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "translation": "And [by] the day when it displays it",
+      "transliteration": "Wannahaari izaa jallaa haa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلنَّهَارِ",
+          "translation": "And the day",
+          "transliteration": "wal-nahāri"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "جَلَّىٰهَا",
+          "translation": "it displays it",
+          "transliteration": "jallāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:4",
+      "arabic": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+      "arabicSimple": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+      "translation": "And [by] the night when it covers it",
+      "transliteration": "Wallaili izaa yaghshaa haa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلَّيْلِ",
+          "translation": "And the night",
+          "transliteration": "wa-al-layli"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "يَغْشَىٰهَا",
+          "translation": "it covers it",
+          "transliteration": "yaghshāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:5",
+      "arabic": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "arabicSimple": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "translation": "And [by] the sky and He who constructed it",
+      "transliteration": "Wassamaaa'i wa maa banaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلسَّمَآءِ",
+          "translation": "And the heaven",
+          "transliteration": "wal-samāi"
+        },
+        {
+          "arabic": "وَمَا",
+          "translation": "and (He) Who",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "بَنَىٰهَا",
+          "translation": "constructed it",
+          "transliteration": "banāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:6",
+      "arabic": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+      "arabicSimple": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+      "translation": "And [by] the earth and He who spread it",
+      "transliteration": "Wal ardi wa maa tahaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلْأَرْضِ",
+          "translation": "And the earth",
+          "transliteration": "wal-arḍi"
+        },
+        {
+          "arabic": "وَمَا",
+          "translation": "and by (He) Who",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "طَحَىٰهَا",
+          "translation": "spread it",
+          "transliteration": "ṭaḥāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:7",
+      "arabic": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
+      "arabicSimple": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
+      "translation": "And [by] the soul and He who proportioned it",
+      "transliteration": "Wa nafsinw wa maa sawwaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَنَفْسٍۢ",
+          "translation": "And (the) soul",
+          "transliteration": "wanafsin"
+        },
+        {
+          "arabic": "وَمَا",
+          "translation": "and (He) Who",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "سَوَّىٰهَا",
+          "translation": "proportioned it",
+          "transliteration": "sawwāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:8",
+      "arabic": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "arabicSimple": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "translation": "And inspired it [with discernment of] its wickedness and its righteousness,",
+      "transliteration": "Fa-alhamahaa fujoorahaa wa taqwaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَأَلْهَمَهَا",
+          "translation": "And He inspired it",
+          "transliteration": "fa-alhamahā"
+        },
+        {
+          "arabic": "فُجُورَهَا",
+          "translation": "(to distinguish) its wickedness",
+          "transliteration": "fujūrahā"
+        },
+        {
+          "arabic": "وَتَقْوَىٰهَا",
+          "translation": "and its righteousness",
+          "transliteration": "wataqwāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:9",
+      "arabic": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+      "arabicSimple": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+      "translation": "He has succeeded who purifies it,",
+      "transliteration": "Qad aflaha man zakkaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "قَدْ",
+          "translation": "Indeed",
+          "transliteration": "qad"
+        },
+        {
+          "arabic": "أَفْلَحَ",
+          "translation": "he succeeds",
+          "transliteration": "aflaḥa"
+        },
+        {
+          "arabic": "مَن",
+          "translation": "who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "زَكَّىٰهَا",
+          "translation": "purifies it",
+          "transliteration": "zakkāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:10",
+      "arabic": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "arabicSimple": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "translation": "And he has failed who instills it [with corruption].",
+      "transliteration": "Wa qad khaaba man dassaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَقَدْ",
+          "translation": "And indeed",
+          "transliteration": "waqad"
+        },
+        {
+          "arabic": "خَابَ",
+          "translation": "he fails",
+          "transliteration": "khāba"
+        },
+        {
+          "arabic": "مَن",
+          "translation": "who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "دَسَّىٰهَا",
+          "translation": "buries it",
+          "transliteration": "dassāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:11",
+      "arabic": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+      "arabicSimple": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+      "translation": "Thamud denied [their prophet] by reason of their transgression,",
+      "transliteration": "Kazzabat Samoodu bi taghwaahaaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "كَذَّبَتْ",
+          "translation": "Denied",
+          "transliteration": "kadhabat"
+        },
+        {
+          "arabic": "ثَمُودُ",
+          "translation": "Thamud",
+          "transliteration": "thamūdu"
+        },
+        {
+          "arabic": "بِطَغْوَىٰهَآ",
+          "translation": "by their transgression",
+          "transliteration": "biṭaghwāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:12",
+      "arabic": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+      "arabicSimple": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+      "translation": "When the most wretched of them was sent forth.",
+      "transliteration": "Izim ba'asa ashqaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "إِذِ",
+          "translation": "When",
+          "transliteration": "idhi"
+        },
+        {
+          "arabic": "ٱنۢبَعَثَ",
+          "translation": "(was) sent forth",
+          "transliteration": "inbaʿatha"
+        },
+        {
+          "arabic": "أَشْقَىٰهَا",
+          "translation": "(the) most wicked of them",
+          "transliteration": "ashqāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:13",
+      "arabic": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
+      "arabicSimple": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
+      "translation": "And the messenger of Allah [Salih] said to them, \"[Do not harm] the she-camel of Allah or [prevent her from] her drink.\"",
+      "transliteration": "Faqaala lahum Rasoolul laahi naaqatal laahi wa suqiyaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "فَقَالَ",
+          "translation": "But said",
+          "transliteration": "faqāla"
+        },
+        {
+          "arabic": "لَهُمْ",
+          "translation": "to them",
+          "transliteration": "lahum"
+        },
+        {
+          "arabic": "رَسُولُ",
+          "translation": "(the) Messenger",
+          "transliteration": "rasūlu"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "نَاقَةَ",
+          "translation": "(It is the) she-camel",
+          "transliteration": "nāqata"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "وَسُقْيَـٰهَا",
+          "translation": "and her drink",
+          "transliteration": "wasuq'yāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:14",
+      "arabic": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+      "arabicSimple": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+      "translation": "But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them].",
+      "transliteration": "Fakazzaboohu fa'aqaroohaa fadamdama 'alaihim Rabbuhum bizambihim fasaw waahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "فَكَذَّبُوهُ",
+          "translation": "But they denied him",
+          "transliteration": "fakadhabūhu"
+        },
+        {
+          "arabic": "فَعَقَرُوهَا",
+          "translation": "and they hamstrung her",
+          "transliteration": "faʿaqarūhā"
+        },
+        {
+          "arabic": "فَدَمْدَمَ",
+          "translation": "So destroyed",
+          "transliteration": "fadamdama"
+        },
+        {
+          "arabic": "عَلَيْهِمْ",
+          "translation": "them",
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "arabic": "رَبُّهُم",
+          "translation": "their Lord",
+          "transliteration": "rabbuhum"
+        },
+        {
+          "arabic": "بِذَنۢبِهِمْ",
+          "translation": "for their sin",
+          "transliteration": "bidhanbihim"
+        },
+        {
+          "arabic": "فَسَوَّىٰهَا",
+          "translation": "and leveled them",
+          "transliteration": "fasawwāhā"
+        }
+      ]
+    },
+    {
+      "key": "91:15",
+      "arabic": "وَلَا يَخَافُ عُقْبَـٰهَا",
+      "arabicSimple": "وَلَا يَخَافُ عُقْبَـٰهَا",
+      "translation": "And He does not fear the consequence thereof.",
+      "transliteration": "Wa laa yakhaafu'uqbaahaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَلَا",
+          "translation": "And not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "يَخَافُ",
+          "translation": "He fears",
+          "transliteration": "yakhāfu"
+        },
+        {
+          "arabic": "عُقْبَـٰهَا",
+          "translation": "its consequences",
+          "transliteration": "ʿuq'bāhā"
+        }
+      ]
+    }
+  ]
+}

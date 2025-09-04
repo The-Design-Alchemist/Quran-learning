@@ -1,0 +1,618 @@
+{
+  "number": 96,
+  "name": "العلق",
+  "englishName": "Al-'Alaq",
+  "englishNameTranslation": "The Clot",
+  "revelationType": "makkah",
+  "numberOfAyahs": 19,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "96:1",
+      "arabic": " ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "arabicSimple": " ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "translation": "Recite in the name of your Lord who created -",
+      "transliteration": "Iqra bismi rab bikal lazee khalaq",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "ٱقْرَأْ",
+          "translation": "Read",
+          "transliteration": "iq'ra"
+        },
+        {
+          "arabic": "بِٱسْمِ",
+          "translation": "in (the) name",
+          "transliteration": "bi-is'mi"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "(of) your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "the One Who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "translation": "created ",
+          "transliteration": "khalaqa"
+        }
+      ]
+    },
+    {
+      "key": "96:2",
+      "arabic": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+      "arabicSimple": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+      "translation": "Created man from a clinging substance.",
+      "transliteration": "Khalaqal insaana min 'alaq",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "خَلَقَ",
+          "translation": "He created",
+          "transliteration": "khalaqa"
+        },
+        {
+          "arabic": "ٱلْإِنسَـٰنَ",
+          "translation": "man",
+          "transliteration": "l-insāna"
+        },
+        {
+          "arabic": "مِنْ",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "عَلَقٍ",
+          "translation": "a clinging substance",
+          "transliteration": "ʿalaqin"
+        }
+      ]
+    },
+    {
+      "key": "96:3",
+      "arabic": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+      "arabicSimple": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+      "translation": "Recite, and your Lord is the most Generous -",
+      "transliteration": "Iqra wa rab bukal akram",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "ٱقْرَأْ",
+          "translation": "Read",
+          "transliteration": "iq'ra"
+        },
+        {
+          "arabic": "وَرَبُّكَ",
+          "translation": "and your Lord",
+          "transliteration": "warabbuka"
+        },
+        {
+          "arabic": "ٱلْأَكْرَمُ",
+          "translation": "(is) the Most Generous",
+          "transliteration": "l-akramu"
+        }
+      ]
+    },
+    {
+      "key": "96:4",
+      "arabic": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+      "arabicSimple": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+      "translation": "Who taught by the pen -",
+      "transliteration": "Al lazee 'allama bil qalam",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "The One Who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "عَلَّمَ",
+          "translation": "taught",
+          "transliteration": "ʿallama"
+        },
+        {
+          "arabic": "بِٱلْقَلَمِ",
+          "translation": "by the pen",
+          "transliteration": "bil-qalami"
+        }
+      ]
+    },
+    {
+      "key": "96:5",
+      "arabic": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
+      "arabicSimple": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
+      "translation": "Taught man that which he knew not.",
+      "transliteration": "'Al lamal insaana ma lam y'alam",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "عَلَّمَ",
+          "translation": "Taught",
+          "transliteration": "ʿallama"
+        },
+        {
+          "arabic": "ٱلْإِنسَـٰنَ",
+          "translation": "man",
+          "transliteration": "l-insāna"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "لَمْ",
+          "translation": "not",
+          "transliteration": "lam"
+        },
+        {
+          "arabic": "يَعْلَمْ",
+          "translation": "he knew",
+          "transliteration": "yaʿlam"
+        }
+      ]
+    },
+    {
+      "key": "96:6",
+      "arabic": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+      "arabicSimple": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+      "translation": "No! [But] indeed, man transgresses",
+      "transliteration": "Kallaa innal insaana layatghaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "كَلَّآ",
+          "translation": "Nay",
+          "transliteration": "kallā"
+        },
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "ٱلْإِنسَـٰنَ",
+          "translation": "man",
+          "transliteration": "l-insāna"
+        },
+        {
+          "arabic": "لَيَطْغَىٰٓ",
+          "translation": "surely transgresses",
+          "transliteration": "layaṭghā"
+        }
+      ]
+    },
+    {
+      "key": "96:7",
+      "arabic": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+      "arabicSimple": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+      "translation": "Because he sees himself self-sufficient.",
+      "transliteration": "Ar-ra aahus taghnaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "أَن",
+          "translation": "That",
+          "transliteration": "an"
+        },
+        {
+          "arabic": "رَّءَاهُ",
+          "translation": "he sees himself",
+          "transliteration": "raāhu"
+        },
+        {
+          "arabic": "ٱسْتَغْنَىٰٓ",
+          "translation": "self-sufficient",
+          "transliteration": "is'taghnā"
+        }
+      ]
+    },
+    {
+      "key": "96:8",
+      "arabic": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+      "arabicSimple": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+      "translation": "Indeed, to your Lord is the return.",
+      "transliteration": "Innna ilaa rabbikar ruj'aa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "إِلَىٰ",
+          "translation": "to",
+          "transliteration": "ilā"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "ٱلرُّجْعَىٰٓ",
+          "translation": "(is) the return",
+          "transliteration": "l-ruj'ʿā"
+        }
+      ]
+    },
+    {
+      "key": "96:9",
+      "arabic": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+      "arabicSimple": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+      "translation": "Have you seen the one who forbids",
+      "transliteration": "Ara-aital lazee yanhaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "أَرَءَيْتَ",
+          "translation": "Have you seen",
+          "transliteration": "ara-ayta"
+        },
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "the one who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "يَنْهَىٰ",
+          "translation": "forbids",
+          "transliteration": "yanhā"
+        }
+      ]
+    },
+    {
+      "key": "96:10",
+      "arabic": "عَبْدًا إِذَا صَلَّىٰٓ",
+      "arabicSimple": "عَبْدًا إِذَا صَلَّىٰٓ",
+      "translation": "A servant when he prays?",
+      "transliteration": "'Abdan iza sallaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "عَبْدًا",
+          "translation": "A slave",
+          "transliteration": "ʿabdan"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "صَلَّىٰٓ",
+          "translation": "he prays",
+          "transliteration": "ṣallā"
+        }
+      ]
+    },
+    {
+      "key": "96:11",
+      "arabic": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+      "arabicSimple": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+      "translation": "Have you seen if he is upon guidance",
+      "transliteration": "Ara-aita in kana 'alal hudaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "أَرَءَيْتَ",
+          "translation": "Have you seen",
+          "transliteration": "ara-ayta"
+        },
+        {
+          "arabic": "إِن",
+          "translation": "if",
+          "transliteration": "in"
+        },
+        {
+          "arabic": "كَانَ",
+          "translation": "he is",
+          "transliteration": "kāna"
+        },
+        {
+          "arabic": "عَلَى",
+          "translation": "upon",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "ٱلْهُدَىٰٓ",
+          "translation": "[the] guidance",
+          "transliteration": "l-hudā"
+        }
+      ]
+    },
+    {
+      "key": "96:12",
+      "arabic": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+      "arabicSimple": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+      "translation": "Or enjoins righteousness?",
+      "transliteration": "Au amara bit taqwaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "أَوْ",
+          "translation": "Or",
+          "transliteration": "aw"
+        },
+        {
+          "arabic": "أَمَرَ",
+          "translation": "he enjoins",
+          "transliteration": "amara"
+        },
+        {
+          "arabic": "بِٱلتَّقْوَىٰٓ",
+          "translation": "[of the] righteousness",
+          "transliteration": "bil-taqwā"
+        }
+      ]
+    },
+    {
+      "key": "96:13",
+      "arabic": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "arabicSimple": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "translation": "Have you seen if he denies and turns away -",
+      "transliteration": "Ara-aita in kaz zaba wa ta walla",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "أَرَءَيْتَ",
+          "translation": "Have you seen",
+          "transliteration": "ara-ayta"
+        },
+        {
+          "arabic": "إِن",
+          "translation": "if",
+          "transliteration": "in"
+        },
+        {
+          "arabic": "كَذَّبَ",
+          "translation": "he denies",
+          "transliteration": "kadhaba"
+        },
+        {
+          "arabic": "وَتَوَلَّىٰٓ",
+          "translation": "and turns away",
+          "transliteration": "watawallā"
+        }
+      ]
+    },
+    {
+      "key": "96:14",
+      "arabic": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+      "arabicSimple": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+      "translation": "Does he not know that Allah sees?",
+      "transliteration": "Alam y'alam bi-an nal lahaa yaraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "أَلَمْ",
+          "translation": "Does not",
+          "transliteration": "alam"
+        },
+        {
+          "arabic": "يَعْلَم",
+          "translation": "he know",
+          "transliteration": "yaʿlam"
+        },
+        {
+          "arabic": "بِأَنَّ",
+          "translation": "that",
+          "transliteration": "bi-anna"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "يَرَىٰ",
+          "translation": "sees",
+          "transliteration": "yarā"
+        }
+      ]
+    },
+    {
+      "key": "96:15",
+      "arabic": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+      "arabicSimple": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+      "translation": "No! If he does not desist, We will surely drag him by the forelock -",
+      "transliteration": "Kalla la illam yantahi la nasfa'am bin nasiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "كَلَّا",
+          "translation": "Nay",
+          "transliteration": "kallā"
+        },
+        {
+          "arabic": "لَئِن",
+          "translation": "If",
+          "transliteration": "la-in"
+        },
+        {
+          "arabic": "لَّمْ",
+          "translation": "not",
+          "transliteration": "lam"
+        },
+        {
+          "arabic": "يَنتَهِ",
+          "translation": "he desists",
+          "transliteration": "yantahi"
+        },
+        {
+          "arabic": "لَنَسْفَعًۢا",
+          "translation": "surely We will drag him",
+          "transliteration": "lanasfaʿan"
+        },
+        {
+          "arabic": "بِٱلنَّاصِيَةِ",
+          "translation": "by the forelock",
+          "transliteration": "bil-nāṣiyati"
+        }
+      ]
+    },
+    {
+      "key": "96:16",
+      "arabic": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
+      "arabicSimple": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
+      "translation": "A lying, sinning forelock.",
+      "transliteration": "Nasiyatin kazi batin khaatiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "نَاصِيَةٍۢ",
+          "translation": "A forelock",
+          "transliteration": "nāṣiyatin"
+        },
+        {
+          "arabic": "كَـٰذِبَةٍ",
+          "translation": "lying",
+          "transliteration": "kādhibatin"
+        },
+        {
+          "arabic": "خَاطِئَةٍۢ",
+          "translation": "sinful",
+          "transliteration": "khāṭi-atin"
+        }
+      ]
+    },
+    {
+      "key": "96:17",
+      "arabic": "فَلْيَدْعُ نَادِيَهُۥ",
+      "arabicSimple": "فَلْيَدْعُ نَادِيَهُۥ",
+      "translation": "Then let him call his associates;",
+      "transliteration": "Fal yad'u naadiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "فَلْيَدْعُ",
+          "translation": "Then let him call",
+          "transliteration": "falyadʿu"
+        },
+        {
+          "arabic": "نَادِيَهُۥ",
+          "translation": "his associates",
+          "transliteration": "nādiyahu"
+        }
+      ]
+    },
+    {
+      "key": "96:18",
+      "arabic": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+      "arabicSimple": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+      "translation": "We will call the angels of Hell.",
+      "transliteration": "Sanad 'uz zabaaniyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "سَنَدْعُ",
+          "translation": "We will call",
+          "transliteration": "sanadʿu"
+        },
+        {
+          "arabic": "ٱلزَّبَانِيَةَ",
+          "translation": "the Angels of Hell",
+          "transliteration": "l-zabāniyata"
+        }
+      ]
+    },
+    {
+      "key": "96:19",
+      "arabic": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+      "arabicSimple": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+      "translation": "No! Do not obey him. But prostrate and draw near [to Allah].",
+      "transliteration": "Kalla; la tuti'hu wasjud waqtarib",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "كَلَّا",
+          "translation": "Nay",
+          "transliteration": "kallā"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "(Do) not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "تُطِعْهُ",
+          "translation": "obey him",
+          "transliteration": "tuṭiʿ'hu"
+        },
+        {
+          "arabic": "وَٱسْجُدْ",
+          "translation": "But prostrate",
+          "transliteration": "wa-us'jud"
+        },
+        {
+          "arabic": "وَٱقْتَرِب ۩",
+          "translation": "and draw near (to Allah)",
+          "transliteration": "wa-iq'tarib"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1986 @@
+{
+  "number": 65,
+  "name": "الطلاق",
+  "englishName": "At-Talaq",
+  "englishNameTranslation": "The Divorce",
+  "revelationType": "madinah",
+  "numberOfAyahs": 12,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "65:1",
+      "arabic": " يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "arabicSimple": " يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "translation": "O Prophet, when you [Muslims] divorce women, divorce them for [the commencement of] their waiting period and keep count of the waiting period, and fear Allah, your Lord. Do not turn them out of their [husbands'] houses, nor should they [themselves] leave [during that period] unless they are committing a clear immorality. And those are the limits [set by] Allah. And whoever transgresses the limits of Allah has certainly wronged himself. You know not; perhaps Allah will bring about after that a [different] matter.",
+      "transliteration": "Yaaa ayyuhan nabiyyu izaa tallaqtummun nisaaa'a fatalliqoohunna li'iddatihinna wa ahsul'iddata; wattaqul laaha rabbakum laa tukhri joohunna mim bu-yootihinna wa laa yakhrujna illaaa any yaateema bifaahishatim mubaiyinah; wa tilka hudoodul laah; wa many yata'adda hudoodal laahi faqad zalama nafsha; laa tadree la'allal laaha yuhdisu ba'dazaalika amraa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 110,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 10
+        },
+        {
+          "position": 142,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 14
+        },
+        {
+          "position": 246,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 26
+        },
+        {
+          "position": 273,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 30
+        },
+        {
+          "position": 331,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 38
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ",
+          "translation": "O Prophet When you divorce [the] women then divorce them for their waiting period and keep count of the waiting period",
+          "transliteration": "yāayyuhā l-nabiyu idhā ṭallaqtumu l-nisāa faṭalliqūhunna liʿiddatihinna wa-aḥṣū l-ʿidata",
+          "type": "small_stop",
+          "waqfMark": "ۖ"
+        },
+        {
+          "arabic": "وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ",
+          "translation": "and fear Allah your Lord",
+          "transliteration": "wa-ittaqū l-laha rabbakum",
+          "type": "small_stop",
+          "waqfMark": "ۖ"
+        },
+        {
+          "arabic": "لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ",
+          "translation": "Do not expel them from their houses and not they should leave except that they commit an immorality clear",
+          "transliteration": "lā tukh'rijūhunna min buyūtihinna walā yakhruj'na illā an yatīna bifāḥishatin mubayyinatin",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَتِلْكَ حُدُودُ ٱللَّهِ ۚ",
+          "translation": "And these are the limits of Allah",
+          "transliteration": "watil'ka ḥudūdu l-lahi",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ",
+          "translation": "And whoever transgresses the limits of Allah then certainly he has wronged himself",
+          "transliteration": "waman yataʿadda ḥudūda l-lahi faqad ẓalama nafsahu",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+          "translation": "Not you know Perhaps Allah will bring about after that a matter",
+          "transliteration": "lā tadrī laʿalla l-laha yuḥ'dithu baʿda dhālika amran",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 47,
+      "words": [
+        {
+          "arabic": "يَـٰٓأَيُّهَا",
+          "translation": "O",
+          "transliteration": "yāayyuhā"
+        },
+        {
+          "arabic": "ٱلنَّبِىُّ",
+          "translation": "Prophet",
+          "transliteration": "l-nabiyu"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "When",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "طَلَّقْتُمُ",
+          "translation": "you divorce",
+          "transliteration": "ṭallaqtumu"
+        },
+        {
+          "arabic": "ٱلنِّسَآءَ",
+          "translation": "[the] women",
+          "transliteration": "l-nisāa"
+        },
+        {
+          "arabic": "فَطَلِّقُوهُنَّ",
+          "translation": "then divorce them",
+          "transliteration": "faṭalliqūhunna"
+        },
+        {
+          "arabic": "لِعِدَّتِهِنَّ",
+          "translation": "for their waiting period",
+          "transliteration": "liʿiddatihinna"
+        },
+        {
+          "arabic": "وَأَحْصُوا۟",
+          "translation": "and keep count",
+          "transliteration": "wa-aḥṣū"
+        },
+        {
+          "arabic": "ٱلْعِدَّةَ ۖ",
+          "translation": "(of) the waiting period",
+          "transliteration": "l-ʿidata"
+        },
+        {
+          "arabic": "وَٱتَّقُوا۟",
+          "translation": "and fear",
+          "transliteration": "wa-ittaqū"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "رَبَّكُمْ ۖ",
+          "translation": "your Lord",
+          "transliteration": "rabbakum"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "(Do) not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "تُخْرِجُوهُنَّ",
+          "translation": "expel them",
+          "transliteration": "tukh'rijūhunna"
+        },
+        {
+          "arabic": "مِنۢ",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "بُيُوتِهِنَّ",
+          "translation": "their houses",
+          "transliteration": "buyūtihinna"
+        },
+        {
+          "arabic": "وَلَا",
+          "translation": "and not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "يَخْرُجْنَ",
+          "translation": "they should leave",
+          "transliteration": "yakhruj'na"
+        },
+        {
+          "arabic": "إِلَّآ",
+          "translation": "except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "أَن",
+          "translation": "that",
+          "transliteration": "an"
+        },
+        {
+          "arabic": "يَأْتِينَ",
+          "translation": "they commit",
+          "transliteration": "yatīna"
+        },
+        {
+          "arabic": "بِفَـٰحِشَةٍۢ",
+          "translation": "an immorality",
+          "transliteration": "bifāḥishatin"
+        },
+        {
+          "arabic": "مُّبَيِّنَةٍۢ ۚ",
+          "translation": "clear",
+          "transliteration": "mubayyinatin"
+        },
+        {
+          "arabic": "وَتِلْكَ",
+          "translation": "And these",
+          "transliteration": "watil'ka"
+        },
+        {
+          "arabic": "حُدُودُ",
+          "translation": "(are the) limits",
+          "transliteration": "ḥudūdu"
+        },
+        {
+          "arabic": "ٱللَّهِ ۚ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "And whoever",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "يَتَعَدَّ",
+          "translation": "transgresses",
+          "transliteration": "yataʿadda"
+        },
+        {
+          "arabic": "حُدُودَ",
+          "translation": "(the) limits",
+          "transliteration": "ḥudūda"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "فَقَدْ",
+          "translation": "then certainly",
+          "transliteration": "faqad"
+        },
+        {
+          "arabic": "ظَلَمَ",
+          "translation": "he has wronged",
+          "transliteration": "ẓalama"
+        },
+        {
+          "arabic": "نَفْسَهُۥ ۚ",
+          "translation": "himself",
+          "transliteration": "nafsahu"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "Not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "تَدْرِى",
+          "translation": "you know",
+          "transliteration": "tadrī"
+        },
+        {
+          "arabic": "لَعَلَّ",
+          "translation": "Perhaps",
+          "transliteration": "laʿalla"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "يُحْدِثُ",
+          "translation": "will bring about",
+          "transliteration": "yuḥ'dithu"
+        },
+        {
+          "arabic": "بَعْدَ",
+          "translation": "after",
+          "transliteration": "baʿda"
+        },
+        {
+          "arabic": "ذَٰلِكَ",
+          "translation": "that",
+          "transliteration": "dhālika"
+        },
+        {
+          "arabic": "أَمْرًۭا",
+          "translation": "a matter",
+          "transliteration": "amran"
+        }
+      ]
+    },
+    {
+      "key": "65:2",
+      "arabic": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
+      "arabicSimple": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
+      "translation": "And when they have [nearly] fulfilled their term, either retain them according to acceptable terms or part with them according to acceptable terms. And bring to witness two just men from among you and establish the testimony for [the acceptance of] Allah. That is instructed to whoever should believe in Allah and the Last day. And whoever fears Allah - He will make for him a way out",
+      "transliteration": "Fa izaa balaghna ajalahunna fa amsikoohunna bima'roofin aw faariqoohunna bima'roofinw wa ashhidoo zawai 'adlim minkum wa aqeemush shahaadata lillaah; zaalikum yoo'azu bihee man kaana yu'minu billaahi wal yawmil aakhir; wa many yattaqil laaha yaj'al lahoo makhrajaa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 161,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 15
+        },
+        {
+          "position": 240,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 25
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ",
+          "translation": "Then when they have reached their term then retain them with kindness or part with them with kindness And take witness two men just among you and establish the testimony for Allah",
+          "transliteration": "fa-idhā balaghna ajalahunna fa-amsikūhunna bimaʿrūfin aw fāriqūhunna bimaʿrūfin wa-ashhidū dhaway ʿadlin minkum wa-aqīmū l-shahādata lillahi",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ",
+          "translation": "That is instructed with it whoever [is] believes in Allah and the Day the Last",
+          "transliteration": "dhālikum yūʿaẓu bihi man kāna yu'minu bil-lahi wal-yawmi l-ākhiri",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
+          "translation": "And whoever fears Allah He will make for him a way out",
+          "transliteration": "waman yattaqi l-laha yajʿal lahu makhrajan",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 32,
+      "words": [
+        {
+          "arabic": "فَإِذَا",
+          "translation": "Then when",
+          "transliteration": "fa-idhā"
+        },
+        {
+          "arabic": "بَلَغْنَ",
+          "translation": "they have reached",
+          "transliteration": "balaghna"
+        },
+        {
+          "arabic": "أَجَلَهُنَّ",
+          "translation": "their term",
+          "transliteration": "ajalahunna"
+        },
+        {
+          "arabic": "فَأَمْسِكُوهُنَّ",
+          "translation": "then retain them",
+          "transliteration": "fa-amsikūhunna"
+        },
+        {
+          "arabic": "بِمَعْرُوفٍ",
+          "translation": "with kindness",
+          "transliteration": "bimaʿrūfin"
+        },
+        {
+          "arabic": "أَوْ",
+          "translation": "or",
+          "transliteration": "aw"
+        },
+        {
+          "arabic": "فَارِقُوهُنَّ",
+          "translation": "part with them",
+          "transliteration": "fāriqūhunna"
+        },
+        {
+          "arabic": "بِمَعْرُوفٍۢ",
+          "translation": "with kindness",
+          "transliteration": "bimaʿrūfin"
+        },
+        {
+          "arabic": "وَأَشْهِدُوا۟",
+          "translation": "And take witness",
+          "transliteration": "wa-ashhidū"
+        },
+        {
+          "arabic": "ذَوَىْ",
+          "translation": "two men",
+          "transliteration": "dhaway"
+        },
+        {
+          "arabic": "عَدْلٍۢ",
+          "translation": "just",
+          "transliteration": "ʿadlin"
+        },
+        {
+          "arabic": "مِّنكُمْ",
+          "translation": "among you",
+          "transliteration": "minkum"
+        },
+        {
+          "arabic": "وَأَقِيمُوا۟",
+          "translation": "and establish",
+          "transliteration": "wa-aqīmū"
+        },
+        {
+          "arabic": "ٱلشَّهَـٰدَةَ",
+          "translation": "the testimony",
+          "transliteration": "l-shahādata"
+        },
+        {
+          "arabic": "لِلَّهِ ۚ",
+          "translation": "for Allah",
+          "transliteration": "lillahi"
+        },
+        {
+          "arabic": "ذَٰلِكُمْ",
+          "translation": "That",
+          "transliteration": "dhālikum"
+        },
+        {
+          "arabic": "يُوعَظُ",
+          "translation": "is instructed",
+          "transliteration": "yūʿaẓu"
+        },
+        {
+          "arabic": "بِهِۦ",
+          "translation": "with it",
+          "transliteration": "bihi"
+        },
+        {
+          "arabic": "مَن",
+          "translation": "whoever",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "كَانَ",
+          "translation": "[is]",
+          "transliteration": "kāna"
+        },
+        {
+          "arabic": "يُؤْمِنُ",
+          "translation": "believes",
+          "transliteration": "yu'minu"
+        },
+        {
+          "arabic": "بِٱللَّهِ",
+          "translation": "in Allah",
+          "transliteration": "bil-lahi"
+        },
+        {
+          "arabic": "وَٱلْيَوْمِ",
+          "translation": "and the Day",
+          "transliteration": "wal-yawmi"
+        },
+        {
+          "arabic": "ٱلْـَٔاخِرِ ۚ",
+          "translation": "the Last",
+          "transliteration": "l-ākhiri"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "And whoever",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "يَتَّقِ",
+          "translation": "fears",
+          "transliteration": "yattaqi"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "يَجْعَل",
+          "translation": "He will make",
+          "transliteration": "yajʿal"
+        },
+        {
+          "arabic": "لَّهُۥ",
+          "translation": "for him",
+          "transliteration": "lahu"
+        },
+        {
+          "arabic": "مَخْرَجًۭا",
+          "translation": "a way out",
+          "transliteration": "makhrajan"
+        }
+      ]
+    },
+    {
+      "key": "65:3",
+      "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
+      "arabicSimple": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
+      "translation": "And will provide for him from where he does not expect. And whoever relies upon Allah - then He is sufficient for him. Indeed, Allah will accomplish His purpose. Allah has already set for everything a [decreed] extent.",
+      "transliteration": "Wa yarzuqhu min haisu laa yahtasib; wa many yatawakkal 'alal laahi fahuwa husbuh; innal laaha baalighu amrih; qad ja'alal laahu likulli shai'in qadraa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 40,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 5
+        },
+        {
+          "position": 92,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 12
+        },
+        {
+          "position": 127,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 17
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ",
+          "translation": "And He will provide for him from where not he thinks",
+          "transliteration": "wayarzuq'hu min ḥaythu lā yaḥtasibu",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ",
+          "translation": "And whoever puts his trust upon Allah then He is sufficient for him",
+          "transliteration": "waman yatawakkal ʿalā l-lahi fahuwa ḥasbuhu",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ",
+          "translation": "Indeed Allah will accomplish His purpose",
+          "transliteration": "inna l-laha bālighu amrihi",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
+          "translation": "Indeed has set Allah for every thing a measure",
+          "transliteration": "qad jaʿala l-lahu likulli shayin qadran",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 24,
+      "words": [
+        {
+          "arabic": "وَيَرْزُقْهُ",
+          "translation": "And He will provide for him",
+          "transliteration": "wayarzuq'hu"
+        },
+        {
+          "arabic": "مِنْ",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "حَيْثُ",
+          "translation": "where",
+          "transliteration": "ḥaythu"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "يَحْتَسِبُ ۚ",
+          "translation": "he thinks",
+          "transliteration": "yaḥtasibu"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "And whoever",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "يَتَوَكَّلْ",
+          "translation": "puts his trust",
+          "transliteration": "yatawakkal"
+        },
+        {
+          "arabic": "عَلَى",
+          "translation": "upon",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "فَهُوَ",
+          "translation": "then He",
+          "transliteration": "fahuwa"
+        },
+        {
+          "arabic": "حَسْبُهُۥٓ ۚ",
+          "translation": "(is) sufficient for him",
+          "transliteration": "ḥasbuhu"
+        },
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "بَـٰلِغُ",
+          "translation": "(will) accomplish",
+          "transliteration": "bālighu"
+        },
+        {
+          "arabic": "أَمْرِهِۦ ۚ",
+          "translation": "His purpose",
+          "transliteration": "amrihi"
+        },
+        {
+          "arabic": "قَدْ",
+          "translation": "Indeed",
+          "transliteration": "qad"
+        },
+        {
+          "arabic": "جَعَلَ",
+          "translation": "has set",
+          "transliteration": "jaʿala"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "لِكُلِّ",
+          "translation": "for every",
+          "transliteration": "likulli"
+        },
+        {
+          "arabic": "شَىْءٍۢ",
+          "translation": "thing",
+          "transliteration": "shayin"
+        },
+        {
+          "arabic": "قَدْرًۭا",
+          "translation": "a measure",
+          "transliteration": "qadran"
+        }
+      ]
+    },
+    {
+      "key": "65:4",
+      "arabic": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
+      "arabicSimple": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
+      "translation": "And those who no longer expect menstruation among your women - if you doubt, then their period is three months, and [also for] those who have not menstruated. And for those who are pregnant, their term is until they give birth. And whoever fears Allah - He will make for him of his matter ease.",
+      "transliteration": "Wallaaa'ee ya'isna minal maheedi min nisaaa 'ikum inir tabtum fa'iddatuhunna salaasatu ashhurinw wallaaa'ee lam yahidn; wa ulaatul ahmaali ajaluhunna any yada'na hamlahun; wa many yattaqil laaha yaj'al lahoo min armrihee yusraa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 137,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 14
+        },
+        {
+          "position": 202,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 21
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ",
+          "translation": "And those who have despaired of the menstruation among your women if you doubt then their waiting period is three months and the ones who not [they] menstruated",
+          "transliteration": "wa-allāī ya-is'na mina l-maḥīḍi min nisāikum ini ir'tabtum faʿiddatuhunna thalāthatu ashhurin wa-allāī lam yaḥiḍ'na",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ",
+          "translation": "And those who are pregnant their term until they deliver their burdens",
+          "transliteration": "wa-ulātu l-aḥmāli ajaluhunna an yaḍaʿna ḥamlahunna",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
+          "translation": "And whoever fears Allah He will make for him of his affair ease",
+          "transliteration": "waman yattaqi l-laha yajʿal lahu min amrihi yus'ran",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 30,
+      "words": [
+        {
+          "arabic": "وَٱلَّـٰٓـِٔى",
+          "translation": "And those who",
+          "transliteration": "wa-allāī"
+        },
+        {
+          "arabic": "يَئِسْنَ",
+          "translation": "have despaired",
+          "transliteration": "ya-is'na"
+        },
+        {
+          "arabic": "مِنَ",
+          "translation": "of",
+          "transliteration": "mina"
+        },
+        {
+          "arabic": "ٱلْمَحِيضِ",
+          "translation": "the menstruation",
+          "transliteration": "l-maḥīḍi"
+        },
+        {
+          "arabic": "مِن",
+          "translation": "among",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "نِّسَآئِكُمْ",
+          "translation": "your women",
+          "transliteration": "nisāikum"
+        },
+        {
+          "arabic": "إِنِ",
+          "translation": "if",
+          "transliteration": "ini"
+        },
+        {
+          "arabic": "ٱرْتَبْتُمْ",
+          "translation": "you doubt",
+          "transliteration": "ir'tabtum"
+        },
+        {
+          "arabic": "فَعِدَّتُهُنَّ",
+          "translation": "then their waiting period",
+          "transliteration": "faʿiddatuhunna"
+        },
+        {
+          "arabic": "ثَلَـٰثَةُ",
+          "translation": "(is) three",
+          "transliteration": "thalāthatu"
+        },
+        {
+          "arabic": "أَشْهُرٍۢ",
+          "translation": "months",
+          "transliteration": "ashhurin"
+        },
+        {
+          "arabic": "وَٱلَّـٰٓـِٔى",
+          "translation": "and the ones who",
+          "transliteration": "wa-allāī"
+        },
+        {
+          "arabic": "لَمْ",
+          "translation": "not",
+          "transliteration": "lam"
+        },
+        {
+          "arabic": "يَحِضْنَ ۚ",
+          "translation": "[they] menstruated",
+          "transliteration": "yaḥiḍ'na"
+        },
+        {
+          "arabic": "وَأُو۟لَـٰتُ",
+          "translation": "And those who (are)",
+          "transliteration": "wa-ulātu"
+        },
+        {
+          "arabic": "ٱلْأَحْمَالِ",
+          "translation": "pregnant",
+          "transliteration": "l-aḥmāli"
+        },
+        {
+          "arabic": "أَجَلُهُنَّ",
+          "translation": "their term",
+          "transliteration": "ajaluhunna"
+        },
+        {
+          "arabic": "أَن",
+          "translation": "until",
+          "transliteration": "an"
+        },
+        {
+          "arabic": "يَضَعْنَ",
+          "translation": "they deliver",
+          "transliteration": "yaḍaʿna"
+        },
+        {
+          "arabic": "حَمْلَهُنَّ ۚ",
+          "translation": "their burdens",
+          "transliteration": "ḥamlahunna"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "And whoever",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "يَتَّقِ",
+          "translation": "fears",
+          "transliteration": "yattaqi"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "يَجْعَل",
+          "translation": "He will make",
+          "transliteration": "yajʿal"
+        },
+        {
+          "arabic": "لَّهُۥ",
+          "translation": "for him",
+          "transliteration": "lahu"
+        },
+        {
+          "arabic": "مِنْ",
+          "translation": "of",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "أَمْرِهِۦ",
+          "translation": "his affair",
+          "transliteration": "amrihi"
+        },
+        {
+          "arabic": "يُسْرًۭا",
+          "translation": "ease",
+          "transliteration": "yus'ran"
+        }
+      ]
+    },
+    {
+      "key": "65:5",
+      "arabic": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
+      "arabicSimple": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
+      "translation": "That is the command of Allah, which He has sent down to you; and whoever fears Allah - He will remove for him his misdeeds and make great for him his reward.",
+      "transliteration": "Zaalika amrul laahi anzalahoo ilaikum; wa many yattaqil laaha yukaffir 'anhu saiyi aatihee wa yu'zim lahoo ajraa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 46,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 5
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ",
+          "translation": "That is the Command of Allah which He has sent down to you",
+          "transliteration": "dhālika amru l-lahi anzalahu ilaykum",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
+          "translation": "and whoever fears Allah He will remove from him his evil deeds and make great for him his reward",
+          "transliteration": "waman yattaqi l-laha yukaffir ʿanhu sayyiātihi wayuʿ'ẓim lahu ajran",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 15,
+      "words": [
+        {
+          "arabic": "ذَٰلِكَ",
+          "translation": "That",
+          "transliteration": "dhālika"
+        },
+        {
+          "arabic": "أَمْرُ",
+          "translation": "(is the) Command",
+          "transliteration": "amru"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "أَنزَلَهُۥٓ",
+          "translation": "which He has sent down",
+          "transliteration": "anzalahu"
+        },
+        {
+          "arabic": "إِلَيْكُمْ ۚ",
+          "translation": "to you",
+          "transliteration": "ilaykum"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "and whoever",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "يَتَّقِ",
+          "translation": "fears",
+          "transliteration": "yattaqi"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "يُكَفِّرْ",
+          "translation": "He will remove",
+          "transliteration": "yukaffir"
+        },
+        {
+          "arabic": "عَنْهُ",
+          "translation": "from him",
+          "transliteration": "ʿanhu"
+        },
+        {
+          "arabic": "سَيِّـَٔاتِهِۦ",
+          "translation": "his evil deeds",
+          "transliteration": "sayyiātihi"
+        },
+        {
+          "arabic": "وَيُعْظِمْ",
+          "translation": "and make great",
+          "transliteration": "wayuʿ'ẓim"
+        },
+        {
+          "arabic": "لَهُۥٓ",
+          "translation": "for him",
+          "transliteration": "lahu"
+        },
+        {
+          "arabic": "أَجْرًا",
+          "translation": "(his) reward",
+          "transliteration": "ajran"
+        }
+      ]
+    },
+    {
+      "key": "65:6",
+      "arabic": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
+      "arabicSimple": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
+      "translation": "Lodge them [in a section] of where you dwell out of your means and do not harm them in order to oppress them. And if they should be pregnant, then spend on them until they give birth. And if they breastfeed for you, then give them their payment and confer among yourselves in the acceptable way; but if you are in discord, then there may breastfeed for the father another woman.",
+      "transliteration": "Askinoohunna min haisu sakantum minw wujdikum wa laa tudaaarroohunna litudaiyiqoo 'alaihinn; wa in kunna ulaati hamlin fa anfiqoo 'alihinna hattaa yada'na hamlahunn; fain arda'na lakum fa aatoo hunna ujoorahunna waatamiroo bainakum bima'roofinw wa in ta'aasartum fasaturdi'u lahooo ukhraa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 101,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 10
+        },
+        {
+          "position": 187,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 20
+        },
+        {
+          "position": 242,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 26
+        },
+        {
+          "position": 280,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 30
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ",
+          "translation": "Lodge them from where you dwell out of your means and do not harm them to distress [on] them",
+          "transliteration": "askinūhunna min ḥaythu sakantum min wuj'dikum walā tuḍārrūhunna lituḍayyiqū ʿalayhinna",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ",
+          "translation": "And if they are those who are pregnant then spend on them until they deliver their burden",
+          "transliteration": "wa-in kunna ulāti ḥamlin fa-anfiqū ʿalayhinna ḥattā yaḍaʿna ḥamlahunna",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ",
+          "translation": "Then if they suckle for you then give them their payment",
+          "transliteration": "fa-in arḍaʿna lakum faātūhunna ujūrahunna",
+          "type": "small_stop",
+          "waqfMark": "ۖ"
+        },
+        {
+          "arabic": "وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ",
+          "translation": "and consult among yourselves with kindness",
+          "transliteration": "watamirū baynakum bimaʿrūfin",
+          "type": "small_stop",
+          "waqfMark": "ۖ"
+        },
+        {
+          "arabic": "وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
+          "translation": "but if you disagree then may suckle for him another women",
+          "transliteration": "wa-in taʿāsartum fasatur'ḍiʿu lahu ukh'rā",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 36,
+      "words": [
+        {
+          "arabic": "أَسْكِنُوهُنَّ",
+          "translation": "Lodge them",
+          "transliteration": "askinūhunna"
+        },
+        {
+          "arabic": "مِنْ",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "حَيْثُ",
+          "translation": "where",
+          "transliteration": "ḥaythu"
+        },
+        {
+          "arabic": "سَكَنتُم",
+          "translation": "you dwell",
+          "transliteration": "sakantum"
+        },
+        {
+          "arabic": "مِّن",
+          "translation": "(out) of",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "وُجْدِكُمْ",
+          "translation": "your means",
+          "transliteration": "wuj'dikum"
+        },
+        {
+          "arabic": "وَلَا",
+          "translation": "and (do) not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "تُضَآرُّوهُنَّ",
+          "translation": "harm them",
+          "transliteration": "tuḍārrūhunna"
+        },
+        {
+          "arabic": "لِتُضَيِّقُوا۟",
+          "translation": "to distress",
+          "transliteration": "lituḍayyiqū"
+        },
+        {
+          "arabic": "عَلَيْهِنَّ ۚ",
+          "translation": "[on] them",
+          "transliteration": "ʿalayhinna"
+        },
+        {
+          "arabic": "وَإِن",
+          "translation": "And if",
+          "transliteration": "wa-in"
+        },
+        {
+          "arabic": "كُنَّ",
+          "translation": "they are",
+          "transliteration": "kunna"
+        },
+        {
+          "arabic": "أُو۟لَـٰتِ",
+          "translation": "those (who are)",
+          "transliteration": "ulāti"
+        },
+        {
+          "arabic": "حَمْلٍۢ",
+          "translation": "pregnant",
+          "transliteration": "ḥamlin"
+        },
+        {
+          "arabic": "فَأَنفِقُوا۟",
+          "translation": "then spend",
+          "transliteration": "fa-anfiqū"
+        },
+        {
+          "arabic": "عَلَيْهِنَّ",
+          "translation": "on them",
+          "transliteration": "ʿalayhinna"
+        },
+        {
+          "arabic": "حَتَّىٰ",
+          "translation": "until",
+          "transliteration": "ḥattā"
+        },
+        {
+          "arabic": "يَضَعْنَ",
+          "translation": "they deliver",
+          "transliteration": "yaḍaʿna"
+        },
+        {
+          "arabic": "حَمْلَهُنَّ ۚ",
+          "translation": "their burden",
+          "transliteration": "ḥamlahunna"
+        },
+        {
+          "arabic": "فَإِنْ",
+          "translation": "Then if",
+          "transliteration": "fa-in"
+        },
+        {
+          "arabic": "أَرْضَعْنَ",
+          "translation": "they suckle",
+          "transliteration": "arḍaʿna"
+        },
+        {
+          "arabic": "لَكُمْ",
+          "translation": "for you",
+          "transliteration": "lakum"
+        },
+        {
+          "arabic": "فَـَٔاتُوهُنَّ",
+          "translation": "then give them",
+          "transliteration": "faātūhunna"
+        },
+        {
+          "arabic": "أُجُورَهُنَّ ۖ",
+          "translation": "their payment",
+          "transliteration": "ujūrahunna"
+        },
+        {
+          "arabic": "وَأْتَمِرُوا۟",
+          "translation": "and consult",
+          "transliteration": "watamirū"
+        },
+        {
+          "arabic": "بَيْنَكُم",
+          "translation": "among yourselves",
+          "transliteration": "baynakum"
+        },
+        {
+          "arabic": "بِمَعْرُوفٍۢ ۖ",
+          "translation": "with kindness",
+          "transliteration": "bimaʿrūfin"
+        },
+        {
+          "arabic": "وَإِن",
+          "translation": "but if",
+          "transliteration": "wa-in"
+        },
+        {
+          "arabic": "تَعَاسَرْتُمْ",
+          "translation": "you disagree",
+          "transliteration": "taʿāsartum"
+        },
+        {
+          "arabic": "فَسَتُرْضِعُ",
+          "translation": "then may suckle",
+          "transliteration": "fasatur'ḍiʿu"
+        },
+        {
+          "arabic": "لَهُۥٓ",
+          "translation": "for him",
+          "transliteration": "lahu"
+        },
+        {
+          "arabic": "أُخْرَىٰ",
+          "translation": "another (women)",
+          "transliteration": "ukh'rā"
+        }
+      ]
+    },
+    {
+      "key": "65:7",
+      "arabic": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
+      "arabicSimple": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
+      "translation": "Let a man of wealth spend from his wealth, and he whose provision is restricted - let him spend from what Allah has given him. Allah does not charge a soul except [according to] what He has given it. Allah will bring about, after hardship, ease.",
+      "transliteration": "Liyuntiq zoo sa'atim min sa'atihee wa man qudira 'alaihi riquhoo falyunfiq mimmaaa aataahul laah; laa yukalliful laahu nafsan illaa maaa aataahaa; sa yaj'alul laahu ba'da'usriny yusraa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 36,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 5
+        },
+        {
+          "position": 108,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 14
+        },
+        {
+          "position": 163,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 22
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ",
+          "translation": "Let spend owner of ample means from his ample means",
+          "transliteration": "liyunfiq dhū saʿatin min saʿatihi",
+          "type": "small_stop",
+          "waqfMark": "ۖ"
+        },
+        {
+          "arabic": "وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ",
+          "translation": "and he who is restricted on him his provision let him spend from what he has been given by Allah",
+          "transliteration": "waman qudira ʿalayhi riz'quhu falyunfiq mimmā ātāhu l-lahu",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ",
+          "translation": "Does not burden Allah any soul except with what He has given it",
+          "transliteration": "lā yukallifu l-lahu nafsan illā mā ātāhā",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
+          "translation": "Will bring about Allah after hardship ease",
+          "transliteration": "sayajʿalu l-lahu baʿda ʿus'rin yus'ran",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 28,
+      "words": [
+        {
+          "arabic": "لِيُنفِقْ",
+          "translation": "Let spend",
+          "transliteration": "liyunfiq"
+        },
+        {
+          "arabic": "ذُو",
+          "translation": "owner",
+          "transliteration": "dhū"
+        },
+        {
+          "arabic": "سَعَةٍۢ",
+          "translation": "(of) ample means",
+          "transliteration": "saʿatin"
+        },
+        {
+          "arabic": "مِّن",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "سَعَتِهِۦ ۖ",
+          "translation": "his ample means",
+          "transliteration": "saʿatihi"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "and (he) who",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "قُدِرَ",
+          "translation": "is restricted",
+          "transliteration": "qudira"
+        },
+        {
+          "arabic": "عَلَيْهِ",
+          "translation": "on him",
+          "transliteration": "ʿalayhi"
+        },
+        {
+          "arabic": "رِزْقُهُۥ",
+          "translation": "his provision",
+          "transliteration": "riz'quhu"
+        },
+        {
+          "arabic": "فَلْيُنفِقْ",
+          "translation": "let him spend",
+          "transliteration": "falyunfiq"
+        },
+        {
+          "arabic": "مِمَّآ",
+          "translation": "from what",
+          "transliteration": "mimmā"
+        },
+        {
+          "arabic": "ءَاتَىٰهُ",
+          "translation": "he has been given",
+          "transliteration": "ātāhu"
+        },
+        {
+          "arabic": "ٱللَّهُ ۚ",
+          "translation": "(by) Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "Does not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "يُكَلِّفُ",
+          "translation": "burden",
+          "transliteration": "yukallifu"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "نَفْسًا",
+          "translation": "any soul",
+          "transliteration": "nafsan"
+        },
+        {
+          "arabic": "إِلَّا",
+          "translation": "except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "مَآ",
+          "translation": "(with) what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "ءَاتَىٰهَا ۚ",
+          "translation": "He has given it",
+          "transliteration": "ātāhā"
+        },
+        {
+          "arabic": "سَيَجْعَلُ",
+          "translation": "Will bring about",
+          "transliteration": "sayajʿalu"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "بَعْدَ",
+          "translation": "after",
+          "transliteration": "baʿda"
+        },
+        {
+          "arabic": "عُسْرٍۢ",
+          "translation": "hardship",
+          "transliteration": "ʿus'rin"
+        },
+        {
+          "arabic": "يُسْرًۭا",
+          "translation": "ease",
+          "transliteration": "yus'ran"
+        }
+      ]
+    },
+    {
+      "key": "65:8",
+      "arabic": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَـٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَـٰهَا عَذَابًا نُّكْرًا",
+      "arabicSimple": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَـٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَـٰهَا عَذَابًا نُّكْرًا",
+      "translation": "And how many a city was insolent toward the command of its Lord and His messengers, so We took it to severe account and punished it with a terrible punishment.",
+      "transliteration": "Wa ka ayyim min qaryatin 'atat 'an amri Rabbihaa wa Rusulihee fahaasabnaahaa hisaaban shadeedanw wa 'azzabnaahaa 'azaaban nukraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 14,
+      "words": [
+        {
+          "arabic": "وَكَأَيِّن",
+          "translation": "And how many",
+          "transliteration": "waka-ayyin"
+        },
+        {
+          "arabic": "مِّن",
+          "translation": "of",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "قَرْيَةٍ",
+          "translation": "a town",
+          "transliteration": "qaryatin"
+        },
+        {
+          "arabic": "عَتَتْ",
+          "translation": "rebelled",
+          "transliteration": "ʿatat"
+        },
+        {
+          "arabic": "عَنْ",
+          "translation": "against",
+          "transliteration": "ʿan"
+        },
+        {
+          "arabic": "أَمْرِ",
+          "translation": "(the) Command",
+          "transliteration": "amri"
+        },
+        {
+          "arabic": "رَبِّهَا",
+          "translation": "(of) its Lord",
+          "transliteration": "rabbihā"
+        },
+        {
+          "arabic": "وَرُسُلِهِۦ",
+          "translation": "and His Messengers",
+          "transliteration": "warusulihi"
+        },
+        {
+          "arabic": "فَحَاسَبْنَـٰهَا",
+          "translation": "so We took it to account",
+          "transliteration": "faḥāsabnāhā"
+        },
+        {
+          "arabic": "حِسَابًۭا",
+          "translation": "an account",
+          "transliteration": "ḥisāban"
+        },
+        {
+          "arabic": "شَدِيدًۭا",
+          "translation": "severe",
+          "transliteration": "shadīdan"
+        },
+        {
+          "arabic": "وَعَذَّبْنَـٰهَا",
+          "translation": "and We punished it",
+          "transliteration": "waʿadhabnāhā"
+        },
+        {
+          "arabic": "عَذَابًۭا",
+          "translation": "a punishment",
+          "transliteration": "ʿadhāban"
+        },
+        {
+          "arabic": "نُّكْرًۭا",
+          "translation": "terrible",
+          "transliteration": "nuk'ran"
+        }
+      ]
+    },
+    {
+      "key": "65:9",
+      "arabic": "فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَـٰقِبَةُ أَمْرِهَا خُسْرًا",
+      "arabicSimple": "فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَـٰقِبَةُ أَمْرِهَا خُسْرًا",
+      "translation": "And it tasted the bad consequence of its affair, and the outcome of its affair was loss.",
+      "transliteration": "Fazaaqat wabbala amrihaa wa kaana 'aaqibatu amrihaa khusraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "فَذَاقَتْ",
+          "translation": "So it tasted",
+          "transliteration": "fadhāqat"
+        },
+        {
+          "arabic": "وَبَالَ",
+          "translation": "(the bad) consequence",
+          "transliteration": "wabāla"
+        },
+        {
+          "arabic": "أَمْرِهَا",
+          "translation": "(of) its affair",
+          "transliteration": "amrihā"
+        },
+        {
+          "arabic": "وَكَانَ",
+          "translation": "and was",
+          "transliteration": "wakāna"
+        },
+        {
+          "arabic": "عَـٰقِبَةُ",
+          "translation": "(the) end",
+          "transliteration": "ʿāqibatu"
+        },
+        {
+          "arabic": "أَمْرِهَا",
+          "translation": "(of) its affair",
+          "transliteration": "amrihā"
+        },
+        {
+          "arabic": "خُسْرًا",
+          "translation": "loss",
+          "transliteration": "khus'ran"
+        }
+      ]
+    },
+    {
+      "key": "65:10",
+      "arabic": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
+      "arabicSimple": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
+      "translation": "Allah has prepared for them a severe punishment; so fear Allah, O you of understanding who have believed. Allah has sent down to you the Qur'an.",
+      "transliteration": "A'addal laahu lahum 'azaaban shadeedan fattaqul laaha yaaa ulil albaab, allazeena aammanoo; qad anzalal laahu ilaikum zikraa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 41,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 5
+        },
+        {
+          "position": 111,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 12
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ",
+          "translation": "Has prepared Allah for them a punishment severe",
+          "transliteration": "aʿadda l-lahu lahum ʿadhāban shadīdan",
+          "type": "small_stop",
+          "waqfMark": "ۖ"
+        },
+        {
+          "arabic": "فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ",
+          "translation": "So fear Allah O men of understanding those who have believed",
+          "transliteration": "fa-ittaqū l-laha yāulī l-albābi alladhīna āmanū",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
+          "translation": "Indeed Has sent down Allah to you a Message",
+          "transliteration": "qad anzala l-lahu ilaykum dhik'ran",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 18,
+      "words": [
+        {
+          "arabic": "أَعَدَّ",
+          "translation": "Has prepared",
+          "transliteration": "aʿadda"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "لَهُمْ",
+          "translation": "for them",
+          "transliteration": "lahum"
+        },
+        {
+          "arabic": "عَذَابًۭا",
+          "translation": "a punishment",
+          "transliteration": "ʿadhāban"
+        },
+        {
+          "arabic": "شَدِيدًۭا ۖ",
+          "translation": "severe",
+          "transliteration": "shadīdan"
+        },
+        {
+          "arabic": "فَٱتَّقُوا۟",
+          "translation": "So fear",
+          "transliteration": "fa-ittaqū"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "يَـٰٓأُو۟لِى",
+          "translation": "O men",
+          "transliteration": "yāulī"
+        },
+        {
+          "arabic": "ٱلْأَلْبَـٰبِ",
+          "translation": "(of) understanding",
+          "transliteration": "l-albābi"
+        },
+        {
+          "arabic": "ٱلَّذِينَ",
+          "translation": "those who",
+          "transliteration": "alladhīna"
+        },
+        {
+          "arabic": "ءَامَنُوا۟ ۚ",
+          "translation": "have believed",
+          "transliteration": "āmanū"
+        },
+        {
+          "arabic": "قَدْ",
+          "translation": "Indeed",
+          "transliteration": "qad"
+        },
+        {
+          "arabic": "أَنزَلَ",
+          "translation": "Has sent down",
+          "transliteration": "anzala"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "إِلَيْكُمْ",
+          "translation": "to you",
+          "transliteration": "ilaykum"
+        },
+        {
+          "arabic": "ذِكْرًۭا",
+          "translation": "a Message",
+          "transliteration": "dhik'ran"
+        }
+      ]
+    },
+    {
+      "key": "65:11",
+      "arabic": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
+      "arabicSimple": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
+      "translation": "[He sent] a Messenger [Muhammad] reciting to you the distinct verses of Allah that He may bring out those who believe and do righteous deeds from darknesses into the light. And whoever believes in Allah and does righteousness - He will admit him into gardens beneath which rivers flow to abide therein forever. Allah will have perfected for him a provision.",
+      "transliteration": "Rasoolany yatloo 'alaikum aayaatil laahi mubaiyinaatil liyukhrijal lazeena aamanoo wa 'amilus saalihaati minaz zulumaati ilan noor; wa many yu'mim billaahi wa ya;mal saalihany yudkhilhu jannaatin tajree min tahtihal anhaaru khaalideena feehaa abadan qad ahsanal laahu lahoo rizqqq",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 158,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 15
+        },
+        {
+          "position": 291,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 30
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ",
+          "translation": "A Messenger reciting to you the Verses of Allah clear that he may bring out those who believe and do righteous deeds from the darkness[es] towards the light",
+          "transliteration": "rasūlan yatlū ʿalaykum āyāti l-lahi mubayyinātin liyukh'rija alladhīna āmanū waʿamilū l-ṣāliḥāti mina l-ẓulumāti ilā l-nūri",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ",
+          "translation": "And whoever believes in Allah and does righteous deeds He will admit him into Gardens flow from underneath it the rivers abiding therein forever",
+          "transliteration": "waman yu'min bil-lahi wayaʿmal ṣāliḥan yud'khil'hu jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā abadan",
+          "type": "small_stop",
+          "waqfMark": "ۖ"
+        },
+        {
+          "arabic": "قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
+          "translation": "Indeed Has been granted good by Allah for him provision",
+          "transliteration": "qad aḥsana l-lahu lahu riz'qan",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 36,
+      "words": [
+        {
+          "arabic": "رَّسُولًۭا",
+          "translation": "A Messenger",
+          "transliteration": "rasūlan"
+        },
+        {
+          "arabic": "يَتْلُوا۟",
+          "translation": "reciting",
+          "transliteration": "yatlū"
+        },
+        {
+          "arabic": "عَلَيْكُمْ",
+          "translation": "to you",
+          "transliteration": "ʿalaykum"
+        },
+        {
+          "arabic": "ءَايَـٰتِ",
+          "translation": "(the) Verses",
+          "transliteration": "āyāti"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "مُبَيِّنَـٰتٍۢ",
+          "translation": "clear",
+          "transliteration": "mubayyinātin"
+        },
+        {
+          "arabic": "لِّيُخْرِجَ",
+          "translation": "that he may bring out",
+          "transliteration": "liyukh'rija"
+        },
+        {
+          "arabic": "ٱلَّذِينَ",
+          "translation": "those who",
+          "transliteration": "alladhīna"
+        },
+        {
+          "arabic": "ءَامَنُوا۟",
+          "translation": "believe",
+          "transliteration": "āmanū"
+        },
+        {
+          "arabic": "وَعَمِلُوا۟",
+          "translation": "and do",
+          "transliteration": "waʿamilū"
+        },
+        {
+          "arabic": "ٱلصَّـٰلِحَـٰتِ",
+          "translation": "righteous deeds",
+          "transliteration": "l-ṣāliḥāti"
+        },
+        {
+          "arabic": "مِنَ",
+          "translation": "from",
+          "transliteration": "mina"
+        },
+        {
+          "arabic": "ٱلظُّلُمَـٰتِ",
+          "translation": "the darkness[es]",
+          "transliteration": "l-ẓulumāti"
+        },
+        {
+          "arabic": "إِلَى",
+          "translation": "towards",
+          "transliteration": "ilā"
+        },
+        {
+          "arabic": "ٱلنُّورِ ۚ",
+          "translation": "the light",
+          "transliteration": "l-nūri"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "And whoever",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "يُؤْمِنۢ",
+          "translation": "believes",
+          "transliteration": "yu'min"
+        },
+        {
+          "arabic": "بِٱللَّهِ",
+          "translation": "in Allah",
+          "transliteration": "bil-lahi"
+        },
+        {
+          "arabic": "وَيَعْمَلْ",
+          "translation": "and does",
+          "transliteration": "wayaʿmal"
+        },
+        {
+          "arabic": "صَـٰلِحًۭا",
+          "translation": "righteous deeds",
+          "transliteration": "ṣāliḥan"
+        },
+        {
+          "arabic": "يُدْخِلْهُ",
+          "translation": "He will admit him",
+          "transliteration": "yud'khil'hu"
+        },
+        {
+          "arabic": "جَنَّـٰتٍۢ",
+          "translation": "(into) Gardens",
+          "transliteration": "jannātin"
+        },
+        {
+          "arabic": "تَجْرِى",
+          "translation": "flow",
+          "transliteration": "tajrī"
+        },
+        {
+          "arabic": "مِن",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "تَحْتِهَا",
+          "translation": "underneath it",
+          "transliteration": "taḥtihā"
+        },
+        {
+          "arabic": "ٱلْأَنْهَـٰرُ",
+          "translation": "the rivers",
+          "transliteration": "l-anhāru"
+        },
+        {
+          "arabic": "خَـٰلِدِينَ",
+          "translation": "abiding",
+          "transliteration": "khālidīna"
+        },
+        {
+          "arabic": "فِيهَآ",
+          "translation": "therein",
+          "transliteration": "fīhā"
+        },
+        {
+          "arabic": "أَبَدًۭا ۖ",
+          "translation": "forever",
+          "transliteration": "abadan"
+        },
+        {
+          "arabic": "قَدْ",
+          "translation": "Indeed",
+          "transliteration": "qad"
+        },
+        {
+          "arabic": "أَحْسَنَ",
+          "translation": "Has been (granted) good",
+          "transliteration": "aḥsana"
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "(by) Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "لَهُۥ",
+          "translation": "for him",
+          "transliteration": "lahu"
+        },
+        {
+          "arabic": "رِزْقًا",
+          "translation": "provision",
+          "transliteration": "riz'qan"
+        }
+      ]
+    },
+    {
+      "key": "65:12",
+      "arabic": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
+      "arabicSimple": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
+      "translation": "It is Allah who has created seven heavens and of the earth, the like of them. [His] command descends among them so you may know that Allah is over all things competent and that Allah has encompassed all things in knowledge.",
+      "transliteration": "Allaahul lazee khalaq Sab'a Samaawaatinw wa minal ardi mislahunna yatanazzalul amru bainahunna lita'lamooo annal laaha 'alaa kulli shai'in Qadeerunw wa annal laaha qad ahaata bikulli shai'in ilmaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 25,
+      "words": [
+        {
+          "arabic": "ٱللَّهُ",
+          "translation": "Allah",
+          "transliteration": "al-lahu"
+        },
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "(is) He Who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "translation": "created",
+          "transliteration": "khalaqa"
+        },
+        {
+          "arabic": "سَبْعَ",
+          "translation": "seven",
+          "transliteration": "sabʿa"
+        },
+        {
+          "arabic": "سَمَـٰوَٰتٍۢ",
+          "translation": "heavens",
+          "transliteration": "samāwātin"
+        },
+        {
+          "arabic": "وَمِنَ",
+          "translation": "and of",
+          "transliteration": "wamina"
+        },
+        {
+          "arabic": "ٱلْأَرْضِ",
+          "translation": "the earth",
+          "transliteration": "l-arḍi"
+        },
+        {
+          "arabic": "مِثْلَهُنَّ",
+          "translation": "(the) like of them",
+          "transliteration": "mith'lahunna"
+        },
+        {
+          "arabic": "يَتَنَزَّلُ",
+          "translation": "Descends",
+          "transliteration": "yatanazzalu"
+        },
+        {
+          "arabic": "ٱلْأَمْرُ",
+          "translation": "the command",
+          "transliteration": "l-amru"
+        },
+        {
+          "arabic": "بَيْنَهُنَّ",
+          "translation": "between them",
+          "transliteration": "baynahunna"
+        },
+        {
+          "arabic": "لِتَعْلَمُوٓا۟",
+          "translation": "that you may know",
+          "transliteration": "litaʿlamū"
+        },
+        {
+          "arabic": "أَنَّ",
+          "translation": "that",
+          "transliteration": "anna"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "عَلَىٰ",
+          "translation": "(is) on",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "كُلِّ",
+          "translation": "every",
+          "transliteration": "kulli"
+        },
+        {
+          "arabic": "شَىْءٍۢ",
+          "translation": "thing",
+          "transliteration": "shayin"
+        },
+        {
+          "arabic": "قَدِيرٌۭ",
+          "translation": "All-Powerful",
+          "transliteration": "qadīrun"
+        },
+        {
+          "arabic": "وَأَنَّ",
+          "translation": "And that",
+          "transliteration": "wa-anna"
+        },
+        {
+          "arabic": "ٱللَّهَ",
+          "translation": "Allah",
+          "transliteration": "l-laha"
+        },
+        {
+          "arabic": "قَدْ",
+          "translation": "indeed",
+          "transliteration": "qad"
+        },
+        {
+          "arabic": "أَحَاطَ",
+          "translation": "encompasses",
+          "transliteration": "aḥāṭa"
+        },
+        {
+          "arabic": "بِكُلِّ",
+          "translation": "all",
+          "transliteration": "bikulli"
+        },
+        {
+          "arabic": "شَىْءٍ",
+          "translation": "things",
+          "transliteration": "shayin"
+        },
+        {
+          "arabic": "عِلْمًۢا",
+          "translation": "(in) knowledge",
+          "transliteration": "ʿil'man"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "number": 114,
+  "name": "الناس",
+  "englishName": "An-Nas",
+  "englishNameTranslation": "Mankind",
+  "revelationType": "makkah",
+  "numberOfAyahs": 6,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "114:1",
+      "arabic": " قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "arabicSimple": " قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "translation": "Say, \"I seek refuge in the Lord of mankind,",
+      "transliteration": "Qul a'uzu birabbin naas",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "قُلْ",
+          "translation": "Say",
+          "transliteration": "qul"
+        },
+        {
+          "arabic": "أَعُوذُ",
+          "translation": "I seek refuge",
+          "transliteration": "aʿūdhu"
+        },
+        {
+          "arabic": "بِرَبِّ",
+          "translation": "in (the) Lord",
+          "transliteration": "birabbi"
+        },
+        {
+          "arabic": "ٱلنَّاسِ",
+          "translation": "(of) mankind",
+          "transliteration": "l-nāsi"
+        }
+      ]
+    },
+    {
+      "key": "114:2",
+      "arabic": "مَلِكِ ٱلنَّاسِ",
+      "arabicSimple": "مَلِكِ ٱلنَّاسِ",
+      "translation": "The Sovereign of mankind.",
+      "transliteration": "Malikin naas",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "مَلِكِ",
+          "translation": "(The) King",
+          "transliteration": "maliki"
+        },
+        {
+          "arabic": "ٱلنَّاسِ",
+          "translation": "(of) mankind",
+          "transliteration": "l-nāsi"
+        }
+      ]
+    },
+    {
+      "key": "114:3",
+      "arabic": "إِلَـٰهِ ٱلنَّاسِ",
+      "arabicSimple": "إِلَـٰهِ ٱلنَّاسِ",
+      "translation": "The God of mankind,",
+      "transliteration": "Ilaahin naas",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "إِلَـٰهِ",
+          "translation": "(The) God",
+          "transliteration": "ilāhi"
+        },
+        {
+          "arabic": "ٱلنَّاسِ",
+          "translation": "(of) mankind",
+          "transliteration": "l-nāsi"
+        }
+      ]
+    },
+    {
+      "key": "114:4",
+      "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "arabicSimple": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "translation": "From the evil of the retreating whisperer -",
+      "transliteration": "Min sharril was waasil khannaas",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "مِن",
+          "translation": "From",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "شَرِّ",
+          "translation": "(the) evil",
+          "transliteration": "sharri"
+        },
+        {
+          "arabic": "ٱلْوَسْوَاسِ",
+          "translation": "(of) the whisperer",
+          "transliteration": "l-waswāsi"
+        },
+        {
+          "arabic": "ٱلْخَنَّاسِ",
+          "translation": "the one who withdraws",
+          "transliteration": "l-khanāsi"
+        }
+      ]
+    },
+    {
+      "key": "114:5",
+      "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "arabicSimple": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "translation": "Who whispers [evil] into the breasts of mankind -",
+      "transliteration": "Al lazee yuwas wisu fee sudoorin naas",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "The one who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "يُوَسْوِسُ",
+          "translation": "whispers",
+          "transliteration": "yuwaswisu"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "صُدُورِ",
+          "translation": "(the) breasts",
+          "transliteration": "ṣudūri"
+        },
+        {
+          "arabic": "ٱلنَّاسِ",
+          "translation": "(of) mankind",
+          "transliteration": "l-nāsi"
+        }
+      ]
+    },
+    {
+      "key": "114:6",
+      "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "arabicSimple": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "translation": "From among the jinn and mankind.\"",
+      "transliteration": "Minal jinnati wan naas",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "مِنَ",
+          "translation": "From",
+          "transliteration": "mina"
+        },
+        {
+          "arabic": "ٱلْجِنَّةِ",
+          "translation": "the jinn",
+          "transliteration": "l-jinati"
+        },
+        {
+          "arabic": "وَٱلنَّاسِ",
+          "translation": "and men",
+          "transliteration": "wal-nāsi"
+        }
+      ]
+    }
+  ]
+}

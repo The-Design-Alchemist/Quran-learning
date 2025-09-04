@@ -11,6 +11,8 @@ class AudioService {
         this.reusableAudio = null; // Single reusable audio element for iOS
     }
 
+    
+
     // Add iOS audio unlock method
 async unlockAudioContext() {
         if (!this.isIOS || this.unlocked) return;
@@ -37,6 +39,11 @@ async unlockAudioContext() {
 }
     
     async loadAudio(surahNumber, verseNumber) {
+        // Add safety check
+    if (!verseNumber || verseNumber === 'undefined') {
+        console.error('Invalid verse number:', verseNumber);
+        throw new Error('Invalid verse number');
+    }
         const paddedSurah = surahNumber.toString().padStart(3, '0');
         const paddedVerse = verseNumber.toString().padStart(3, '0');
         const audioPath = `./quran-data/audio/${paddedSurah}/${paddedSurah}${paddedVerse}.mp3`;
@@ -54,6 +61,35 @@ async unlockAudioContext() {
             throw new Error('Audio file not found');
         }
     }
+
+    // Add this method to AudioService class
+async loadTimingData(surahNumber, verseNumber) {
+    try {
+        // ALWAYS use surah-timings (where your edits are saved)
+        const timingPath = `./quran-data/surah-timings/surah_${surahNumber.toString().padStart(3, '0')}_timings.json`;
+        
+        console.log(`Loading timing from: ${timingPath}`);
+        
+        const response = await fetch(timingPath);
+        if (!response.ok) {
+            console.log('Timing file not found');
+            return null;
+        }
+        
+        const timings = await response.json();
+        const verseTiming = timings.find(v => v.verseNumber === parseInt(verseNumber));
+        
+        if (verseTiming) {
+            console.log(`Loaded timing for verse ${verseNumber}:`, verseTiming.segments);
+        }
+        
+        return verseTiming;
+        
+    } catch (error) {
+        console.error('Error loading timing data:', error);
+        return null;
+    }
+}
 
 
     // Update createAudioElement method

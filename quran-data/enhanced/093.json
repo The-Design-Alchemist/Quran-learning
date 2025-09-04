@@ -1,0 +1,354 @@
+{
+  "number": 93,
+  "name": "الضحى",
+  "englishName": "Ad-Duhaa",
+  "englishNameTranslation": "The Morning Hours",
+  "revelationType": "makkah",
+  "numberOfAyahs": 11,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "93:1",
+      "arabic": " وَٱلضُّحَىٰ",
+      "arabicSimple": " وَٱلضُّحَىٰ",
+      "translation": "By the morning brightness",
+      "transliteration": "Wad duhaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَٱلضُّحَىٰ",
+          "translation": "By the morning brightness",
+          "transliteration": "wal-ḍuḥā"
+        }
+      ]
+    },
+    {
+      "key": "93:2",
+      "arabic": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+      "arabicSimple": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+      "translation": "And [by] the night when it covers with darkness,",
+      "transliteration": "Wal laili iza sajaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلَّيْلِ",
+          "translation": "And the night",
+          "transliteration": "wa-al-layli"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "سَجَىٰ",
+          "translation": "it covers with darkness",
+          "transliteration": "sajā"
+        }
+      ]
+    },
+    {
+      "key": "93:3",
+      "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "arabicSimple": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "translation": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you].",
+      "transliteration": "Ma wad da'aka rabbuka wa ma qalaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "مَا",
+          "translation": "Not",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "وَدَّعَكَ",
+          "translation": "has forsaken you",
+          "transliteration": "waddaʿaka"
+        },
+        {
+          "arabic": "رَبُّكَ",
+          "translation": "your Lord",
+          "transliteration": "rabbuka"
+        },
+        {
+          "arabic": "وَمَا",
+          "translation": "and not",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "قَلَىٰ",
+          "translation": "He is displeased",
+          "transliteration": "qalā"
+        }
+      ]
+    },
+    {
+      "key": "93:4",
+      "arabic": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
+      "arabicSimple": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
+      "translation": "And the Hereafter is better for you than the first [life].",
+      "transliteration": "Walal-aakhiratu khairul laka minal-oola",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَلَلْـَٔاخِرَةُ",
+          "translation": "And surely the Hereafter",
+          "transliteration": "walalākhiratu"
+        },
+        {
+          "arabic": "خَيْرٌۭ",
+          "translation": "(is) better",
+          "transliteration": "khayrun"
+        },
+        {
+          "arabic": "لَّكَ",
+          "translation": "for you",
+          "transliteration": "laka"
+        },
+        {
+          "arabic": "مِنَ",
+          "translation": "than",
+          "transliteration": "mina"
+        },
+        {
+          "arabic": "ٱلْأُولَىٰ",
+          "translation": "the first",
+          "transliteration": "l-ūlā"
+        }
+      ]
+    },
+    {
+      "key": "93:5",
+      "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+      "arabicSimple": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+      "translation": "And your Lord is going to give you, and you will be satisfied.",
+      "transliteration": "Wa la sawfa y'uteeka rabbuka fatarda",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَلَسَوْفَ",
+          "translation": "And soon",
+          "transliteration": "walasawfa"
+        },
+        {
+          "arabic": "يُعْطِيكَ",
+          "translation": "will give you",
+          "transliteration": "yuʿ'ṭīka"
+        },
+        {
+          "arabic": "رَبُّكَ",
+          "translation": "your Lord",
+          "transliteration": "rabbuka"
+        },
+        {
+          "arabic": "فَتَرْضَىٰٓ",
+          "translation": "then you will be satisfied",
+          "transliteration": "fatarḍā"
+        }
+      ]
+    },
+    {
+      "key": "93:6",
+      "arabic": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
+      "arabicSimple": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
+      "translation": "Did He not find you an orphan and give [you] refuge?",
+      "transliteration": "Alam ya jidka yateeman fa aawaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "أَلَمْ",
+          "translation": "Did not",
+          "transliteration": "alam"
+        },
+        {
+          "arabic": "يَجِدْكَ",
+          "translation": "He find you",
+          "transliteration": "yajid'ka"
+        },
+        {
+          "arabic": "يَتِيمًۭا",
+          "translation": "an orphan",
+          "transliteration": "yatīman"
+        },
+        {
+          "arabic": "فَـَٔاوَىٰ",
+          "translation": "and give shelter",
+          "transliteration": "faāwā"
+        }
+      ]
+    },
+    {
+      "key": "93:7",
+      "arabic": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+      "arabicSimple": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+      "translation": "And He found you lost and guided [you],",
+      "transliteration": "Wa wa jadaka daal lan fahada",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَوَجَدَكَ",
+          "translation": "And He found you",
+          "transliteration": "wawajadaka"
+        },
+        {
+          "arabic": "ضَآلًّۭا",
+          "translation": "lost",
+          "transliteration": "ḍāllan"
+        },
+        {
+          "arabic": "فَهَدَىٰ",
+          "translation": "so He guided",
+          "transliteration": "fahadā"
+        }
+      ]
+    },
+    {
+      "key": "93:8",
+      "arabic": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+      "arabicSimple": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+      "translation": "And He found you poor and made [you] self-sufficient.",
+      "transliteration": "Wa wa jadaka 'aa-ilan fa aghnaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَوَجَدَكَ",
+          "translation": "And He found you",
+          "transliteration": "wawajadaka"
+        },
+        {
+          "arabic": "عَآئِلًۭا",
+          "translation": "in need",
+          "transliteration": "ʿāilan"
+        },
+        {
+          "arabic": "فَأَغْنَىٰ",
+          "translation": "so He made self-sufficient",
+          "transliteration": "fa-aghnā"
+        }
+      ]
+    },
+    {
+      "key": "93:9",
+      "arabic": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+      "arabicSimple": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+      "translation": "So as for the orphan, do not oppress [him].",
+      "transliteration": "Fa am mal yateema fala taqhar",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَأَمَّا",
+          "translation": "So as for",
+          "transliteration": "fa-ammā"
+        },
+        {
+          "arabic": "ٱلْيَتِيمَ",
+          "translation": "the orphan",
+          "transliteration": "l-yatīma"
+        },
+        {
+          "arabic": "فَلَا",
+          "translation": "then (do) not",
+          "transliteration": "falā"
+        },
+        {
+          "arabic": "تَقْهَرْ",
+          "translation": "oppress",
+          "transliteration": "taqhar"
+        }
+      ]
+    },
+    {
+      "key": "93:10",
+      "arabic": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+      "arabicSimple": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+      "translation": "And as for the petitioner, do not repel [him].",
+      "transliteration": "Wa am mas saa-ila fala tanhar",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَأَمَّا",
+          "translation": "And as for",
+          "transliteration": "wa-ammā"
+        },
+        {
+          "arabic": "ٱلسَّآئِلَ",
+          "translation": "one who asks",
+          "transliteration": "l-sāila"
+        },
+        {
+          "arabic": "فَلَا",
+          "translation": "then (do) not",
+          "transliteration": "falā"
+        },
+        {
+          "arabic": "تَنْهَرْ",
+          "translation": "repel",
+          "transliteration": "tanhar"
+        }
+      ]
+    },
+    {
+      "key": "93:11",
+      "arabic": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "arabicSimple": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "translation": "But as for the favor of your Lord, report [it].",
+      "transliteration": "Wa amma bi ni'mati rabbika fahad dith",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَأَمَّا",
+          "translation": "But as for",
+          "transliteration": "wa-ammā"
+        },
+        {
+          "arabic": "بِنِعْمَةِ",
+          "translation": "(the) Favor",
+          "transliteration": "biniʿ'mati"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "(of) your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "فَحَدِّثْ",
+          "translation": "narrate",
+          "transliteration": "faḥaddith"
+        }
+      ]
+    }
+  ]
+}

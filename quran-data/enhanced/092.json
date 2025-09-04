@@ -1,0 +1,639 @@
+{
+  "number": 92,
+  "name": "الليل",
+  "englishName": "Al-Layl",
+  "englishNameTranslation": "The Night",
+  "revelationType": "makkah",
+  "numberOfAyahs": 21,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "92:1",
+      "arabic": " وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+      "arabicSimple": " وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+      "translation": "By the night when it covers",
+      "transliteration": "Wallaili izaa yaghshaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَٱلَّيْلِ",
+          "translation": "By the night",
+          "transliteration": "wa-al-layli"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "يَغْشَىٰ",
+          "translation": "it covers",
+          "transliteration": "yaghshā"
+        }
+      ]
+    },
+    {
+      "key": "92:2",
+      "arabic": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+      "arabicSimple": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+      "translation": "And [by] the day when it appears",
+      "transliteration": "Wannahaari izaa tajalla",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلنَّهَارِ",
+          "translation": "And the day",
+          "transliteration": "wal-nahāri"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "تَجَلَّىٰ",
+          "translation": "it shines in brightness",
+          "transliteration": "tajallā"
+        }
+      ]
+    },
+    {
+      "key": "92:3",
+      "arabic": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+      "arabicSimple": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+      "translation": "And [by] He who created the male and female,",
+      "transliteration": "Wa maa khalaqaz zakara wal unthaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَمَا",
+          "translation": "And He Who",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "translation": "created",
+          "transliteration": "khalaqa"
+        },
+        {
+          "arabic": "ٱلذَّكَرَ",
+          "translation": "the male",
+          "transliteration": "l-dhakara"
+        },
+        {
+          "arabic": "وَٱلْأُنثَىٰٓ",
+          "translation": "and the female",
+          "transliteration": "wal-unthā"
+        }
+      ]
+    },
+    {
+      "key": "92:4",
+      "arabic": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+      "arabicSimple": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+      "translation": "Indeed, your efforts are diverse.",
+      "transliteration": "Inna sa'yakum lashattaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "سَعْيَكُمْ",
+          "translation": "your efforts",
+          "transliteration": "saʿyakum"
+        },
+        {
+          "arabic": "لَشَتَّىٰ",
+          "translation": "(are) surely diverse",
+          "transliteration": "lashattā"
+        }
+      ]
+    },
+    {
+      "key": "92:5",
+      "arabic": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+      "arabicSimple": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+      "translation": "As for he who gives and fears Allah",
+      "transliteration": "Fa ammaa man a'taa wattaqaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَأَمَّا",
+          "translation": "Then as for",
+          "transliteration": "fa-ammā"
+        },
+        {
+          "arabic": "مَنْ",
+          "translation": "(him) who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "أَعْطَىٰ",
+          "translation": "gives",
+          "transliteration": "aʿṭā"
+        },
+        {
+          "arabic": "وَٱتَّقَىٰ",
+          "translation": "and fears",
+          "transliteration": "wa-ittaqā"
+        }
+      ]
+    },
+    {
+      "key": "92:6",
+      "arabic": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+      "arabicSimple": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+      "translation": "And believes in the best [reward],",
+      "transliteration": "Wa saddaqa bil husnaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَصَدَّقَ",
+          "translation": "And believes",
+          "transliteration": "waṣaddaqa"
+        },
+        {
+          "arabic": "بِٱلْحُسْنَىٰ",
+          "translation": "in the best",
+          "transliteration": "bil-ḥus'nā"
+        }
+      ]
+    },
+    {
+      "key": "92:7",
+      "arabic": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+      "arabicSimple": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+      "translation": "We will ease him toward ease.",
+      "transliteration": "Fasanu yassiruhoo lilyusraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "فَسَنُيَسِّرُهُۥ",
+          "translation": "Then We will ease him",
+          "transliteration": "fasanuyassiruhu"
+        },
+        {
+          "arabic": "لِلْيُسْرَىٰ",
+          "translation": "towards [the] ease",
+          "transliteration": "lil'yus'rā"
+        }
+      ]
+    },
+    {
+      "key": "92:8",
+      "arabic": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+      "arabicSimple": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+      "translation": "But as for he who withholds and considers himself free of need",
+      "transliteration": "Wa ammaa mam bakhila wastaghnaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَأَمَّا",
+          "translation": "But as for",
+          "transliteration": "wa-ammā"
+        },
+        {
+          "arabic": "مَنۢ",
+          "translation": "(him) who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "بَخِلَ",
+          "translation": "withholds",
+          "transliteration": "bakhila"
+        },
+        {
+          "arabic": "وَٱسْتَغْنَىٰ",
+          "translation": "and considers himself free from need",
+          "transliteration": "wa-is'taghnā"
+        }
+      ]
+    },
+    {
+      "key": "92:9",
+      "arabic": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+      "arabicSimple": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+      "translation": "And denies the best [reward],",
+      "transliteration": "Wa kazzaba bil husnaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَكَذَّبَ",
+          "translation": "And denies",
+          "transliteration": "wakadhaba"
+        },
+        {
+          "arabic": "بِٱلْحُسْنَىٰ",
+          "translation": "the best",
+          "transliteration": "bil-ḥus'nā"
+        }
+      ]
+    },
+    {
+      "key": "92:10",
+      "arabic": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+      "arabicSimple": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+      "translation": "We will ease him toward difficulty.",
+      "transliteration": "Fasanu yassiruhoo lil'usraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "فَسَنُيَسِّرُهُۥ",
+          "translation": "Then We will ease him",
+          "transliteration": "fasanuyassiruhu"
+        },
+        {
+          "arabic": "لِلْعُسْرَىٰ",
+          "translation": "towards [the] difficulty",
+          "transliteration": "lil'ʿus'rā"
+        }
+      ]
+    },
+    {
+      "key": "92:11",
+      "arabic": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+      "arabicSimple": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+      "translation": "And what will his wealth avail him when he falls?",
+      "transliteration": "Wa maa yughnee 'anhu maaluhooo izaa taraddaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "وَمَا",
+          "translation": "And not",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "يُغْنِى",
+          "translation": "will avail",
+          "transliteration": "yugh'nī"
+        },
+        {
+          "arabic": "عَنْهُ",
+          "translation": "him",
+          "transliteration": "ʿanhu"
+        },
+        {
+          "arabic": "مَالُهُۥٓ",
+          "translation": "his wealth",
+          "transliteration": "māluhu"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "تَرَدَّىٰٓ",
+          "translation": "he falls",
+          "transliteration": "taraddā"
+        }
+      ]
+    },
+    {
+      "key": "92:12",
+      "arabic": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
+      "arabicSimple": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
+      "translation": "Indeed, [incumbent] upon Us is guidance.",
+      "transliteration": "Inna 'alainaa lal hudaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "عَلَيْنَا",
+          "translation": "upon Us",
+          "transliteration": "ʿalaynā"
+        },
+        {
+          "arabic": "لَلْهُدَىٰ",
+          "translation": "(is) the guidance",
+          "transliteration": "lalhudā"
+        }
+      ]
+    },
+    {
+      "key": "92:13",
+      "arabic": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
+      "arabicSimple": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
+      "translation": "And indeed, to Us belongs the Hereafter and the first [life].",
+      "transliteration": "Wa inna lanaa lal Aakhirata wal oolaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَإِنَّ",
+          "translation": "And indeed",
+          "transliteration": "wa-inna"
+        },
+        {
+          "arabic": "لَنَا",
+          "translation": "for Us",
+          "transliteration": "lanā"
+        },
+        {
+          "arabic": "لَلْـَٔاخِرَةَ",
+          "translation": "(is) the Hereafter",
+          "transliteration": "lalākhirata"
+        },
+        {
+          "arabic": "وَٱلْأُولَىٰ",
+          "translation": "and the first (life)",
+          "transliteration": "wal-ūlā"
+        }
+      ]
+    },
+    {
+      "key": "92:14",
+      "arabic": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
+      "arabicSimple": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
+      "translation": "So I have warned you of a Fire which is blazing.",
+      "transliteration": "Fa anzartukum naaran talazzaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَأَنذَرْتُكُمْ",
+          "translation": "So I warn you",
+          "transliteration": "fa-andhartukum"
+        },
+        {
+          "arabic": "نَارًۭا",
+          "translation": "(of) a Fire",
+          "transliteration": "nāran"
+        },
+        {
+          "arabic": "تَلَظَّىٰ",
+          "translation": "blazing",
+          "transliteration": "talaẓẓā"
+        }
+      ]
+    },
+    {
+      "key": "92:15",
+      "arabic": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+      "arabicSimple": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+      "translation": "None will [enter to] burn therein except the most wretched one.",
+      "transliteration": "Laa yaslaahaaa illal ashqaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "لَا",
+          "translation": "Not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "يَصْلَىٰهَآ",
+          "translation": "will burn (in) it",
+          "transliteration": "yaṣlāhā"
+        },
+        {
+          "arabic": "إِلَّا",
+          "translation": "except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "ٱلْأَشْقَى",
+          "translation": "the most wretched",
+          "transliteration": "l-ashqā"
+        }
+      ]
+    },
+    {
+      "key": "92:16",
+      "arabic": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
+      "arabicSimple": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
+      "translation": "Who had denied and turned away.",
+      "transliteration": "Allazee kazzaba wa tawallaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "The one who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "كَذَّبَ",
+          "translation": "denied",
+          "transliteration": "kadhaba"
+        },
+        {
+          "arabic": "وَتَوَلَّىٰ",
+          "translation": "and turned away",
+          "transliteration": "watawallā"
+        }
+      ]
+    },
+    {
+      "key": "92:17",
+      "arabic": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
+      "arabicSimple": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
+      "translation": "But the righteous one will avoid it -",
+      "transliteration": "Wa sa yujannnabuhal atqaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَسَيُجَنَّبُهَا",
+          "translation": "But will be removed from it",
+          "transliteration": "wasayujannabuhā"
+        },
+        {
+          "arabic": "ٱلْأَتْقَى",
+          "translation": "the righteous",
+          "transliteration": "l-atqā"
+        }
+      ]
+    },
+    {
+      "key": "92:18",
+      "arabic": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+      "arabicSimple": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+      "translation": "[He] who gives [from] his wealth to purify himself",
+      "transliteration": "Allazee yu'tee maalahoo yatazakkaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "The one who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "يُؤْتِى",
+          "translation": "gives",
+          "transliteration": "yu'tī"
+        },
+        {
+          "arabic": "مَالَهُۥ",
+          "translation": "his wealth",
+          "transliteration": "mālahu"
+        },
+        {
+          "arabic": "يَتَزَكَّىٰ",
+          "translation": "(to) purify himself",
+          "transliteration": "yatazakkā"
+        }
+      ]
+    },
+    {
+      "key": "92:19",
+      "arabic": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
+      "arabicSimple": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
+      "translation": "And not [giving] for anyone who has [done him] a favor to be rewarded",
+      "transliteration": "Wa maa li ahadin 'indahoo min ni'matin tujzaaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "وَمَا",
+          "translation": "And not",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "لِأَحَدٍ",
+          "translation": "for anyone",
+          "transliteration": "li-aḥadin"
+        },
+        {
+          "arabic": "عِندَهُۥ",
+          "translation": "with him",
+          "transliteration": "ʿindahu"
+        },
+        {
+          "arabic": "مِن",
+          "translation": "any",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "نِّعْمَةٍۢ",
+          "translation": "favor",
+          "transliteration": "niʿ'matin"
+        },
+        {
+          "arabic": "تُجْزَىٰٓ",
+          "translation": "to be recompensed",
+          "transliteration": "tuj'zā"
+        }
+      ]
+    },
+    {
+      "key": "92:20",
+      "arabic": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+      "arabicSimple": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+      "translation": "But only seeking the countenance of his Lord, Most High.",
+      "transliteration": "Illab tighaaa'a wajhi rabbihil a 'laa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "إِلَّا",
+          "translation": "Except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "ٱبْتِغَآءَ",
+          "translation": "seeking",
+          "transliteration": "ib'tighāa"
+        },
+        {
+          "arabic": "وَجْهِ",
+          "translation": "(the) Countenance",
+          "transliteration": "wajhi"
+        },
+        {
+          "arabic": "رَبِّهِ",
+          "translation": "(of) his Lord",
+          "transliteration": "rabbihi"
+        },
+        {
+          "arabic": "ٱلْأَعْلَىٰ",
+          "translation": "the Most High",
+          "transliteration": "l-aʿlā"
+        }
+      ]
+    },
+    {
+      "key": "92:21",
+      "arabic": "وَلَسَوْفَ يَرْضَىٰ",
+      "arabicSimple": "وَلَسَوْفَ يَرْضَىٰ",
+      "translation": "And he is going to be satisfied.",
+      "transliteration": "Wa lasawfa yardaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَلَسَوْفَ",
+          "translation": "And soon, surely",
+          "transliteration": "walasawfa"
+        },
+        {
+          "arabic": "يَرْضَىٰ",
+          "translation": "he will be pleased",
+          "transliteration": "yarḍā"
+        }
+      ]
+    }
+  ]
+}

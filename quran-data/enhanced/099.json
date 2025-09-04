@@ -1,0 +1,295 @@
+{
+  "number": 99,
+  "name": "الزلزلة",
+  "englishName": "Az-Zalzalah",
+  "englishNameTranslation": "The Earthquake",
+  "revelationType": "madinah",
+  "numberOfAyahs": 8,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "99:1",
+      "arabic": " إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "arabicSimple": " إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "translation": "When the earth is shaken with its [final] earthquake",
+      "transliteration": "Izaa zul zilatil ardu zil zaalaha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "إِذَا",
+          "translation": "When",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "زُلْزِلَتِ",
+          "translation": "is shaken",
+          "transliteration": "zul'zilati"
+        },
+        {
+          "arabic": "ٱلْأَرْضُ",
+          "translation": "the earth",
+          "transliteration": "l-arḍu"
+        },
+        {
+          "arabic": "زِلْزَالَهَا",
+          "translation": "(with) its earthquake",
+          "transliteration": "zil'zālahā"
+        }
+      ]
+    },
+    {
+      "key": "99:2",
+      "arabic": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "arabicSimple": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "translation": "And the earth discharges its burdens",
+      "transliteration": "Wa akh rajatil ardu athqaalaha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَأَخْرَجَتِ",
+          "translation": "And brings forth",
+          "transliteration": "wa-akhrajati"
+        },
+        {
+          "arabic": "ٱلْأَرْضُ",
+          "translation": "the earth",
+          "transliteration": "l-arḍu"
+        },
+        {
+          "arabic": "أَثْقَالَهَا",
+          "translation": "its burdens",
+          "transliteration": "athqālahā"
+        }
+      ]
+    },
+    {
+      "key": "99:3",
+      "arabic": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
+      "arabicSimple": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
+      "translation": "And man says, \"What is [wrong] with it?\" -",
+      "transliteration": "Wa qaalal insaanu ma laha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَقَالَ",
+          "translation": "And says",
+          "transliteration": "waqāla"
+        },
+        {
+          "arabic": "ٱلْإِنسَـٰنُ",
+          "translation": "man",
+          "transliteration": "l-insānu"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "What",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "لَهَا",
+          "translation": "(is) with it",
+          "transliteration": "lahā"
+        }
+      ]
+    },
+    {
+      "key": "99:4",
+      "arabic": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+      "arabicSimple": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+      "translation": "That Day, it will report its news",
+      "transliteration": "Yawmaa izin tuhad dithu akhbaaraha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "يَوْمَئِذٍۢ",
+          "translation": "That Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "تُحَدِّثُ",
+          "translation": "it will report",
+          "transliteration": "tuḥaddithu"
+        },
+        {
+          "arabic": "أَخْبَارَهَا",
+          "translation": "its news",
+          "transliteration": "akhbārahā"
+        }
+      ]
+    },
+    {
+      "key": "99:5",
+      "arabic": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "arabicSimple": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "translation": "Because your Lord has commanded it.",
+      "transliteration": "Bi-anna rabbaka awhaa laha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "بِأَنَّ",
+          "translation": "Because",
+          "transliteration": "bi-anna"
+        },
+        {
+          "arabic": "رَبَّكَ",
+          "translation": "your Lord",
+          "transliteration": "rabbaka"
+        },
+        {
+          "arabic": "أَوْحَىٰ",
+          "translation": "inspired",
+          "transliteration": "awḥā"
+        },
+        {
+          "arabic": "لَهَا",
+          "translation": "[to] it",
+          "transliteration": "lahā"
+        }
+      ]
+    },
+    {
+      "key": "99:6",
+      "arabic": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+      "arabicSimple": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+      "translation": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds.",
+      "transliteration": "Yawma iziy yas durun naasu ash tatal liyuraw a'maalahum",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "يَوْمَئِذٍۢ",
+          "translation": "That Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "يَصْدُرُ",
+          "translation": "will proceed",
+          "transliteration": "yaṣduru"
+        },
+        {
+          "arabic": "ٱلنَّاسُ",
+          "translation": "the mankind",
+          "transliteration": "l-nāsu"
+        },
+        {
+          "arabic": "أَشْتَاتًۭا",
+          "translation": "(in) scattered groups",
+          "transliteration": "ashtātan"
+        },
+        {
+          "arabic": "لِّيُرَوْا۟",
+          "translation": "to be shown",
+          "transliteration": "liyuraw"
+        },
+        {
+          "arabic": "أَعْمَـٰلَهُمْ",
+          "translation": "their deeds",
+          "transliteration": "aʿmālahum"
+        }
+      ]
+    },
+    {
+      "key": "99:7",
+      "arabic": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+      "arabicSimple": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+      "translation": "So whoever does an atom's weight of good will see it,",
+      "transliteration": "Famaiy ya'mal mithqala zarratin khai raiy-yarah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "فَمَن",
+          "translation": "So whoever",
+          "transliteration": "faman"
+        },
+        {
+          "arabic": "يَعْمَلْ",
+          "translation": "does",
+          "transliteration": "yaʿmal"
+        },
+        {
+          "arabic": "مِثْقَالَ",
+          "translation": "(equal to the) weight",
+          "transliteration": "mith'qāla"
+        },
+        {
+          "arabic": "ذَرَّةٍ",
+          "translation": "(of) an atom",
+          "transliteration": "dharratin"
+        },
+        {
+          "arabic": "خَيْرًۭا",
+          "translation": "good",
+          "transliteration": "khayran"
+        },
+        {
+          "arabic": "يَرَهُۥ",
+          "translation": "will see it",
+          "transliteration": "yarahu"
+        }
+      ]
+    },
+    {
+      "key": "99:8",
+      "arabic": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+      "arabicSimple": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+      "translation": "And whoever does an atom's weight of evil will see it.",
+      "transliteration": "Wa maiy-y'amal mithqala zarratin sharraiy-yarah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "وَمَن",
+          "translation": "And whoever",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "يَعْمَلْ",
+          "translation": "does",
+          "transliteration": "yaʿmal"
+        },
+        {
+          "arabic": "مِثْقَالَ",
+          "translation": "(equal to the) weight",
+          "transliteration": "mith'qāla"
+        },
+        {
+          "arabic": "ذَرَّةٍۢ",
+          "translation": "(of) an atom",
+          "transliteration": "dharratin"
+        },
+        {
+          "arabic": "شَرًّۭا",
+          "translation": "evil",
+          "transliteration": "sharran"
+        },
+        {
+          "arabic": "يَرَهُۥ",
+          "translation": "will see it",
+          "transliteration": "yarahu"
+        }
+      ]
+    }
+  ]
+}

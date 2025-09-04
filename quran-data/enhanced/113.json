@@ -1,0 +1,191 @@
+{
+  "number": 113,
+  "name": "الفلق",
+  "englishName": "Al-Falaq",
+  "englishNameTranslation": "The Daybreak",
+  "revelationType": "makkah",
+  "numberOfAyahs": 5,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "113:1",
+      "arabic": " قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "arabicSimple": " قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "translation": "Say, \"I seek refuge in the Lord of daybreak",
+      "transliteration": "Qul a'uzoo bi rabbil-falaq",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "قُلْ",
+          "translation": "Say",
+          "transliteration": "qul"
+        },
+        {
+          "arabic": "أَعُوذُ",
+          "translation": "I seek refuge",
+          "transliteration": "aʿūdhu"
+        },
+        {
+          "arabic": "بِرَبِّ",
+          "translation": "in (the) Lord",
+          "transliteration": "birabbi"
+        },
+        {
+          "arabic": "ٱلْفَلَقِ",
+          "translation": "(of) the dawn",
+          "transliteration": "l-falaqi"
+        }
+      ]
+    },
+    {
+      "key": "113:2",
+      "arabic": "مِن شَرِّ مَا خَلَقَ",
+      "arabicSimple": "مِن شَرِّ مَا خَلَقَ",
+      "translation": "From the evil of that which He created",
+      "transliteration": "Min sharri ma khalaq",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "مِن",
+          "translation": "From",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "شَرِّ",
+          "translation": "(the) evil",
+          "transliteration": "sharri"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "(of) what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "translation": "He created",
+          "transliteration": "khalaqa"
+        }
+      ]
+    },
+    {
+      "key": "113:3",
+      "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "arabicSimple": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "translation": "And from the evil of darkness when it settles",
+      "transliteration": "Wa min sharri ghasiqin iza waqab",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَمِن",
+          "translation": "And from",
+          "transliteration": "wamin"
+        },
+        {
+          "arabic": "شَرِّ",
+          "translation": "(the) evil",
+          "transliteration": "sharri"
+        },
+        {
+          "arabic": "غَاسِقٍ",
+          "translation": "(of) darkness",
+          "transliteration": "ghāsiqin"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "وَقَبَ",
+          "translation": "it spreads",
+          "transliteration": "waqaba"
+        }
+      ]
+    },
+    {
+      "key": "113:4",
+      "arabic": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
+      "arabicSimple": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
+      "translation": "And from the evil of the blowers in knots",
+      "transliteration": "Wa min sharrin-naffaa-thaati fil 'uqad",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَمِن",
+          "translation": "And from",
+          "transliteration": "wamin"
+        },
+        {
+          "arabic": "شَرِّ",
+          "translation": "(the) evil",
+          "transliteration": "sharri"
+        },
+        {
+          "arabic": "ٱلنَّفَّـٰثَـٰتِ",
+          "translation": "(of) the blowers",
+          "transliteration": "l-nafāthāti"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "ٱلْعُقَدِ",
+          "translation": "the knots",
+          "transliteration": "l-ʿuqadi"
+        }
+      ]
+    },
+    {
+      "key": "113:5",
+      "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "arabicSimple": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "translation": "And from the evil of an envier when he envies.\"",
+      "transliteration": "Wa min shar ri haasidin iza hasad",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَمِن",
+          "translation": "And from",
+          "transliteration": "wamin"
+        },
+        {
+          "arabic": "شَرِّ",
+          "translation": "(the) evil",
+          "transliteration": "sharri"
+        },
+        {
+          "arabic": "حَاسِدٍ",
+          "translation": "(of) an envier",
+          "transliteration": "ḥāsidin"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "حَسَدَ",
+          "translation": "he envies",
+          "transliteration": "ḥasada"
+        }
+      ]
+    }
+  ]
+}

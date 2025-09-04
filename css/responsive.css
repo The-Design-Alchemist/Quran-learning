@@ -167,6 +167,96 @@
         right: -10px;
     }
 
+    .segment-indicator {
+        font-size: 0.8rem;
+        padding: 5px 12px;
+    }
+    
+    .segment-progress {
+        gap: 8px;
+    }
+    
+    .segment-dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .transliteration-text {
+        font-size: 1.05rem;
+        padding: 12px 20px;
+        margin: 15px auto;
+    }
+    
+    .bismillah-transliteration {
+        font-size: 1.15rem;
+    }
+
+    .transliteration-text {
+        font-size: 1.05rem;
+        padding: 12px 20px;
+        margin: 15px auto;
+    }
+    
+    .bismillah-transliteration {
+        font-size: 1.15rem;
+    }
+
+    .container {
+        height: 100vh;
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    .header {
+        padding: 15px;
+    }
+    
+    .audio-controls {
+        padding: 12px;
+    }
+    
+    .navigation-controls {
+        padding: 15px;
+    }
+    
+    .verse-container {
+        padding: 15px;
+    }
+    
+    .verse-display {
+        width: 95%;
+    }
+    
+    .arabic-text {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+    
+    .english-text {
+        font-size: 1.1rem;
+        padding: 15px 20px;
+    }
+    
+    .verse-number {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 1.1rem;
+    }
+    
+    .bismillah {
+        padding: 30px 20px;
+    }
+    
+    .bismillah-arabic {
+        font-size: 2.2rem;
+    }
+    
+    .bismillah-english {
+        font-size: 1.2rem;
+    }
+
 }
 
 /* Small mobile screens */

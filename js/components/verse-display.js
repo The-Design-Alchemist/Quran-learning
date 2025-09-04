@@ -8,6 +8,17 @@ class VerseDisplay {
         this.prevBtn = document.getElementById('prev-btn');
         this.nextBtn = document.getElementById('next-btn');
         this.isTransitioning = false; // Add transition lock
+        this.currentSegmentIndex = 0; // Add segment tracking
+
+        // ADD THIS - define waqfMarkers
+        this.waqfMarkers = {
+            '\u06D6': 'ۖ',  // small_stop
+            '\u06D7': 'ۗ',  // preferable_stop
+            '\u06D8': 'ۘ',  // permissible_stop
+            '\u06D9': 'ۙ',  // preferred_stop
+            '\u06DA': 'ۚ',  // compulsory_stop
+            '\u06DB': 'ۛ'   // sufficient_stop
+        };
     }
 
     // ADD THIS NEW METHOD (anywhere in the class, preferably after the show() method)
@@ -41,180 +52,446 @@ generateHTML() {
 }
 
 
-// In verse-display.js, update the show() method:
+// Update the show method to handle segments
+   // Update the show method in verse-display.js
 show(index, direction = 'right') {
     const verseDisplay = document.getElementById('verse-display');
     if (!verseDisplay) return;
+
+
     
     const verse = window.appState.verses[index];
-    if (!verse) return;
+    if (!verse) {
+        console.error('No verse at index:', index);
+        return;
+    }
     
-    // Add exit animation to current content
-    verseDisplay.classList.add(direction === 'right' ? 'exit-left' : 'exit-right');
+    // Debug logging
+    console.log(`Showing verse ${verse.number}:`, {
+        hasSegments: !!verse.segments,
+        segmentCount: verse.segments?.length,
+        segments: verse.segments
+    });
     
-    // After animation, update content
-    setTimeout(() => {
-        // Clear previous classes
-        verseDisplay.className = 'verse-display';
-        
-        // Update content based on verse type
-        if (verse.number === 'Bismillah') {
-            verseDisplay.innerHTML = `
-                <div class="bismillah">
-                    <div class="bismillah-arabic">${verse.text}</div>
-                    <div class="bismillah-transliteration">${verse.transliteration}</div>
-                    <div class="bismillah-english">${verse.english}</div>
-                </div>
-            `;
-        } else {
-            verseDisplay.innerHTML = `
-                <div class="verse-content">
-                    <div class="verse-number">${verse.number}</div>
-                    <div class="verse-text-group">
-                        <div class="arabic-text">${verse.text}</div>
-                        <div class="transliteration-text">${verse.transliteration}</div>
-                        <div class="english-text">${verse.english}</div>
-                    </div>
-                </div>
-            `;
-        }
-        
-        // Detect verse length and add data attribute
-        const wordCount = verse.text.split(/\s+/).length;
-        if (wordCount > 50) {
-            verseDisplay.setAttribute('data-verse-length', 'very-long');
-        } else if (wordCount > 30) {
-            verseDisplay.setAttribute('data-verse-length', 'long');
-        } else {
-            verseDisplay.setAttribute('data-verse-length', 'normal');
-        }
-        
-        // Set verse as active (for word highlighting)
-        verseDisplay.setAttribute('data-verse-index', index);
-        verseDisplay.classList.add('active');
-        
-        // Add enter animation
-        setTimeout(() => {
-            verseDisplay.classList.add(direction === 'right' ? 'enter-right' : 'enter-left');
-            
-            // CALL detectOverflow HERE
-            this.detectOverflow();
-            
-            // SAVE READING PROGRESS HERE
-            if (window.readingProgress && verse.number !== 'Bismillah') {
-                const surahNumber = getSurahFromURL();
-                window.readingProgress.savePosition(surahNumber, index, verse.number);
-            }
-        }, 50);
-        
-    }, 300);
+    // Clean up word highlighting from previous verse
+    if (window.wordHighlighter && window.appState.currentVerseIndex !== index) {
+        window.wordHighlighter.cleanup();
+    }
+    
+    // Reset segment index when showing different verse
+    if (window.appState.currentVerseIndex !== index) {
+        this.currentSegmentIndex = 0;
+    }
+    
+    
+    // Update the current verse index
+    window.appState.currentVerseIndex = index;
+    
+    // Check if verse has segments
+    if (verse.segments && Array.isArray(verse.segments) && verse.segments.length > 1) {
+        console.log(`Verse ${verse.number} has ${verse.segments.length} segments, showing segmented view`);
+        window.appState.isSegmentedVerse = true;
+        this.showSegmented(verse, this.currentSegmentIndex, direction);
+    } else {
+        console.log(`Verse ${verse.number} has no segments, showing full verse`);
+        window.appState.isSegmentedVerse = false;
+        this.showFullVerse(verse, direction);
+    }
+    
+    // Save reading progress
+    if (window.readingProgress && verse.number !== 'Bismillah') {
+        const surahNumber = getSurahFromURL();
+        window.readingProgress.savePosition(surahNumber, index, verse.number);
+    }
     
     this.updateCounter();
     this.updateNavigationButtons();
 }
 
-
-    // Navigate to next verse - FIXED
-    next() {
-        if (this.isTransitioning) return; // Prevent multiple clicks
+    // Update showSegmented method to properly handle segments
+showSegmented(verse, segmentIndex, direction = 'right') {
+    const verseDisplay = document.getElementById('verse-display');
+    if (!verseDisplay || !verse.segments) return;
+    
+    const segment = verse.segments[segmentIndex];
+    if (!segment) return;
+    
+    // Store current segment for repeat functionality
+    window.appState.currentSegment = segmentIndex;
+    window.appState.isSegmentedVerse = true;
+    
+    verseDisplay.classList.add(direction === 'right' ? 'exit-left' : 'exit-right');
+    
+    setTimeout(() => {
+        verseDisplay.className = 'verse-display';
         
-        if (window.appState.currentVerseIndex < window.appState.verses.length - 1) {
-            // Disable navigation buttons temporarily
-            const nextBtn = document.getElementById('next-btn');
-            const prevBtn = document.getElementById('prev-btn');
-            if (nextBtn) nextBtn.disabled = true;
-            if (prevBtn) prevBtn.disabled = true;
+        // Show verse number at the beginning of first segment
+        const verseNumberDisplay = segmentIndex === 0 ? 
+            `<div class="verse-number">${verse.number}</div>` : '';
+        
+        // Add verse end mark only on last segment
+        const isLastSegment = segmentIndex === verse.segments.length - 1;
+        const verseEndMark = isLastSegment ? 
+            `<span class="verse-end-mark">${this.getVerseEndMark(verse.number)}</span>` : '';
+        
+        verseDisplay.innerHTML = `
+        <div class="verse-content">
+            ${verseNumberDisplay}
+            <div class="segment-indicator">
+                Part ${segmentIndex + 1} of ${verse.segments.length}
+                ${segment.waqfMark ? `- ${this.getWaqfName(segment.type)}` : ''}
+            </div>
+            <div class="verse-text-group">
+                <div class="arabic-text">
+                    ${this.wrapWordsForHighlighting(segment.arabic, verse.number, segmentIndex)}
+                    ${verseEndMark}
+                </div>
+                <div class="transliteration-text">${segment.transliteration}</div>
+                <div class="english-text">${segment.translation}</div>
+            </div>
+        </div>
+        
+        <div class="segment-controls">
+            <button class="segment-nav-btn" 
+                    onclick="window.verseDisplay.navigateSegment('prev')" 
+                    ${segmentIndex === 0 ? 'disabled' : ''}>
+                ◀ Previous Part
+            </button>
             
-            // Stop ALL audio playback completely
-            this.stopAllAudio();
+            <div class="segment-progress">
+                ${verse.segments.map((_, idx) => 
+                    `<span class="segment-dot ${idx === segmentIndex ? 'active' : ''}" 
+                           onclick="window.verseDisplay.jumpToSegment(${idx})"></span>`
+                ).join('')}
+            </div>
             
-            // Clear any pending audio operations
-            if (window.playbackControls.audioTimeout) {
-                clearTimeout(window.playbackControls.audioTimeout);
-                window.playbackControls.audioTimeout = null;
+            <button class="segment-nav-btn" 
+                    onclick="window.verseDisplay.navigateSegment('next')"
+                    ${segmentIndex === verse.segments.length - 1 ? 'disabled' : ''}>
+                Next Part ▶
+            </button>
+        </div>
+    `;
+        
+        verseDisplay.setAttribute('data-verse-index', window.appState.currentVerseIndex);
+        verseDisplay.setAttribute('data-segment-index', segmentIndex);
+        verseDisplay.setAttribute('data-verse-number', verse.number);
+        verseDisplay.classList.add('active');
+        
+        setTimeout(() => {
+            verseDisplay.classList.add(direction === 'right' ? 'enter-right' : 'enter-left');
+            this.initializeWordClickHandlers();
+        }, 50);
+        
+    }, 300);
+}
+    
+// Update the navigateSegment method:
+navigateSegment(direction) {
+    const verse = window.appState.verses[window.appState.currentVerseIndex];
+    if (!verse.segments) return;
+
+    // Reset repeat mode when manually navigating segments
+    if (window.appState.repeatMode === 'segment') {
+        window.appState.repeatMode = 'none';
+        const btn = document.getElementById('repeat-btn');
+        if (btn) {
+            btn.classList.remove('active');
+            btn.textContent = '🔁 Repeat';
+        }
+    }
+    
+    const audio = audioService.getCurrentAudio();
+    
+    if (direction === 'next' && this.currentSegmentIndex < verse.segments.length - 1) {
+        this.currentSegmentIndex++;
+        this.showSegmented(verse, this.currentSegmentIndex);
+        
+        // Restart audio for new segment
+        if (audio && window.appState.isReciting) {
+            window.playbackControls.playCurrentVerse();
+        }
+    } else if (direction === 'prev' && this.currentSegmentIndex > 0) {
+        this.currentSegmentIndex--;
+        this.showSegmented(verse, this.currentSegmentIndex);
+        
+        // Restart audio for new segment
+        if (audio && window.appState.isReciting) {
+            window.playbackControls.playCurrentVerse();
+        }
+    }
+}
+    
+    getVerseEndMark(verseNumber) {
+    if (!verseNumber || verseNumber === 'Bismillah') return '';
+    
+    const arabicNumerals = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+    const arabicNum = verseNumber.toString()
+        .split('')
+        .map(d => arabicNumerals[parseInt(d)])
+        .join('');
+    return `۝${arabicNum}`;
+}
+
+    // Add method to wrap words for highlighting
+wrapWordsForHighlighting(arabicText, verseNumber, segmentIndex) {
+    const words = arabicText.split(/\s+/);
+    let actualWordIndex = 0;
+    
+    return words.map((word) => {
+        // Check for waqf marks
+        if (/[\u06D6-\u06DD]/.test(word)) {
+            return `<span class="waqf-mark">${word}</span>`;
+        }
+        // Check for verse end numbers
+        if (/^[\u06DD][\u0660-\u0669]+$/.test(word)) {
+            return `<span class="verse-end-marker">${word}</span>`;
+        }
+        // Regular words get clickable spans
+        const span = `<span class="arabic-word" 
+                      data-word-index="${actualWordIndex}" 
+                      data-verse-number="${verseNumber}"
+                      data-segment-index="${segmentIndex}">${word}</span>`;
+        actualWordIndex++;
+        return span;
+    }).join(' ');
+}
+    
+    // Initialize click handlers for word jumping
+initializeWordClickHandlers() {
+    document.querySelectorAll('.arabic-word').forEach(wordElement => {
+        wordElement.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const wordIndex = parseInt(wordElement.dataset.wordIndex);
+            const segmentIndex = parseInt(wordElement.dataset.segmentIndex);
+            this.jumpToWord(wordIndex, segmentIndex);
+        });
+    });
+}
+    
+  // Update the jumpToWord method:
+jumpToWord(wordIndex, segmentIndex) {
+    const audio = audioService.getCurrentAudio();
+    if (!audio || !window.currentVerseTimings) return;
+    
+    const verse = window.appState.verses[window.appState.currentVerseIndex];
+    let fullVerseWordIndex = wordIndex;
+    
+    // Calculate the actual word position in the full verse
+    if (verse.segments && verse.segments.length > 1 && segmentIndex !== undefined) {
+        fullVerseWordIndex = 0;
+        
+        // Add all words from previous segments
+        for (let i = 0; i < segmentIndex; i++) {
+            const segmentText = verse.segments[i].arabic;
+            const words = segmentText.split(/\s+/).filter(w => 
+                w.length > 0 && !this.isWaqfMark(w)
+            );
+            fullVerseWordIndex += words.length;
+        }
+        
+        // Add the clicked word index
+        fullVerseWordIndex += wordIndex;
+    }
+    
+    console.log(`Jumping to segment ${segmentIndex}, word ${wordIndex}, full verse word ${fullVerseWordIndex}`);
+    
+    // Jump to the word timing
+    if (window.currentVerseTimings.words && window.currentVerseTimings.words[fullVerseWordIndex]) {
+        const wordTiming = window.currentVerseTimings.words[fullVerseWordIndex];
+        audio.currentTime = wordTiming.start;
+        
+        // Resume playback if paused
+        if (audio.paused) {
+            audio.play();
+            window.appState.isReciting = true;
+            window.appState.isPaused = false;
+            
+            // Update play/pause button
+            const icon = document.getElementById('play-pause-icon');
+            const text = document.getElementById('play-pause-text');
+            if (icon && text) {
+                icon.textContent = '⏸️';
+                text.textContent = 'Pause';
             }
-            
-            // Disable auto-advance to prevent conflicts
-            window.appState.autoAdvance = false;
-            
-            // Wait for audio cleanup to complete
+        }
+        
+        // Restart highlighting from this position
+        if (window.wordHighlighter) {
+            window.wordHighlighter.reset();
             setTimeout(() => {
-                // Increment verse index
-                window.appState.currentVerseIndex++;
-                console.log(`Manual next to verse ${window.appState.currentVerseIndex}`);
-                
-                // Update display
-                this.show(window.appState.currentVerseIndex, 'right');
-                
-                // If reciting and NOT paused, play the new verse
-                if (window.appState.isReciting && !window.appState.isPaused) {
-                    setTimeout(() => {
-                        window.appState.autoAdvance = true;
-                        window.playbackControls.playCurrentVerse();
-                    }, 500);
-                } else {
-                    // Even if paused, re-enable auto-advance for when playback resumes
-                    window.appState.autoAdvance = true;
-                }
-                
-                // Re-enable buttons after transition
-                setTimeout(() => {
-                    this.updateNavigationButtons();
-                }, 500);
+                window.wordHighlighter.reinitializeForSegment();
+                window.wordHighlighter.startPreciseHighlighting(audio, window.currentVerseTimings.words);
             }, 100);
         }
     }
+}
 
-    // Navigate to previous verse - FIXED
-    previous() {
-        if (this.isTransitioning) return; // Prevent multiple clicks
+// Add helper to check if word is waqf mark
+isWaqfMark(word) {
+    const waqfMarks = ['\u06D6', '\u06D7', '\u06D8', '\u06D9', '\u06DA', '\u06DB'];
+    return waqfMarks.some(mark => word.includes(mark));
+}
+    
+    
+    // Show full verse (no segments)
+    showFullVerse(verse, direction) {
+        const verseDisplay = document.getElementById('verse-display');
+        if (!verseDisplay) return;
         
-        if (window.appState.currentVerseIndex > 0) {
-            // Disable navigation buttons temporarily
-            const nextBtn = document.getElementById('next-btn');
-            const prevBtn = document.getElementById('prev-btn');
-            if (nextBtn) nextBtn.disabled = true;
-            if (prevBtn) prevBtn.disabled = true;
+        // Add exit animation
+        verseDisplay.classList.add(direction === 'right' ? 'exit-left' : 'exit-right');
+        
+        setTimeout(() => {
+            verseDisplay.className = 'verse-display';
             
-            // Stop ALL audio playback completely
-            this.stopAllAudio();
-            
-            // Clear any pending audio operations
-            if (window.playbackControls.audioTimeout) {
-                clearTimeout(window.playbackControls.audioTimeout);
-                window.playbackControls.audioTimeout = null;
+            // Your existing verse display code
+            if (verse.number === 'Bismillah') {
+                verseDisplay.innerHTML = `
+                    <div class="bismillah">
+                        <div class="bismillah-arabic">${verse.text}</div>
+                        <div class="bismillah-transliteration">${verse.transliteration}</div>
+                        <div class="bismillah-english">${verse.english}</div>
+                    </div>
+                `;
+            } else {
+                verseDisplay.innerHTML = `
+                    <div class="verse-content">
+                        <div class="verse-number">${verse.number}</div>
+                        <div class="verse-text-group">
+                            <div class="arabic-text">${verse.text}</div>
+                            <div class="transliteration-text">${verse.transliteration}</div>
+                            <div class="english-text">${verse.english}</div>
+                        </div>
+                    </div>
+                `;
             }
             
-            // Disable auto-advance to prevent conflicts
-            window.appState.autoAdvance = false;
+            verseDisplay.setAttribute('data-verse-index', window.appState.currentVerseIndex);
+            verseDisplay.classList.add('active');
             
-            // Wait for audio cleanup to complete
             setTimeout(() => {
-                // Decrement verse index
-                window.appState.currentVerseIndex--;
-                console.log(`Manual previous to verse ${window.appState.currentVerseIndex}`);
-                
-                // Update display
-                this.show(window.appState.currentVerseIndex, 'left');
-                
-                // If reciting and NOT paused, play the new verse
-                if (window.appState.isReciting && !window.appState.isPaused) {
-                    setTimeout(() => {
-                        window.appState.autoAdvance = true;
-                        window.playbackControls.playCurrentVerse();
-                    }, 500);
-                } else {
-                    // Even if paused, re-enable auto-advance for when playback resumes
-                    window.appState.autoAdvance = true;
-                }
-                
-                // Re-enable buttons after transition
+                verseDisplay.classList.add(direction === 'right' ? 'enter-right' : 'enter-left');
+                this.detectOverflow();
+            }, 50);
+            
+        }, 300);
+    }
+    
+
+    // Navigate to next (handles segments)
+   // Update next() method to NOT handle segments:
+next() {
+    if (this.isTransitioning) return;
+    
+    // Always move to next verse, not segment
+    if (window.appState.currentVerseIndex < window.appState.verses.length - 1) {
+        this.currentSegmentIndex = 0;
+        this.stopAllAudio();
+        
+        setTimeout(() => {
+            window.appState.currentVerseIndex++;
+            this.show(window.appState.currentVerseIndex, 'right');
+            
+            if (window.appState.isReciting && !window.appState.isPaused) {
                 setTimeout(() => {
-                    this.updateNavigationButtons();
+                    window.playbackControls.playCurrentVerse();
                 }, 500);
-            }, 100);
+            }
+        }, 100);
+    }
+}
+
+    // Update previous() method to NOT handle segments:
+previous() {
+    if (this.isTransitioning) return;
+    
+    // Always move to previous verse, not segment
+    if (window.appState.currentVerseIndex > 0) {
+        this.stopAllAudio();
+        
+        setTimeout(() => {
+            window.appState.currentVerseIndex--;
+            this.currentSegmentIndex = 0;
+            this.show(window.appState.currentVerseIndex, 'left');
+            
+            if (window.appState.isReciting && !window.appState.isPaused) {
+                setTimeout(() => {
+                    window.playbackControls.playCurrentVerse();
+                }, 500);
+            }
+        }, 100);
+    }
+}
+
+// Update the jumpToSegment method in verse-display.js
+// Update jumpToSegment in verse-display.js
+jumpToSegment(segmentIndex) {
+    const currentVerse = window.appState.verses[window.appState.currentVerseIndex];
+    if (currentVerse && currentVerse.segments && segmentIndex < currentVerse.segments.length) {
+        const previousSegmentIndex = this.currentSegmentIndex;
+        this.currentSegmentIndex = segmentIndex;
+        
+        // Keep the last word highlighted during transition
+        const keepHighlight = Math.abs(previousSegmentIndex - segmentIndex) === 1;
+        
+        this.showSegmented(currentVerse, segmentIndex);
+        
+        const audio = audioService.getCurrentAudio();
+        if (audio && window.currentVerseTimings && window.currentVerseTimings.segments) {
+            const segmentTiming = window.currentVerseTimings.segments[segmentIndex];
+            if (segmentTiming) {
+                const isManualJump = Math.abs(previousSegmentIndex - segmentIndex) > 1;
+                const isAudioOutOfSync = Math.abs(audio.currentTime - segmentTiming.start) > 1;
+                
+                if (isManualJump || isAudioOutOfSync) {
+                    audio.currentTime = segmentTiming.start;
+                }
+            }
+        }
+        
+        // Reinitialize word highlighting with delay
+        if (window.wordHighlighter && audio) {
+            // Clear old highlighting only if not sequential
+            if (!keepHighlight) {
+                window.wordHighlighter.reset();
+            }
+            
+            setTimeout(() => {
+                if (!audio.paused && window.appState.isReciting) {
+                    window.wordHighlighter.reinitializeForSegment();
+                    
+                    if (window.currentVerseTimings && window.currentVerseTimings.words) {
+                        window.wordHighlighter.startPreciseHighlighting(
+                            audio, 
+                            window.currentVerseTimings.words
+                        );
+                    }
+                }
+            }, 400);
+        }
+        
+        if (window.playbackControls) {
+            window.playbackControls.updateStatus(
+                `Part ${segmentIndex + 1} of ${currentVerse.segments.length}`
+            );
         }
     }
+}
+
+    // Get Waqf name for display
+    getWaqfName(waqfType) {
+        const waqfNames = {
+            'compulsory_stop': 'Compulsory Stop (مـ)',
+            'absolute_pause': 'Absolute Pause (ط)',
+            'permissible_stop': 'Permissible Stop (ج)',
+            'preferred_stop': 'Preferred Stop (صلى)',
+            'small_stop': 'Brief Pause',
+            'verse_end': 'End of Verse'
+        };
+        return waqfNames[waqfType] || waqfType;
+    }
+
 
     // NEW METHOD: Stop all audio completely
     stopAllAudio() {
@@ -273,29 +550,40 @@ populateVerseSelector() {
     totalSpan.textContent = `of ${totalVerses}`;
 }
 
-// Update the updateCounter method to also update dropdown
-updateCounter() {
-    const current = window.appState.verses[window.appState.currentVerseIndex];
-    const selector = document.getElementById('verse-selector');
-    
-    if (current) {
-        // Update dropdown selection
-        if (selector) {
-            selector.value = window.appState.currentVerseIndex;
-        }
+// Update the updateCounter method
+    updateCounter() {
+        const current = window.appState.verses[window.appState.currentVerseIndex];
+        const selector = document.getElementById('verse-selector');
         
-        // The verse counter is now replaced by dropdown, but keep for any other uses
-        const counter = document.getElementById('verse-counter');
-        if (counter) {
+        if (current) {
+            // Update dropdown selection
+            if (selector) {
+                selector.value = window.appState.currentVerseIndex;
+            }
+            
+            // Update verse display info
+            let displayText = '';
             if (current.number === 'Bismillah') {
-                counter.textContent = 'Bismillah';
+                displayText = 'Bismillah';
             } else {
                 const totalVerses = window.appState.currentSurah.verses;
-                counter.textContent = `Verse ${current.number} of ${totalVerses}`;
+                displayText = `Verse ${current.number} of ${totalVerses}`;
+                
+                // Add segment info if applicable
+                if (current.segments && current.segments.length > 1) {
+                    displayText += ` (Part ${this.currentSegmentIndex + 1}/${current.segments.length})`;
+                }
+            }
+            
+            const counter = document.getElementById('verse-counter');
+            if (counter) {
+                counter.textContent = displayText;
             }
         }
     }
-}
+
+
+
     
     // Add method to handle jumping to selected verse
 jumpToVerse(index) {
@@ -360,6 +648,12 @@ jumpToVerse(index) {
     getCurrentVerseElement() {
         return document.getElementById('verse-display');
     }
+
+    // Get current segment index
+    getCurrentSegmentIndex() {
+        return this.currentSegmentIndex;
+    }
+
 }
 
 // Add window resize listener to recheck overflow

@@ -1,0 +1,120 @@
+{
+  "number": 103,
+  "name": "العصر",
+  "englishName": "Al-'Asr",
+  "englishNameTranslation": "The Declining Day",
+  "revelationType": "makkah",
+  "numberOfAyahs": 3,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "103:1",
+      "arabic": " وَٱلْعَصْرِ",
+      "arabicSimple": " وَٱلْعَصْرِ",
+      "translation": "By time,",
+      "transliteration": "Wal' asr",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَٱلْعَصْرِ",
+          "translation": "By the time",
+          "transliteration": "wal-ʿaṣri"
+        }
+      ]
+    },
+    {
+      "key": "103:2",
+      "arabic": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
+      "arabicSimple": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
+      "translation": "Indeed, mankind is in loss,",
+      "transliteration": "Innal insaana lafee khusr",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "ٱلْإِنسَـٰنَ",
+          "translation": "mankind",
+          "transliteration": "l-insāna"
+        },
+        {
+          "arabic": "لَفِى",
+          "translation": "(is) surely, in",
+          "transliteration": "lafī"
+        },
+        {
+          "arabic": "خُسْرٍ",
+          "translation": "loss",
+          "transliteration": "khus'rin"
+        }
+      ]
+    },
+    {
+      "key": "103:3",
+      "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+      "arabicSimple": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+      "translation": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+      "transliteration": "Il lal lazeena aamanu wa 'amilus saali haati wa tawa saw bil haqqi wa tawa saw bis sabr",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 9,
+      "words": [
+        {
+          "arabic": "إِلَّا",
+          "translation": "Except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "ٱلَّذِينَ",
+          "translation": "those who",
+          "transliteration": "alladhīna"
+        },
+        {
+          "arabic": "ءَامَنُوا۟",
+          "translation": "believe",
+          "transliteration": "āmanū"
+        },
+        {
+          "arabic": "وَعَمِلُوا۟",
+          "translation": "and do",
+          "transliteration": "waʿamilū"
+        },
+        {
+          "arabic": "ٱلصَّـٰلِحَـٰتِ",
+          "translation": "righteous deeds",
+          "transliteration": "l-ṣāliḥāti"
+        },
+        {
+          "arabic": "وَتَوَاصَوْا۟",
+          "translation": "and enjoin (each other)",
+          "transliteration": "watawāṣaw"
+        },
+        {
+          "arabic": "بِٱلْحَقِّ",
+          "translation": "to the truth",
+          "transliteration": "bil-ḥaqi"
+        },
+        {
+          "arabic": "وَتَوَاصَوْا۟",
+          "translation": "and enjoin (each other)",
+          "transliteration": "watawāṣaw"
+        },
+        {
+          "arabic": "بِٱلصَّبْرِ",
+          "translation": "to [the] patience",
+          "transliteration": "bil-ṣabri"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "number": 101,
+  "name": "القارعة",
+  "englishName": "Al-Qari'ah",
+  "englishNameTranslation": "The Calamity",
+  "revelationType": "makkah",
+  "numberOfAyahs": 11,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "101:1",
+      "arabic": " ٱلْقَارِعَةُ",
+      "arabicSimple": " ٱلْقَارِعَةُ",
+      "translation": "The Striking Calamity -",
+      "transliteration": "Al qaari'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "ٱلْقَارِعَةُ",
+          "translation": "The Striking Calamity",
+          "transliteration": "al-qāriʿatu"
+        }
+      ]
+    },
+    {
+      "key": "101:2",
+      "arabic": "مَا ٱلْقَارِعَةُ",
+      "arabicSimple": "مَا ٱلْقَارِعَةُ",
+      "translation": "What is the Striking Calamity?",
+      "transliteration": "Mal qaariah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "مَا",
+          "translation": "What",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "ٱلْقَارِعَةُ",
+          "translation": "(is) the Striking Calamity",
+          "transliteration": "l-qāriʿatu"
+        }
+      ]
+    },
+    {
+      "key": "101:3",
+      "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+      "arabicSimple": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+      "translation": "And what can make you know what is the Striking Calamity?",
+      "transliteration": "Wa maa adraaka mal qaari'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَمَآ",
+          "translation": "And what",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "أَدْرَىٰكَ",
+          "translation": "will make you know",
+          "transliteration": "adrāka"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "ٱلْقَارِعَةُ",
+          "translation": "(is) the Striking Calamity",
+          "transliteration": "l-qāriʿatu"
+        }
+      ]
+    },
+    {
+      "key": "101:4",
+      "arabic": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+      "arabicSimple": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+      "translation": "It is the Day when people will be like moths, dispersed,",
+      "transliteration": "Yauma ya koonun naasu kal farashil mabthooth",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "يَوْمَ",
+          "translation": "(The) Day",
+          "transliteration": "yawma"
+        },
+        {
+          "arabic": "يَكُونُ",
+          "translation": "will be",
+          "transliteration": "yakūnu"
+        },
+        {
+          "arabic": "ٱلنَّاسُ",
+          "translation": "the mankind",
+          "transliteration": "l-nāsu"
+        },
+        {
+          "arabic": "كَٱلْفَرَاشِ",
+          "translation": "like moths",
+          "transliteration": "kal-farāshi"
+        },
+        {
+          "arabic": "ٱلْمَبْثُوثِ",
+          "translation": "scattered",
+          "transliteration": "l-mabthūthi"
+        }
+      ]
+    },
+    {
+      "key": "101:5",
+      "arabic": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+      "arabicSimple": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+      "translation": "And the mountains will be like wool, fluffed up.",
+      "transliteration": "Wa ta koonul jibalu kal 'ihnil manfoosh",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَتَكُونُ",
+          "translation": "And will be",
+          "transliteration": "watakūnu"
+        },
+        {
+          "arabic": "ٱلْجِبَالُ",
+          "translation": "the mountains",
+          "transliteration": "l-jibālu"
+        },
+        {
+          "arabic": "كَٱلْعِهْنِ",
+          "translation": "like wool",
+          "transliteration": "kal-ʿih'ni"
+        },
+        {
+          "arabic": "ٱلْمَنفُوشِ",
+          "translation": "fluffed up",
+          "transliteration": "l-manfūshi"
+        }
+      ]
+    },
+    {
+      "key": "101:6",
+      "arabic": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "arabicSimple": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "translation": "Then as for one whose scales are heavy [with good deeds],",
+      "transliteration": "Fa-amma man thaqulat mawa zeenuh",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَأَمَّا",
+          "translation": "Then as for",
+          "transliteration": "fa-ammā"
+        },
+        {
+          "arabic": "مَن",
+          "translation": "(him) whose",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "ثَقُلَتْ",
+          "translation": "(are) heavy",
+          "transliteration": "thaqulat"
+        },
+        {
+          "arabic": "مَوَٰزِينُهُۥ",
+          "translation": "his scales",
+          "transliteration": "mawāzīnuhu"
+        }
+      ]
+    },
+    {
+      "key": "101:7",
+      "arabic": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+      "arabicSimple": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+      "translation": "He will be in a pleasant life.",
+      "transliteration": "Fahuwa fee 'ishatir raadiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَهُوَ",
+          "translation": "Then he",
+          "transliteration": "fahuwa"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "(will be) in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "عِيشَةٍۢ",
+          "translation": "a life",
+          "transliteration": "ʿīshatin"
+        },
+        {
+          "arabic": "رَّاضِيَةٍۢ",
+          "translation": "pleasant",
+          "transliteration": "rāḍiyatin"
+        }
+      ]
+    },
+    {
+      "key": "101:8",
+      "arabic": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+      "arabicSimple": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+      "translation": "But as for one whose scales are light,",
+      "transliteration": "Wa amma man khaffat mawa zeenuh",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَأَمَّا",
+          "translation": "But as for",
+          "transliteration": "wa-ammā"
+        },
+        {
+          "arabic": "مَنْ",
+          "translation": "(him) whose",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "خَفَّتْ",
+          "translation": "(are) light",
+          "transliteration": "khaffat"
+        },
+        {
+          "arabic": "مَوَٰزِينُهُۥ",
+          "translation": "his scales",
+          "transliteration": "mawāzīnuhu"
+        }
+      ]
+    },
+    {
+      "key": "101:9",
+      "arabic": "فَأُمُّهُۥ هَاوِيَةٌ",
+      "arabicSimple": "فَأُمُّهُۥ هَاوِيَةٌ",
+      "translation": "His refuge will be an abyss.",
+      "transliteration": "Fa-ummuhu haawiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "فَأُمُّهُۥ",
+          "translation": "His abode",
+          "transliteration": "fa-ummuhu"
+        },
+        {
+          "arabic": "هَاوِيَةٌۭ",
+          "translation": "(will be the) Pit",
+          "transliteration": "hāwiyatun"
+        }
+      ]
+    },
+    {
+      "key": "101:10",
+      "arabic": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+      "arabicSimple": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+      "translation": "And what can make you know what that is?",
+      "transliteration": "Wa maa adraaka maa hiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَمَآ",
+          "translation": "And what",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "أَدْرَىٰكَ",
+          "translation": "will make you know",
+          "transliteration": "adrāka"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "هِيَهْ",
+          "translation": "it is",
+          "transliteration": "hiyah"
+        }
+      ]
+    },
+    {
+      "key": "101:11",
+      "arabic": "نَارٌ حَامِيَةٌۢ",
+      "arabicSimple": "نَارٌ حَامِيَةٌۢ",
+      "translation": "It is a Fire, intensely hot.",
+      "transliteration": "Naarun hamiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "نَارٌ",
+          "translation": "A Fire",
+          "transliteration": "nārun"
+        },
+        {
+          "arabic": "حَامِيَةٌۢ",
+          "translation": "intensely hot",
+          "transliteration": "ḥāmiyatun"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "number": 102,
+  "name": "التكاثر",
+  "englishName": "At-Takathur",
+  "englishNameTranslation": "The Rivalry in world increase",
+  "revelationType": "makkah",
+  "numberOfAyahs": 8,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "102:1",
+      "arabic": " أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "arabicSimple": " أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "translation": "Competition in [worldly] increase diverts you",
+      "transliteration": "Al haaku mut takathur",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "أَلْهَىٰكُمُ",
+          "translation": "Diverts you",
+          "transliteration": "alhākumu"
+        },
+        {
+          "arabic": "ٱلتَّكَاثُرُ",
+          "translation": "the competition to increase",
+          "transliteration": "l-takāthuru"
+        }
+      ]
+    },
+    {
+      "key": "102:2",
+      "arabic": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "arabicSimple": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "translation": "Until you visit the graveyards.",
+      "transliteration": "Hatta zurtumul-maqaabir",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "حَتَّىٰ",
+          "translation": "Until",
+          "transliteration": "ḥattā"
+        },
+        {
+          "arabic": "زُرْتُمُ",
+          "translation": "you visit",
+          "transliteration": "zur'tumu"
+        },
+        {
+          "arabic": "ٱلْمَقَابِرَ",
+          "translation": "the graves",
+          "transliteration": "l-maqābira"
+        }
+      ]
+    },
+    {
+      "key": "102:3",
+      "arabic": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "arabicSimple": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "translation": "No! You are going to know.",
+      "transliteration": "Kalla sawfa ta'lamoon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "كَلَّا",
+          "translation": "Nay",
+          "transliteration": "kallā"
+        },
+        {
+          "arabic": "سَوْفَ",
+          "translation": "Soon",
+          "transliteration": "sawfa"
+        },
+        {
+          "arabic": "تَعْلَمُونَ",
+          "translation": "you will know",
+          "transliteration": "taʿlamūna"
+        }
+      ]
+    },
+    {
+      "key": "102:4",
+      "arabic": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "arabicSimple": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "translation": "Then no! You are going to know.",
+      "transliteration": "Thumma kalla sawfa ta'lamoon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "كَلَّا",
+          "translation": "nay",
+          "transliteration": "kallā"
+        },
+        {
+          "arabic": "سَوْفَ",
+          "translation": "Soon",
+          "transliteration": "sawfa"
+        },
+        {
+          "arabic": "تَعْلَمُونَ",
+          "translation": "you will know",
+          "transliteration": "taʿlamūna"
+        }
+      ]
+    },
+    {
+      "key": "102:5",
+      "arabic": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "arabicSimple": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "translation": "No! If you only knew with knowledge of certainty...",
+      "transliteration": "Kalla law ta'lamoona 'ilmal yaqeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "كَلَّا",
+          "translation": "Nay",
+          "transliteration": "kallā"
+        },
+        {
+          "arabic": "لَوْ",
+          "translation": "If",
+          "transliteration": "law"
+        },
+        {
+          "arabic": "تَعْلَمُونَ",
+          "translation": "you know",
+          "transliteration": "taʿlamūna"
+        },
+        {
+          "arabic": "عِلْمَ",
+          "translation": "(with) a knowledge",
+          "transliteration": "ʿil'ma"
+        },
+        {
+          "arabic": "ٱلْيَقِينِ",
+          "translation": "(of) certainty",
+          "transliteration": "l-yaqīni"
+        }
+      ]
+    },
+    {
+      "key": "102:6",
+      "arabic": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+      "arabicSimple": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+      "translation": "You will surely see the Hellfire.",
+      "transliteration": "Latara-wun nal jaheem",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "لَتَرَوُنَّ",
+          "translation": "Surely you will see",
+          "transliteration": "latarawunna"
+        },
+        {
+          "arabic": "ٱلْجَحِيمَ",
+          "translation": "the Hellfire",
+          "transliteration": "l-jaḥīma"
+        }
+      ]
+    },
+    {
+      "key": "102:7",
+      "arabic": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "arabicSimple": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "translation": "Then you will surely see it with the eye of certainty.",
+      "transliteration": "Thumma latara wunnaha 'ainal yaqeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "لَتَرَوُنَّهَا",
+          "translation": "surely you will see it",
+          "transliteration": "latarawunnahā"
+        },
+        {
+          "arabic": "عَيْنَ",
+          "translation": "(with the) eye",
+          "transliteration": "ʿayna"
+        },
+        {
+          "arabic": "ٱلْيَقِينِ",
+          "translation": "(of) certainty",
+          "transliteration": "l-yaqīni"
+        }
+      ]
+    },
+    {
+      "key": "102:8",
+      "arabic": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "arabicSimple": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "translation": "Then you will surely be asked that Day about pleasure.",
+      "transliteration": "Thumma latus alunna yauma-izin 'anin na'eem",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "لَتُسْـَٔلُنَّ",
+          "translation": "surely you will be asked",
+          "transliteration": "latus'alunna"
+        },
+        {
+          "arabic": "يَوْمَئِذٍ",
+          "translation": "that Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "عَنِ",
+          "translation": "about",
+          "transliteration": "ʿani"
+        },
+        {
+          "arabic": "ٱلنَّعِيمِ",
+          "translation": "the pleasures",
+          "transliteration": "l-naʿīmi"
+        }
+      ]
+    }
+  ]
+}

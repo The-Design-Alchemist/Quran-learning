@@ -1,0 +1,166 @@
+{
+  "number": 110,
+  "name": "النصر",
+  "englishName": "An-Nasr",
+  "englishNameTranslation": "The Divine Support",
+  "revelationType": "madinah",
+  "numberOfAyahs": 3,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "110:1",
+      "arabic": " إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "arabicSimple": " إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "translation": "When the victory of Allah has come and the conquest,",
+      "transliteration": "Iza jaa-a nas rullahi walfath",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "إِذَا",
+          "translation": "When",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "جَآءَ",
+          "translation": "comes",
+          "transliteration": "jāa"
+        },
+        {
+          "arabic": "نَصْرُ",
+          "translation": "(the) Help",
+          "transliteration": "naṣru"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "وَٱلْفَتْحُ",
+          "translation": "and the Victory",
+          "transliteration": "wal-fatḥu"
+        }
+      ]
+    },
+    {
+      "key": "110:2",
+      "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+      "arabicSimple": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+      "translation": "And you see the people entering into the religion of Allah in multitudes,",
+      "transliteration": "Wa ra-aitan naasa yadkhuloona fee deenil laahi afwajah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "وَرَأَيْتَ",
+          "translation": "And you see",
+          "transliteration": "wara-ayta"
+        },
+        {
+          "arabic": "ٱلنَّاسَ",
+          "translation": "the people",
+          "transliteration": "l-nāsa"
+        },
+        {
+          "arabic": "يَدْخُلُونَ",
+          "translation": "entering",
+          "transliteration": "yadkhulūna"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "into",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "دِينِ",
+          "translation": "(the) religion",
+          "transliteration": "dīni"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "أَفْوَاجًۭا",
+          "translation": "(in) multitudes",
+          "transliteration": "afwājan"
+        }
+      ]
+    },
+    {
+      "key": "110:3",
+      "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+      "arabicSimple": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+      "translation": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+      "transliteration": "Fa sab bih bihamdi rabbika was taghfir, innahu kaana tawwaaba",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 43,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 4
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ",
+          "translation": "Then glorify with the praises of your Lord and ask His forgiveness",
+          "transliteration": "fasabbiḥ biḥamdi rabbika wa-is'taghfir'hu",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "إِنَّهُۥ كَانَ تَوَّابًۢا",
+          "translation": "Indeed, He is Oft-Returning",
+          "transliteration": "innahu kāna tawwāban",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 8,
+      "words": [
+        {
+          "arabic": "فَسَبِّحْ",
+          "translation": "Then glorify",
+          "transliteration": "fasabbiḥ"
+        },
+        {
+          "arabic": "بِحَمْدِ",
+          "translation": "with (the) praises",
+          "transliteration": "biḥamdi"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "(of) your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "وَٱسْتَغْفِرْهُ ۚ",
+          "translation": "and ask His forgiveness",
+          "transliteration": "wa-is'taghfir'hu"
+        },
+        {
+          "arabic": "إِنَّهُۥ",
+          "translation": "Indeed, He",
+          "transliteration": "innahu"
+        },
+        {
+          "arabic": "كَانَ",
+          "translation": "is",
+          "transliteration": "kāna"
+        },
+        {
+          "arabic": "تَوَّابًۢا",
+          "translation": "Oft-Returning",
+          "transliteration": "tawwāban"
+        }
+      ]
+    }
+  ]
+}

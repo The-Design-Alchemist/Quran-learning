@@ -81,6 +81,16 @@
             </label>
         </label>
     </div>
+
+    <div class="setting-item">
+    <label class="setting-label">
+        <span>Word Highlighting</span>
+        <label class="toggle-switch">
+            <input type="checkbox" id="highlighting-toggle" checked onchange="toggleHighlighting()">
+            <span class="toggle-slider"></span>
+        </label>
+    </label>
+</div>
     
 </div>
 
@@ -90,6 +100,7 @@
         <div class="verse-container" id="verse-container" style="display: none;">
             <!-- Verses will be dynamically generated here -->
         </div>
+
 
         <div class="navigation-controls" id="navigation-controls" style="display: none;">
     <button class="nav-button" id="prev-btn" onclick="previousVerse()">◀️ Previous</button>

@@ -1,0 +1,219 @@
+{
+  "number": 109,
+  "name": "الكافرون",
+  "englishName": "Al-Kafirun",
+  "englishNameTranslation": "The Disbelievers",
+  "revelationType": "makkah",
+  "numberOfAyahs": 6,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "109:1",
+      "arabic": " قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
+      "arabicSimple": " قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
+      "translation": "Say, \"O disbelievers,",
+      "transliteration": "Qul yaa-ai yuhal kaafiroon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "قُلْ",
+          "translation": "Say",
+          "transliteration": "qul"
+        },
+        {
+          "arabic": "يَـٰٓأَيُّهَا",
+          "translation": "O",
+          "transliteration": "yāayyuhā"
+        },
+        {
+          "arabic": "ٱلْكَـٰفِرُونَ",
+          "translation": "disbelievers",
+          "transliteration": "l-kāfirūna"
+        }
+      ]
+    },
+    {
+      "key": "109:2",
+      "arabic": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+      "arabicSimple": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+      "translation": "I do not worship what you worship.",
+      "transliteration": "Laa a'budu ma t'abudoon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "لَآ",
+          "translation": "Not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "أَعْبُدُ",
+          "translation": "I worship",
+          "transliteration": "aʿbudu"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "تَعْبُدُونَ",
+          "translation": "you worship",
+          "transliteration": "taʿbudūna"
+        }
+      ]
+    },
+    {
+      "key": "109:3",
+      "arabic": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "arabicSimple": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "translation": "Nor are you worshippers of what I worship.",
+      "transliteration": "Wa laa antum 'aabidoona maa a'bud",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَلَآ",
+          "translation": "And not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "أَنتُمْ",
+          "translation": "you",
+          "transliteration": "antum"
+        },
+        {
+          "arabic": "عَـٰبِدُونَ",
+          "translation": "(are) worshippers",
+          "transliteration": "ʿābidūna"
+        },
+        {
+          "arabic": "مَآ",
+          "translation": "(of) what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "أَعْبُدُ",
+          "translation": "I worship",
+          "transliteration": "aʿbudu"
+        }
+      ]
+    },
+    {
+      "key": "109:4",
+      "arabic": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
+      "arabicSimple": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
+      "translation": "Nor will I be a worshipper of what you worship.",
+      "transliteration": "Wa laa ana 'abidum maa 'abattum",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَلَآ",
+          "translation": "And not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "أَنَا۠",
+          "translation": "I am",
+          "transliteration": "anā"
+        },
+        {
+          "arabic": "عَابِدٌۭ",
+          "translation": "a worshipper",
+          "transliteration": "ʿābidun"
+        },
+        {
+          "arabic": "مَّا",
+          "translation": "(of) what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "عَبَدتُّمْ",
+          "translation": "you worship",
+          "transliteration": "ʿabadttum"
+        }
+      ]
+    },
+    {
+      "key": "109:5",
+      "arabic": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "arabicSimple": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "translation": "Nor will you be worshippers of what I worship.",
+      "transliteration": "Wa laa antum 'aabidoona ma a'bud",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَلَآ",
+          "translation": "And not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "أَنتُمْ",
+          "translation": "you",
+          "transliteration": "antum"
+        },
+        {
+          "arabic": "عَـٰبِدُونَ",
+          "translation": "(are) worshippers",
+          "transliteration": "ʿābidūna"
+        },
+        {
+          "arabic": "مَآ",
+          "translation": "(of) what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "أَعْبُدُ",
+          "translation": "I worship",
+          "transliteration": "aʿbudu"
+        }
+      ]
+    },
+    {
+      "key": "109:6",
+      "arabic": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+      "arabicSimple": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+      "translation": "For you is your religion, and for me is my religion.\"",
+      "transliteration": "Lakum deenukum wa liya deen.",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "لَكُمْ",
+          "translation": "For you",
+          "transliteration": "lakum"
+        },
+        {
+          "arabic": "دِينُكُمْ",
+          "translation": "(is) your religion",
+          "transliteration": "dīnukum"
+        },
+        {
+          "arabic": "وَلِىَ",
+          "translation": "and for me",
+          "transliteration": "waliya"
+        },
+        {
+          "arabic": "دِينِ",
+          "translation": "(is) my religion",
+          "transliteration": "dīni"
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,17 @@
-// settings.js - Settings management for translation and transliteration toggles
+// settings.js - Settings management for translation, transliteration and highlighting toggles
 
 class SettingsManager {
     constructor() {
         this.settings = {
             showTranslation: true,
-            showTransliteration: true
+            showTransliteration: true,
+            showHighlighting: true
         };
         
         // Load saved settings from localStorage
         this.loadSettings();
         this.applySettings();
+    
     }
     
     // Load settings from localStorage
@@ -37,6 +39,7 @@ class SettingsManager {
     applySettings() {
         this.setTranslationVisibility(this.settings.showTranslation);
         this.setTransliterationVisibility(this.settings.showTransliteration);
+        this.setHighlightingEnabled(this.settings.showHighlighting);  // Add this
         this.updateUIControls();
     }
     
@@ -44,12 +47,16 @@ class SettingsManager {
     updateUIControls() {
         const translationToggle = document.getElementById('translation-toggle');
         const transliterationToggle = document.getElementById('transliteration-toggle');
+        const highlightingToggle = document.getElementById('highlighting-toggle');  // Add this
         
         if (translationToggle) {
             translationToggle.checked = this.settings.showTranslation;
         }
         if (transliterationToggle) {
             transliterationToggle.checked = this.settings.showTransliteration;
+        }
+        if (highlightingToggle) {  // Add this block
+            highlightingToggle.checked = this.settings.showHighlighting;
         }
     }
     
@@ -99,6 +106,49 @@ class SettingsManager {
         style.innerHTML = rules.join('\n');
     }
     
+    // NEW: Toggle highlighting
+    toggleHighlighting(enabled) {
+        this.settings.showHighlighting = enabled;
+        this.setHighlightingEnabled(enabled);
+        this.saveSettings();
+    }
+    
+    // NEW: Set highlighting enabled state
+   setHighlightingEnabled(enabled) {
+    // Set the global state first
+    if (!window.appState) {
+        window.appState = window.appState || {};
+    }
+    window.appState.highlightingEnabled = enabled;
+    
+    if (!enabled) {
+        // Clean up existing highlighting
+        if (window.wordHighlighter) {
+            window.wordHighlighter.cleanup();
+        }
+        
+        // Restore original text without word spans
+        const arabicText = document.querySelector('.verse-display.active .arabic-text');
+        if (arabicText && arabicText.dataset.originalText) {
+            arabicText.textContent = arabicText.dataset.originalText;
+        }
+    } else {
+        // Re-enable highlighting if audio is playing
+        if (window.audioService) {
+            const audio = window.audioService.getCurrentAudio ? window.audioService.getCurrentAudio() : null;
+            if (audio && !audio.paused && window.appState.isReciting && !window.appState.isPaused) {
+                const verse = window.appState.verses[window.appState.currentVerseIndex];
+                if (verse && verse.hasAudio && window.wordHighlighter) {
+                    setTimeout(() => {
+                        window.wordHighlighter.initializeVerse(verse.number);
+                        window.wordHighlighter.startHighlighting();
+                    }, 100);
+                }
+            }
+        }
+    }
+}
+    
     // Create style element for dynamic styles
     createStyleElement() {
         const style = document.createElement('style');
@@ -140,6 +190,12 @@ function toggleTranslation() {
 function toggleTransliteration() {
     const toggle = document.getElementById('transliteration-toggle');
     window.settingsManager.toggleTransliteration(toggle.checked);
+}
+
+// NEW: Add the toggle highlighting function
+function toggleHighlighting() {
+    const toggle = document.getElementById('highlighting-toggle');
+    window.settingsManager.toggleHighlighting(toggle.checked);
 }
 
 // Create global instance

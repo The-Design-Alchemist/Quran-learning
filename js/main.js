@@ -12,8 +12,18 @@ window.appState = {
     surahRepeatCount: 0,
     currentSurah: null,
     verses: [],
-    highlightingEnabled: true // New setting for word highlighting
+    highlightingEnabled: true, // This will be overridden by settings
+    currentSegment: 0,
+    isSegmentedVerse: false
 };
+
+// After DOM loads, sync with settings
+document.addEventListener('DOMContentLoaded', () => {
+    // Sync highlighting state with saved settings
+    if (window.settingsManager) {
+        window.appState.highlightingEnabled = window.settingsManager.settings.showHighlighting;
+    }
+});
 
 // Keep only essential globals
 window.currentAudio = null;
@@ -181,7 +191,8 @@ showResumeDialog(savedPosition) {
 }
 
     // Build verses array from API data
-   async buildVersesArray(surahNumber, verseData) {
+   // Build verses array from API data
+async buildVersesArray(surahNumber, verseData) {
     window.appState.verses = [];
     
     // Add Bismillah for all surahs except At-Tawbah (9)
@@ -196,20 +207,25 @@ showResumeDialog(savedPosition) {
         });
     }
 
-    // Add all verses with translations and transliterations
+    // Add all verses - DON'T OVERWRITE, just add missing fields
     for (let i = 0; i < verseData.length; i++) {
         const verse = verseData[i];
-        const verseNumber = verse.numberInSurah || verse.number || (i + 1);
         
-        window.appState.verses.push({
-            number: verseNumber,
-            text: verse.text || `Verse ${verseNumber}`,
-            english: verse.translation || `Translation for Surah ${surahNumber}, Verse ${verseNumber}`,
-            transliteration: verse.transliteration || '',
-            id: `verse-${verseNumber}-display`,
-            hasAudio: true
-        });
+        // Use the verse object as-is, just add the id field
+        verse.id = `verse-${verse.number}-display`;
+        
+        // If segments exist, they're already in the verse object
+        // Just push the complete verse object
+        window.appState.verses.push(verse);
     }
+    
+    // Debug: Check for segmented verses
+    console.log('Checking for segmented verses after building array:');
+    window.appState.verses.forEach((verse, index) => {
+        if (verse.segments) {
+            console.log(`✅ Verse ${verse.number} has ${verse.segments.length} segments`);
+        }
+    });
 }
 
     // Initialize all services

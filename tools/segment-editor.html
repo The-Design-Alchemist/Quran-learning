@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Segment Fine-Tuner</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .control-group {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        select, input, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+        select, input {
+            width: 100%;
+            margin-top: 5px;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        button:hover { background: #5a67d8; }
+        button:disabled { 
+            background: #ccc; 
+            cursor: not-allowed; 
+        }
+        .verse-info {
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+        }
+        .arabic {
+            font-size: 24px;
+            direction: rtl;
+            margin: 10px 0;
+            line-height: 1.8;
+            color: #2c3e50;
+        }
+        audio {
+            width: 100%;
+            margin: 20px 0;
+        }
+        .segments-editor {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .segment-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+        }
+        .segment-item.playing {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+        .segment-controls {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .timing-input {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .timing-input label {
+            font-size: 12px;
+            color: #666;
+            min-width: 40px;
+        }
+        .timing-input input {
+            width: 100px;
+            padding: 5px;
+        }
+        .segment-arabic {
+            font-size: 20px;
+            direction: rtl;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .export-btn {
+            background: #27ae60;
+            font-size: 16px;
+            padding: 15px 30px;
+        }
+        .word-display {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin: 10px 0;
+            direction: rtl;
+        }
+        .word {
+            padding: 5px 10px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .word.highlighted {
+            background: #ffd700;
+            font-weight: bold;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .status.success { 
+            background: #d4edda; 
+            color: #155724; 
+        }
+        .status.error { 
+            background: #f8d7da; 
+            color: #721c24; 
+        }
+        .waveform-container {
+            height: 100px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            margin: 10px 0;
+            position: relative;
+        }
+        .playhead {
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background: red;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th { background: #f0f0f0; }
+        .fine-tune-btn {
+            background: #e67e22;
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+        .info-text {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .edited-badge {
+    background: #27ae60;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.segment-item.edited {
+    border-color: #27ae60;
+    background: #f0fff4;
+}
+
+.edit-history {
+    background: #e8f5e9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.split-controls {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.split-button {
+    background: #ff9800;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+.merge-button {
+    background: #9c27b0;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+.time-marker {
+    background: #2196f3;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Segment Fine-Tuner for Quran Audio</h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label>Select Surah (only shows surahs with segments):</label>
+                <select id="surah-select">
+                    <option value="">Loading...</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label>Select Verse:</label>
+                <select id="verse-select" disabled>
+                    <option value="">Select a surah first</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="status-message"></div>
+
+        <div id="verse-container" style="display: none;">
+            <div class="verse-info">
+                <h3>Verse <span id="verse-number"></span></h3>
+                <div class="arabic" id="verse-arabic"></div>
+                <div id="verse-translation"></div>
+            </div>
+
+            <audio id="audio-player" controls></audio>
+            
+            <div class="segments-editor" id="segments-editor">
+                <h3>Segments (<span id="segment-count">0</span>)</h3>
+                <div id="segments-list"></div>
+            </div>
+
+            <div class="actions">
+    <button class="export-btn" onclick="exportTimings()">💾 Export Updated Timings</button>
+    <button onclick="resetToOriginal()">↩️ Reset to Original</button>
+    <button onclick="showEditSummary()">📊 Show Edit History</button>
+    <button onclick="clearCurrentVerseHistory()">🗑️ Clear Current History</button>
+</div>
+        </div>
+    </div>
+
+    <script>
+        let currentSurah = null;
+        let currentVerse = null;
+        let currentTimingData = null;
+        let currentEnhancedData = null;
+        let segmentsWithVerse = {};
+        let originalTimings = {};
+        let audioContext = null;
+        let wordHighlightInterval = null;
+
+        // Initialize
+        async function init() {
+            await loadSurahsWithSegments();
+            setupEventListeners();
+            
+            // Initialize Web Audio API for analysis
+            audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        }
+
+        async function loadSurahsWithSegments() {
+    const select = document.getElementById('surah-select');
+    select.innerHTML = '<option value="">Select a surah...</option>';
+    
+    // Check all surahs for segments
+    for (let i = 1; i <= 114; i++) {
+        const surahNum = String(i).padStart(3, '0');
+        try {
+            // Fix the path - use absolute path from server root
+            const response = await fetch(`http://localhost:3333/enhanced/${surahNum}.json`);
+            if (!response.ok) continue;
+            
+            const data = await response.json();
+            const versesWithSegments = data.verses.filter(v => 
+                v.segments && v.segments.length > 1
+            );
+            
+            if (versesWithSegments.length > 0) {
+                segmentsWithVerse[i] = versesWithSegments;
+                const option = document.createElement('option');
+                option.value = i;
+                option.textContent = `${i}. ${data.englishName || 'Surah ' + i} (${versesWithSegments.length} segmented verses)`;
+                select.appendChild(option);
+            }
+        } catch (e) {
+            console.log(`Surah ${i} not found or error:`, e);
+        }
+    }
+    
+    if (select.options.length === 1) {
+        select.innerHTML = '<option value="">No surahs with segments found</option>';
+    }
+}
+
+        function setupEventListeners() {
+            document.getElementById('surah-select').addEventListener('change', loadVersesForSurah);
+            document.getElementById('verse-select').addEventListener('change', loadVerse);
+            
+            const audio = document.getElementById('audio-player');
+            audio.addEventListener('timeupdate', updatePlayhead);
+        }
+
+        async function loadVersesForSurah() {
+    const surahNum = document.getElementById('surah-select').value;
+    const verseSelect = document.getElementById('verse-select');
+    
+    if (!surahNum) {
+        verseSelect.disabled = true;
+        return;
+    }
+    
+    verseSelect.disabled = false;
+    verseSelect.innerHTML = '<option value="">Select a verse...</option>';
+    
+    // Check BOTH complete-timings and surah-timings
+    let versesWithTimings = [];
+    
+    // Try complete-timings first
+    try {
+        const completeResponse = await fetch(`http://localhost:3333/complete-timings/surah_${String(surahNum).padStart(3, '0')}_complete.json`);
+        if (completeResponse.ok) {
+            const completeData = await completeResponse.json();
+            versesWithTimings = completeData.map(v => v.verseNumber);
+            console.log('Found verses in complete-timings:', versesWithTimings);
+        }
+    } catch (e) {
+        console.log('No complete-timings file');
+    }
+    
+    // Also check regular timings if needed
+    if (versesWithTimings.length === 0) {
+        try {
+            const timingResponse = await fetch(`http://localhost:3333/surah-timings/surah_${String(surahNum).padStart(3, '0')}_timings.json`);
+            if (timingResponse.ok) {
+                const timingData = await timingResponse.json();
+                versesWithTimings = timingData.map(v => v.verseNumber);
+            }
+        } catch (e) {
+            console.log('No surah-timings file either');
+        }
+    }
+    
+    const verses = segmentsWithVerse[surahNum];
+    verses.forEach(verse => {
+        const [s, v] = verse.key.split(':');
+        const verseNum = parseInt(v);
+        const key = `${surahNum}_${verseNum}`;
+        
+        const option = document.createElement('option');
+        option.value = verseNum;
+        
+        let text = `Verse ${verseNum} (${verse.segments.length} segments)`;
+        
+        if (versesWithTimings.includes(verseNum)) {
+            text += ' ✓';
+            
+            // Check if this verse has been edited
+            if (editedSegments[key]) {
+                const editCount = Object.keys(editedSegments[key].segments).length;
+                text += ` 📝 ${editCount} edited`;
+                option.style.background = '#e8f5e9';
+            }
+        } else {
+            text += ' - No timing';
+            option.disabled = true;
+        }
+        
+        option.textContent = text;
+        verseSelect.appendChild(option);
+    });
+
+
+}
+
+        async function loadVerse() {
+    const surahNum = document.getElementById('surah-select').value;
+    const verseNum = document.getElementById('verse-select').value;
+    
+    if (!surahNum || !verseNum) return;
+    
+    showStatus('Loading verse data...', 'info');
+    
+    try {
+        // Load enhanced data
+        const enhancedResponse = await fetch(`http://localhost:3333/enhanced/${String(surahNum).padStart(3, '0')}.json`);
+        const enhancedData = await enhancedResponse.json();
+        currentEnhancedData = enhancedData.verses.find(v => v.key === `${surahNum}:${verseNum}`);
+        
+        // Load timing data - CHECK COMPLETE-TIMINGS FIRST
+        let timingData = null;
+        
+        // Try complete-timings first (where your data actually is)
+        try {
+            const completeResponse = await fetch(`http://localhost:3333/complete-timings/surah_${String(surahNum).padStart(3, '0')}_complete.json`);
+            if (completeResponse.ok) {
+                const completeData = await completeResponse.json();
+                timingData = completeData.find(v => v.verseNumber == verseNum);
+                console.log('Found timing in complete-timings:', timingData);
+            }
+        } catch (e) {
+            console.log('No complete timing, trying regular...');
+        }
+        
+        // Fallback to regular timing if not found
+        if (!timingData) {
+            try {
+                const timingResponse = await fetch(`http://localhost:3333/surah-timings/surah_${String(surahNum).padStart(3, '0')}_timings.json`);
+                if (timingResponse.ok) {
+                    const timingArray = await timingResponse.json();
+                    timingData = timingArray.find(v => v.verseNumber == verseNum);
+                }
+            } catch (e) {
+                console.log('No regular timing either');
+            }
+        }
+        
+        if (!timingData) {
+            showStatus('No timing data found for this verse', 'error');
+            return;
+        }
+        
+        currentTimingData = timingData;
+        originalTimings = JSON.parse(JSON.stringify(timingData));
+        
+        // Rest of your code...
+        const audioPath = `http://localhost:3333/audio/${String(surahNum).padStart(3, '0')}/${String(surahNum).padStart(3, '0')}${String(verseNum).padStart(3, '0')}.mp3`;
+        document.getElementById('audio-player').src = audioPath;
+        
+        displayVerse();
+        displaySegments();
+        
+        document.getElementById('verse-container').style.display = 'block';
+        showStatus('Verse loaded successfully', 'success');
+        
+    } catch (error) {
+        console.error('Error loading verse:', error);
+        showStatus('Error loading verse: ' + error.message, 'error');
+    }
+}
+        function displayVerse() {
+            document.getElementById('verse-number').textContent = currentEnhancedData.key;
+            document.getElementById('verse-arabic').textContent = currentEnhancedData.arabic;
+            document.getElementById('verse-translation').textContent = currentEnhancedData.translation;
+        }
+
+        function displaySegments() {
+            const container = document.getElementById('segments-list');
+            container.innerHTML = '';
+            
+            if (!currentTimingData.segments || !currentEnhancedData.segments) {
+                // Initialize segments if not present
+                currentTimingData.segments = calculateSegments();
+            }
+            
+            document.getElementById('segment-count').textContent = currentEnhancedData.segments.length;
+            
+            currentEnhancedData.segments.forEach((segment, idx) => {
+                const timing = currentTimingData.segments?.[idx] || { start: 0, end: 0 };
+                
+                const segmentDiv = document.createElement('div');
+                segmentDiv.className = 'segment-item';
+                segmentDiv.innerHTML = `
+                    <h4>Segment ${idx + 1} ${segment.waqfMark ? `(${segment.type})` : ''}</h4>
+                    <div class="segment-arabic">${segment.arabic}</div>
+
+                    <!-- ADD SPLIT CONTROLS -->
+            <div class="split-controls">
+                <button class="split-button" onclick="markSplitPoint(${idx})">✂️ Mark Split Point</button>
+                <button class="split-button" onclick="splitAtMarkedPoint(${idx})">➗ Split at Marked Time</button>
+                <input type="number" id="split-time-${idx}" step="0.01" placeholder="Split time" style="width: 100px; margin: 0 10px;">
+                ${idx > 0 ? `<button class="merge-button" onclick="mergeWithPrevious(${idx})">🔗 Merge with Previous</button>` : ''}
+            </div>
+
+                   <div class="segment-controls">
+                <div class="timing-input">
+                    <label>Start:</label>
+                    <input type="number" step="0.01" id="start-${idx}" value="${timing.start?.toFixed(2) || 0}" onchange="updateTiming(${idx}, 'start')">
+                </div>
+                <div class="timing-input">
+                    <label>End:</label>
+                    <input type="number" step="0.01" id="end-${idx}" value="${timing.end?.toFixed(2) || 0}" onchange="updateTiming(${idx}, 'end')">
+                </div>
+                <button onclick="playSegment(${idx})">▶️ Play</button>
+                <button onclick="playWithWords(${idx})">🔤 Play with Words</button>
+            </div>
+                    <div class="info-text">
+                        Words: ${timing.startWord || 0} - ${timing.endWord || 0} | 
+                        Duration: ${((timing.end || 0) - (timing.start || 0)).toFixed(2)}s
+                    </div>
+                    <div id="words-${idx}" class="word-display"></div>
+                    <div class="segment-controls" style="margin-top: 10px;">
+                        <button class="fine-tune-btn" onclick="nudgeTime(${idx}, 'start', -0.1)">◀ -0.1s Start</button>
+                        <button class="fine-tune-btn" onclick="nudgeTime(${idx}, 'start', 0.1)">Start +0.1s ▶</button>
+                        <button class="fine-tune-btn" onclick="nudgeTime(${idx}, 'end', -0.1)">◀ -0.1s End</button>
+                        <button class="fine-tune-btn" onclick="nudgeTime(${idx}, 'end', 0.1)">End +0.1s ▶</button>
+                    </div>
+                `;
+                container.appendChild(segmentDiv);
+            });
+            updateEditedDisplay();
+        }
+
+        function calculateSegments() {
+            // Auto-calculate segments based on word timings
+            const segments = [];
+            let currentWordIndex = 0;
+            
+            currentEnhancedData.segments.forEach((segment, idx) => {
+                const wordCount = segment.arabic.split(/\s+/).filter(w => w.length > 0).length;
+                const startWord = currentWordIndex;
+                const endWord = currentWordIndex + wordCount - 1;
+                
+                const startTime = currentTimingData.words[startWord]?.start || 0;
+                let endTime = currentTimingData.words[endWord]?.end || 0;
+                
+                // Add buffer
+                endTime -= 0.1;
+                
+                segments.push({
+                    segmentNumber: idx + 1,
+                    start: startTime,
+                    end: endTime,
+                    startWord: startWord,
+                    endWord: endWord
+                });
+                
+                currentWordIndex = endWord + 1;
+            });
+            
+            return segments;
+        }
+
+        function updateTiming(segmentIdx, field) {
+            const value = parseFloat(document.getElementById(`${field}-${segmentIdx}`).value);
+            if (!currentTimingData.segments) {
+                currentTimingData.segments = calculateSegments();
+            }
+            currentTimingData.segments[segmentIdx][field] = value;
+            
+            // Update display
+            displaySegments();
+        }
+
+        function nudgeTime(segmentIdx, field, amount) {
+            const input = document.getElementById(`${field}-${segmentIdx}`);
+            const currentValue = parseFloat(input.value);
+            const newValue = Math.max(0, currentValue + amount);
+            input.value = newValue.toFixed(2);
+            updateTiming(segmentIdx, field);
+        }
+
+        function playSegment(segmentIdx) {
+            const audio = document.getElementById('audio-player');
+            const segment = currentTimingData.segments[segmentIdx];
+            
+            if (!segment) return;
+            
+            // Highlight current segment
+            document.querySelectorAll('.segment-item').forEach(el => el.classList.remove('playing'));
+            document.querySelectorAll('.segment-item')[segmentIdx].classList.add('playing');
+            
+            audio.currentTime = segment.start;
+            audio.play();
+            
+            // Stop at segment end
+            const checkEnd = setInterval(() => {
+                if (audio.currentTime >= segment.end) {
+                    audio.pause();
+                    clearInterval(checkEnd);
+                    document.querySelectorAll('.segment-item')[segmentIdx].classList.remove('playing');
+                }
+            }, 50);
+        }
+
+        function playWithWords(segmentIdx) {
+            const segment = currentTimingData.segments[segmentIdx];
+            if (!segment) return;
+            
+            playSegment(segmentIdx);
+            
+            // Display and highlight words
+            const wordsContainer = document.getElementById(`words-${segmentIdx}`);
+            wordsContainer.innerHTML = '';
+            
+            for (let i = segment.startWord; i <= segment.endWord && i < currentTimingData.words.length; i++) {
+                const wordSpan = document.createElement('span');
+                wordSpan.className = 'word';
+                wordSpan.textContent = currentTimingData.words[i].word;
+                wordSpan.id = `word-${segmentIdx}-${i}`;
+                wordsContainer.appendChild(wordSpan);
+            }
+            
+            // Highlight words as they play
+            if (wordHighlightInterval) clearInterval(wordHighlightInterval);
+            
+            wordHighlightInterval = setInterval(() => {
+                const audio = document.getElementById('audio-player');
+                const currentTime = audio.currentTime;
+                
+                for (let i = segment.startWord; i <= segment.endWord && i < currentTimingData.words.length; i++) {
+                    const word = currentTimingData.words[i];
+                    const wordEl = document.getElementById(`word-${segmentIdx}-${i}`);
+                    if (wordEl) {
+                        if (currentTime >= word.start && currentTime < word.end) {
+                            wordEl.classList.add('highlighted');
+                        } else {
+                            wordEl.classList.remove('highlighted');
+                        }
+                    }
+                }
+            }, 50);
+        }
+
+async function exportTimings() {
+    const surahNum = document.getElementById('surah-select').value;
+    const verseNum = document.getElementById('verse-select').value;
+    
+    if (!surahNum || !verseNum || !currentTimingData.segments) {
+        showStatus('No data to save', 'error');
+        return;
+    }
+    
+    // Prepare segments data
+    const segments = currentTimingData.segments.map(seg => ({
+        segmentNumber: seg.segmentNumber || seg.segmentIndex + 1,
+        start: parseFloat(seg.start.toFixed(3)),
+        end: parseFloat(seg.end.toFixed(3)),
+        startWord: seg.startWord,
+        endWord: seg.endWord
+    }));
+    
+    try {
+        // Send to server to save directly to file
+        const response = await fetch('http://localhost:3333/api/save-timing', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                surahNumber: parseInt(surahNum),
+                verseNumber: parseInt(verseNum),
+                segments: segments,
+                enhancedSegments: currentEnhancedData.segments // Include enhanced segments if needed
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            showStatus(`✅ ${result.message} - File updated: ${result.file}`, 'success');
+            
+            // Also download a backup copy
+            const dataStr = JSON.stringify({ 
+                verse: currentTimingData.verseNumber,
+                segments: segments 
+            }, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `backup_verse_${surahNum}_${verseNum}_segments.json`;
+            a.click();
+            
+        } else {
+            showStatus(`Error: ${result.error}`, 'error');
+        }
+    } catch (error) {
+        showStatus(`Failed to save: ${error.message}`, 'error');
+        console.error('Save error:', error);
+    }
+}
+
+        function resetToOriginal() {
+            currentTimingData = JSON.parse(JSON.stringify(originalTimings));
+            displaySegments();
+            showStatus('Reset to original timings', 'info');
+        }
+
+        async function autoDetectSilence() {
+            // This would need more complex audio analysis
+            showStatus('Auto-detection requires audio analysis. Use manual adjustment for now.', 'info');
+        }
+
+        function updatePlayhead() {
+            const audio = document.getElementById('audio-player');
+            const progress = (audio.currentTime / audio.duration) * 100;
+            // Update visual playhead if you add a waveform viewer
+        }
+
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('status-message');
+            statusDiv.className = `status ${type}`;
+            statusDiv.textContent = message;
+            statusDiv.style.display = 'block';
+            
+            if (type === 'success') {
+                setTimeout(() => {
+                    statusDiv.style.display = 'none';
+                }, 3000);
+            }
+        }
+
+        // Track edited segments
+let editedSegments = {};
+
+// Load edit history from localStorage
+function loadEditHistory() {
+    const saved = localStorage.getItem('quranSegmentEdits');
+    if (saved) {
+        editedSegments = JSON.parse(saved);
+    }
+}
+
+// Save edit history
+function saveEditHistory() {
+    localStorage.setItem('quranSegmentEdits', JSON.stringify(editedSegments));
+}
+
+// Mark segment as edited
+function markAsEdited(surahNum, verseNum, segmentIdx) {
+    const key = `${surahNum}_${verseNum}`;
+    if (!editedSegments[key]) {
+        editedSegments[key] = {
+            segments: {},
+            lastEdited: null
+        };
+    }
+    
+    editedSegments[key].segments[segmentIdx] = {
+        editedAt: new Date().toISOString(),
+        originalStart: originalTimings.segments?.[segmentIdx]?.start,
+        originalEnd: originalTimings.segments?.[segmentIdx]?.end,
+        newStart: currentTimingData.segments[segmentIdx].start,
+        newEnd: currentTimingData.segments[segmentIdx].end
+    };
+    
+    editedSegments[key].lastEdited = new Date().toISOString();
+    saveEditHistory();
+    updateEditedDisplay();
+}
+
+// Update the display to show edited segments
+function updateEditedDisplay() {
+    const surahNum = document.getElementById('surah-select').value;
+    const verseNum = document.getElementById('verse-select').value;
+    const key = `${surahNum}_${verseNum}`;
+    
+    if (editedSegments[key]) {
+        document.querySelectorAll('.segment-item').forEach((item, idx) => {
+            if (editedSegments[key].segments[idx]) {
+                item.classList.add('edited');
+                
+                // Add edited badge if not already there
+                if (!item.querySelector('.edited-badge')) {
+                    const badge = document.createElement('span');
+                    badge.className = 'edited-badge';
+                    badge.textContent = '✓ Edited';
+                    item.querySelector('h4').appendChild(badge);
+                }
+            }
+        });
+    }
+}
+
+// Update the updateTiming function to track edits
+function updateTiming(segmentIdx, field) {
+    const value = parseFloat(document.getElementById(`${field}-${segmentIdx}`).value);
+    if (!currentTimingData.segments) {
+        currentTimingData.segments = calculateSegments();
+    }
+    
+    const oldValue = currentTimingData.segments[segmentIdx][field];
+    currentTimingData.segments[segmentIdx][field] = value;
+    
+    // Mark as edited if value changed
+    if (oldValue !== value) {
+        const surahNum = document.getElementById('surah-select').value;
+        const verseNum = document.getElementById('verse-select').value;
+        markAsEdited(surahNum, verseNum, segmentIdx);
+    }
+    
+    displaySegments();
+}
+
+// Show edit summary
+function showEditSummary() {
+    let summary = "📝 Edit History:\n\n";
+    
+    for (const [key, data] of Object.entries(editedSegments)) {
+        const [surah, verse] = key.split('_');
+        const segmentCount = Object.keys(data.segments).length;
+        const lastEdit = new Date(data.lastEdited).toLocaleString();
+        
+        summary += `Surah ${surah}, Verse ${verse}: ${segmentCount} segments edited\n`;
+        summary += `Last edited: ${lastEdit}\n\n`;
+    }
+    
+    if (Object.keys(editedSegments).length === 0) {
+        summary = "No edits made yet.";
+    }
+    
+    alert(summary);
+}
+
+// Clear edit history for current verse
+function clearCurrentVerseHistory() {
+    const surahNum = document.getElementById('surah-select').value;
+    const verseNum = document.getElementById('verse-select').value;
+    const key = `${surahNum}_${verseNum}`;
+    
+    if (confirm(`Clear edit history for Surah ${surahNum}, Verse ${verseNum}?`)) {
+        delete editedSegments[key];
+        saveEditHistory();
+        displaySegments();
+        showStatus('Edit history cleared for this verse', 'info');
+    }
+}
+
+// Mark current audio time as split point
+function markSplitPoint(segmentIdx) {
+    const audio = document.getElementById('audio-player');
+    const currentTime = audio.currentTime;
+    const segment = currentTimingData.segments[segmentIdx];
+    
+    if (currentTime >= segment.start && currentTime <= segment.end) {
+        document.getElementById(`split-time-${segmentIdx}`).value = currentTime.toFixed(2);
+        showStatus(`Marked split point at ${currentTime.toFixed(2)}s`, 'info');
+    } else {
+        showStatus('Current time is outside this segment!', 'error');
+    }
+}
+
+// Split segment at marked time
+function splitAtMarkedPoint(segmentIdx) {
+    const splitTimeInput = document.getElementById(`split-time-${segmentIdx}`);
+    const splitTime = parseFloat(splitTimeInput.value);
+    
+    if (!splitTime || isNaN(splitTime)) {
+        showStatus('Please mark a split point first!', 'error');
+        return;
+    }
+    
+    const segment = currentTimingData.segments[segmentIdx];
+    const enhancedSegment = currentEnhancedData.segments[segmentIdx];
+    
+    if (splitTime <= segment.start || splitTime >= segment.end) {
+        showStatus('Split time must be within segment bounds!', 'error');
+        return;
+    }
+    
+    // Calculate word split point
+    let splitWordIndex = segment.startWord;
+    if (currentTimingData.words) {
+        for (let i = segment.startWord; i <= segment.endWord; i++) {
+            if (currentTimingData.words[i].start > splitTime) {
+                splitWordIndex = i;
+                break;
+            }
+        }
+    }
+    
+    // Split the Arabic text proportionally
+    const arabicWords = enhancedSegment.arabic.split(/\s+/);
+    const totalWords = arabicWords.length;
+    const splitPoint = Math.floor(totalWords * ((splitTime - segment.start) / (segment.end - segment.start)));
+    
+    const firstPart = arabicWords.slice(0, splitPoint).join(' ');
+    const secondPart = arabicWords.slice(splitPoint).join(' ');
+    
+    // Split translation proportionally
+    const translationSplitPoint = Math.floor(enhancedSegment.translation.length * ((splitTime - segment.start) / (segment.end - segment.start)));
+    const firstTranslation = enhancedSegment.translation.substring(0, translationSplitPoint).trim();
+    const secondTranslation = enhancedSegment.translation.substring(translationSplitPoint).trim();
+    
+    // Create two new segments
+    const newSegment1 = {
+        segmentNumber: segmentIdx + 1,
+        start: segment.start,
+        end: splitTime,
+        startWord: segment.startWord,
+        endWord: splitWordIndex - 1
+    };
+    
+    const newSegment2 = {
+        segmentNumber: segmentIdx + 2,
+        start: splitTime,
+        end: segment.end,
+        startWord: splitWordIndex,
+        endWord: segment.endWord
+    };
+    
+    // Update enhanced data
+    const newEnhancedSegment1 = {
+        ...enhancedSegment,
+        arabic: firstPart,
+        translation: firstTranslation,
+        transliteration: enhancedSegment.transliteration.split(' ').slice(0, splitPoint).join(' ')
+    };
+    
+    const newEnhancedSegment2 = {
+        ...enhancedSegment,
+        arabic: secondPart,
+        translation: secondTranslation,
+        transliteration: enhancedSegment.transliteration.split(' ').slice(splitPoint).join(' ')
+    };
+    
+    // Replace the segment with two new ones
+    currentTimingData.segments.splice(segmentIdx, 1, newSegment1, newSegment2);
+    currentEnhancedData.segments.splice(segmentIdx, 1, newEnhancedSegment1, newEnhancedSegment2);
+    
+    // Renumber all segments
+    currentTimingData.segments.forEach((seg, idx) => {
+        seg.segmentNumber = idx + 1;
+    });
+    
+    currentEnhancedData.segments.forEach((seg, idx) => {
+        seg.segmentNumber = idx + 1;
+    });
+    
+    // Mark as edited
+    const surahNum = document.getElementById('surah-select').value;
+    const verseNum = document.getElementById('verse-select').value;
+    markAsEdited(surahNum, verseNum, segmentIdx);
+    markAsEdited(surahNum, verseNum, segmentIdx + 1);
+    
+    displaySegments();
+    showStatus(`Split segment ${segmentIdx + 1} into two segments`, 'success');
+}
+
+// Merge with previous segment
+function mergeWithPrevious(segmentIdx) {
+    if (segmentIdx === 0) return;
+    
+    const prevIdx = segmentIdx - 1;
+    const prevSegment = currentTimingData.segments[prevIdx];
+    const currentSegment = currentTimingData.segments[segmentIdx];
+    
+    const prevEnhanced = currentEnhancedData.segments[prevIdx];
+    const currentEnhanced = currentEnhancedData.segments[segmentIdx];
+    
+    // Merge timing data
+    const mergedSegment = {
+        segmentNumber: prevIdx + 1,
+        start: prevSegment.start,
+        end: currentSegment.end,
+        startWord: prevSegment.startWord,
+        endWord: currentSegment.endWord
+    };
+    
+    // Merge enhanced data
+    const mergedEnhanced = {
+        ...prevEnhanced,
+        arabic: prevEnhanced.arabic + ' ' + currentEnhanced.arabic,
+        translation: prevEnhanced.translation + ' ' + currentEnhanced.translation,
+        transliteration: prevEnhanced.transliteration + ' ' + currentEnhanced.transliteration
+    };
+    
+    // Remove current segment and update previous
+    currentTimingData.segments.splice(prevIdx, 2, mergedSegment);
+    currentEnhancedData.segments.splice(prevIdx, 2, mergedEnhanced);
+    
+    // Renumber remaining segments
+    currentTimingData.segments.forEach((seg, idx) => {
+        seg.segmentNumber = idx + 1;
+    });
+    
+    currentEnhancedData.segments.forEach((seg, idx) => {
+        seg.segmentNumber = idx + 1;
+    });
+    
+    const surahNum = document.getElementById('surah-select').value;
+    const verseNum = document.getElementById('verse-select').value;
+    markAsEdited(surahNum, verseNum, prevIdx);
+    
+    displaySegments();
+    showStatus(`Merged segment ${segmentIdx + 1} with segment ${prevIdx + 1}`, 'success');
+}
+
+// Initialize on load - add this to your init() function
+async function init() {
+    loadEditHistory(); // Add this line
+    await loadSurahsWithSegments();
+    setupEventListeners();
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+}
+
+// ADD THIS LINE - Actually call init when the page loads
+init();
+
+    </script>
+</body>
+</html>

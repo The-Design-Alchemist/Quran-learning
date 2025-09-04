@@ -1,0 +1,361 @@
+{
+  "number": 100,
+  "name": "العاديات",
+  "englishName": "Al-'Adiyat",
+  "englishNameTranslation": "The Courser",
+  "revelationType": "makkah",
+  "numberOfAyahs": 11,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "100:1",
+      "arabic": " وَٱلْعَـٰدِيَـٰتِ ضَبْحًا",
+      "arabicSimple": " وَٱلْعَـٰدِيَـٰتِ ضَبْحًا",
+      "translation": "By the racers, panting,",
+      "transliteration": "Wal'aadi yaati dabha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلْعَـٰدِيَـٰتِ",
+          "translation": "By the racers",
+          "transliteration": "wal-ʿādiyāti"
+        },
+        {
+          "arabic": "ضَبْحًۭا",
+          "translation": "panting",
+          "transliteration": "ḍabḥan"
+        }
+      ]
+    },
+    {
+      "key": "100:2",
+      "arabic": "فَٱلْمُورِيَـٰتِ قَدْحًا",
+      "arabicSimple": "فَٱلْمُورِيَـٰتِ قَدْحًا",
+      "translation": "And the producers of sparks [when] striking",
+      "transliteration": "Fal moori yaati qadha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "فَٱلْمُورِيَـٰتِ",
+          "translation": "And the producers of sparks",
+          "transliteration": "fal-mūriyāti"
+        },
+        {
+          "arabic": "قَدْحًۭا",
+          "translation": "striking",
+          "transliteration": "qadḥan"
+        }
+      ]
+    },
+    {
+      "key": "100:3",
+      "arabic": "فَٱلْمُغِيرَٰتِ صُبْحًا",
+      "arabicSimple": "فَٱلْمُغِيرَٰتِ صُبْحًا",
+      "translation": "And the chargers at dawn,",
+      "transliteration": "Fal mugheeraati subha",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "فَٱلْمُغِيرَٰتِ",
+          "translation": "And the chargers",
+          "transliteration": "fal-mughīrāti"
+        },
+        {
+          "arabic": "صُبْحًۭا",
+          "translation": "(at) dawn",
+          "transliteration": "ṣub'ḥan"
+        }
+      ]
+    },
+    {
+      "key": "100:4",
+      "arabic": "فَأَثَرْنَ بِهِۦ نَقْعًا",
+      "arabicSimple": "فَأَثَرْنَ بِهِۦ نَقْعًا",
+      "translation": "Stirring up thereby [clouds of] dust,",
+      "transliteration": "Fa atharna bihee naq'a",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَأَثَرْنَ",
+          "translation": "Then raise",
+          "transliteration": "fa-atharna"
+        },
+        {
+          "arabic": "بِهِۦ",
+          "translation": "thereby",
+          "transliteration": "bihi"
+        },
+        {
+          "arabic": "نَقْعًۭا",
+          "translation": "dust",
+          "transliteration": "naqʿan"
+        }
+      ]
+    },
+    {
+      "key": "100:5",
+      "arabic": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+      "arabicSimple": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+      "translation": "Arriving thereby in the center collectively,",
+      "transliteration": "Fawa satna bihee jam'a",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَوَسَطْنَ",
+          "translation": "Then penetrate (in the) center",
+          "transliteration": "fawasaṭna"
+        },
+        {
+          "arabic": "بِهِۦ",
+          "translation": "thereby",
+          "transliteration": "bihi"
+        },
+        {
+          "arabic": "جَمْعًا",
+          "translation": "collectively",
+          "transliteration": "jamʿan"
+        }
+      ]
+    },
+    {
+      "key": "100:6",
+      "arabic": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ",
+      "arabicSimple": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ",
+      "translation": "Indeed mankind, to his Lord, is ungrateful.",
+      "transliteration": "Innal-insana lirabbihee lakanood",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "ٱلْإِنسَـٰنَ",
+          "translation": "mankind",
+          "transliteration": "l-insāna"
+        },
+        {
+          "arabic": "لِرَبِّهِۦ",
+          "translation": "to his Lord",
+          "transliteration": "lirabbihi"
+        },
+        {
+          "arabic": "لَكَنُودٌۭ",
+          "translation": "(is) surely ungrateful",
+          "transliteration": "lakanūdun"
+        }
+      ]
+    },
+    {
+      "key": "100:7",
+      "arabic": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
+      "arabicSimple": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
+      "translation": "And indeed, he is to that a witness.",
+      "transliteration": "Wa innahu 'alaa zaalika la shaheed",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَإِنَّهُۥ",
+          "translation": "And indeed, he",
+          "transliteration": "wa-innahu"
+        },
+        {
+          "arabic": "عَلَىٰ",
+          "translation": "on",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "ذَٰلِكَ",
+          "translation": "that",
+          "transliteration": "dhālika"
+        },
+        {
+          "arabic": "لَشَهِيدٌۭ",
+          "translation": "surely (is) a witness",
+          "transliteration": "lashahīdun"
+        }
+      ]
+    },
+    {
+      "key": "100:8",
+      "arabic": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+      "arabicSimple": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+      "translation": "And indeed he is, in love of wealth, intense.",
+      "transliteration": "Wa innahu lihubbil khairi la shadeed",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَإِنَّهُۥ",
+          "translation": "And indeed he",
+          "transliteration": "wa-innahu"
+        },
+        {
+          "arabic": "لِحُبِّ",
+          "translation": "in (the) love",
+          "transliteration": "liḥubbi"
+        },
+        {
+          "arabic": "ٱلْخَيْرِ",
+          "translation": "(of) wealth",
+          "transliteration": "l-khayri"
+        },
+        {
+          "arabic": "لَشَدِيدٌ",
+          "translation": "(is) surely intense",
+          "transliteration": "lashadīdun"
+        }
+      ]
+    },
+    {
+      "key": "100:9",
+      "arabic": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "arabicSimple": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "translation": "But does he not know that when the contents of the graves are scattered",
+      "transliteration": "Afala ya'lamu iza b'uthira ma filquboor",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 0,
+          "character": "۞",
+          "type": "rub_el_hizb",
+          "wordIndex": 0
+        }
+      ],
+      "segments": null,
+      "wordCount": 8,
+      "words": [
+        {
+          "arabic": "۞ أَفَلَا",
+          "translation": "But does not",
+          "transliteration": "afalā"
+        },
+        {
+          "arabic": "يَعْلَمُ",
+          "translation": "he know",
+          "transliteration": "yaʿlamu"
+        },
+        {
+          "arabic": "إِذَا",
+          "translation": "when",
+          "transliteration": "idhā"
+        },
+        {
+          "arabic": "بُعْثِرَ",
+          "translation": "will be scattered",
+          "transliteration": "buʿ'thira"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "(is) in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "ٱلْقُبُورِ",
+          "translation": "the graves",
+          "transliteration": "l-qubūri"
+        }
+      ]
+    },
+    {
+      "key": "100:10",
+      "arabic": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+      "arabicSimple": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+      "translation": "And that within the breasts is obtained,",
+      "transliteration": "Wa hussila maa fis sudoor",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَحُصِّلَ",
+          "translation": "And is made apparent",
+          "transliteration": "waḥuṣṣila"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "(is) in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "ٱلصُّدُورِ",
+          "translation": "the breasts",
+          "transliteration": "l-ṣudūri"
+        }
+      ]
+    },
+    {
+      "key": "100:11",
+      "arabic": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
+      "arabicSimple": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
+      "translation": "Indeed, their Lord with them, that Day, is [fully] Acquainted.",
+      "transliteration": "Inna rabbahum bihim yauma 'izil la khabeer",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "رَبَّهُم",
+          "translation": "their Lord",
+          "transliteration": "rabbahum"
+        },
+        {
+          "arabic": "بِهِمْ",
+          "translation": "about them",
+          "transliteration": "bihim"
+        },
+        {
+          "arabic": "يَوْمَئِذٍۢ",
+          "translation": "that Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "لَّخَبِيرٌۢ",
+          "translation": "(is) surely All-Aware",
+          "transliteration": "lakhabīrun"
+        }
+      ]
+    }
+  ]
+}

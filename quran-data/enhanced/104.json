@@ -1,0 +1,300 @@
+{
+  "number": 104,
+  "name": "الهمزة",
+  "englishName": "Al-Humazah",
+  "englishNameTranslation": "The Traducer",
+  "revelationType": "makkah",
+  "numberOfAyahs": 9,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "104:1",
+      "arabic": " وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+      "arabicSimple": " وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+      "translation": "Woe to every scorner and mocker",
+      "transliteration": "Wai lul-li kulli hu mazatil-lumaza",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَيْلٌۭ",
+          "translation": "Woe",
+          "transliteration": "waylun"
+        },
+        {
+          "arabic": "لِّكُلِّ",
+          "translation": "to every",
+          "transliteration": "likulli"
+        },
+        {
+          "arabic": "هُمَزَةٍۢ",
+          "translation": "slanderer",
+          "transliteration": "humazatin"
+        },
+        {
+          "arabic": "لُّمَزَةٍ",
+          "translation": "backbiter",
+          "transliteration": "lumazatin"
+        }
+      ]
+    },
+    {
+      "key": "104:2",
+      "arabic": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+      "arabicSimple": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+      "translation": "Who collects wealth and [continuously] counts it.",
+      "transliteration": "Al-lazi jama'a maalaw wa'addadah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "The one who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "جَمَعَ",
+          "translation": "collects",
+          "transliteration": "jamaʿa"
+        },
+        {
+          "arabic": "مَالًۭا",
+          "translation": "wealth",
+          "transliteration": "mālan"
+        },
+        {
+          "arabic": "وَعَدَّدَهُۥ",
+          "translation": "and counts it",
+          "transliteration": "waʿaddadahu"
+        }
+      ]
+    },
+    {
+      "key": "104:3",
+      "arabic": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+      "arabicSimple": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+      "translation": "He thinks that his wealth will make him immortal.",
+      "transliteration": "Yahsabu anna maalahu akhladah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "يَحْسَبُ",
+          "translation": "Thinking",
+          "transliteration": "yaḥsabu"
+        },
+        {
+          "arabic": "أَنَّ",
+          "translation": "that",
+          "transliteration": "anna"
+        },
+        {
+          "arabic": "مَالَهُۥٓ",
+          "translation": "his wealth",
+          "transliteration": "mālahu"
+        },
+        {
+          "arabic": "أَخْلَدَهُۥ",
+          "translation": "will make him immortal",
+          "transliteration": "akhladahu"
+        }
+      ]
+    },
+    {
+      "key": "104:4",
+      "arabic": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "arabicSimple": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "translation": "No! He will surely be thrown into the Crusher.",
+      "transliteration": "Kalla layum ba zanna fil hutamah",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 7,
+          "character": "ۖ",
+          "type": "small_pause",
+          "wordIndex": 1
+        }
+      ],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "كَلَّا ۖ",
+          "translation": "Nay",
+          "transliteration": "kallā"
+        },
+        {
+          "arabic": "لَيُنۢبَذَنَّ",
+          "translation": "Surely he will be thrown",
+          "transliteration": "layunbadhanna"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "ٱلْحُطَمَةِ",
+          "translation": "the Crusher",
+          "transliteration": "l-ḥuṭamati"
+        }
+      ]
+    },
+    {
+      "key": "104:5",
+      "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "arabicSimple": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "translation": "And what can make you know what is the Crusher?",
+      "transliteration": "Wa maa adraaka mal-hutamah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَمَآ",
+          "translation": "And what",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "أَدْرَىٰكَ",
+          "translation": "will make you know",
+          "transliteration": "adrāka"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "ٱلْحُطَمَةُ",
+          "translation": "the Crusher (is)",
+          "transliteration": "l-ḥuṭamatu"
+        }
+      ]
+    },
+    {
+      "key": "104:6",
+      "arabic": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+      "arabicSimple": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+      "translation": "It is the fire of Allah, [eternally] fueled,",
+      "transliteration": "Narul laahil-mooqada",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "نَارُ",
+          "translation": "A Fire",
+          "transliteration": "nāru"
+        },
+        {
+          "arabic": "ٱللَّهِ",
+          "translation": "Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "arabic": "ٱلْمُوقَدَةُ",
+          "translation": "kindled",
+          "transliteration": "l-mūqadatu"
+        }
+      ]
+    },
+    {
+      "key": "104:7",
+      "arabic": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "arabicSimple": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "translation": "Which mounts directed at the hearts.",
+      "transliteration": "Al latee tat tali'u 'alalafidah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ٱلَّتِى",
+          "translation": "Which",
+          "transliteration": "allatī"
+        },
+        {
+          "arabic": "تَطَّلِعُ",
+          "translation": "mounts up",
+          "transliteration": "taṭṭaliʿu"
+        },
+        {
+          "arabic": "عَلَى",
+          "translation": "to",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "ٱلْأَفْـِٔدَةِ",
+          "translation": "the hearts",
+          "transliteration": "l-afidati"
+        }
+      ]
+    },
+    {
+      "key": "104:8",
+      "arabic": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
+      "arabicSimple": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
+      "translation": "Indeed, Hellfire will be closed down upon them",
+      "transliteration": "Innaha 'alaihim moosada",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "إِنَّهَا",
+          "translation": "Indeed, it",
+          "transliteration": "innahā"
+        },
+        {
+          "arabic": "عَلَيْهِم",
+          "translation": "(will be) upon them",
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "arabic": "مُّؤْصَدَةٌۭ",
+          "translation": "closed over",
+          "transliteration": "mu'ṣadatun"
+        }
+      ]
+    },
+    {
+      "key": "104:9",
+      "arabic": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+      "arabicSimple": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+      "translation": "In extended columns.",
+      "transliteration": "Fee 'amadim-mu mad dadah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فِى",
+          "translation": "In",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "عَمَدٍۢ",
+          "translation": "columns",
+          "transliteration": "ʿamadin"
+        },
+        {
+          "arabic": "مُّمَدَّدَةٍۭ",
+          "translation": "extended",
+          "transliteration": "mumaddadatin"
+        }
+      ]
+    }
+  ]
+}

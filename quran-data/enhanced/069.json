@@ -1,0 +1,2055 @@
+{
+  "number": 69,
+  "name": "الحاقة",
+  "englishName": "Al-Haqqah",
+  "englishNameTranslation": "The Reality",
+  "revelationType": "makkah",
+  "numberOfAyahs": 52,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "69:1",
+      "arabic": " ٱلْحَآقَّةُ",
+      "arabicSimple": " ٱلْحَآقَّةُ",
+      "translation": "The Inevitable Reality -",
+      "transliteration": "Al haaaqqah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "ٱلْحَآقَّةُ",
+          "translation": "The Inevitable Reality",
+          "transliteration": "al-ḥāqatu"
+        }
+      ]
+    },
+    {
+      "key": "69:2",
+      "arabic": "مَا ٱلْحَآقَّةُ",
+      "arabicSimple": "مَا ٱلْحَآقَّةُ",
+      "translation": "What is the Inevitable Reality?",
+      "transliteration": "Mal haaaqqah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "مَا",
+          "translation": "What",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "ٱلْحَآقَّةُ",
+          "translation": "(is) the Inevitable Reality",
+          "transliteration": "l-ḥāqatu"
+        }
+      ]
+    },
+    {
+      "key": "69:3",
+      "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+      "arabicSimple": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+      "translation": "And what can make you know what is the Inevitable Reality?",
+      "transliteration": "Wa maaa adraaka mal haaaqqah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَمَآ",
+          "translation": "And what",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "أَدْرَىٰكَ",
+          "translation": "will make you know",
+          "transliteration": "adrāka"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "ٱلْحَآقَّةُ",
+          "translation": "(is) the Inevitable Reality",
+          "transliteration": "l-ḥāqatu"
+        }
+      ]
+    },
+    {
+      "key": "69:4",
+      "arabic": "كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ",
+      "arabicSimple": "كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ",
+      "translation": "Thamud and 'Aad denied the Striking Calamity.",
+      "transliteration": "Kazzabat samoodu wa 'Aadum bil qaari'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "كَذَّبَتْ",
+          "translation": "Denied",
+          "transliteration": "kadhabat"
+        },
+        {
+          "arabic": "ثَمُودُ",
+          "translation": "Thamud",
+          "transliteration": "thamūdu"
+        },
+        {
+          "arabic": "وَعَادٌۢ",
+          "translation": "and Aad",
+          "transliteration": "waʿādun"
+        },
+        {
+          "arabic": "بِٱلْقَارِعَةِ",
+          "translation": "the Striking Calamity",
+          "transliteration": "bil-qāriʿati"
+        }
+      ]
+    },
+    {
+      "key": "69:5",
+      "arabic": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
+      "arabicSimple": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
+      "translation": "So as for Thamud, they were destroyed by the overpowering [blast].",
+      "transliteration": "Fa-ammaa Samoodu fauhlikoo bittaaghiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَأَمَّا",
+          "translation": "So as for",
+          "transliteration": "fa-ammā"
+        },
+        {
+          "arabic": "ثَمُودُ",
+          "translation": "Thamud",
+          "transliteration": "thamūdu"
+        },
+        {
+          "arabic": "فَأُهْلِكُوا۟",
+          "translation": "they were destroyed",
+          "transliteration": "fa-uh'likū"
+        },
+        {
+          "arabic": "بِٱلطَّاغِيَةِ",
+          "translation": "by the overpowering (blast)",
+          "transliteration": "bil-ṭāghiyati"
+        }
+      ]
+    },
+    {
+      "key": "69:6",
+      "arabic": "وَأَمَّا عَادٌ فَأُهْلِكُوا۟ بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
+      "arabicSimple": "وَأَمَّا عَادٌ فَأُهْلِكُوا۟ بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
+      "translation": "And as for 'Aad, they were destroyed by a screaming, violent wind",
+      "transliteration": "Wa ammaa 'Aadun fa uhlikoo bireehin sarsarin 'aatiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "وَأَمَّا",
+          "translation": "And as for",
+          "transliteration": "wa-ammā"
+        },
+        {
+          "arabic": "عَادٌۭ",
+          "translation": "Aad",
+          "transliteration": "ʿādun"
+        },
+        {
+          "arabic": "فَأُهْلِكُوا۟",
+          "translation": "they were destroyed",
+          "transliteration": "fa-uh'likū"
+        },
+        {
+          "arabic": "بِرِيحٍۢ",
+          "translation": "by a wind",
+          "transliteration": "birīḥin"
+        },
+        {
+          "arabic": "صَرْصَرٍ",
+          "translation": "screaming",
+          "transliteration": "ṣarṣarin"
+        },
+        {
+          "arabic": "عَاتِيَةٍۢ",
+          "translation": "violent",
+          "transliteration": "ʿātiyatin"
+        }
+      ]
+    },
+    {
+      "key": "69:7",
+      "arabic": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَـٰنِيَةَ أَيَّامٍ حُسُومًا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ",
+      "arabicSimple": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَـٰنِيَةَ أَيَّامٍ حُسُومًا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ",
+      "translation": "Which Allah imposed upon them for seven nights and eight days in succession, so you would see the people therein fallen as if they were hollow trunks of palm trees.",
+      "transliteration": "Sakhkharahaa 'alaihim sab'a la yaalinw wa samaaniyata ayyaamin husooman fataral qawma feehaa sar'aa ka annahum a'jaazu nakhlin khaawiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 15,
+      "words": [
+        {
+          "arabic": "سَخَّرَهَا",
+          "translation": "Which He imposed",
+          "transliteration": "sakharahā"
+        },
+        {
+          "arabic": "عَلَيْهِمْ",
+          "translation": "upon them",
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "arabic": "سَبْعَ",
+          "translation": "(for) seven",
+          "transliteration": "sabʿa"
+        },
+        {
+          "arabic": "لَيَالٍۢ",
+          "translation": "nights",
+          "transliteration": "layālin"
+        },
+        {
+          "arabic": "وَثَمَـٰنِيَةَ",
+          "translation": "and eight",
+          "transliteration": "wathamāniyata"
+        },
+        {
+          "arabic": "أَيَّامٍ",
+          "translation": "days",
+          "transliteration": "ayyāmin"
+        },
+        {
+          "arabic": "حُسُومًۭا",
+          "translation": "(in) succession",
+          "transliteration": "ḥusūman"
+        },
+        {
+          "arabic": "فَتَرَى",
+          "translation": "so you would see",
+          "transliteration": "fatarā"
+        },
+        {
+          "arabic": "ٱلْقَوْمَ",
+          "translation": "the people",
+          "transliteration": "l-qawma"
+        },
+        {
+          "arabic": "فِيهَا",
+          "translation": "therein",
+          "transliteration": "fīhā"
+        },
+        {
+          "arabic": "صَرْعَىٰ",
+          "translation": "fallen",
+          "transliteration": "ṣarʿā"
+        },
+        {
+          "arabic": "كَأَنَّهُمْ",
+          "translation": "as if they were",
+          "transliteration": "ka-annahum"
+        },
+        {
+          "arabic": "أَعْجَازُ",
+          "translation": "trunks",
+          "transliteration": "aʿjāzu"
+        },
+        {
+          "arabic": "نَخْلٍ",
+          "translation": "(of) date-palms",
+          "transliteration": "nakhlin"
+        },
+        {
+          "arabic": "خَاوِيَةٍۢ",
+          "translation": "hollow",
+          "transliteration": "khāwiyatin"
+        }
+      ]
+    },
+    {
+      "key": "69:8",
+      "arabic": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍ",
+      "arabicSimple": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍ",
+      "translation": "Then do you see of them any remains?",
+      "transliteration": "Fahal taraa lahum mim baaqiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "فَهَلْ",
+          "translation": "Then do",
+          "transliteration": "fahal"
+        },
+        {
+          "arabic": "تَرَىٰ",
+          "translation": "you see",
+          "transliteration": "tarā"
+        },
+        {
+          "arabic": "لَهُم",
+          "translation": "of them",
+          "transliteration": "lahum"
+        },
+        {
+          "arabic": "مِّنۢ",
+          "translation": "any",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "بَاقِيَةٍۢ",
+          "translation": "remains",
+          "transliteration": "bāqiyatin"
+        }
+      ]
+    },
+    {
+      "key": "69:9",
+      "arabic": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَـٰتُ بِٱلْخَاطِئَةِ",
+      "arabicSimple": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَـٰتُ بِٱلْخَاطِئَةِ",
+      "translation": "And there came Pharaoh and those before him and the overturned cities with sin.",
+      "transliteration": "Wa jaaa'a Firawnu wa man qablahoo wal mu'tafikaatu bilhaati'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "وَجَآءَ",
+          "translation": "And came",
+          "transliteration": "wajāa"
+        },
+        {
+          "arabic": "فِرْعَوْنُ",
+          "translation": "Firaun",
+          "transliteration": "fir'ʿawnu"
+        },
+        {
+          "arabic": "وَمَن",
+          "translation": "and (those)",
+          "transliteration": "waman"
+        },
+        {
+          "arabic": "قَبْلَهُۥ",
+          "translation": "before him",
+          "transliteration": "qablahu"
+        },
+        {
+          "arabic": "وَٱلْمُؤْتَفِكَـٰتُ",
+          "translation": "and the overturned cities",
+          "transliteration": "wal-mu'tafikātu"
+        },
+        {
+          "arabic": "بِٱلْخَاطِئَةِ",
+          "translation": "with sin",
+          "transliteration": "bil-khāṭi-ati"
+        }
+      ]
+    },
+    {
+      "key": "69:10",
+      "arabic": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
+      "arabicSimple": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
+      "translation": "And they disobeyed the messenger of their Lord, so He seized them with a seizure exceeding [in severity].",
+      "transliteration": "Fa'ansaw Rasoola Rabbihim fa akhazahum akhzatar raabiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "فَعَصَوْا۟",
+          "translation": "And they disobeyed",
+          "transliteration": "faʿaṣaw"
+        },
+        {
+          "arabic": "رَسُولَ",
+          "translation": "(the) Messenger",
+          "transliteration": "rasūla"
+        },
+        {
+          "arabic": "رَبِّهِمْ",
+          "translation": "(of) their Lord",
+          "transliteration": "rabbihim"
+        },
+        {
+          "arabic": "فَأَخَذَهُمْ",
+          "translation": "so He seized them",
+          "transliteration": "fa-akhadhahum"
+        },
+        {
+          "arabic": "أَخْذَةًۭ",
+          "translation": "(with) a seizure",
+          "transliteration": "akhdhatan"
+        },
+        {
+          "arabic": "رَّابِيَةً",
+          "translation": "exceeding",
+          "transliteration": "rābiyatan"
+        }
+      ]
+    },
+    {
+      "key": "69:11",
+      "arabic": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَـٰكُمْ فِى ٱلْجَارِيَةِ",
+      "arabicSimple": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَـٰكُمْ فِى ٱلْجَارِيَةِ",
+      "translation": "Indeed, when the water overflowed, We carried your ancestors in the sailing ship",
+      "transliteration": "Innaa lammaa taghal maaa'u hamalnaakum fil jaariyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "إِنَّا",
+          "translation": "Indeed, We",
+          "transliteration": "innā"
+        },
+        {
+          "arabic": "لَمَّا",
+          "translation": "when",
+          "transliteration": "lammā"
+        },
+        {
+          "arabic": "طَغَا",
+          "translation": "overflowed",
+          "transliteration": "ṭaghā"
+        },
+        {
+          "arabic": "ٱلْمَآءُ",
+          "translation": "the water",
+          "transliteration": "l-māu"
+        },
+        {
+          "arabic": "حَمَلْنَـٰكُمْ",
+          "translation": "We carried you",
+          "transliteration": "ḥamalnākum"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "ٱلْجَارِيَةِ",
+          "translation": "the sailing (ship)",
+          "transliteration": "l-jāriyati"
+        }
+      ]
+    },
+    {
+      "key": "69:12",
+      "arabic": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَتَعِيَهَآ أُذُنٌ وَٰعِيَةٌ",
+      "arabicSimple": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَتَعِيَهَآ أُذُنٌ وَٰعِيَةٌ",
+      "translation": "That We might make it for you a reminder and [that] a conscious ear would be conscious of it.",
+      "transliteration": "Linaj'alahaa lakum tazki ratanw-wa ta'iyahaa unzununw waa'iyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "لِنَجْعَلَهَا",
+          "translation": "That We might make it",
+          "transliteration": "linajʿalahā"
+        },
+        {
+          "arabic": "لَكُمْ",
+          "translation": "for you",
+          "transliteration": "lakum"
+        },
+        {
+          "arabic": "تَذْكِرَةًۭ",
+          "translation": "a reminder",
+          "transliteration": "tadhkiratan"
+        },
+        {
+          "arabic": "وَتَعِيَهَآ",
+          "translation": "and would be conscious of it",
+          "transliteration": "wataʿiyahā"
+        },
+        {
+          "arabic": "أُذُنٌۭ",
+          "translation": "an ear",
+          "transliteration": "udhunun"
+        },
+        {
+          "arabic": "وَٰعِيَةٌۭ",
+          "translation": "conscious",
+          "transliteration": "wāʿiyatun"
+        }
+      ]
+    },
+    {
+      "key": "69:13",
+      "arabic": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌ وَٰحِدَةٌ",
+      "arabicSimple": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌ وَٰحِدَةٌ",
+      "translation": "Then when the Horn is blown with one blast",
+      "transliteration": "Fa izaa nufikha fis soori nafkhatunw waahidah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "فَإِذَا",
+          "translation": "Then when",
+          "transliteration": "fa-idhā"
+        },
+        {
+          "arabic": "نُفِخَ",
+          "translation": "is blown",
+          "transliteration": "nufikha"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "ٱلصُّورِ",
+          "translation": "the trumpet ",
+          "transliteration": "l-ṣūri"
+        },
+        {
+          "arabic": "نَفْخَةٌۭ",
+          "translation": "a blast",
+          "transliteration": "nafkhatun"
+        },
+        {
+          "arabic": "وَٰحِدَةٌۭ",
+          "translation": "single",
+          "transliteration": "wāḥidatun"
+        }
+      ]
+    },
+    {
+      "key": "69:14",
+      "arabic": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةً وَٰحِدَةً",
+      "arabicSimple": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةً وَٰحِدَةً",
+      "translation": "And the earth and the mountains are lifted and leveled with one blow -",
+      "transliteration": "Wa humilatil ardu wal jibaalu fadukkataa dakkatanw waahidah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "وَحُمِلَتِ",
+          "translation": "And are lifted",
+          "transliteration": "waḥumilati"
+        },
+        {
+          "arabic": "ٱلْأَرْضُ",
+          "translation": "the earth",
+          "transliteration": "l-arḍu"
+        },
+        {
+          "arabic": "وَٱلْجِبَالُ",
+          "translation": "and the mountains",
+          "transliteration": "wal-jibālu"
+        },
+        {
+          "arabic": "فَدُكَّتَا",
+          "translation": "and crushed",
+          "transliteration": "fadukkatā"
+        },
+        {
+          "arabic": "دَكَّةًۭ",
+          "translation": "(with) a crushing",
+          "transliteration": "dakkatan"
+        },
+        {
+          "arabic": "وَٰحِدَةًۭ",
+          "translation": "single",
+          "transliteration": "wāḥidatan"
+        }
+      ]
+    },
+    {
+      "key": "69:15",
+      "arabic": "فَيَوْمَئِذٍ وَقَعَتِ ٱلْوَاقِعَةُ",
+      "arabicSimple": "فَيَوْمَئِذٍ وَقَعَتِ ٱلْوَاقِعَةُ",
+      "translation": "Then on that Day, the Resurrection will occur,",
+      "transliteration": "Fa yawma'izinw waqa'atil waaqi'ah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَيَوْمَئِذٍۢ",
+          "translation": "Then (on) that Day",
+          "transliteration": "fayawma-idhin"
+        },
+        {
+          "arabic": "وَقَعَتِ",
+          "translation": "will occur",
+          "transliteration": "waqaʿati"
+        },
+        {
+          "arabic": "ٱلْوَاقِعَةُ",
+          "translation": "the Occurrence",
+          "transliteration": "l-wāqiʿatu"
+        }
+      ]
+    },
+    {
+      "key": "69:16",
+      "arabic": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ",
+      "arabicSimple": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ",
+      "translation": "And the heaven will split [open], for that Day it is infirm.",
+      "transliteration": "Wanshaqqatis samaaa'u fahiya yawma 'izinw-waahiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَٱنشَقَّتِ",
+          "translation": "And will split",
+          "transliteration": "wa-inshaqqati"
+        },
+        {
+          "arabic": "ٱلسَّمَآءُ",
+          "translation": "the heaven",
+          "transliteration": "l-samāu"
+        },
+        {
+          "arabic": "فَهِىَ",
+          "translation": "so it",
+          "transliteration": "fahiya"
+        },
+        {
+          "arabic": "يَوْمَئِذٍۢ",
+          "translation": "(is on) that Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "وَاهِيَةٌۭ",
+          "translation": "frail",
+          "transliteration": "wāhiyatun"
+        }
+      ]
+    },
+    {
+      "key": "69:17",
+      "arabic": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَـٰنِيَةٌ",
+      "arabicSimple": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَـٰنِيَةٌ",
+      "translation": "And the angels are at its edges. And there will bear the Throne of your Lord above them, that Day, eight [of them].",
+      "transliteration": "Wal malaku 'alaaa arjaaa'ihaa; wa yahmilu 'Arsha Rabbika fawqahum yawma'izin samaaniyah",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 34,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 3
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ",
+          "translation": "And the Angels will be on its edges",
+          "transliteration": "wal-malaku ʿalā arjāihā",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَـٰنِيَةٌ",
+          "translation": "and will bear the Throne of your Lord above them that Day eight",
+          "transliteration": "wayaḥmilu ʿarsha rabbika fawqahum yawma-idhin thamāniyatun",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 10,
+      "words": [
+        {
+          "arabic": "وَٱلْمَلَكُ",
+          "translation": "And the Angels",
+          "transliteration": "wal-malaku"
+        },
+        {
+          "arabic": "عَلَىٰٓ",
+          "translation": "(will be) on",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "أَرْجَآئِهَا ۚ",
+          "translation": "its edges",
+          "transliteration": "arjāihā"
+        },
+        {
+          "arabic": "وَيَحْمِلُ",
+          "translation": "and will bear",
+          "transliteration": "wayaḥmilu"
+        },
+        {
+          "arabic": "عَرْشَ",
+          "translation": "(the) Throne",
+          "transliteration": "ʿarsha"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "(of) your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "فَوْقَهُمْ",
+          "translation": "above them",
+          "transliteration": "fawqahum"
+        },
+        {
+          "arabic": "يَوْمَئِذٍۢ",
+          "translation": "that Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "ثَمَـٰنِيَةٌۭ",
+          "translation": "eight",
+          "transliteration": "thamāniyatun"
+        }
+      ]
+    },
+    {
+      "key": "69:18",
+      "arabic": "يَوْمَئِذٍ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌ",
+      "arabicSimple": "يَوْمَئِذٍ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌ",
+      "translation": "That Day, you will be exhibited [for judgement]; not hidden among you is anything concealed.",
+      "transliteration": "Yawma'izin tu'radoona laa takhfaa min kum khaafiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "يَوْمَئِذٍۢ",
+          "translation": "That Day",
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "arabic": "تُعْرَضُونَ",
+          "translation": "you will be exhibited",
+          "transliteration": "tuʿ'raḍūna"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "تَخْفَىٰ",
+          "translation": "will be hidden",
+          "transliteration": "takhfā"
+        },
+        {
+          "arabic": "مِنكُمْ",
+          "translation": "among you",
+          "transliteration": "minkum"
+        },
+        {
+          "arabic": "خَافِيَةٌۭ",
+          "translation": "any secret",
+          "transliteration": "khāfiyatun"
+        }
+      ]
+    },
+    {
+      "key": "69:19",
+      "arabic": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَـٰبِيَهْ",
+      "arabicSimple": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَـٰبِيَهْ",
+      "translation": "So as for he who is given his record in his right hand, he will say, \"Here, read my record!",
+      "transliteration": "Fa ammaa man ootiya kitaabahoo biyameenihee fa yaqoolu haaa'umuq ra'oo kitaabiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 9,
+      "words": [
+        {
+          "arabic": "فَأَمَّا",
+          "translation": "Then as for",
+          "transliteration": "fa-ammā"
+        },
+        {
+          "arabic": "مَنْ",
+          "translation": "(him) who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "أُوتِىَ",
+          "translation": "is given",
+          "transliteration": "ūtiya"
+        },
+        {
+          "arabic": "كِتَـٰبَهُۥ",
+          "translation": "his record",
+          "transliteration": "kitābahu"
+        },
+        {
+          "arabic": "بِيَمِينِهِۦ",
+          "translation": "in his right hand",
+          "transliteration": "biyamīnihi"
+        },
+        {
+          "arabic": "فَيَقُولُ",
+          "translation": "will say",
+          "transliteration": "fayaqūlu"
+        },
+        {
+          "arabic": "هَآؤُمُ",
+          "translation": "Here",
+          "transliteration": "hāumu"
+        },
+        {
+          "arabic": "ٱقْرَءُوا۟",
+          "translation": "read",
+          "transliteration": "iq'raū"
+        },
+        {
+          "arabic": "كِتَـٰبِيَهْ",
+          "translation": "my record",
+          "transliteration": "kitābiyah"
+        }
+      ]
+    },
+    {
+      "key": "69:20",
+      "arabic": "إِنِّى ظَنَنتُ أَنِّى مُلَـٰقٍ حِسَابِيَهْ",
+      "arabicSimple": "إِنِّى ظَنَنتُ أَنِّى مُلَـٰقٍ حِسَابِيَهْ",
+      "translation": "Indeed, I was certain that I would be meeting my account.\"",
+      "transliteration": "Innee zannantu annee mulaaqin hisaabiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "إِنِّى",
+          "translation": "Indeed, I",
+          "transliteration": "innī"
+        },
+        {
+          "arabic": "ظَنَنتُ",
+          "translation": "was certain",
+          "transliteration": "ẓanantu"
+        },
+        {
+          "arabic": "أَنِّى",
+          "translation": "that I",
+          "transliteration": "annī"
+        },
+        {
+          "arabic": "مُلَـٰقٍ",
+          "translation": "(will) meet",
+          "transliteration": "mulāqin"
+        },
+        {
+          "arabic": "حِسَابِيَهْ",
+          "translation": "my account",
+          "transliteration": "ḥisābiyah"
+        }
+      ]
+    },
+    {
+      "key": "69:21",
+      "arabic": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+      "arabicSimple": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+      "translation": "So he will be in a pleasant life -",
+      "transliteration": "Fahuwa fee 'eeshatir raadiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَهُوَ",
+          "translation": "So he",
+          "transliteration": "fahuwa"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "(will be) in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "عِيشَةٍۢ",
+          "translation": "a life",
+          "transliteration": "ʿīshatin"
+        },
+        {
+          "arabic": "رَّاضِيَةٍۢ",
+          "translation": "pleasant",
+          "transliteration": "rāḍiyatin"
+        }
+      ]
+    },
+    {
+      "key": "69:22",
+      "arabic": "فِى جَنَّةٍ عَالِيَةٍ",
+      "arabicSimple": "فِى جَنَّةٍ عَالِيَةٍ",
+      "translation": "In an elevated garden,",
+      "transliteration": "Fee jannnatin 'aaliyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فِى",
+          "translation": "In",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "جَنَّةٍ",
+          "translation": "a Garden",
+          "transliteration": "jannatin"
+        },
+        {
+          "arabic": "عَالِيَةٍۢ",
+          "translation": "elevated",
+          "transliteration": "ʿāliyatin"
+        }
+      ]
+    },
+    {
+      "key": "69:23",
+      "arabic": "قُطُوفُهَا دَانِيَةٌ",
+      "arabicSimple": "قُطُوفُهَا دَانِيَةٌ",
+      "translation": "Its [fruit] to be picked hanging near.",
+      "transliteration": "Qutoofuhaa daaniyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "قُطُوفُهَا",
+          "translation": "Its clusters of fruits",
+          "transliteration": "quṭūfuhā"
+        },
+        {
+          "arabic": "دَانِيَةٌۭ",
+          "translation": "hanging near",
+          "transliteration": "dāniyatun"
+        }
+      ]
+    },
+    {
+      "key": "69:24",
+      "arabic": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
+      "arabicSimple": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
+      "translation": "[They will be told], \"Eat and drink in satisfaction for what you put forth in the days past.\"",
+      "transliteration": "Kuloo washraboo haneee'am bimaaa aslaftum fil ayyaamil khaliyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 8,
+      "words": [
+        {
+          "arabic": "كُلُوا۟",
+          "translation": "Eat",
+          "transliteration": "kulū"
+        },
+        {
+          "arabic": "وَٱشْرَبُوا۟",
+          "translation": "and drink",
+          "transliteration": "wa-ish'rabū"
+        },
+        {
+          "arabic": "هَنِيٓـًٔۢا",
+          "translation": "(in) satisfaction",
+          "transliteration": "hanīan"
+        },
+        {
+          "arabic": "بِمَآ",
+          "translation": "for what",
+          "transliteration": "bimā"
+        },
+        {
+          "arabic": "أَسْلَفْتُمْ",
+          "translation": "you sent before you",
+          "transliteration": "aslaftum"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "in",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "ٱلْأَيَّامِ",
+          "translation": "the days",
+          "transliteration": "l-ayāmi"
+        },
+        {
+          "arabic": "ٱلْخَالِيَةِ",
+          "translation": "past",
+          "transliteration": "l-khāliyati"
+        }
+      ]
+    },
+    {
+      "key": "69:25",
+      "arabic": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَـٰلَيْتَنِى لَمْ أُوتَ كِتَـٰبِيَهْ",
+      "arabicSimple": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَـٰلَيْتَنِى لَمْ أُوتَ كِتَـٰبِيَهْ",
+      "translation": "But as for he who is given his record in his left hand, he will say, \"Oh, I wish I had not been given my record",
+      "transliteration": "Wa ammaa man ootiya kitaabahoo bishimaalihee fa yaqoolu yaalaitanee lam oota kitaaabiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 10,
+      "words": [
+        {
+          "arabic": "وَأَمَّا",
+          "translation": "But as for",
+          "transliteration": "wa-ammā"
+        },
+        {
+          "arabic": "مَنْ",
+          "translation": "(him) who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "أُوتِىَ",
+          "translation": "is given",
+          "transliteration": "ūtiya"
+        },
+        {
+          "arabic": "كِتَـٰبَهُۥ",
+          "translation": "his record",
+          "transliteration": "kitābahu"
+        },
+        {
+          "arabic": "بِشِمَالِهِۦ",
+          "translation": "in his left hand",
+          "transliteration": "bishimālihi"
+        },
+        {
+          "arabic": "فَيَقُولُ",
+          "translation": "will say",
+          "transliteration": "fayaqūlu"
+        },
+        {
+          "arabic": "يَـٰلَيْتَنِى",
+          "translation": "O! I wish",
+          "transliteration": "yālaytanī"
+        },
+        {
+          "arabic": "لَمْ",
+          "translation": "not",
+          "transliteration": "lam"
+        },
+        {
+          "arabic": "أُوتَ",
+          "translation": "I had been given",
+          "transliteration": "ūta"
+        },
+        {
+          "arabic": "كِتَـٰبِيَهْ",
+          "translation": "my record",
+          "transliteration": "kitābiyah"
+        }
+      ]
+    },
+    {
+      "key": "69:26",
+      "arabic": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+      "arabicSimple": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+      "translation": "And had not known what is my account.",
+      "transliteration": "Wa lam adri maa hisaabiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَلَمْ",
+          "translation": "And not",
+          "transliteration": "walam"
+        },
+        {
+          "arabic": "أَدْرِ",
+          "translation": "I had known",
+          "transliteration": "adri"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "حِسَابِيَهْ",
+          "translation": "(is) my account",
+          "transliteration": "ḥisābiyah"
+        }
+      ]
+    },
+    {
+      "key": "69:27",
+      "arabic": "يَـٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
+      "arabicSimple": "يَـٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
+      "translation": "I wish my death had been the decisive one.",
+      "transliteration": "Yaa laitahaa kaanatil qaadiyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "يَـٰلَيْتَهَا",
+          "translation": "O! I wish it",
+          "transliteration": "yālaytahā"
+        },
+        {
+          "arabic": "كَانَتِ",
+          "translation": "had been",
+          "transliteration": "kānati"
+        },
+        {
+          "arabic": "ٱلْقَاضِيَةَ",
+          "translation": "the end",
+          "transliteration": "l-qāḍiyata"
+        }
+      ]
+    },
+    {
+      "key": "69:28",
+      "arabic": "مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
+      "arabicSimple": "مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
+      "translation": "My wealth has not availed me.",
+      "transliteration": "Maaa aghnaa 'annee maaliyah",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 31,
+          "character": "ۜ",
+          "type": "emphasis_pause",
+          "wordIndex": 4
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
+          "translation": "Not has availed me my wealth",
+          "transliteration": "mā aghnā ʿannī māliyah",
+          "type": "emphasis_stop",
+          "waqfMark": "ۜ"
+        }
+      ],
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "مَآ",
+          "translation": "Not",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "أَغْنَىٰ",
+          "translation": "has availed",
+          "transliteration": "aghnā"
+        },
+        {
+          "arabic": "عَنِّى",
+          "translation": "me",
+          "transliteration": "ʿannī"
+        },
+        {
+          "arabic": "مَالِيَهْ ۜ",
+          "translation": "my wealth",
+          "transliteration": "māliyah"
+        }
+      ]
+    },
+    {
+      "key": "69:29",
+      "arabic": "هَلَكَ عَنِّى سُلْطَـٰنِيَهْ",
+      "arabicSimple": "هَلَكَ عَنِّى سُلْطَـٰنِيَهْ",
+      "translation": "Gone from me is my authority.\"",
+      "transliteration": "Halaka 'annee sultaaniyah",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "هَلَكَ",
+          "translation": "Is gone",
+          "transliteration": "halaka"
+        },
+        {
+          "arabic": "عَنِّى",
+          "translation": "from me",
+          "transliteration": "ʿannī"
+        },
+        {
+          "arabic": "سُلْطَـٰنِيَهْ",
+          "translation": "my authority",
+          "transliteration": "sul'ṭāniyah"
+        }
+      ]
+    },
+    {
+      "key": "69:30",
+      "arabic": "خُذُوهُ فَغُلُّوهُ",
+      "arabicSimple": "خُذُوهُ فَغُلُّوهُ",
+      "translation": "[Allah will say], \"Seize him and shackle him.",
+      "transliteration": "Khuzoohu faghullooh",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "خُذُوهُ",
+          "translation": "Seize him",
+          "transliteration": "khudhūhu"
+        },
+        {
+          "arabic": "فَغُلُّوهُ",
+          "translation": "and shackle him",
+          "transliteration": "faghullūhu"
+        }
+      ]
+    },
+    {
+      "key": "69:31",
+      "arabic": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+      "arabicSimple": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+      "translation": "Then into Hellfire drive him.",
+      "transliteration": "Summal Jaheema sallooh",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "ٱلْجَحِيمَ",
+          "translation": "(into) the Hellfire",
+          "transliteration": "l-jaḥīma"
+        },
+        {
+          "arabic": "صَلُّوهُ",
+          "translation": "burn him",
+          "transliteration": "ṣallūhu"
+        }
+      ]
+    },
+    {
+      "key": "69:32",
+      "arabic": "ثُمَّ فِى سِلْسِلَةٍ ذَرْعُهَا سَبْعُونَ ذِرَاعًا فَٱسْلُكُوهُ",
+      "arabicSimple": "ثُمَّ فِى سِلْسِلَةٍ ذَرْعُهَا سَبْعُونَ ذِرَاعًا فَٱسْلُكُوهُ",
+      "translation": "Then into a chain whose length is seventy cubits insert him.\"",
+      "transliteration": "Summa fee silsilatin zar'uhaa sab'oona ziraa'an faslukooh",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "into",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "سِلْسِلَةٍۢ",
+          "translation": "a chain",
+          "transliteration": "sil'silatin"
+        },
+        {
+          "arabic": "ذَرْعُهَا",
+          "translation": "its length",
+          "transliteration": "dharʿuhā"
+        },
+        {
+          "arabic": "سَبْعُونَ",
+          "translation": "(is) seventy",
+          "transliteration": "sabʿūna"
+        },
+        {
+          "arabic": "ذِرَاعًۭا",
+          "translation": "cubits",
+          "transliteration": "dhirāʿan"
+        },
+        {
+          "arabic": "فَٱسْلُكُوهُ",
+          "translation": "insert him",
+          "transliteration": "fa-us'lukūhu"
+        }
+      ]
+    },
+    {
+      "key": "69:33",
+      "arabic": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+      "arabicSimple": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+      "translation": "Indeed, he did not used to believe in Allah, the Most Great,",
+      "transliteration": "Innahoo kaana laa yu'minubillaahil 'Azeem",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "إِنَّهُۥ",
+          "translation": "Indeed, he",
+          "transliteration": "innahu"
+        },
+        {
+          "arabic": "كَانَ",
+          "translation": "was",
+          "transliteration": "kāna"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "يُؤْمِنُ",
+          "translation": "believing",
+          "transliteration": "yu'minu"
+        },
+        {
+          "arabic": "بِٱللَّهِ",
+          "translation": "in Allah",
+          "transliteration": "bil-lahi"
+        },
+        {
+          "arabic": "ٱلْعَظِيمِ",
+          "translation": "the Most Great",
+          "transliteration": "l-ʿaẓīmi"
+        }
+      ]
+    },
+    {
+      "key": "69:34",
+      "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "arabicSimple": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "translation": "Nor did he encourage the feeding of the poor.",
+      "transliteration": "wa laa yahuddu 'alaa ta'aamil miskeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَلَا",
+          "translation": "And (did) not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "يَحُضُّ",
+          "translation": "feel the urge",
+          "transliteration": "yaḥuḍḍu"
+        },
+        {
+          "arabic": "عَلَىٰ",
+          "translation": "on",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "طَعَامِ",
+          "translation": "(the) feeding",
+          "transliteration": "ṭaʿāmi"
+        },
+        {
+          "arabic": "ٱلْمِسْكِينِ",
+          "translation": "(of) the poor",
+          "transliteration": "l-mis'kīni"
+        }
+      ]
+    },
+    {
+      "key": "69:35",
+      "arabic": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَـٰهُنَا حَمِيمٌ",
+      "arabicSimple": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَـٰهُنَا حَمِيمٌ",
+      "translation": "So there is not for him here this Day any devoted friend",
+      "transliteration": "Falaysa lahul yawma haahunaa hameem",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "فَلَيْسَ",
+          "translation": "So not",
+          "transliteration": "falaysa"
+        },
+        {
+          "arabic": "لَهُ",
+          "translation": "for him",
+          "transliteration": "lahu"
+        },
+        {
+          "arabic": "ٱلْيَوْمَ",
+          "translation": "today",
+          "transliteration": "l-yawma"
+        },
+        {
+          "arabic": "هَـٰهُنَا",
+          "translation": "here",
+          "transliteration": "hāhunā"
+        },
+        {
+          "arabic": "حَمِيمٌۭ",
+          "translation": "any devoted friend",
+          "transliteration": "ḥamīmun"
+        }
+      ]
+    },
+    {
+      "key": "69:36",
+      "arabic": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍ",
+      "arabicSimple": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍ",
+      "translation": "Nor any food except from the discharge of wounds;",
+      "transliteration": "Wa laa ta'aamun illaa min ghisleen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَلَا",
+          "translation": "And not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "طَعَامٌ",
+          "translation": "any food",
+          "transliteration": "ṭaʿāmun"
+        },
+        {
+          "arabic": "إِلَّا",
+          "translation": "except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "مِنْ",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "غِسْلِينٍۢ",
+          "translation": "(the) discharge of wounds",
+          "transliteration": "ghis'līnin"
+        }
+      ]
+    },
+    {
+      "key": "69:37",
+      "arabic": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَـٰطِـُٔونَ",
+      "arabicSimple": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَـٰطِـُٔونَ",
+      "translation": "None will eat it except the sinners.",
+      "transliteration": "Laa yaakuluhooo illal khati'oon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "لَّا",
+          "translation": "Not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "يَأْكُلُهُۥٓ",
+          "translation": "will eat it",
+          "transliteration": "yakuluhu"
+        },
+        {
+          "arabic": "إِلَّا",
+          "translation": "except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "ٱلْخَـٰطِـُٔونَ",
+          "translation": "the sinners",
+          "transliteration": "l-khāṭiūna"
+        }
+      ]
+    },
+    {
+      "key": "69:38",
+      "arabic": "فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
+      "arabicSimple": "فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
+      "translation": "So I swear by what you see",
+      "transliteration": "Falaaa uqsimu bimaa tubsiroon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَلَآ",
+          "translation": "But nay",
+          "transliteration": "falā"
+        },
+        {
+          "arabic": "أُقْسِمُ",
+          "translation": "I swear",
+          "transliteration": "uq'simu"
+        },
+        {
+          "arabic": "بِمَا",
+          "translation": "by what",
+          "transliteration": "bimā"
+        },
+        {
+          "arabic": "تُبْصِرُونَ",
+          "translation": "you see",
+          "transliteration": "tub'ṣirūna"
+        }
+      ]
+    },
+    {
+      "key": "69:39",
+      "arabic": "وَمَا لَا تُبْصِرُونَ",
+      "arabicSimple": "وَمَا لَا تُبْصِرُونَ",
+      "translation": "And what you do not see",
+      "transliteration": "Wa maa laa tubsiroon",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَمَا",
+          "translation": "And what",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "تُبْصِرُونَ",
+          "translation": "you see",
+          "transliteration": "tub'ṣirūna"
+        }
+      ]
+    },
+    {
+      "key": "69:40",
+      "arabic": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+      "arabicSimple": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+      "translation": "[That] indeed, the Qur'an is the word of a noble Messenger.",
+      "transliteration": "Innahoo laqawlu Rasoolin kareem",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "إِنَّهُۥ",
+          "translation": "Indeed, it (is)",
+          "transliteration": "innahu"
+        },
+        {
+          "arabic": "لَقَوْلُ",
+          "translation": "surely (the) Word",
+          "transliteration": "laqawlu"
+        },
+        {
+          "arabic": "رَسُولٍۢ",
+          "translation": "(of) a Messenger",
+          "transliteration": "rasūlin"
+        },
+        {
+          "arabic": "كَرِيمٍۢ",
+          "translation": "noble",
+          "transliteration": "karīmin"
+        }
+      ]
+    },
+    {
+      "key": "69:41",
+      "arabic": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
+      "arabicSimple": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
+      "translation": "And it is not the word of a poet; little do you believe.",
+      "transliteration": "Wa ma huwa biqawli shaa'ir; qaleelam maa tu'minoon",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 28,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 4
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ ۚ",
+          "translation": "And not it is the word of a poet",
+          "transliteration": "wamā huwa biqawli shāʿirin",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "قَلِيلًا مَّا تُؤْمِنُونَ",
+          "translation": "little is what you believe",
+          "transliteration": "qalīlan mā tu'minūna",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 8,
+      "words": [
+        {
+          "arabic": "وَمَا",
+          "translation": "And not",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "هُوَ",
+          "translation": "it",
+          "transliteration": "huwa"
+        },
+        {
+          "arabic": "بِقَوْلِ",
+          "translation": "(is the) word",
+          "transliteration": "biqawli"
+        },
+        {
+          "arabic": "شَاعِرٍۢ ۚ",
+          "translation": "(of) a poet",
+          "transliteration": "shāʿirin"
+        },
+        {
+          "arabic": "قَلِيلًۭا",
+          "translation": "little",
+          "transliteration": "qalīlan"
+        },
+        {
+          "arabic": "مَّا",
+          "translation": "(is) what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "تُؤْمِنُونَ",
+          "translation": "you believe",
+          "transliteration": "tu'minūna"
+        }
+      ]
+    },
+    {
+      "key": "69:42",
+      "arabic": "وَلَا بِقَوْلِ كَاهِنٍ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
+      "arabicSimple": "وَلَا بِقَوْلِ كَاهِنٍ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
+      "translation": "Nor the word of a soothsayer; little do you remember.",
+      "transliteration": "Wa laa biqawli kaahin; qaleelam maa tazakkaroon",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 23,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 3
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "وَلَا بِقَوْلِ كَاهِنٍ ۚ",
+          "translation": "And not it is the word of a soothsayer",
+          "transliteration": "walā biqawli kāhinin",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "قَلِيلًا مَّا تَذَكَّرُونَ",
+          "translation": "little is what you take heed",
+          "transliteration": "qalīlan mā tadhakkarūna",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "وَلَا",
+          "translation": "And not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "بِقَوْلِ",
+          "translation": "(it is the) word",
+          "transliteration": "biqawli"
+        },
+        {
+          "arabic": "كَاهِنٍۢ ۚ",
+          "translation": "(of) a soothsayer",
+          "transliteration": "kāhinin"
+        },
+        {
+          "arabic": "قَلِيلًۭا",
+          "translation": "little",
+          "transliteration": "qalīlan"
+        },
+        {
+          "arabic": "مَّا",
+          "translation": "(is) what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "تَذَكَّرُونَ",
+          "translation": "you take heed",
+          "transliteration": "tadhakkarūna"
+        }
+      ]
+    },
+    {
+      "key": "69:43",
+      "arabic": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
+      "arabicSimple": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
+      "translation": "[It is] a revelation from the Lord of the worlds.",
+      "transliteration": "Tanzeelum mir rabbil 'aalameen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "تَنزِيلٌۭ",
+          "translation": "(It is) a revelation",
+          "transliteration": "tanzīlun"
+        },
+        {
+          "arabic": "مِّن",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "رَّبِّ",
+          "translation": "(the) Lord",
+          "transliteration": "rabbi"
+        },
+        {
+          "arabic": "ٱلْعَـٰلَمِينَ",
+          "translation": "(of) the worlds",
+          "transliteration": "l-ʿālamīna"
+        }
+      ]
+    },
+    {
+      "key": "69:44",
+      "arabic": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ",
+      "arabicSimple": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ",
+      "translation": "And if Muhammad had made up about Us some [false] sayings,",
+      "transliteration": "Wa law taqawwala 'alainaa ba'dal aqaaweel",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَلَوْ",
+          "translation": "And if",
+          "transliteration": "walaw"
+        },
+        {
+          "arabic": "تَقَوَّلَ",
+          "translation": "he (had) fabricated",
+          "transliteration": "taqawwala"
+        },
+        {
+          "arabic": "عَلَيْنَا",
+          "translation": "against Us",
+          "transliteration": "ʿalaynā"
+        },
+        {
+          "arabic": "بَعْضَ",
+          "translation": "some",
+          "transliteration": "baʿḍa"
+        },
+        {
+          "arabic": "ٱلْأَقَاوِيلِ",
+          "translation": "sayings",
+          "transliteration": "l-aqāwīli"
+        }
+      ]
+    },
+    {
+      "key": "69:45",
+      "arabic": "لَأَخَذْنَا مِنْهُ بِٱلْيَمِينِ",
+      "arabicSimple": "لَأَخَذْنَا مِنْهُ بِٱلْيَمِينِ",
+      "translation": "We would have seized him by the right hand;",
+      "transliteration": "La-akhaznaa minhu bilyameen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "لَأَخَذْنَا",
+          "translation": "Certainly We (would) have seized",
+          "transliteration": "la-akhadhnā"
+        },
+        {
+          "arabic": "مِنْهُ",
+          "translation": "him",
+          "transliteration": "min'hu"
+        },
+        {
+          "arabic": "بِٱلْيَمِينِ",
+          "translation": "by the right hand",
+          "transliteration": "bil-yamīni"
+        }
+      ]
+    },
+    {
+      "key": "69:46",
+      "arabic": "ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ",
+      "arabicSimple": "ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ",
+      "translation": "Then We would have cut from him the aorta.",
+      "transliteration": "Summa laqata'naa minhul wateen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "لَقَطَعْنَا",
+          "translation": "certainly We (would) have cut off",
+          "transliteration": "laqaṭaʿnā"
+        },
+        {
+          "arabic": "مِنْهُ",
+          "translation": "from him",
+          "transliteration": "min'hu"
+        },
+        {
+          "arabic": "ٱلْوَتِينَ",
+          "translation": "the aorta",
+          "transliteration": "l-watīna"
+        }
+      ]
+    },
+    {
+      "key": "69:47",
+      "arabic": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَـٰجِزِينَ",
+      "arabicSimple": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَـٰجِزِينَ",
+      "translation": "And there is no one of you who could prevent [Us] from him.",
+      "transliteration": "Famaa minkum min ahadin'anhu haajizeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "فَمَا",
+          "translation": "And not",
+          "transliteration": "famā"
+        },
+        {
+          "arabic": "مِنكُم",
+          "translation": "from you",
+          "transliteration": "minkum"
+        },
+        {
+          "arabic": "مِّنْ",
+          "translation": "any",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "أَحَدٍ",
+          "translation": "one",
+          "transliteration": "aḥadin"
+        },
+        {
+          "arabic": "عَنْهُ",
+          "translation": "[from him]",
+          "transliteration": "ʿanhu"
+        },
+        {
+          "arabic": "حَـٰجِزِينَ",
+          "translation": "(who could) prevent (it)",
+          "transliteration": "ḥājizīna"
+        }
+      ]
+    },
+    {
+      "key": "69:48",
+      "arabic": "وَإِنَّهُۥ لَتَذْكِرَةٌ لِّلْمُتَّقِينَ",
+      "arabicSimple": "وَإِنَّهُۥ لَتَذْكِرَةٌ لِّلْمُتَّقِينَ",
+      "translation": "And indeed, the Qur'an is a reminder for the righteous.",
+      "transliteration": "Wa innahoo latazkiratul lilmuttaqeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَإِنَّهُۥ",
+          "translation": "And indeed, it",
+          "transliteration": "wa-innahu"
+        },
+        {
+          "arabic": "لَتَذْكِرَةٌۭ",
+          "translation": "(is) surely a reminder",
+          "transliteration": "latadhkiratun"
+        },
+        {
+          "arabic": "لِّلْمُتَّقِينَ",
+          "translation": "for the Allah-fearing",
+          "transliteration": "lil'muttaqīna"
+        }
+      ]
+    },
+    {
+      "key": "69:49",
+      "arabic": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
+      "arabicSimple": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
+      "translation": "And indeed, We know that among you are deniers.",
+      "transliteration": "Wa inna lana'lamu anna minkum mukazzibeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "وَإِنَّا",
+          "translation": "And indeed, We",
+          "transliteration": "wa-innā"
+        },
+        {
+          "arabic": "لَنَعْلَمُ",
+          "translation": "surely know",
+          "transliteration": "lanaʿlamu"
+        },
+        {
+          "arabic": "أَنَّ",
+          "translation": "that",
+          "transliteration": "anna"
+        },
+        {
+          "arabic": "مِنكُم",
+          "translation": "among you",
+          "transliteration": "minkum"
+        },
+        {
+          "arabic": "مُّكَذِّبِينَ",
+          "translation": "(are) deniers",
+          "transliteration": "mukadhibīna"
+        }
+      ]
+    },
+    {
+      "key": "69:50",
+      "arabic": "وَإِنَّهُۥ لَحَسْرَةٌ عَلَى ٱلْكَـٰفِرِينَ",
+      "arabicSimple": "وَإِنَّهُۥ لَحَسْرَةٌ عَلَى ٱلْكَـٰفِرِينَ",
+      "translation": "And indeed, it will be [a cause of] regret upon the disbelievers.",
+      "transliteration": "Wa innahu lahasratun 'alal kaafireen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَإِنَّهُۥ",
+          "translation": "And indeed, it",
+          "transliteration": "wa-innahu"
+        },
+        {
+          "arabic": "لَحَسْرَةٌ",
+          "translation": "(is) surely a regret",
+          "transliteration": "laḥasratun"
+        },
+        {
+          "arabic": "عَلَى",
+          "translation": "upon",
+          "transliteration": "ʿalā"
+        },
+        {
+          "arabic": "ٱلْكَـٰفِرِينَ",
+          "translation": "the disbelievers",
+          "transliteration": "l-kāfirīna"
+        }
+      ]
+    },
+    {
+      "key": "69:51",
+      "arabic": "وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+      "arabicSimple": "وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+      "translation": "And indeed, it is the truth of certainty.",
+      "transliteration": "Wa innahoo lahaqqul yaqeen",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَإِنَّهُۥ",
+          "translation": "And indeed, it (is)",
+          "transliteration": "wa-innahu"
+        },
+        {
+          "arabic": "لَحَقُّ",
+          "translation": "surely (the) truth",
+          "transliteration": "laḥaqqu"
+        },
+        {
+          "arabic": "ٱلْيَقِينِ",
+          "translation": "(of) certainty",
+          "transliteration": "l-yaqīni"
+        }
+      ]
+    },
+    {
+      "key": "69:52",
+      "arabic": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+      "arabicSimple": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+      "translation": "So exalt the name of your Lord, the Most Great.",
+      "transliteration": "Fasbbih bismi Rabbikal 'Azeem",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَسَبِّحْ",
+          "translation": "So glorify",
+          "transliteration": "fasabbiḥ"
+        },
+        {
+          "arabic": "بِٱسْمِ",
+          "translation": "(the) name",
+          "transliteration": "bi-is'mi"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "(of) your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "ٱلْعَظِيمِ",
+          "translation": "the Most Great",
+          "transliteration": "l-ʿaẓīmi"
+        }
+      ]
+    }
+  ]
+}

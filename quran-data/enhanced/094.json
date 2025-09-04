@@ -1,0 +1,250 @@
+{
+  "number": 94,
+  "name": "الشرح",
+  "englishName": "Ash-Sharh",
+  "englishNameTranslation": "The Relief",
+  "revelationType": "makkah",
+  "numberOfAyahs": 8,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "94:1",
+      "arabic": " أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "arabicSimple": " أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "translation": "Did We not expand for you, [O Muhammad], your breast?",
+      "transliteration": "Alam nashrah laka sadrak",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "أَلَمْ",
+          "translation": "Have not",
+          "transliteration": "alam"
+        },
+        {
+          "arabic": "نَشْرَحْ",
+          "translation": "We expanded",
+          "transliteration": "nashraḥ"
+        },
+        {
+          "arabic": "لَكَ",
+          "translation": "for you",
+          "transliteration": "laka"
+        },
+        {
+          "arabic": "صَدْرَكَ",
+          "translation": "your breast",
+          "transliteration": "ṣadraka"
+        }
+      ]
+    },
+    {
+      "key": "94:2",
+      "arabic": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "arabicSimple": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "translation": "And We removed from you your burden",
+      "transliteration": "Wa wa d'ana 'anka wizrak",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَوَضَعْنَا",
+          "translation": "And We removed",
+          "transliteration": "wawaḍaʿnā"
+        },
+        {
+          "arabic": "عَنكَ",
+          "translation": "from you",
+          "transliteration": "ʿanka"
+        },
+        {
+          "arabic": "وِزْرَكَ",
+          "translation": "your burden",
+          "transliteration": "wiz'raka"
+        }
+      ]
+    },
+    {
+      "key": "94:3",
+      "arabic": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "arabicSimple": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "translation": "Which had weighed upon your back",
+      "transliteration": "Allazee anqada zahrak",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "ٱلَّذِىٓ",
+          "translation": "Which",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "أَنقَضَ",
+          "translation": "weighed upon",
+          "transliteration": "anqaḍa"
+        },
+        {
+          "arabic": "ظَهْرَكَ",
+          "translation": "your back",
+          "transliteration": "ẓahraka"
+        }
+      ]
+    },
+    {
+      "key": "94:4",
+      "arabic": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "arabicSimple": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "translation": "And raised high for you your repute.",
+      "transliteration": "Wa raf 'ana laka zikrak",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَرَفَعْنَا",
+          "translation": "And We raised high",
+          "transliteration": "warafaʿnā"
+        },
+        {
+          "arabic": "لَكَ",
+          "translation": "for you",
+          "transliteration": "laka"
+        },
+        {
+          "arabic": "ذِكْرَكَ",
+          "translation": "your reputation",
+          "transliteration": "dhik'raka"
+        }
+      ]
+    },
+    {
+      "key": "94:5",
+      "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "arabicSimple": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "translation": "For indeed, with hardship [will be] ease.",
+      "transliteration": "Fa inna ma'al usri yusra",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَإِنَّ",
+          "translation": "So indeed",
+          "transliteration": "fa-inna"
+        },
+        {
+          "arabic": "مَعَ",
+          "translation": "with",
+          "transliteration": "maʿa"
+        },
+        {
+          "arabic": "ٱلْعُسْرِ",
+          "translation": "the hardship",
+          "transliteration": "l-ʿus'ri"
+        },
+        {
+          "arabic": "يُسْرًا",
+          "translation": "(is) ease",
+          "transliteration": "yus'ran"
+        }
+      ]
+    },
+    {
+      "key": "94:6",
+      "arabic": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "arabicSimple": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "translation": "Indeed, with hardship [will be] ease.",
+      "transliteration": "Inna ma'al 'usri yusra",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "مَعَ",
+          "translation": "with",
+          "transliteration": "maʿa"
+        },
+        {
+          "arabic": "ٱلْعُسْرِ",
+          "translation": "the hardship",
+          "transliteration": "l-ʿus'ri"
+        },
+        {
+          "arabic": "يُسْرًۭا",
+          "translation": "(is) ease",
+          "transliteration": "yus'ran"
+        }
+      ]
+    },
+    {
+      "key": "94:7",
+      "arabic": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+      "arabicSimple": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+      "translation": "So when you have finished [your duties], then stand up [for worship].",
+      "transliteration": "Fa iza faragh ta fansab",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَإِذَا",
+          "translation": "So when",
+          "transliteration": "fa-idhā"
+        },
+        {
+          "arabic": "فَرَغْتَ",
+          "translation": "you have finished",
+          "transliteration": "faraghta"
+        },
+        {
+          "arabic": "فَٱنصَبْ",
+          "translation": "then labor hard",
+          "transliteration": "fa-inṣab"
+        }
+      ]
+    },
+    {
+      "key": "94:8",
+      "arabic": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "arabicSimple": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "translation": "And to your Lord direct [your] longing.",
+      "transliteration": "Wa ilaa rabbika far ghab",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَإِلَىٰ",
+          "translation": "And to",
+          "transliteration": "wa-ilā"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "فَٱرْغَب",
+          "translation": "turn your attention",
+          "transliteration": "fa-ir'ghab"
+        }
+      ]
+    }
+  ]
+}

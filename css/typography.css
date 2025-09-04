@@ -1,5 +1,8 @@
 /* Typography CSS - Text and Font Styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+
+
 /* Header Typography */
 .surah-title {
     font-size: 2.5rem;
@@ -15,6 +18,7 @@
 
 /* Arabic Text */
 .arabic-text {
+    font-family: 'Amiri Quran', 'Traditional Arabic', serif;
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     line-height: 2;
     text-align: center;
@@ -121,15 +125,38 @@
     letter-spacing: 0.5px;
 }
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
-    .transliteration-text {
-        font-size: 1.05rem;
-        padding: 12px 20px;
-        margin: 15px auto;
-    }
-    
-    .bismillah-transliteration {
-        font-size: 1.15rem;
-    }
+.verse-end-mark {
+    display: inline-block;
+    margin-right: 10px;
+    color: #764ba2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.segment-indicator {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: 15px auto;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.arabic-word {
+    display: inline-block;
+    padding: 2px 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arabic-word:hover {
+    background: rgba(102, 126, 234, 0.2);
+    transform: scale(1.05);
+}
+
+.arabic-word.word-highlight {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    transform: scale(1.15);
+    animation: pulse 1.5s ease-in-out infinite;
 }

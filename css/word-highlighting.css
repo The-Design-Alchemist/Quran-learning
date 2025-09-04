@@ -93,3 +93,43 @@
 .verse-display.active .arabic-word {
     pointer-events: auto !important;
 }
+
+/* Ensure waqf marks and verse numbers are never highlighted */
+.waqf-mark, .verse-end-marker {
+    display: inline-block;
+    padding: 2px 4px;
+    cursor: default !important;
+    pointer-events: none !important;
+}
+
+.waqf-mark:hover, .verse-end-marker:hover {
+    background: transparent !important;
+    transform: none !important;
+}
+
+/* Ensure they never get highlight classes */
+.waqf-mark.word-highlight,
+.verse-end-marker.word-highlight,
+.waqf-mark.word-previous,
+.verse-end-marker.word-previous {
+    background: transparent !important;
+    transform: none !important;
+    box-shadow: none !important;
+    font-weight: normal !important;
+}
+
+/* Clickable words when highlighting is disabled */
+.arabic-word-clickable {
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 0 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+
+.arabic-word-clickable:hover {
+    background: rgba(102, 126, 234, 0.1);
+    transform: scale(1.02);
+}

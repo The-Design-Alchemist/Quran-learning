@@ -1,0 +1,191 @@
+{
+  "number": 105,
+  "name": "الفيل",
+  "englishName": "Al-Fil",
+  "englishNameTranslation": "The Elephant",
+  "revelationType": "makkah",
+  "numberOfAyahs": 5,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "105:1",
+      "arabic": " أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+      "arabicSimple": " أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+      "translation": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?",
+      "transliteration": "Alam tara kaifa fa'ala rabbuka bi ashaabil feel",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 8,
+      "words": [
+        {
+          "arabic": "أَلَمْ",
+          "translation": "Have not",
+          "transliteration": "alam"
+        },
+        {
+          "arabic": "تَرَ",
+          "translation": "you seen",
+          "transliteration": "tara"
+        },
+        {
+          "arabic": "كَيْفَ",
+          "translation": "how",
+          "transliteration": "kayfa"
+        },
+        {
+          "arabic": "فَعَلَ",
+          "translation": "dealt",
+          "transliteration": "faʿala"
+        },
+        {
+          "arabic": "رَبُّكَ",
+          "translation": "your Lord",
+          "transliteration": "rabbuka"
+        },
+        {
+          "arabic": "بِأَصْحَـٰبِ",
+          "translation": "with (the) Companions",
+          "transliteration": "bi-aṣḥābi"
+        },
+        {
+          "arabic": "ٱلْفِيلِ",
+          "translation": "(of the) Elephant",
+          "transliteration": "l-fīli"
+        }
+      ]
+    },
+    {
+      "key": "105:2",
+      "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+      "arabicSimple": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+      "translation": "Did He not make their plan into misguidance?",
+      "transliteration": "Alam yaj'al kai dahum fee tad leel",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "أَلَمْ",
+          "translation": "Did not",
+          "transliteration": "alam"
+        },
+        {
+          "arabic": "يَجْعَلْ",
+          "translation": "He make",
+          "transliteration": "yajʿal"
+        },
+        {
+          "arabic": "كَيْدَهُمْ",
+          "translation": "their plan",
+          "transliteration": "kaydahum"
+        },
+        {
+          "arabic": "فِى",
+          "translation": "go",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "تَضْلِيلٍۢ",
+          "translation": "astray",
+          "transliteration": "taḍlīlin"
+        }
+      ]
+    },
+    {
+      "key": "105:3",
+      "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "arabicSimple": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "translation": "And He sent against them birds in flocks,",
+      "transliteration": "Wa arsala 'alaihim tairan abaabeel",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَأَرْسَلَ",
+          "translation": "And He sent",
+          "transliteration": "wa-arsala"
+        },
+        {
+          "arabic": "عَلَيْهِمْ",
+          "translation": "against them",
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "arabic": "طَيْرًا",
+          "translation": "birds",
+          "transliteration": "ṭayran"
+        },
+        {
+          "arabic": "أَبَابِيلَ",
+          "translation": "(in) flocks",
+          "transliteration": "abābīla"
+        }
+      ]
+    },
+    {
+      "key": "105:4",
+      "arabic": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "arabicSimple": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "translation": "Striking them with stones of hard clay,",
+      "transliteration": "Tar meehim bi hi jaaratim min sij jeel",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "تَرْمِيهِم",
+          "translation": "Striking them",
+          "transliteration": "tarmīhim"
+        },
+        {
+          "arabic": "بِحِجَارَةٍۢ",
+          "translation": "with stones",
+          "transliteration": "biḥijāratin"
+        },
+        {
+          "arabic": "مِّن",
+          "translation": "of",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "سِجِّيلٍۢ",
+          "translation": "baked clay",
+          "transliteration": "sijjīlin"
+        }
+      ]
+    },
+    {
+      "key": "105:5",
+      "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+      "arabicSimple": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+      "translation": "And He made them like eaten straw.",
+      "transliteration": "Faja 'alahum ka'asfim m'akool",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَجَعَلَهُمْ",
+          "translation": "Then He made them",
+          "transliteration": "fajaʿalahum"
+        },
+        {
+          "arabic": "كَعَصْفٍۢ",
+          "translation": "like straw",
+          "transliteration": "kaʿaṣfin"
+        },
+        {
+          "arabic": "مَّأْكُولٍۭ",
+          "translation": "eaten up",
+          "transliteration": "makūlin"
+        }
+      ]
+    }
+  ]
+}

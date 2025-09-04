@@ -1,0 +1,148 @@
+{
+  "number": 106,
+  "name": "قريش",
+  "englishName": "Quraysh",
+  "englishNameTranslation": "Quraysh",
+  "revelationType": "makkah",
+  "numberOfAyahs": 4,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "106:1",
+      "arabic": " لِإِيلَـٰفِ قُرَيْشٍ",
+      "arabicSimple": " لِإِيلَـٰفِ قُرَيْشٍ",
+      "translation": "For the accustomed security of the Quraysh -",
+      "transliteration": "Li-ilaafi quraish",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "لِإِيلَـٰفِ",
+          "translation": "For (the) familiarity",
+          "transliteration": "liīlāfi"
+        },
+        {
+          "arabic": "قُرَيْشٍ",
+          "translation": "(of the) Quraish",
+          "transliteration": "qurayshin"
+        }
+      ]
+    },
+    {
+      "key": "106:2",
+      "arabic": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "arabicSimple": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "translation": "Their accustomed security [in] the caravan of winter and summer -",
+      "transliteration": "Elaafihim rihlatash shitaa-i wass saif",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "إِۦلَـٰفِهِمْ",
+          "translation": "Their familiarity",
+          "transliteration": "īlāfihim"
+        },
+        {
+          "arabic": "رِحْلَةَ",
+          "translation": "(with the) journey",
+          "transliteration": "riḥ'lata"
+        },
+        {
+          "arabic": "ٱلشِّتَآءِ",
+          "translation": "(of) winter",
+          "transliteration": "l-shitāi"
+        },
+        {
+          "arabic": "وَٱلصَّيْفِ",
+          "translation": "and summer",
+          "transliteration": "wal-ṣayfi"
+        }
+      ]
+    },
+    {
+      "key": "106:3",
+      "arabic": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
+      "arabicSimple": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
+      "translation": "Let them worship the Lord of this House,",
+      "transliteration": "Fal y'abudu rabba haazal-bait",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَلْيَعْبُدُوا۟",
+          "translation": "So let them worship",
+          "transliteration": "falyaʿbudū"
+        },
+        {
+          "arabic": "رَبَّ",
+          "translation": "(the) Lord",
+          "transliteration": "rabba"
+        },
+        {
+          "arabic": "هَـٰذَا",
+          "translation": "(of) this",
+          "transliteration": "hādhā"
+        },
+        {
+          "arabic": "ٱلْبَيْتِ",
+          "translation": "House",
+          "transliteration": "l-bayti"
+        }
+      ]
+    },
+    {
+      "key": "106:4",
+      "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "arabicSimple": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "translation": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear.",
+      "transliteration": "Allazi at'amahum min ju'inw-wa-aamana hum min khawf",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 7,
+      "words": [
+        {
+          "arabic": "ٱلَّذِىٓ",
+          "translation": "The One Who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "أَطْعَمَهُم",
+          "translation": "feeds them",
+          "transliteration": "aṭʿamahum"
+        },
+        {
+          "arabic": "مِّن",
+          "translation": "[from]",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "جُوعٍۢ",
+          "translation": "(against) hunger",
+          "transliteration": "jūʿin"
+        },
+        {
+          "arabic": "وَءَامَنَهُم",
+          "translation": "and gives them security",
+          "transliteration": "waāmanahum"
+        },
+        {
+          "arabic": "مِّنْ",
+          "translation": "from",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "translation": "fear",
+          "transliteration": "khawfin"
+        }
+      ]
+    }
+  ]
+}

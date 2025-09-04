@@ -1,0 +1,191 @@
+{
+  "number": 111,
+  "name": "المسد",
+  "englishName": "Al-Masad",
+  "englishNameTranslation": "The Palm Fiber",
+  "revelationType": "makkah",
+  "numberOfAyahs": 5,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "111:1",
+      "arabic": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+      "arabicSimple": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+      "translation": "May the hands of Abu Lahab be ruined, and ruined is he.",
+      "transliteration": "Tab bat yadaa abee Lahabinw-wa tabb",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "تَبَّتْ",
+          "translation": "Perish",
+          "transliteration": "tabbat"
+        },
+        {
+          "arabic": "يَدَآ",
+          "translation": "(the) hands",
+          "transliteration": "yadā"
+        },
+        {
+          "arabic": "أَبِى",
+          "translation": "(of) Abu",
+          "transliteration": "abī"
+        },
+        {
+          "arabic": "لَهَبٍۢ",
+          "translation": "Lahab",
+          "transliteration": "lahabin"
+        },
+        {
+          "arabic": "وَتَبَّ",
+          "translation": "and perish he",
+          "transliteration": "watabba"
+        }
+      ]
+    },
+    {
+      "key": "111:2",
+      "arabic": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "arabicSimple": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "translation": "His wealth will not avail him or that which he gained.",
+      "transliteration": "Maa aghna 'anhu maaluhu wa ma kasab",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "مَآ",
+          "translation": "Not",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "أَغْنَىٰ",
+          "translation": "(will) avail",
+          "transliteration": "aghnā"
+        },
+        {
+          "arabic": "عَنْهُ",
+          "translation": "him",
+          "transliteration": "ʿanhu"
+        },
+        {
+          "arabic": "مَالُهُۥ",
+          "translation": "his wealth",
+          "transliteration": "māluhu"
+        },
+        {
+          "arabic": "وَمَا",
+          "translation": "and what",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "كَسَبَ",
+          "translation": "he earned",
+          "transliteration": "kasaba"
+        }
+      ]
+    },
+    {
+      "key": "111:3",
+      "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "arabicSimple": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "translation": "He will [enter to] burn in a Fire of [blazing] flame",
+      "transliteration": "Sa yas laa naran zaata lahab",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "سَيَصْلَىٰ",
+          "translation": "He will be burnt",
+          "transliteration": "sayaṣlā"
+        },
+        {
+          "arabic": "نَارًۭا",
+          "translation": "(in) a Fire",
+          "transliteration": "nāran"
+        },
+        {
+          "arabic": "ذَاتَ",
+          "translation": "of",
+          "transliteration": "dhāta"
+        },
+        {
+          "arabic": "لَهَبٍۢ",
+          "translation": "Blazing Flames",
+          "transliteration": "lahabin"
+        }
+      ]
+    },
+    {
+      "key": "111:4",
+      "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "arabicSimple": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "translation": "And his wife [as well] - the carrier of firewood.",
+      "transliteration": "Wam ra-atuh hamma latal-hatab",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱمْرَأَتُهُۥ",
+          "translation": "And his wife",
+          "transliteration": "wa-im'ra-atuhu"
+        },
+        {
+          "arabic": "حَمَّالَةَ",
+          "translation": "(the) carrier",
+          "transliteration": "ḥammālata"
+        },
+        {
+          "arabic": "ٱلْحَطَبِ",
+          "translation": "(of) firewood",
+          "transliteration": "l-ḥaṭabi"
+        }
+      ]
+    },
+    {
+      "key": "111:5",
+      "arabic": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+      "arabicSimple": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+      "translation": "Around her neck is a rope of [twisted] fiber.",
+      "transliteration": "Fee jeediha hab lum mim-masad",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "فِى",
+          "translation": "In",
+          "transliteration": "fī"
+        },
+        {
+          "arabic": "جِيدِهَا",
+          "translation": "her neck",
+          "transliteration": "jīdihā"
+        },
+        {
+          "arabic": "حَبْلٌۭ",
+          "translation": "(will be) a rope",
+          "transliteration": "ḥablun"
+        },
+        {
+          "arabic": "مِّن",
+          "translation": "of",
+          "transliteration": "min"
+        },
+        {
+          "arabic": "مَّسَدٍۭ",
+          "translation": "palm-fiber",
+          "transliteration": "masadin"
+        }
+      ]
+    }
+  ]
+}

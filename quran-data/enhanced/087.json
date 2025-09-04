@@ -1,0 +1,639 @@
+{
+  "number": 87,
+  "name": "الأعلى",
+  "englishName": "Al-A'la",
+  "englishNameTranslation": "The Most High",
+  "revelationType": "makkah",
+  "numberOfAyahs": 19,
+  "bismillahPre": true,
+  "verses": [
+    {
+      "key": "87:1",
+      "arabic": " سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+      "arabicSimple": " سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+      "translation": "Exalt the name of your Lord, the Most High,",
+      "transliteration": "Sabbihisma Rabbikal A'laa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "سَبِّحِ",
+          "translation": "Glorify",
+          "transliteration": "sabbiḥi"
+        },
+        {
+          "arabic": "ٱسْمَ",
+          "translation": "(the) name",
+          "transliteration": "is'ma"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "translation": "(of) your Lord",
+          "transliteration": "rabbika"
+        },
+        {
+          "arabic": "ٱلْأَعْلَى",
+          "translation": "the Most High",
+          "transliteration": "l-aʿlā"
+        }
+      ]
+    },
+    {
+      "key": "87:2",
+      "arabic": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+      "arabicSimple": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+      "translation": "Who created and proportioned",
+      "transliteration": "Allazee khalaqa fasawwaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "The One Who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "translation": "created",
+          "transliteration": "khalaqa"
+        },
+        {
+          "arabic": "فَسَوَّىٰ",
+          "translation": "then proportioned",
+          "transliteration": "fasawwā"
+        }
+      ]
+    },
+    {
+      "key": "87:3",
+      "arabic": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+      "arabicSimple": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+      "translation": "And who destined and [then] guided",
+      "transliteration": "Wallazee qaddara fahadaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلَّذِى",
+          "translation": "And the One Who",
+          "transliteration": "wa-alladhī"
+        },
+        {
+          "arabic": "قَدَّرَ",
+          "translation": "measured",
+          "transliteration": "qaddara"
+        },
+        {
+          "arabic": "فَهَدَىٰ",
+          "translation": "then guided",
+          "transliteration": "fahadā"
+        }
+      ]
+    },
+    {
+      "key": "87:4",
+      "arabic": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+      "arabicSimple": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+      "translation": "And who brings out the pasture",
+      "transliteration": "Wallazeee akhrajal mar'aa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلَّذِىٓ",
+          "translation": "And the One Who",
+          "transliteration": "wa-alladhī"
+        },
+        {
+          "arabic": "أَخْرَجَ",
+          "translation": "brings forth",
+          "transliteration": "akhraja"
+        },
+        {
+          "arabic": "ٱلْمَرْعَىٰ",
+          "translation": "the pasture",
+          "transliteration": "l-marʿā"
+        }
+      ]
+    },
+    {
+      "key": "87:5",
+      "arabic": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+      "arabicSimple": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+      "translation": "And [then] makes it black stubble.",
+      "transliteration": "Faja'alahoo ghusaaa'an ahwaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "فَجَعَلَهُۥ",
+          "translation": "And then makes it",
+          "transliteration": "fajaʿalahu"
+        },
+        {
+          "arabic": "غُثَآءً",
+          "translation": "stubble",
+          "transliteration": "ghuthāan"
+        },
+        {
+          "arabic": "أَحْوَىٰ",
+          "translation": "dark",
+          "transliteration": "aḥwā"
+        }
+      ]
+    },
+    {
+      "key": "87:6",
+      "arabic": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+      "arabicSimple": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+      "translation": "We will make you recite, [O Muhammad], and you will not forget,",
+      "transliteration": "Sanuqri'uka falaa tansaaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "سَنُقْرِئُكَ",
+          "translation": "We will make you recite",
+          "transliteration": "sanuq'ri-uka"
+        },
+        {
+          "arabic": "فَلَا",
+          "translation": "so not",
+          "transliteration": "falā"
+        },
+        {
+          "arabic": "تَنسَىٰٓ",
+          "translation": "you will forget",
+          "transliteration": "tansā"
+        }
+      ]
+    },
+    {
+      "key": "87:7",
+      "arabic": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+      "arabicSimple": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+      "translation": "Except what Allah should will. Indeed, He knows what is declared and what is hidden.",
+      "transliteration": "Illaa maa shaaa'al laah; innahoo ya'lamul jahra wa maa yakhfaa",
+      "sajda": false,
+      "waqfMarks": [
+        {
+          "position": 26,
+          "character": "ۚ",
+          "type": "preferred_pause",
+          "wordIndex": 4
+        }
+      ],
+      "segments": [
+        {
+          "arabic": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ",
+          "translation": "Except what wills Allah",
+          "transliteration": "illā mā shāa l-lahu",
+          "type": "compulsory_stop",
+          "waqfMark": "ۚ"
+        },
+        {
+          "arabic": "إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+          "translation": "Indeed, He knows the manifest and what is hidden",
+          "transliteration": "innahu yaʿlamu l-jahra wamā yakhfā",
+          "type": "verse_end"
+        }
+      ],
+      "wordCount": 10,
+      "words": [
+        {
+          "arabic": "إِلَّا",
+          "translation": "Except",
+          "transliteration": "illā"
+        },
+        {
+          "arabic": "مَا",
+          "translation": "what",
+          "transliteration": "mā"
+        },
+        {
+          "arabic": "شَآءَ",
+          "translation": "wills",
+          "transliteration": "shāa"
+        },
+        {
+          "arabic": "ٱللَّهُ ۚ",
+          "translation": "Allah",
+          "transliteration": "l-lahu"
+        },
+        {
+          "arabic": "إِنَّهُۥ",
+          "translation": "Indeed, He",
+          "transliteration": "innahu"
+        },
+        {
+          "arabic": "يَعْلَمُ",
+          "translation": "knows",
+          "transliteration": "yaʿlamu"
+        },
+        {
+          "arabic": "ٱلْجَهْرَ",
+          "translation": "the manifest",
+          "transliteration": "l-jahra"
+        },
+        {
+          "arabic": "وَمَا",
+          "translation": "and what",
+          "transliteration": "wamā"
+        },
+        {
+          "arabic": "يَخْفَىٰ",
+          "translation": "is hidden",
+          "transliteration": "yakhfā"
+        }
+      ]
+    },
+    {
+      "key": "87:8",
+      "arabic": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+      "arabicSimple": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+      "translation": "And We will ease you toward ease.",
+      "transliteration": "Wa nu-yassiruka lilyusraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَنُيَسِّرُكَ",
+          "translation": "And We will ease you",
+          "transliteration": "wanuyassiruka"
+        },
+        {
+          "arabic": "لِلْيُسْرَىٰ",
+          "translation": "to the ease",
+          "transliteration": "lil'yus'rā"
+        }
+      ]
+    },
+    {
+      "key": "87:9",
+      "arabic": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+      "arabicSimple": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+      "translation": "So remind, if the reminder should benefit;",
+      "transliteration": "Fazakkir in nafa'atizzikraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "فَذَكِّرْ",
+          "translation": "So remind",
+          "transliteration": "fadhakkir"
+        },
+        {
+          "arabic": "إِن",
+          "translation": "if",
+          "transliteration": "in"
+        },
+        {
+          "arabic": "نَّفَعَتِ",
+          "translation": "benefits",
+          "transliteration": "nafaʿati"
+        },
+        {
+          "arabic": "ٱلذِّكْرَىٰ",
+          "translation": "the reminder",
+          "transliteration": "l-dhik'rā"
+        }
+      ]
+    },
+    {
+      "key": "87:10",
+      "arabic": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+      "arabicSimple": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+      "translation": "He who fears [Allah] will be reminded.",
+      "transliteration": "Sa yazzakkaru maiyakhshaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "سَيَذَّكَّرُ",
+          "translation": "He will pay heed ",
+          "transliteration": "sayadhakkaru"
+        },
+        {
+          "arabic": "مَن",
+          "translation": "(one) who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "يَخْشَىٰ",
+          "translation": "fears (Allah)",
+          "transliteration": "yakhshā"
+        }
+      ]
+    },
+    {
+      "key": "87:11",
+      "arabic": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+      "arabicSimple": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+      "translation": "But the wretched one will avoid it -",
+      "transliteration": "Wa yatajannabuhal ashqaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 2,
+      "words": [
+        {
+          "arabic": "وَيَتَجَنَّبُهَا",
+          "translation": "And will avoid it",
+          "transliteration": "wayatajannabuhā"
+        },
+        {
+          "arabic": "ٱلْأَشْقَى",
+          "translation": "the wretched one",
+          "transliteration": "l-ashqā"
+        }
+      ]
+    },
+    {
+      "key": "87:12",
+      "arabic": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+      "arabicSimple": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+      "translation": "[He] who will [enter and] burn in the greatest Fire,",
+      "transliteration": "Allazee yaslan Naaral kubraa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "ٱلَّذِى",
+          "translation": "The one who",
+          "transliteration": "alladhī"
+        },
+        {
+          "arabic": "يَصْلَى",
+          "translation": "will burn",
+          "transliteration": "yaṣlā"
+        },
+        {
+          "arabic": "ٱلنَّارَ",
+          "translation": "(in) the Fire",
+          "transliteration": "l-nāra"
+        },
+        {
+          "arabic": "ٱلْكُبْرَىٰ",
+          "translation": "[the] great",
+          "transliteration": "l-kub'rā"
+        }
+      ]
+    },
+    {
+      "key": "87:13",
+      "arabic": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "arabicSimple": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "translation": "Neither dying therein nor living.",
+      "transliteration": "Summa laa yamootu feehaa wa laa yahyaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 6,
+      "words": [
+        {
+          "arabic": "ثُمَّ",
+          "translation": "Then",
+          "transliteration": "thumma"
+        },
+        {
+          "arabic": "لَا",
+          "translation": "not",
+          "transliteration": "lā"
+        },
+        {
+          "arabic": "يَمُوتُ",
+          "translation": "he will die",
+          "transliteration": "yamūtu"
+        },
+        {
+          "arabic": "فِيهَا",
+          "translation": "therein",
+          "transliteration": "fīhā"
+        },
+        {
+          "arabic": "وَلَا",
+          "translation": "and not",
+          "transliteration": "walā"
+        },
+        {
+          "arabic": "يَحْيَىٰ",
+          "translation": "will live",
+          "transliteration": "yaḥyā"
+        }
+      ]
+    },
+    {
+      "key": "87:14",
+      "arabic": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+      "arabicSimple": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+      "translation": "He has certainly succeeded who purifies himself",
+      "transliteration": "Qad aflaha man tazakkaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "قَدْ",
+          "translation": "Certainly",
+          "transliteration": "qad"
+        },
+        {
+          "arabic": "أَفْلَحَ",
+          "translation": "has succeeded",
+          "transliteration": "aflaḥa"
+        },
+        {
+          "arabic": "مَن",
+          "translation": "(one) who",
+          "transliteration": "man"
+        },
+        {
+          "arabic": "تَزَكَّىٰ",
+          "translation": "purifies (himself)",
+          "transliteration": "tazakkā"
+        }
+      ]
+    },
+    {
+      "key": "87:15",
+      "arabic": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+      "arabicSimple": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+      "translation": "And mentions the name of his Lord and prays.",
+      "transliteration": "Wa zakaras ma Rabbihee fasallaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "وَذَكَرَ",
+          "translation": "And remembers",
+          "transliteration": "wadhakara"
+        },
+        {
+          "arabic": "ٱسْمَ",
+          "translation": "(the) name",
+          "transliteration": "is'ma"
+        },
+        {
+          "arabic": "رَبِّهِۦ",
+          "translation": "(of) his Lord",
+          "transliteration": "rabbihi"
+        },
+        {
+          "arabic": "فَصَلَّىٰ",
+          "translation": "and prays",
+          "transliteration": "faṣallā"
+        }
+      ]
+    },
+    {
+      "key": "87:16",
+      "arabic": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "arabicSimple": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "translation": "But you prefer the worldly life,",
+      "transliteration": "Bal tu'siroonal hayaatad dunyaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 4,
+      "words": [
+        {
+          "arabic": "بَلْ",
+          "translation": "Nay",
+          "transliteration": "bal"
+        },
+        {
+          "arabic": "تُؤْثِرُونَ",
+          "translation": "You prefer",
+          "transliteration": "tu'thirūna"
+        },
+        {
+          "arabic": "ٱلْحَيَوٰةَ",
+          "translation": "the life",
+          "transliteration": "l-ḥayata"
+        },
+        {
+          "arabic": "ٱلدُّنْيَا",
+          "translation": "(of) the world",
+          "transliteration": "l-dun'yā"
+        }
+      ]
+    },
+    {
+      "key": "87:17",
+      "arabic": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
+      "arabicSimple": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
+      "translation": "While the Hereafter is better and more enduring.",
+      "transliteration": "Wal Aakhiratu khairunw wa abqaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "وَٱلْـَٔاخِرَةُ",
+          "translation": "While the Hereafter",
+          "transliteration": "wal-ākhiratu"
+        },
+        {
+          "arabic": "خَيْرٌۭ",
+          "translation": "(is) better",
+          "transliteration": "khayrun"
+        },
+        {
+          "arabic": "وَأَبْقَىٰٓ",
+          "translation": "and everlasting",
+          "transliteration": "wa-abqā"
+        }
+      ]
+    },
+    {
+      "key": "87:18",
+      "arabic": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+      "arabicSimple": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+      "translation": "Indeed, this is in the former scriptures,",
+      "transliteration": "Inna haazaa lafis suhu fil oolaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 5,
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "translation": "Indeed",
+          "transliteration": "inna"
+        },
+        {
+          "arabic": "هَـٰذَا",
+          "translation": "this",
+          "transliteration": "hādhā"
+        },
+        {
+          "arabic": "لَفِى",
+          "translation": "surely (is) in",
+          "transliteration": "lafī"
+        },
+        {
+          "arabic": "ٱلصُّحُفِ",
+          "translation": "the Scriptures",
+          "transliteration": "l-ṣuḥufi"
+        },
+        {
+          "arabic": "ٱلْأُولَىٰ",
+          "translation": "[the] former",
+          "transliteration": "l-ūlā"
+        }
+      ]
+    },
+    {
+      "key": "87:19",
+      "arabic": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+      "arabicSimple": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+      "translation": "The scriptures of Abraham and Moses.",
+      "transliteration": "Suhufi Ibraaheema wa Moosaa",
+      "sajda": false,
+      "waqfMarks": [],
+      "segments": null,
+      "wordCount": 3,
+      "words": [
+        {
+          "arabic": "صُحُفِ",
+          "translation": "(The) Scriptures",
+          "transliteration": "ṣuḥufi"
+        },
+        {
+          "arabic": "إِبْرَٰهِيمَ",
+          "translation": "(of) Ibrahim",
+          "transliteration": "ib'rāhīma"
+        },
+        {
+          "arabic": "وَمُوسَىٰ",
+          "translation": "and Musa",
+          "transliteration": "wamūsā"
+        }
+      ]
+    }
+  ]
+}

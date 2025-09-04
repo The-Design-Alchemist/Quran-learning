@@ -268,61 +268,34 @@
     50% { transform: translateX(-50%) translateY(-10px); }
 }
 
+/* Add to your CSS */
+.segment-transition {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.verse-display.transitioning .arabic-text {
+    opacity: 0.6;
+}
+
+/* Visual indicator for segment pause */
+.segment-pause-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(102, 126, 234, 0.1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: none;
+}
+
+.segment-pause-indicator.active {
+    display: block;
+    animation: pulse 0.5s ease;
+}
+
 /* Mobile adjustments */
 @media (max-width: 768px) {
-    .container {
-        height: 100vh;
-        margin: 0;
-        border-radius: 0;
-    }
     
-    .header {
-        padding: 15px;
-    }
-    
-    .audio-controls {
-        padding: 12px;
-    }
-    
-    .navigation-controls {
-        padding: 15px;
-    }
-    
-    .verse-container {
-        padding: 15px;
-    }
-    
-    .verse-display {
-        width: 95%;
-    }
-    
-    .arabic-text {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        padding: 0 10px;
-    }
-    
-    .english-text {
-        font-size: 1.1rem;
-        padding: 15px 20px;
-    }
-    
-    .verse-number {
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        font-size: 1.1rem;
-    }
-    
-    .bismillah {
-        padding: 30px 20px;
-    }
-    
-    .bismillah-arabic {
-        font-size: 2.2rem;
-    }
-    
-    .bismillah-english {
-        font-size: 1.2rem;
-    }
 }
